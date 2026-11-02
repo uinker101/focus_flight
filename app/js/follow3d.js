@@ -19,6 +19,9 @@ const KM_PER_UNIT = 6371 / R; // at the equator; Mercator shrinks it by cos(lati
 const FOV = 40;
 const TAN = Math.tan((FOV / 2) * RAD);
 const PITCH = { takeoff: 8, climb: 5, descent: -2, approach: -1, landing: 3 };
+const TILT = 58 * RAD; // default view of the 3D model, from behind and above
+const MAX_TILT = 72 * RAD;
+const TOP_DOWN = 1e-6; // straight down, but keeps the compass direction
 
 let groundPromise = null;
 
@@ -110,7 +113,7 @@ export class FollowView {
       dampingFactor: 0.12,
       rotateSpeed: 0.6,
       minPolarAngle: 0,
-      maxPolarAngle: 72 * RAD,
+      maxPolarAngle: this.tiltable() ? MAX_TILT : 0,
     });
     this.controls.addEventListener('change', () => this.requestRender());
     this.controls.addEventListener('start', () => { this.turningNorth = false; });
@@ -212,9 +215,23 @@ export class FollowView {
     this.requestRender();
   }
 
+  /** Only the 3D model can be seen at an angle; the 2D icon view stays top-down like a paper map. */
+  tiltable() {
+    return this.style === '3d' && !!this.modelFile;
+  }
+
   setStyle(style) {
     this.style = style;
     this.applyStyle();
+    this.controls.maxPolarAngle = this.tiltable() ? MAX_TILT : 0;
+    if (this.placed) {
+      const t = this.controls.target;
+      const offset = this.camera.position.clone().sub(t);
+      const sph = new THREE.Spherical().setFromVector3(offset);
+      sph.phi = this.tiltable() ? TILT : TOP_DOWN;
+      this.camera.position.copy(t).add(offset.setFromSpherical(sph));
+      this.controls.update();
+    }
     this.requestRender();
   }
 
@@ -336,7 +353,7 @@ export class FollowView {
     line.computeLineDistances();
   }
 
-  /** Behind and above the aircraft, about 700 km of map across the middle of the screen. */
+  /** Behind the aircraft (above it for the 2D icon), about 700 km of map across the middle of the screen. */
   defaultCamera() {
     const s = this.state;
     const kmPerUnit = KM_PER_UNIT * Math.cos(s.lat * RAD);
@@ -344,7 +361,7 @@ export class FollowView {
     this.controls.minDistance = distance(40);
     this.controls.maxDistance = distance(7000);
     this.controls.target.set(s.x, 0, s.z);
-    this.camera.position.setFromSphericalCoords(distance(700), 58 * RAD, -s.heading * RAD).add(this.controls.target);
+    this.camera.position.setFromSphericalCoords(distance(700), this.tiltable() ? TILT : TOP_DOWN, -s.heading * RAD).add(this.controls.target);
     this.controls.update();
   }
 
