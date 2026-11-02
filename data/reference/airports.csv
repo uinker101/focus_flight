@@ -1,0 +1,10 @@
+iata,icao,name_zh,name_en,city_zh,city_en,country,lat,lon,tz,coord_source
+HKG,VHHH,香港国际机场,Hong Kong International Airport,香港,Hong Kong,HK,22.31184,113.914862,Asia/Hong_Kong,ourairports
+TPE,RCTP,台湾桃园国际机场,Taiwan Taoyuan International Airport,台北,Taipei,TW,25.0777,121.233002,Asia/Taipei,ourairports
+KHH,RCKH,高雄国际机场,Kaohsiung International Airport,高雄,Kaohsiung,TW,22.577101,120.349998,Asia/Taipei,ourairports
+NRT,RJAA,成田国际机场,Narita International Airport,东京,Tokyo,JP,35.76858,140.388714,Asia/Tokyo,ourairports
+KIX,RJBB,关西国际机场,Kansai International Airport,大阪,Osaka,JP,34.427299,135.244003,Asia/Tokyo,ourairports
+ICN,RKSI,仁川国际机场,Incheon International Airport,首尔,Seoul,KR,37.469101,126.450996,Asia/Seoul,ourairports
+BKK,VTBS,素万那普机场,Suvarnabhumi Airport,曼谷,Bangkok,TH,13.6811,100.747002,Asia/Bangkok,ourairports
+SIN,WSSS,新加坡樟宜机场,Singapore Changi Airport,新加坡,Singapore,SG,1.35019,103.994003,Asia/Singapore,ourairports
+MNL,RPLL,尼诺伊·阿基诺国际机场,Ninoy Aquino International Airport,马尼拉,Manila,PH,14.5086,121.019997,Asia/Manila,ourairports

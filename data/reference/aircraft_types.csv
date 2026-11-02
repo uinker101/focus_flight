@@ -1,0 +1,14 @@
+type,name,manufacturer,family
+A320,A320,Airbus,A320 系列
+A20N,A320neo,Airbus,A320 系列
+A321,A321,Airbus,A320 系列
+A21N,A321neo,Airbus,A320 系列
+A332,A330-200,Airbus,A330
+A333,A330-300,Airbus,A330
+A359,A350-900,Airbus,A350
+B738,737-800,Boeing,737 NG
+B763,767-300,Boeing,767
+B77W,777-300ER,Boeing,777
+B788,787-8,Boeing,787
+B789,787-9,Boeing,787
+B78X,787-10,Boeing,787

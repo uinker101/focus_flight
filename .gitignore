@@ -1,0 +1,4 @@
+userdata/
+.DS_Store
+__pycache__/
+*.tmp

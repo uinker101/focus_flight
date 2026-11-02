@@ -1,0 +1,11 @@
+{
+ "active": "ci-2026w-demo.1",
+ "packs": [
+  {
+   "version": "ci-2026w-demo.1",
+   "title": "华航 2026/27 冬季时刻表 · 演示包",
+   "file": "ci-2026w-demo.1.json",
+   "generated_at": "2026-11-02T12:25:22+00:00"
+  }
+ ]
+}
