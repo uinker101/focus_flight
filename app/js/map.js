@@ -4,7 +4,7 @@
 import { greatCircle } from './sim.js';
 
 const R = 1000; // world units per radian of longitude
-const WORLD_W = 2 * Math.PI * R;
+export const WORLD_W = 2 * Math.PI * R;
 const MAX_LAT = 82;
 const RAD = Math.PI / 180;
 
@@ -15,7 +15,7 @@ export function project(lon, lat) {
 
 let worldPromise = null;
 
-function loadWorld() {
+export function loadWorld() {
   worldPromise ||= fetch('/assets/map/world.json').then((r) => r.json()).then((w) => {
     const toPath = (lines, close) => {
       const path = new Path2D();
@@ -33,6 +33,7 @@ function loadWorld() {
     for (let lon = -180; lon <= 180; lon += 10) graticule.push([lon, -80, lon, 80]);
     for (let lat = -80; lat <= 80; lat += 10) graticule.push([-180, lat, -90, lat, 0, lat, 90, lat, 180, lat]);
     return {
+      src: w,
       land: toPath(w.land, true),
       borders: toPath(w.borders, false),
       graticule: toPath(graticule, false),
@@ -49,7 +50,38 @@ function cssVar(name) {
   return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
 }
 
-const PLANE = new Path2D('M0,-15 C1.6,-15 2.2,-13 2.2,-10 L2.2,-4 L14,3 L14,5.6 L2.2,2 L2.2,9 L5.6,12 L5.6,14 L0,12.6 L-5.6,14 L-5.6,12 L-2.2,9 L-2.2,2 L-14,5.6 L-14,3 L-2.2,-4 L-2.2,-10 C-2.2,-13 -1.6,-15 0,-15 Z');
+const MAP_COLORS = ['--map-ocean', '--map-land', '--map-border', '--map-coast', '--map-label', '--route-todo', '--accent', '--accent-2', '--text', '--panel'];
+
+/** Reads the map colours into `into`; returns true if any changed. */
+export function readColors(into) {
+  let changed = false;
+  for (const key of MAP_COLORS) {
+    const v = cssVar(key);
+    if (into[key] !== v) changed = true;
+    into[key] = v;
+  }
+  return changed;
+}
+
+/** Haloed text label that skips itself if it would overlap a box in `placed` or fall off the canvas. */
+export function drawLabel(ctx, w, h, text, x, y, { size = 12, weight = 500, color, halo, align = 'left', placed, pad = 2 }) {
+  ctx.font = `${weight} ${size}px -apple-system, "PingFang SC", "Helvetica Neue", sans-serif`;
+  const tw = ctx.measureText(text).width;
+  const x0 = align === 'center' ? x - tw / 2 : x;
+  const box = [x0 - pad, y - size - pad, x0 + tw + pad, y + pad + 2];
+  if (placed && placed.some((b) => !(box[2] < b[0] || box[0] > b[2] || box[3] < b[1] || box[1] > b[3]))) return false;
+  if (box[2] < 0 || box[0] > w || box[3] < 0 || box[1] > h) return false;
+  placed?.push(box);
+  ctx.lineWidth = 3;
+  ctx.strokeStyle = halo;
+  ctx.lineJoin = 'round';
+  ctx.strokeText(text, x0, y);
+  ctx.fillStyle = color;
+  ctx.fillText(text, x0, y);
+  return true;
+}
+
+export const PLANE = new Path2D('M0,-15 C1.6,-15 2.2,-13 2.2,-10 L2.2,-4 L14,3 L14,5.6 L2.2,2 L2.2,9 L5.6,12 L5.6,14 L0,12.6 L-5.6,14 L-5.6,12 L-2.2,9 L-2.2,2 L-14,5.6 L-14,3 L-2.2,-4 L-2.2,-10 C-2.2,-13 -1.6,-15 0,-15 Z');
 
 export class MapView {
   constructor(canvas) {
@@ -163,10 +195,6 @@ export class MapView {
 
   target() {
     const pts = this.route ? this.route.pts : this.routes.flatMap((r) => r.pts);
-    if (this.mode === 'follow' && this.plane) {
-      const av = this.available();
-      return { cx: this.plane.xy[0], cy: this.plane.xy[1], s: av.w / (14 * RAD * R) };
-    }
     if (this.mode === 'world' || !pts.length) {
       const midLon = pts.length ? pts[Math.floor(pts.length / 2)][0] : project(110, 0)[0];
       const [, top] = project(0, 72);
@@ -206,11 +234,7 @@ export class MapView {
       }
     }
     if (now - this.colorsAt > 1000) {
-      for (const key of ['--map-ocean', '--map-land', '--map-border', '--map-coast', '--map-label', '--route-todo', '--accent', '--accent-2', '--text', '--panel']) {
-        const v = cssVar(key);
-        if (this.colors[key] !== v) this.dirty = true;
-        this.colors[key] = v;
-      }
+      if (readColors(this.colors)) this.dirty = true;
       this.colorsAt = now;
     }
     if (!this.dirty) return;
@@ -264,22 +288,8 @@ export class MapView {
     this.drawPlane();
   }
 
-  label(text, x, y, { size = 12, weight = 500, color, halo, align = 'left', placed, pad = 2 }) {
-    const ctx = this.ctx;
-    ctx.font = `${weight} ${size}px -apple-system, "PingFang SC", "Helvetica Neue", sans-serif`;
-    const w = ctx.measureText(text).width;
-    const x0 = align === 'center' ? x - w / 2 : x;
-    const box = [x0 - pad, y - size - pad, x0 + w + pad, y + pad + 2];
-    if (placed && placed.some((b) => !(box[2] < b[0] || box[0] > b[2] || box[3] < b[1] || box[1] > b[3]))) return false;
-    if (box[2] < 0 || box[0] > this.w || box[3] < 0 || box[1] > this.h) return false;
-    placed?.push(box);
-    ctx.lineWidth = 3;
-    ctx.strokeStyle = halo;
-    ctx.lineJoin = 'round';
-    ctx.strokeText(text, x0, y);
-    ctx.fillStyle = color;
-    ctx.fillText(text, x0, y);
-    return true;
+  label(text, x, y, opts) {
+    return drawLabel(this.ctx, this.w, this.h, text, x, y, opts);
   }
 
   drawAirports(placed) {

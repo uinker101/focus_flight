@@ -1,5 +1,5 @@
 import { loadState, getState, save, sendPauseBeacon, sendHeartbeat, getHeartbeat, onExternalChange, refreshState, importState, HOME_PRESETS, defaultState } from './store.js';
-import { loadPack, getPack, getPackIndex, activatePack, installPack, diffPacks, departuresBetween, departuresOnDate, snapshotFlight, aircraftLabel, EVIDENCE_TEXT } from './schedule.js';
+import { loadPack, getPack, getPackIndex, activatePack, installPack, diffPacks, departuresBetween, departuresOnDate, snapshotFlight, aircraftLabel, aircraftModel, EVIDENCE_TEXT } from './schedule.js';
 import { zonedParts, addDays, fmtHM, fmtDate, fmtDuration, fmtClock, localDayOffset, weekdayZh } from './time.js';
 import { applyTheme } from './sun.js';
 import { makeProfile, sample, interpolate, bearing, PHASE_TEXT } from './sim.js';
@@ -500,10 +500,13 @@ function viewFlight() {
   const o = f.origin;
   const d = f.destination;
   const profile = makeProfile(o, d, f.duration_min);
+  const model = aircraftModel(f.aircraft);
+  const planeStyle = () => (model && (st.settings.planeStyle || '3d') === '3d' ? '3d' : '2d');
   document.body.dataset.view = 'flight';
   $app.innerHTML = `
     <div class="ptv" data-ptv>
       <canvas class="ptv-map"></canvas>
+      <div class="ptv-3d" hidden></div>
       <div class="ptv-top">
         <div class="ptv-title"><span class="mono">${esc(f.flight)}</span> ${esc(f.airline.name)} · ${esc(o.city)} → ${esc(d.city)}</div>
         ${j.todos.length ? `<div class="ptv-goals">
@@ -517,6 +520,12 @@ function viewFlight() {
         </div>
         <button class="icon-btn" data-fs title="全屏">⛶</button>
         <a class="icon-btn" href="#/" title="回首页（航程继续）">⌂</a>
+      </div>
+      <div class="ptv-follow" data-follow hidden>
+        ${model
+          ? '<div class="seg"><button data-style="2d">2D 图标</button><button data-style="3d">3D 模型</button></div>'
+          : `<span class="ptv-note">${['exact', 'family'].includes(f.aircraft.status) ? '暂无此机型 3D 模型' : '机型未确定'} · 2D 图标</span>`}
+        <button class="compass" data-north title="正北朝上"><svg viewBox="0 0 24 24" data-needle><path d="M12 2.5 16 12h-8z" class="n"/><path d="M12 21.5 8 12h8z" class="s"/></svg></button>
       </div>
       <div class="ptv-panel">
         <div class="ptv-progress">
@@ -550,14 +559,56 @@ function viewFlight() {
       </div>
     </div>`;
 
-  const map = new MapView($app.querySelector('canvas'));
+  const mapCanvas = $app.querySelector('canvas');
+  const map = new MapView(mapCanvas);
   map.setFlight(o, d);
   map.setAirports([{ ...o, kind: 'origin' }, { ...d, kind: 'dest' }]);
   const panel = $app.querySelector('.ptv-panel');
-  const fitPadding = () => map.setPadding({ top: 90, bottom: panel.offsetHeight + 40, left: 40, right: 40 });
+  // "Follow" is a 3D view (Three.js), loaded the first time it is chosen.
+  let mode = 'route';
+  let follow = null;
+  let followReady = null;
+  let lastPlane = null;
+  const padding = () => ({ top: 90, bottom: panel.offsetHeight + 40, left: 40, right: 40 });
+  const fitPadding = () => {
+    map.setPadding(padding());
+    follow?.setPadding(padding());
+  };
   fitPadding();
   window.addEventListener('resize', fitPadding);
   map.init();
+
+  const needle = $app.querySelector('[data-needle]');
+  function setMode(m) {
+    mode = m;
+    $app.querySelectorAll('[data-mode]').forEach((x) => x.classList.toggle('on', x.dataset.mode === m));
+    $app.querySelector('[data-follow]').hidden = m !== 'follow';
+    mapCanvas.hidden = m === 'follow';
+    if (m !== 'follow') {
+      follow?.show(false);
+      map.setMode(m);
+      return;
+    }
+    followReady ||= import('./follow3d.js').then(({ FollowView }) => {
+      follow = new FollowView($app.querySelector('.ptv-3d'), {
+        origin: o, destination: d, model, style: planeStyle(),
+        onCompass: (deg) => { needle.style.transform = `rotate(${deg}deg)`; },
+      });
+      follow.setPadding(padding());
+      if (lastPlane) follow.setPlane(...lastPlane);
+      return follow.init();
+    });
+    followReady.then(() => follow.show(mode === 'follow'));
+  }
+  const markStyle = () => $app.querySelectorAll('[data-style]').forEach((b) => b.classList.toggle('on', b.dataset.style === planeStyle()));
+  markStyle();
+  $app.querySelectorAll('[data-style]').forEach((b) => b.addEventListener('click', () => {
+    st.settings.planeStyle = b.dataset.style;
+    save();
+    markStyle();
+    follow?.setStyle(planeStyle());
+  }));
+  $app.querySelector('[data-north]').addEventListener('click', () => follow?.northUp());
 
   const goalsBox = $app.querySelector('.ptv-goals');
   if (goalsBox) {
@@ -571,10 +622,7 @@ function viewFlight() {
     goalsBox.querySelector('[data-goals-toggle]').addEventListener('click', () => goalsBox.classList.toggle('collapsed'));
   }
 
-  $app.querySelectorAll('[data-mode]').forEach((b) => b.addEventListener('click', () => {
-    $app.querySelectorAll('[data-mode]').forEach((x) => x.classList.toggle('on', x === b));
-    map.setMode(b.dataset.mode);
-  }));
+  $app.querySelectorAll('[data-mode]').forEach((b) => b.addEventListener('click', () => setMode(b.dataset.mode)));
   $app.querySelector('[data-fs]').addEventListener('click', () => {
     if (document.fullscreenElement) document.exitFullscreen();
     else $app.querySelector('[data-ptv]').requestFullscreen?.();
@@ -610,6 +658,8 @@ function viewFlight() {
     const ahead = interpolate(o, d, Math.min(1, sm.fraction + 0.002));
     const heading = sm.fraction < 0.998 ? bearing(pos, ahead) : bearing(o, d);
     map.setPlane(pos, heading, sm.fraction);
+    lastPlane = [pos, heading, sm];
+    follow?.setPlane(pos, heading, sm);
     const tFrac = min / f.duration_min;
     $app.querySelector('[data-fill]').style.width = `${(tFrac * 100).toFixed(2)}%`;
     $app.querySelector('[data-pplane]').style.left = `${(tFrac * 100).toFixed(2)}%`;
@@ -630,6 +680,7 @@ function viewFlight() {
     tick,
     destroy() {
       map.destroy();
+      follow?.destroy();
       window.removeEventListener('resize', fitPadding);
       if (document.fullscreenElement) document.exitFullscreen();
     },
