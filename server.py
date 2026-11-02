@@ -10,6 +10,7 @@ import datetime as dt
 import json
 import os
 import re
+import sqlite3
 import threading
 import webbrowser
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
@@ -19,6 +20,9 @@ ROOT = Path(__file__).resolve().parent
 APP_DIR = ROOT / "app"
 PACKS_DIR = APP_DIR / "packs"
 PACK_INDEX = PACKS_DIR / "index.json"
+MAP_DIR = APP_DIR / "assets/map"  # *.mbtiles from tools/fetch_map.py
+TILE_RE = re.compile(r"^/tiles/([a-z]+)(?:/(\d+)/(\d+)/(\d+)|\.json)$")
+TILE_TYPES = {"pbf": "application/x-protobuf", "png": "image/png", "jpg": "image/jpeg", "webp": "image/webp"}
 VERSION_RE = re.compile(r"^[A-Za-z0-9._-]{1,64}$")
 SUPPORTED_SCHEMA = 1
 USER_DIR = ROOT / "userdata"
@@ -107,8 +111,40 @@ class Handler(SimpleHTTPRequestHandler):
             super().log_message(fmt, *args)
 
     def end_headers(self):
-        self.send_header("Cache-Control", "no-store")
+        self.send_header("Cache-Control", "max-age=86400" if self.path.startswith("/tiles/") else "no-store")
         super().end_headers()
+
+    def send_tile(self, m):
+        """/tiles/<name>.json (TileJSON) and /tiles/<name>/z/x/y from app/assets/map/<name>.mbtiles."""
+        path = MAP_DIR / f"{m[1]}.mbtiles"
+        if not path.exists():
+            return self.send_json(404, {"error": "地图数据还没下载：运行 python3 tools/fetch_map.py"})
+        db = sqlite3.connect(f"file:{path}?mode=ro", uri=True)
+        try:
+            meta = dict(db.execute("SELECT name, value FROM metadata"))
+            if m[2] is None:
+                info = json.loads(meta.get("json") or "{}")
+                return self.send_json(200, {
+                    "tilejson": "3.0.0", "tiles": [f"/tiles/{m[1]}/{{z}}/{{x}}/{{y}}"],
+                    "minzoom": int(meta["minzoom"]), "maxzoom": int(meta["maxzoom"]),
+                    "attribution": meta.get("attribution", ""), **info,
+                })
+            z, x, y = int(m[2]), int(m[3]), int(m[4])
+            row = db.execute("SELECT tile_data FROM tiles WHERE zoom_level = ? AND tile_column = ? AND tile_row = ?",
+                             (z, x, (1 << z) - 1 - y)).fetchone()
+        finally:
+            db.close()
+        if not row:
+            self.send_response(204)
+            self.end_headers()
+            return
+        self.send_response(200)
+        self.send_header("Content-Type", TILE_TYPES[meta["format"]])
+        if meta.get("compression") == "gzip":
+            self.send_header("Content-Encoding", "gzip")
+        self.send_header("Content-Length", str(len(row[0])))
+        self.end_headers()
+        self.wfile.write(row[0])
 
     def send_json(self, code, payload, extra_headers=None):
         body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
@@ -125,6 +161,9 @@ class Handler(SimpleHTTPRequestHandler):
         return json.loads(self.rfile.read(length) or b"{}")
 
     def do_GET(self):
+        m = TILE_RE.match(self.path)
+        if m:
+            return self.send_tile(m)
         if self.path == "/api/state":
             with LOCK:
                 saved = read_saved()

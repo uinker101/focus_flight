@@ -27,15 +27,13 @@ const DAY = {
   '--bg': '#eef3f8', '--bg-2': '#e3ebf3', '--panel': '#ffffff', '--panel-2': '#f6f9fc',
   '--text': '#0f1d2b', '--text-dim': '#5b6b7c', '--line': '#d5dee8',
   '--accent': '#2563a8', '--accent-2': '#d97a14', '--good': '#2f8a5b', '--bad': '#b5473a',
-  '--map-ocean': '#cfe2f2', '--map-land': '#f6f2e9', '--map-border': '#cbbfa9', '--map-coast': '#b3c3d3',
-  '--map-label': '#4d5d6e', '--route-todo': '#7d90a6', '--locked': '#b8c3cf',
+  '--route-todo': '#7d90a6', '--locked': '#b8c3cf',
 };
 const NIGHT = {
   '--bg': '#07111d', '--bg-2': '#0b1726', '--panel': '#0f1d2d', '--panel-2': '#132538',
   '--text': '#e6eef7', '--text-dim': '#8fa3b8', '--line': '#1f3247',
   '--accent': '#5aa9ff', '--accent-2': '#ffb347', '--good': '#5cc28d', '--bad': '#e07a6c',
-  '--map-ocean': '#071628', '--map-land': '#16283b', '--map-border': '#2b425b', '--map-coast': '#2c4865',
-  '--map-label': '#9db2c8', '--route-todo': '#58708a', '--locked': '#334a62',
+  '--route-todo': '#58708a', '--locked': '#334a62',
 };
 
 function mix(a, b, t) {
