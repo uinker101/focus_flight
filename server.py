@@ -1,6 +1,6 @@
 """Focus Flight local server: serves app/ and keeps the save file in userdata/.
 
-Usage: python3 server.py [--port 8742] [--no-browser]
+Usage: python3 server.py [--port 8742] [--no-browser] [--data-dir userdata]
 
 No internet access is needed. The save file is userdata/state.json; every
 write keeps the previous version in userdata/backups/ (last 30).
@@ -27,6 +27,15 @@ HEARTBEAT_PATH = USER_DIR / "heartbeat.json"
 BACKUP_DIR = USER_DIR / "backups"
 KEEP_BACKUPS = 30
 LOCK = threading.Lock()
+
+
+def use_data_dir(path):
+    """Point the save file somewhere else (tests use this to leave the real save alone)."""
+    global USER_DIR, STATE_PATH, HEARTBEAT_PATH, BACKUP_DIR
+    USER_DIR = Path(path).resolve()
+    STATE_PATH = USER_DIR / "state.json"
+    HEARTBEAT_PATH = USER_DIR / "heartbeat.json"
+    BACKUP_DIR = USER_DIR / "backups"
 
 
 def read_saved():
@@ -195,7 +204,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--port", type=int, default=8742)
     ap.add_argument("--no-browser", action="store_true")
+    ap.add_argument("--data-dir", help="save file directory (default: userdata/)")
     args = ap.parse_args()
+    if args.data_dir:
+        use_data_dir(args.data_dir)
     server = ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
     url = f"http://localhost:{args.port}/"
     print(f"Focus Flight 正在运行：{url}  （关闭此窗口或按 Ctrl+C 停止）")

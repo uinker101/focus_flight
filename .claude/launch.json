@@ -2,10 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "focus-flight",
+      "name": "focus-flight-test",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["server.py", "--no-browser"],
-      "port": 8742
+      "runtimeArgs": ["server.py", "--no-browser", "--port", "8743", "--data-dir", ".test-userdata"],
+      "port": 8743
     }
   ]
 }

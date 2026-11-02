@@ -25,6 +25,24 @@ export function defaultState(startAirport) {
   };
 }
 
+export const MAX_GOALS = 8;
+
+/**
+ * Saves before 2026-11-02 had one free-text `task`; journeys now carry a goal
+ * checklist `todos: [{ text, done }]`. Convert in place, keeping the old text.
+ */
+function normalize(state) {
+  if (!state) return state;
+  const fix = (j, done) => {
+    if (!j || Array.isArray(j.todos)) return;
+    j.todos = j.task ? [{ text: j.task, done }] : [];
+    delete j.task;
+  };
+  fix(state.active, false);
+  for (const j of state.journeys) fix(j, j.status === 'success');
+  return state;
+}
+
 let saved = { rev: 0, state: null };
 let chain = Promise.resolve();
 const listeners = new Set();
@@ -39,7 +57,7 @@ export async function loadState(startAirport) {
   const res = await fetch('/api/state');
   const body = await res.json();
   heartbeat = body.heartbeat;
-  saved = { rev: body.rev, state: body.state || defaultState(startAirport) };
+  saved = { rev: body.rev, state: normalize(body.state) || defaultState(startAirport) };
   return saved.state;
 }
 
@@ -66,7 +84,7 @@ export async function refreshState() {
   await chain;
   const fresh = await (await fetch('/api/state')).json();
   if (fresh.rev !== saved.rev && fresh.state) {
-    saved = { rev: fresh.rev, state: fresh.state };
+    saved = { rev: fresh.rev, state: normalize(fresh.state) };
     listeners.forEach((fn) => fn(saved.state));
   }
 }
@@ -82,7 +100,8 @@ export function save() {
     });
     if (res.status === 409) {
       // Another tab or a pause beacon wrote first: take the server copy.
-      saved = await res.json();
+      const body = await res.json();
+      saved = { rev: body.rev, state: normalize(body.state) };
       listeners.forEach((fn) => fn(saved.state));
       return;
     }

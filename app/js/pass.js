@@ -30,6 +30,15 @@ function barcode(seed, x, y, w, h) {
   return out;
 }
 
+/** Up to three goals, the last line summarising the rest. */
+function goalLines(todos, x, y) {
+  if (!todos.length) return `<text x="${x}" y="${y}" font-size="14" fill="#6b7a8a">（未设定）</text>`;
+  const shown = todos.length > 3 ? todos.slice(0, 2) : todos;
+  const lines = shown.map((t) => `✓ ${truncate(t.text, 24)}`);
+  if (todos.length > 3) lines.push(`✓ 以及另外 ${todos.length - 2} 项`);
+  return lines.map((line, i) => `<text x="${x}" y="${y + i * 19}" font-size="14" font-weight="600" fill="#10202f"><tspan fill="#2f8a5b">${esc(line.slice(0, 1))}</tspan>${esc(line.slice(1))}</text>`).join('');
+}
+
 function field(x, y, label, value, { size = 20, mono = true } = {}) {
   return `<text x="${x}" y="${y}" font-size="11" fill="#6b7a8a" letter-spacing="0.5">${esc(label)}</text>
   <text x="${x}" y="${y + size + 6}" font-size="${size}" font-weight="700" fill="#10202f" ${mono ? `font-family="${MONO}"` : ''}>${esc(value)}</text>`;
@@ -72,9 +81,10 @@ export function passSVG(j, homeTz) {
     ${field(170, 230, '日期 DATE', date, { size: 18, mono: false })}
     ${field(340, 230, '计划出发 DEP', f.dep_local)}
     ${field(470, 230, '计划抵达 ARR', f.arr_local + plus)}
-    ${field(600, 230, '专注 FOCUS', fmtDuration(j.real_ms / 60000), { size: 18, mono: false })}
-    ${field(36, 296, '机型 AIRCRAFT', aircraft, { size: 16, mono: false })}
-    ${field(340, 296, '学习任务 TASK', truncate(j.task || '（未填写）', 22), { size: 16, mono: false })}
+    ${field(600, 230, '飞行时长 TIME', fmtDuration(j.real_ms / 60000), { size: 18, mono: false })}
+    ${field(36, 284, '机型 AIRCRAFT', aircraft, { size: 16, mono: false })}
+    <text x="340" y="284" font-size="11" fill="#6b7a8a" letter-spacing="0.5">完成目标 GOALS</text>
+    ${goalLines(j.todos || [], 340, 305)}
 
     <line x1="720" y1="66" x2="720" y2="${H}" stroke="#c7cfd8" stroke-width="2" stroke-dasharray="6 6"/>
     <circle cx="720" cy="66" r="12" fill="#e9eef3"/>

@@ -85,7 +85,18 @@ textarea { width: 100%; resize: vertical; }
 .facts { display: grid; grid-template-columns: 64px 1fr; gap: 8px 14px; margin: 14px 0; }
 .facts dt { color: var(--text-dim); font-size: 13px; }
 .facts dd { margin: 0; }
-.task-label { display: grid; gap: 6px; font-size: 13px; color: var(--text-dim); margin-top: 8px; }
+.goal-block { margin-top: 12px; }
+.goal-title { font-weight: 700; }
+.goal-edit { list-style: none; counter-reset: goal; padding: 0; margin: 8px 0 6px; display: grid; gap: 6px; }
+.goal-edit li { counter-increment: goal; display: flex; gap: 6px; align-items: center; }
+.goal-edit li::before { content: counter(goal); width: 22px; height: 22px; flex: none; display: grid; place-items: center; border-radius: 50%; background: var(--bg-2); color: var(--text-dim); font-size: 12px; font-weight: 700; }
+.goal-edit input { flex: 1; min-width: 0; }
+.goal-check { list-style: none; padding: 0; margin: 0; display: grid; gap: 2px; }
+.goal-check label { display: flex; gap: 10px; align-items: flex-start; padding: 6px 6px; border-radius: 8px; cursor: pointer; }
+.goal-check label:hover { background: var(--bg-2); }
+.goal-check input { width: 18px; height: 18px; margin: 2px 0 0; accent-color: var(--good); flex: none; }
+.goal-check li.done span { color: var(--text-dim); text-decoration: line-through; text-decoration-color: var(--good); }
+.arrival-goals { text-align: left; max-width: 480px; margin: 0 auto 8px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 10px 12px; font-size: 16px; }
 
 .toast {
   position: fixed; left: 50%; bottom: 32px; transform: translateX(-50%);
@@ -161,7 +172,13 @@ body[data-view=flight] { overflow: hidden; }
 .ptv-map { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
 .ptv-top { position: absolute; left: 20px; top: 16px; right: 360px; }
 .ptv-title { display: inline-block; padding: 8px 14px; border-radius: 12px; background: color-mix(in srgb, var(--panel) 86%, transparent); backdrop-filter: blur(10px); font-weight: 600; box-shadow: 0 2px 12px rgba(0,0,0,0.12); }
-.ptv-task { margin-top: 8px; display: inline-block; padding: 6px 12px; border-radius: 10px; background: color-mix(in srgb, var(--panel) 80%, transparent); font-size: 14px; color: var(--text-dim); }
+.ptv-goals { margin-top: 8px; width: min(320px, 100%); border-radius: 12px; background: color-mix(in srgb, var(--panel) 88%, transparent); backdrop-filter: blur(10px); box-shadow: 0 2px 12px rgba(0,0,0,0.12); overflow: hidden; }
+.ptv-goals-head { width: 100%; display: flex; align-items: center; gap: 8px; padding: 8px 12px; border: 0; background: transparent; color: var(--text); font: inherit; font-size: 13px; cursor: pointer; }
+.ptv-goals-head b { margin-left: auto; font-family: var(--mono); color: var(--accent-2); }
+.ptv-goals-head .caret { color: var(--text-dim); transition: transform .2s; }
+.ptv-goals.collapsed .caret { transform: rotate(-90deg); }
+.ptv-goals.collapsed [data-goals] { display: none; }
+.ptv-goals .goal-check { padding: 0 8px 8px; max-height: 40vh; overflow: auto; }
 .ptv-controls { position: absolute; right: 20px; top: 16px; display: flex; gap: 8px; align-items: center; padding: 4px; border-radius: 12px; background: color-mix(in srgb, var(--panel) 86%, transparent); backdrop-filter: blur(10px); box-shadow: 0 2px 12px rgba(0,0,0,0.12); }
 .ptv-controls .seg { background: transparent; }
 .ptv-panel {

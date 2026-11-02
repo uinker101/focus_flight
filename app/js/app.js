@@ -6,6 +6,7 @@ import { makeProfile, sample, interpolate, bearing, PHASE_TEXT } from './sim.js'
 import { MapView } from './map.js';
 import { computeCollections, packTotals } from './collections.js';
 import { passSVG, svgToPngBlob } from './pass.js';
+import { goalEditor, goalChecklist, goalsDone, allGoalsDone } from './goals.js';
 
 const $app = document.getElementById('app');
 const sessionStart = Date.now();
@@ -23,7 +24,8 @@ function toast(text) {
   const el = document.createElement('div');
   el.className = 'toast';
   el.textContent = text;
-  document.body.appendChild(el);
+  // A modal dialog sits in the top layer; put the toast inside it so it shows above the backdrop.
+  (document.querySelector('dialog[open]') || document.body).appendChild(el);
   setTimeout(() => el.classList.add('out'), 2600);
   setTimeout(() => el.remove(), 3200);
 }
@@ -121,7 +123,7 @@ function finishJourney(status) {
     id: j.id,
     status,
     flight: j.flight,
-    task: j.task,
+    todos: j.todos,
     created_at: j.created_at,
     started_at: j.started_at ?? null,
     ended_at: status === 'aborted' ? Date.now() : j.landed_at,
@@ -220,7 +222,7 @@ function viewHome() {
   const tile = (href, label, value, sub) => `<a class="stat" href="${href}"><div class="stat-value">${value}</div><div class="stat-label">${label}</div>${sub ? `<div class="stat-sub">${sub}</div>` : ''}</a>`;
   const recentPasses = col.success.slice(-3).reverse();
   const history = st.journeys.slice(-8).reverse();
-  const statusText = { success: '专注成功', failed: '未专注好', aborted: '提前结束' };
+  const statusText = { success: '目标完成', failed: '未全部完成', aborted: '提前结束' };
   shell('', `
     <section class="hero">
       <div class="hero-main">
@@ -236,7 +238,7 @@ function viewHome() {
     </section>
     <section class="stats">
       ${tile('#/collection/passes', '成功旅程', col.success.length)}
-      ${tile('#/collection/passes', '累计专注', fmtDuration(col.focusMs / 60000))}
+      ${tile('#/collection/passes', '累计飞行', fmtDuration(col.focusMs / 60000))}
       ${tile('#/collection/airlines', '航空公司', col.airlines.size, `本数据包 ${totals.airlines.length} 家`)}
       ${tile('#/collection/aircraft', '机型', col.types.size, `本数据包可确定 ${totals.types.length} 种`)}
       ${tile('#/collection/airports', '抵达机场', col.airports.size, `本数据包 ${totals.airports.length} 个`)}
@@ -374,23 +376,33 @@ function viewBoard() {
         <dl class="facts">
           <dt>机型</dt><dd>${esc(aircraftLabel(s.aircraft))} <span class="dim small">原文 ${esc(s.aircraft.raw || '—')} · ${esc(EVIDENCE_TEXT[s.aircraft.status])}</span></dd>
           <dt>来源</dt><dd>${esc(source?.title || s.source)} <span class="dim small">· ${esc(VERIFY_TEXT[s.verification] || s.verification)}</span></dd>
-          <dt>候机</dt><dd>${x.dep > Date.now() ? `距计划出发 ${fmtDuration((x.dep - Date.now()) / 60000)}，候机时间不计入专注` : '已过计划出发时间'}</dd>
+          <dt>候机</dt><dd>${x.dep > Date.now() ? `距计划出发 ${fmtDuration((x.dep - Date.now()) / 60000)}，候机时间不算在航程里` : '已过计划出发时间'}</dd>
         </dl>
-        <label class="task-label">这段航程要专注做什么？<textarea name="task" rows="2" maxlength="80" placeholder="例如：读完第 3 章并做笔记（可留空）"></textarea></label>
+        <div class="goal-block">
+          <div class="goal-title">这一程要完成的目标</div>
+          <div class="small dim">不用全程专注。落地时这些目标全部完成就算成功；起飞后清单锁定，只能打勾。</div>
+          <div data-goals></div>
+        </div>
         <div class="dlg-actions">
           <button class="btn" value="cancel">再看看</button>
           <button class="btn primary" value="go" data-go>值机，前往登机口</button>
         </div>
       </form>`;
+    const editor = goalEditor(dlg.querySelector('[data-goals]'), [], () => {});
     dlg.querySelector('[data-go]').addEventListener('click', (e) => {
       e.preventDefault();
       if (S().active) return toast('已有进行中的行程');
       if (x.dep <= Date.now()) return toast('这班已经出发了');
+      const todos = editor.value();
+      if (!todos.length) {
+        dlg.querySelector('[data-goals] input')?.focus();
+        return toast('先写下至少一个这一程要完成的目标');
+      }
       S().active = {
         id: newId(),
         stage: 'boarding',
         flight: snapshotFlight(x),
-        task: dlg.querySelector('textarea').value.trim(),
+        todos,
         created_at: Date.now(),
         demo: false,
       };
@@ -430,7 +442,7 @@ function viewGate() {
         <div class="gate-status" data-status></div>
         <div class="gate-countdown mono" data-countdown></div>
         <div class="gate-sub">计划出发 <b class="mono">${fmtHM(f.sched_dep, o.tz)}</b>（${esc(o.city)}当地 · ${fmtDate(f.sched_dep, o.tz)}）· 计划抵达 <b class="mono">${fmtHM(f.sched_arr, d.tz)}</b>（${esc(d.city)}当地）</div>
-        <div class="gate-sub dim">候机时间不计入专注时长。到计划出发时间自动起飞，这一程专注 ${fmtDuration(f.duration_min)}。</div>
+        <div class="gate-sub dim">到计划出发时间自动起飞，飞行 ${fmtDuration(f.duration_min)}。候机时间不算在航程里。</div>
       </div>
       <div class="card gate-side">
         <div class="eyebrow">本班资料</div>
@@ -439,14 +451,24 @@ function viewGate() {
           <dt>机型</dt><dd>${esc(aircraftLabel(f.aircraft))}</dd>
           <dt>数据</dt><dd class="small">${esc(f.pack_version)}</dd>
         </dl>
-        <label class="task-label">学习任务<textarea rows="3" maxlength="80" data-task placeholder="这段航程要专注做什么？">${esc(j.task)}</textarea></label>
+        <div class="goal-block">
+          <div class="goal-title">本程目标</div>
+          <div class="small dim">起飞前还可以修改，起飞后锁定。</div>
+          <div data-goals></div>
+        </div>
         <div class="gate-actions">
           <button class="btn" data-cancel>取消行程</button>
           ${st.settings.demo ? '<button class="btn warn" data-now>立即出发（演示）</button>' : ''}
         </div>
       </div>
     </section>`);
-  $app.querySelector('[data-task]').addEventListener('change', (e) => { j.task = e.target.value.trim(); save(); });
+  let saveTimer = null;
+  goalEditor($app.querySelector('[data-goals]'), j.todos, (todos) => {
+    if (!todos.length) return; // keep at least one goal; an emptied list is not saved
+    j.todos = todos;
+    clearTimeout(saveTimer);
+    saveTimer = setTimeout(save, 400);
+  });
   $app.querySelector('[data-cancel]').addEventListener('click', () => {
     if (!confirm('取消这段行程？不会留下记录，位置仍在 ' + o.city + '。')) return;
     st.active = null;
@@ -484,7 +506,10 @@ function viewFlight() {
       <canvas class="ptv-map"></canvas>
       <div class="ptv-top">
         <div class="ptv-title"><span class="mono">${esc(f.flight)}</span> ${esc(f.airline.name)} · ${esc(o.city)} → ${esc(d.city)}</div>
-        ${j.task ? `<div class="ptv-task">专注：${esc(j.task)}</div>` : ''}
+        ${j.todos.length ? `<div class="ptv-goals">
+          <button class="ptv-goals-head" data-goals-toggle><span>本程目标</span><b data-goal-count></b><span class="caret">▾</span></button>
+          <div data-goals></div>
+        </div>` : ''}
       </div>
       <div class="ptv-controls">
         <div class="seg" data-modes>
@@ -501,7 +526,7 @@ function viewFlight() {
         </div>
         <div class="ptv-stats">
           <div><label>剩余时间</label><b data-v="remain"></b></div>
-          <div><label>已专注</label><b data-v="focus"></b></div>
+          <div><label>已飞行</label><b data-v="focus"></b></div>
           <div><label>阶段</label><b data-v="phase"></b></div>
           <div><label>地速</label><b data-v="speed"></b></div>
           <div><label>高度</label><b data-v="alt"></b></div>
@@ -533,6 +558,18 @@ function viewFlight() {
   fitPadding();
   window.addEventListener('resize', fitPadding);
   map.init();
+
+  const goalsBox = $app.querySelector('.ptv-goals');
+  if (goalsBox) {
+    const showCount = () => { $app.querySelector('[data-goal-count]').textContent = `${goalsDone(j.todos)}/${j.todos.length}`; };
+    goalChecklist(goalsBox.querySelector('[data-goals]'), j.todos, (i, done) => {
+      j.todos[i].done = done;
+      showCount();
+      save();
+    });
+    showCount();
+    goalsBox.querySelector('[data-goals-toggle]').addEventListener('click', () => goalsBox.classList.toggle('collapsed'));
+  }
 
   $app.querySelectorAll('[data-mode]').forEach((b) => b.addEventListener('click', () => {
     $app.querySelectorAll('[data-mode]').forEach((x) => x.classList.toggle('on', x === b));
@@ -611,18 +648,34 @@ function viewArrival() {
       <h1>欢迎来到 ${esc(d.city)}</h1>
       <div class="arrival-sub">${esc(d.name)} <span class="mono">${esc(d.iata)}</span> · 当地时间 ${fmtHM(j.landed_at, d.tz)}</div>
       <div class="arrival-facts">
-        <div><label>本次专注</label><b>${fmtDuration(j.real_ms / 60000)}</b></div>
+        <div><label>飞行时长</label><b>${fmtDuration(j.real_ms / 60000)}</b></div>
         <div><label>航线</label><b>${esc(f.origin.iata)} → ${esc(d.iata)}</b></div>
-        <div><label>学习任务</label><b>${esc(j.task || '（未填写）')}</b></div>
+        <div><label>目标</label><b data-goal-count></b></div>
       </div>
-      <h2>这段时间专注成功吗？</h2>
-      <p class="dim">由你自己判断。成功会出票并计入航空公司、机型、机场收藏；没专注好也会落地在 ${esc(d.city)}，只是不发登机牌。</p>
+      <h2>这一程的目标完成了吗？</h2>
+      <p class="dim">把完成的打勾。全部完成就出票，并计入航空公司、机型、机场收藏；没有全部完成也会落地在 ${esc(d.city)}，只是不发登机牌。</p>
+      <div class="arrival-goals" data-goals></div>
       <div class="arrival-actions">
-        <button class="btn primary big" data-ok>专注成功，出票</button>
-        <button class="btn big" data-fail>这次没有专注好</button>
+        <button class="btn primary big" data-ok></button>
+        <button class="btn big" data-fail>没有全部完成</button>
       </div>
     </section>`);
-  $app.querySelector('[data-ok]').addEventListener('click', () => {
+  const ok = $app.querySelector('[data-ok]');
+  const refresh = () => {
+    const legacy = !j.todos.length; // journeys started before goal lists existed
+    const left = j.todos.length - goalsDone(j.todos);
+    $app.querySelector('[data-goal-count]').textContent = legacy ? '—' : `${goalsDone(j.todos)}/${j.todos.length} 完成`;
+    ok.disabled = !legacy && left > 0;
+    ok.textContent = legacy ? '确认完成，出票' : left ? `还有 ${left} 项没完成` : '全部完成，出票';
+  };
+  goalChecklist($app.querySelector('[data-goals]'), j.todos, (i, done) => {
+    j.todos[i].done = done;
+    refresh();
+    save();
+  });
+  refresh();
+  ok.addEventListener('click', () => {
+    if (j.todos.length && !allGoalsDone(j.todos)) return;
     const rec = finishJourney('success');
     go(`pass/${rec.id}/new`);
   });
@@ -691,7 +744,7 @@ function viewCollection(tab = 'passes') {
   if (tab === 'passes') {
     const list = col.success.slice().reverse();
     body = list.length ? `<div class="pass-wall">${list.map((j) => `<a class="pass-thumb" href="#/pass/${j.id}">${passSVG(j, homeTz())}</a>`).join('')}</div>`
-      : '<div class="empty">还没有登机牌。完整飞完一段并确认专注成功后出票。</div>';
+      : '<div class="empty">还没有登机牌。完整飞完一段并完成全部目标后出票。</div>';
   } else if (tab === 'airlines') {
     const codes = [...new Set([...totals.airlines, ...col.airlines.keys()])];
     codes.sort((a, b) => (col.airlines.has(b) - col.airlines.has(a)) || a.localeCompare(b));
@@ -739,7 +792,7 @@ function viewCollection(tab = 'passes') {
   }
 
   shell('collection', `
-    <div class="section-head"><h1>收藏</h1><span class="dim small">只统计完整飞完并确认专注成功的旅程</span></div>
+    <div class="section-head"><h1>收藏</h1><span class="dim small">只统计完整飞完、目标全部完成的旅程</span></div>
     <div class="tabs">${tabs.map(([k, t]) => `<a href="#/collection/${k}" class="${k === tab ? 'on' : ''}">${t}</a>`).join('')}</div>
     ${body}`);
 
