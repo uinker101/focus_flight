@@ -114,6 +114,14 @@ export function snapshotFlight(inst) {
   };
 }
 
+// 3D models in app/assets/aircraft, one per family for now (see the README there).
+const AIRCRAFT_MODELS = { 'A320 系列': 'a320', A330: 'a333', A350: 'a359', '737 NG': 'b738', 747: 'b748', 777: 'b773', 787: 'b788' };
+
+/** Model file for the flight's aircraft family, or null when the family is unknown or has no model yet. */
+export function aircraftModel(ac) {
+  return AIRCRAFT_MODELS[ac.family] || null;
+}
+
 export function aircraftLabel(ac) {
   if (ac.type && pack?.aircraft_types[ac.type]) {
     const t = pack.aircraft_types[ac.type];
