@@ -8,3 +8,702 @@ ICN,RKSI,仁川国际机场,Incheon International Airport,首尔,Seoul,KR,37.469
 BKK,VTBS,素万那普机场,Suvarnabhumi Airport,曼谷,Bangkok,TH,13.6811,100.747002,Asia/Bangkok,ourairports
 SIN,WSSS,新加坡樟宜机场,Singapore Changi Airport,新加坡,Singapore,SG,1.35019,103.994003,Asia/Singapore,ourairports
 MNL,RPLL,尼诺伊·阿基诺国际机场,Ninoy Aquino International Airport,马尼拉,Manila,PH,14.5086,121.019997,Asia/Manila,ourairports
+FUK,RJFF,福冈机场,Fukuoka Airport,福冈,Fukuoka,JP,33.585899,130.451004,Asia/Tokyo,https://ourairports.com/airports/RJFF/
+TAK,RJOT,高松机场,Takamatsu Airport,高松,Takamatsu,JP,34.214963,134.015454,Asia/Tokyo,https://ourairports.com/airports/RJOT/
+HND,RJTT,东京羽田机场,Tokyo Haneda International Airport,东京,Tokyo,JP,35.549678,139.786958,Asia/Tokyo,https://ourairports.com/airports/RJTT/
+ARN,ESSA,斯德哥尔摩阿兰达机场,Stockholm-Arlanda Airport,斯德哥尔摩,Stockholm,SE,59.64849,17.928829,Europe/Stockholm,https://ourairports.com/airports/ESSA/
+BOM,VABB,孟买贾特拉帕蒂·希瓦吉国际机场,Chhatrapati Shivaji Maharaj International Airport,孟买,Mumbai,IN,19.088699,72.867897,Asia/Kolkata,https://ourairports.com/airports/VABB/
+BRU,EBBR,布鲁塞尔机场,Brussels Airport,布鲁塞尔,Zaventem,BE,50.901402,4.48444,Europe/Brussels,https://ourairports.com/airports/EBBR/
+CAN,ZGGG,广州白云国际机场,Guangzhou Baiyun International Airport,广州,Guangzhou (Huadu),CN,23.392401,113.299004,Asia/Shanghai,https://ourairports.com/airports/ZGGG/
+CDG,LFPG,巴黎戴高乐机场,Charles de Gaulle International Airport,巴黎,"Paris (Roissy-en-France, Val-d'Oise)",FR,49.00896,2.554117,Europe/Paris,https://ourairports.com/airports/LFPG/
+CGK,WIII,苏加诺·哈达国际机场,Soekarno-Hatta International Airport,雅加达,Jakarta,ID,-6.12557,106.655998,Asia/Jakarta,https://ourairports.com/airports/WIII/
+DEL,VIDP,英迪拉·甘地国际机场,Indira Gandhi International Airport,新德里,New Delhi,IN,28.55563,77.09519,Asia/Kolkata,https://ourairports.com/airports/VIDP/
+DLC,ZYTL,大连周水子国际机场,Dalian Zhoushuizi International Airport,大连,Dalian (Ganjingzi),CN,38.965719,121.538477,Asia/Shanghai,https://ourairports.com/airports/ZYTL/
+FRA,EDDF,法兰克福机场,Frankfurt Main Airport,法兰克福,Frankfurt am Main,DE,50.026706,8.55835,Europe/Berlin,https://ourairports.com/airports/EDDF/
+GMP,RKSS,金浦国际机场,Seoul Gimpo International Airport,首尔,Seoul,KR,37.5583,126.791,Asia/Seoul,https://ourairports.com/airports/RKSS/
+HAN,VVNB,内排国际机场,Noi Bai International Airport,河内,Hanoi (Soc Son),VN,21.221201,105.806999,Asia/Ho_Chi_Minh,https://ourairports.com/airports/VVNB/
+HGH,ZSHC,杭州萧山国际机场,Hangzhou Xiaoshan International Airport,杭州,Hangzhou,CN,30.23609,120.428865,Asia/Shanghai,https://ourairports.com/airports/ZSHC/
+HNL,PHNL,丹尼尔·井上国际机场,Daniel K. Inouye International Airport,檀香山,"Honolulu, Oahu",US,21.318387,-157.92567,Pacific/Honolulu,https://ourairports.com/airports/PHNL/
+IAD,KIAD,华盛顿杜勒斯国际机场,Washington Dulles International Airport,华盛顿,Dulles,US,38.9445,-77.455803,America/New_York,https://ourairports.com/airports/KIAD/
+IAH,KIAH,乔治·布什洲际机场,George Bush Intercontinental Airport,休斯顿,Houston,US,29.9844,-95.3414,America/Chicago,https://ourairports.com/airports/KIAH/
+IST,LTFM,伊斯坦布尔机场,İstanbul Airport,伊斯坦布尔,Istanbul,TR,41.274874,28.732136,Europe/Istanbul,https://ourairports.com/airports/LTFM/
+JFK,KJFK,纽约肯尼迪国际机场,John F. Kennedy International Airport,纽约,New York,US,40.639447,-73.779317,America/New_York,https://ourairports.com/airports/KJFK/
+KUL,WMKK,吉隆坡国际机场,Kuala Lumpur International Airport,吉隆坡,Sepang,MY,2.74558,101.709999,Asia/Kuala_Lumpur,https://ourairports.com/airports/WMKK/
+LAX,KLAX,洛杉矶国际机场,Los Angeles International Airport,洛杉矶,Los Angeles,US,33.942501,-118.407997,America/Los_Angeles,https://ourairports.com/airports/KLAX/
+LHR,EGLL,伦敦希思罗机场,London Heathrow Airport,伦敦,London,GB,51.470748,-0.459909,Europe/London,https://ourairports.com/airports/EGLL/
+MEX,MMMX,墨西哥城国际机场,Mexico City Benito Juárez International Airport,墨西哥城,Mexico City,MX,19.435822,-99.07033,America/Mexico_City,https://ourairports.com/airports/MMMX/
+MUC,EDDM,慕尼黑机场,Munich Airport,慕尼黑,Munich,DE,48.353802,11.7861,Europe/Berlin,https://ourairports.com/airports/EDDM/
+MXP,LIMC,米兰马尔彭萨机场,Milan Malpensa International Airport,米兰,Ferno (VA),IT,45.6306,8.72811,Europe/Rome,https://ourairports.com/airports/LIMC/
+ORD,KORD,芝加哥奥黑尔国际机场,Chicago O'Hare International Airport,芝加哥,Chicago,US,41.9786,-87.9048,America/Chicago,https://ourairports.com/airports/KORD/
+PEK,ZBAA,北京首都国际机场,Beijing Capital International Airport,北京,Beijing,CN,40.077349,116.596702,Asia/Shanghai,https://ourairports.com/airports/ZBAA/
+PER,YPPH,珀斯机场,Perth International Airport,珀斯,Perth,AU,-31.94029998779297,115.96700286865234,Australia/Perth,https://ourairports.com/airports/YPPH/
+PVG,ZSPD,上海浦东国际机场,Shanghai Pudong International Airport,上海,Shanghai (Pudong),CN,31.1434,121.805,Asia/Shanghai,https://ourairports.com/airports/ZSPD/
+SEA,KSEA,西雅图塔科马国际机场,Seattle–Tacoma International Airport,西雅图,Seattle,US,47.447943,-122.310276,America/Los_Angeles,https://ourairports.com/airports/KSEA/
+SFO,KSFO,旧金山国际机场,San Francisco International Airport,旧金山,San Francisco,US,37.619806,-122.374821,America/Los_Angeles,https://ourairports.com/airports/KSFO/
+SGN,VVTS,新山一国际机场,Tan Son Nhat International Airport,胡志明市,Ho Chi Minh City,VN,10.8188,106.652,Asia/Ho_Chi_Minh,https://ourairports.com/airports/VVTS/
+SHA,ZSSS,上海虹桥国际机场,Shanghai Hongqiao International Airport,上海,Shanghai (Minhang),CN,31.198104,121.33426,Asia/Shanghai,https://ourairports.com/airports/ZSSS/
+SYD,YSSY,悉尼金斯福德·史密斯机场,Sydney Kingsford Smith International Airport,悉尼,Sydney (Mascot),AU,-33.946098,151.177002,Australia/Sydney,https://ourairports.com/airports/YSSY/
+SZX,ZGSZ,深圳宝安国际机场,Shenzhen Bao'an International Airport,深圳,Shenzhen,CN,22.639474,113.803262,Asia/Shanghai,https://ourairports.com/airports/ZGSZ/
+TAO,ZSQD,青岛胶东国际机场,Qingdao Jiaodong International Airport,青岛,Qingdao (Jiaozhou),CN,36.361953,120.088171,Asia/Shanghai,https://ourairports.com/airports/ZSQD/
+TSA,RCSS,台北松山机场,Taipei Songshan International Airport,台北,Taipei (Songshan),TW,25.067244,121.552822,Asia/Taipei,https://ourairports.com/airports/RCSS/
+VIE,LOWW,维也纳国际机场,Vienna International Airport,维也纳,Vienna,AT,48.110298,16.5697,Europe/Vienna,https://ourairports.com/airports/LOWW/
+YVR,CYVR,温哥华国际机场,Vancouver International Airport,温哥华,Vancouver,CA,49.193901,-123.183998,America/Vancouver,https://ourairports.com/airports/CYVR/
+DXB,OMDB,迪拜国际机场,Dubai International Airport,迪拜,Dubai,AE,25.24979,55.370992,Asia/Dubai,https://ourairports.com/airports/OMDB/
+CPT,FACT,开普敦国际机场,Cape Town International Airport,开普敦,Cape Town,ZA,-33.97403,18.604333,Africa/Johannesburg,https://ourairports.com/airports/FACT/
+DUR,FALE,沙卡国王国际机场,King Shaka International Airport,德班,Durban,ZA,-29.613381,31.117942,Africa/Johannesburg,https://ourairports.com/airports/FALE/
+LOS,DNMM,穆尔塔拉·穆罕默德国际机场,Murtala Muhammed International Airport,拉各斯,Lagos,NG,6.57737,3.32116,Africa/Lagos,https://ourairports.com/airports/DNMM/
+TUN,DTTA,突尼斯迦太基国际机场,Tunis Carthage International Airport,突尼斯,Tunis,TN,36.851002,10.2272,Africa/Tunis,https://ourairports.com/airports/DTTA/
+ADD,HAAB,亚的斯亚贝巴博莱国际机场,Addis Ababa Bole International Airport,亚的斯亚贝巴,Addis Ababa,ET,8.97789,38.799301,Africa/Addis_Ababa,https://ourairports.com/airports/HAAB/
+HKT,VTSP,普吉国际机场,Phuket International Airport,普吉,Phuket,TH,8.113257,98.3174,Asia/Bangkok,https://ourairports.com/airports/VTSP/
+ADL,YPAD,阿德莱德机场,Adelaide International Airport,阿德莱德,Adelaide,AU,-34.947512,138.533393,Australia/Adelaide,https://ourairports.com/airports/YPAD/
+BNE,YBBN,布里斯班国际机场,Brisbane International Airport,布里斯班,Brisbane,AU,-27.384199142456055,153.11700439453125,Australia/Brisbane,https://ourairports.com/airports/YBBN/
+BUA,AYBK,布卡机场,Buka Airport,布卡,Buka Island,PG,-5.422299,154.672698,Pacific/Bougainville,https://ourairports.com/airports/AYBK/
+CNS,YBCS,凯恩斯国际机场,Cairns International Airport,凯恩斯,Cairns,AU,-16.878921,145.74948,Australia/Brisbane,https://ourairports.com/airports/YBCS/
+DAU,AYDU,达鲁机场,Daru Airport,达鲁,Daru,PG,-9.08676,143.207993,Pacific/Port_Moresby,https://ourairports.com/airports/AYDU/
+GKA,AYGA,戈罗卡机场,Goroka Airport,戈罗卡,Goronka,PG,-6.081689834590001,145.391998291,Pacific/Port_Moresby,https://ourairports.com/airports/AYGA/
+GUR,AYGN,格尼机场,Gurney Airport,格尼,Gurney,PG,-10.3114995956,150.333999634,Pacific/Port_Moresby,https://ourairports.com/airports/AYGN/
+HGU,AYMH,芒特哈根卡加穆加机场,Mount Hagen Kagamuga Airport,芒特哈根,Mount Hagen,PG,-5.828212,144.299412,Pacific/Port_Moresby,https://ourairports.com/airports/AYMH/
+HIR,AGGH,霍尼亚拉国际机场,Honiara International Airport,霍尼亚拉,Honiara,SB,-9.428,160.054993,Pacific/Guadalcanal,https://ourairports.com/airports/AGGH/
+HKN,AYHK,霍斯金斯机场,Hoskins Airport,金贝,Kimbe,PG,-5.463846,150.407327,Pacific/Port_Moresby,https://ourairports.com/airports/AYHK/
+KVG,AYKV,卡维恩机场,Kavieng Airport,卡维恩,Kavieng,PG,-2.57940006256,150.807998657,Pacific/Port_Moresby,https://ourairports.com/airports/AYKV/
+LAE,AYNZ,纳扎布友好国际机场,Nadzab Tomodachi International Airport,莱城,Lae,PG,-6.567995,146.726544,Pacific/Port_Moresby,https://ourairports.com/airports/AYNZ/
+MAG,AYMD,马当机场,Madang Airport,马当,Madang,PG,-5.20707988739,145.789001465,Pacific/Port_Moresby,https://ourairports.com/airports/AYMD/
+MAS,AYMO,莫莫特机场,Momote Airport,马努斯岛,Manus Island,PG,-2.06189,147.423996,Pacific/Port_Moresby,https://ourairports.com/airports/AYMO/
+NAN,NFFN,楠迪国际机场,Nadi International Airport,楠迪,Nadi,FJ,-17.761822,177.437843,Pacific/Fiji,https://ourairports.com/airports/NFFN/
+PNP,AYGR,吉鲁阿机场,Girua Airport,波蓬德塔,Popondetta,PG,-8.80453968048,148.309005737,Pacific/Port_Moresby,https://ourairports.com/airports/AYGR/
+POM,AYPY,莫尔兹比港杰克逊国际机场,Port Moresby Jacksons International Airport,莫尔兹比港,Port Moresby,PG,-9.443380355834961,147.22000122070312,Pacific/Port_Moresby,https://ourairports.com/airports/AYPY/
+RAB,AYTK,托库阿机场,Tokua Airport,拉包尔,Kokopo,PG,-4.34046,152.380005,Pacific/Port_Moresby,https://ourairports.com/airports/AYTK/
+TBG,AYTB,塔布比尔机场,Tabubil Airport,塔布比尔,Tabubil,PG,-5.280471,141.227576,Pacific/Port_Moresby,https://ourairports.com/airports/AYTB/
+TIZ,AYTA,塔里机场,Tari Airport,塔里,Tari,PG,-5.845,142.947998,Pacific/Port_Moresby,https://ourairports.com/airports/AYTA/
+VAI,AYVN,瓦尼莫机场,Vanimo Airport,瓦尼莫,Vanimo,PG,-2.6926,141.3028,Pacific/Port_Moresby,https://ourairports.com/airports/AYVN/
+VLI,NVVV,维拉港鲍尔菲尔德国际机场,Bauerfield International Airport,维拉港,Port Vila,VU,-17.699301,168.320007,Pacific/Efate,https://ourairports.com/airports/NVVV/
+WWK,AYWK,韦瓦克国际机场,Wewak International Airport,韦瓦克,Wewak,PG,-3.58383011818,143.669006348,Pacific/Port_Moresby,https://ourairports.com/airports/AYWK/
+ACE,GCRR,兰萨罗特机场,César Manrique-Lanzarote Airport,兰萨罗特,San Bartolomé,ES,28.945499,-13.6052,Atlantic/Canary,https://ourairports.com/airports/GCRR/
+AGP,LEMG,马拉加机场,Málaga-Costa del Sol Airport,马拉加,Málaga,ES,36.678234,-4.500208,Europe/Madrid,https://ourairports.com/airports/LEMG/
+AHO,LIEA,阿尔盖罗机场,Alghero-Fertilia Airport,阿尔盖罗,Alghero,IT,40.632099,8.29077,Europe/Rome,https://ourairports.com/airports/LIEA/
+AMS,EHAM,阿姆斯特丹史基浦机场,Amsterdam Airport Schiphol,阿姆斯特丹,Amsterdam,NL,52.308601,4.76389,Europe/Amsterdam,https://ourairports.com/airports/EHAM/
+ATH,LGAV,雅典机场,Athens Eleftherios Venizelos International Airport,雅典,Spata-Artemida,GR,37.936401,23.9445,Europe/Athens,https://ourairports.com/airports/LGAV/
+BCN,LEBL,巴塞罗那埃尔普拉特机场,Josep Tarradellas Barcelona-El Prat Airport,巴塞罗那,Barcelona,ES,41.2971,2.07846,Europe/Madrid,https://ourairports.com/airports/LEBL/
+BDS,LIBR,布林迪西机场,Brindisi Airport,布林迪西,Brindisi,IT,40.6576,17.947001,Europe/Rome,https://ourairports.com/airports/LIBR/
+BEG,LYBE,贝尔格莱德机场,Belgrade Nikola Tesla Airport,贝尔格莱德,Belgrade,RS,44.818401,20.309099,Europe/Belgrade,https://ourairports.com/airports/LYBE/
+BER,EDDB,柏林勃兰登堡机场,Berlin Brandenburg Airport,柏林,Berlin,DE,52.361738,13.502341,Europe/Berlin,https://ourairports.com/airports/EDDB/
+BLQ,LIPE,博洛尼亚古列尔莫·马可尼机场,Bologna Guglielmo Marconi Airport,博洛尼亚,Bologna,IT,44.5354,11.2887,Europe/Rome,https://ourairports.com/airports/LIPE/
+BRI,LIBD,巴里机场,Bari Karol Wojtyła International Airport,巴里,Bari,IT,41.138901,16.760599,Europe/Rome,https://ourairports.com/airports/LIBD/
+BUD,LHBP,布达佩斯机场,Budapest Liszt Ferenc International Airport,布达佩斯,Budapest,HU,47.43018,19.262393,Europe/Budapest,https://ourairports.com/airports/LHBP/
+BVA,LFOB,巴黎博韦蒂耶机场,Beauvais-Tillé airport,巴黎博韦,Beauvais,FR,49.454399,2.11278,Europe/Paris,https://ourairports.com/airports/LFOB/
+CAG,LIEE,卡利亚里机场,Cagliari Elmas Airport,卡利亚里,Cagliari,IT,39.251499,9.05428,Europe/Rome,https://ourairports.com/airports/LIEE/
+CGN,EDDK,科隆机场,Cologne Bonn Airport,科隆,Köln (Cologne),DE,50.865898,7.14274,Europe/Berlin,https://ourairports.com/airports/EDDK/
+CLJ,LRCL,克卢日纳波卡机场,Avram Iancu Cluj International Airport,克卢日纳波卡,Cluj-Napoca,RO,46.786042,23.685733,Europe/Bucharest,https://ourairports.com/airports/LRCL/
+CMN,GMMN,卡萨布兰卡机场,Mohammed V International Airport,卡萨布兰卡,Casablanca,MA,33.3675,-7.58997,Africa/Casablanca,https://ourairports.com/airports/GMMN/
+CPH,EKCH,哥本哈根机场,Copenhagen Kastrup Airport,哥本哈根,Copenhagen,DK,55.617900848389,12.656000137329,Europe/Copenhagen,https://ourairports.com/airports/EKCH/
+CRL,EBCI,沙勒罗瓦机场,Brussels South Charleroi Airport,沙勒罗瓦,Charleroi,BE,50.461963,4.459562,Europe/Brussels,https://ourairports.com/airports/EBCI/
+CRV,LIBC,克罗托内机场,Crotone Sant'Anna Pythagoras Airport,克罗托内,Isola di Capo Rizzuto (KR),IT,38.9972,17.0802,Europe/Rome,https://ourairports.com/airports/LIBC/
+CTA,LICC,卡塔尼亚机场,Catania-Fontanarossa Airport,卡塔尼亚,Catania,IT,37.466801,15.0664,Europe/Rome,https://ourairports.com/airports/LICC/
+DUB,EIDW,都柏林机场,Dublin Airport,都柏林,Dublin,IE,53.428713,-6.262121,Europe/Dublin,https://ourairports.com/airports/EIDW/
+DUS,EDDL,杜塞尔多夫机场,Düsseldorf Airport,杜塞尔多夫,Düsseldorf,DE,51.289501,6.76678,Europe/Berlin,https://ourairports.com/airports/EDDL/
+EIN,EHEH,埃因霍温机场,Eindhoven Airport,埃因霍温,Eindhoven,NL,51.4500999451,5.37452983856,Europe/Amsterdam,https://ourairports.com/airports/EHEH/
+FCO,LIRF,罗马菲乌米奇诺机场,Rome–Fiumicino Leonardo da Vinci International Airport,罗马,Rome,IT,41.804532,12.251998,Europe/Rome,https://ourairports.com/airports/LIRF/
+FUE,GCFV,富埃特文图拉机场,Fuerteventura Airport,富埃特文图拉,El Matorral,ES,28.4527,-13.8638,Atlantic/Canary,https://ourairports.com/airports/GCFV/
+IAS,LRIA,雅西机场,Iaşi International Airport,雅西,Iaşi,RO,47.179633,27.621431,Europe/Bucharest,https://ourairports.com/airports/LRIA/
+KRK,EPKK,克拉科夫机场,Kraków John Paul II International Airport,克拉科夫,Balice,PL,50.077702,19.7848,Europe/Warsaw,https://ourairports.com/airports/EPKK/
+LIS,LPPT,里斯本机场,Lisbon Humberto Delgado Airport,里斯本,Lisbon,PT,38.7813,-9.13592,Europe/Lisbon,https://ourairports.com/airports/LPPT/
+LPA,GCLP,大加那利机场,Gran Canaria Airport,大加那利,Gran Canaria Island,ES,27.9319,-15.3866,Atlantic/Canary,https://ourairports.com/airports/GCLP/
+LTN,EGGW,伦敦卢顿机场,London Luton Airport,伦敦,"Luton, Luton",GB,51.874699,-0.368333,Europe/London,https://ourairports.com/airports/EGGW/
+MAD,LEMD,马德里巴拉哈斯机场,Adolfo Suárez Madrid–Barajas Airport,马德里,Madrid,ES,40.493407,-3.572249,Europe/Madrid,https://ourairports.com/airports/LEMD/
+MAN,EGCC,曼彻斯特机场,Manchester Airport,曼彻斯特,"Manchester, Greater Manchester",GB,53.349375,-2.279521,Europe/London,https://ourairports.com/airports/EGCC/
+MLA,LMML,马耳他机场,Malta International Airport,马耳他,Valletta,MT,35.845932,14.491546,Europe/Malta,https://ourairports.com/airports/LMML/
+OPO,LPPR,波尔图机场,Francisco de Sá Carneiro Airport,波尔图,Porto,PT,41.2481002808,-8.68138980865,Europe/Lisbon,https://ourairports.com/airports/LPPR/
+OTP,LROP,布加勒斯特亨利·科安德国际机场,Bucharest Henri Coandă International Airport,布加勒斯特,Otopeni,RO,44.571792,26.103285,Europe/Bucharest,https://ourairports.com/airports/LROP/
+PMO,LICJ,巴勒莫机场,Falcone–Borsellino Airport,巴勒莫,Palermo,IT,38.175999,13.091,Europe/Rome,https://ourairports.com/airports/LICJ/
+REG,LICR,雷焦卡拉布里亚机场,Reggio Calabria Airport,雷焦卡拉布里亚,Reggio Calabria,IT,38.071201,15.6516,Europe/Rome,https://ourairports.com/airports/LICR/
+RMO,LUKK,基希讷乌机场,Chişinău International Airport,基希讷乌,Chişinău,MD,46.92774,28.931704,Europe/Chisinau,https://ourairports.com/airports/LUKK/
+SAW,LTFJ,萨比哈·格克琴国际机场,Istanbul Sabiha Gökçen International Airport,伊斯坦布尔,"Pendik, Istanbul",TR,40.898602,29.3092,Europe/Istanbul,https://ourairports.com/airports/LTFJ/
+SCV,LRSV,苏恰瓦机场,Suceava Ștefan cel Mare International Airport,苏恰瓦,Suceava,RO,47.6875,26.354099,Europe/Bucharest,https://ourairports.com/airports/LRSV/
+SKP,LWSK,斯科普里机场,Skopje International Airport,斯科普里,Ilinden,MK,41.958087,21.622581,Europe/Skopje,https://ourairports.com/airports/LWSK/
+SOF,LBSF,索非亚机场,Sofia Airport,索非亚,Sofia,BG,42.696357,23.417671,Europe/Sofia,https://ourairports.com/airports/LBSF/
+SSH,HESH,沙姆沙伊赫机场,Sharm El Sheikh International Airport,沙姆沙伊赫,Sharm El Sheikh,EG,27.977272,34.394717,Africa/Cairo,https://ourairports.com/airports/HESH/
+STN,EGSS,伦敦斯坦斯特德机场,London Stansted Airport,伦敦,"London, Essex",GB,51.884998,0.235,Europe/London,https://ourairports.com/airports/EGSS/
+SUF,LICA,拉梅齐亚泰尔梅机场,Lamezia Terme Sant'Eufemia International Airport,拉梅齐亚泰尔梅,Lamezia Terme (CZ),IT,38.906214,16.246007,Europe/Rome,https://ourairports.com/airports/LICA/
+SVQ,LEZL,塞维利亚机场,Seville Airport,塞维利亚,Seville,ES,37.417999,-5.89311,Europe/Madrid,https://ourairports.com/airports/LEZL/
+TFS,GCTS,特内里费南机场,Tenerife Sur Airport,特内里费,Tenerife,ES,28.0445,-16.5725,Atlantic/Canary,https://ourairports.com/airports/GCTS/
+TIA,LATI,地拉那机场,Tirana International Airport Mother Teresa,地拉那,Rinas,AL,41.4147,19.7206,Europe/Tirane,https://ourairports.com/airports/LATI/
+TLV,LLBG,特拉维夫机场,Ben Gurion International Airport,特拉维夫,Tel Aviv,IL,32.011398,34.8867,Asia/Jerusalem,https://ourairports.com/airports/LLBG/
+TPS,LICT,特拉帕尼机场,Vincenzo Florio Airport Trapani-Birgi,特拉帕尼,Trapani (TP),IT,37.9114,12.488,Europe/Rome,https://ourairports.com/airports/LICT/
+VLC,LEVC,瓦伦西亚机场,Valencia Airport,瓦伦西亚,Valencia,ES,39.489162,-0.480961,Europe/Madrid,https://ourairports.com/airports/LEVC/
+WAW,EPWA,华沙机场,Warsaw Chopin Airport,华沙,Warsaw,PL,52.165699,20.9671,Europe/Warsaw,https://ourairports.com/airports/EPWA/
+WRO,EPWR,弗罗茨瓦夫机场,Copernicus Wrocław Airport,弗罗茨瓦夫,Wrocław,PL,51.103719,16.882096,Europe/Warsaw,https://ourairports.com/airports/EPWR/
+ZRH,LSZH,苏黎世机场,Zürich Airport,苏黎世,Zurich,CH,47.458056,8.548056,Europe/Zurich,https://ourairports.com/airports/LSZH/
+AEP,SABE,布宜诺斯艾利斯 AEP机场,Aeroparque Jorge Newbery,布宜诺斯艾利斯,Buenos Aires,AR,-34.559419,-58.415536,America/Buenos_Aires,https://ourairports.com/airports/SABE/
+AFL,SBAT,Piloto Osvaldo Marques Dias Airport,Piloto Osvaldo Marques Dias Airport,Alta Floresta,Alta Floresta,BR,-9.866389,-56.106298,America/Cuiaba,https://ourairports.com/airports/SBAT/
+AJU,SBAR,Aracaju - Santa Maria Airport,Aracaju - Santa Maria Airport,Aracaju,Aracaju,BR,-10.98394,-37.072873,America/Maceio,https://ourairports.com/airports/SBAR/
+ARU,SBAU,Araçatuba Airport,Araçatuba Airport,Araçatuba,Araçatuba,BR,-21.141479,-50.424575,America/Sao_Paulo,https://ourairports.com/airports/SBAU/
+ARX,SBAC,Aracati Dragão do Mar Regional Airport,Aracati Dragão do Mar Regional Airport,Aracati,Aracati,BR,-4.568896,-37.805135,America/Fortaleza,https://ourairports.com/airports/SBAC/
+ASU,SGAS,亚松森 ASU机场,Silvio Pettirossi International Airport,亚松森,Asunción,PY,-25.240156,-57.519227,America/Asuncion,https://ourairports.com/airports/SGAS/
+ATL,KATL,亚特兰大 ATL机场,Hartsfield Jackson Atlanta International Airport,亚特兰大,Atlanta,US,33.6367,-84.428101,America/New_York,https://ourairports.com/airports/KATL/
+ATM,SBHT,Altamira Interstate Airport,Altamira Interstate Airport,Altamira,Altamira,BR,-3.253144,-52.253938,America/Belem,https://ourairports.com/airports/SBHT/
+AUX,SWGN,Araguaína Airport,Araguaína Airport,Araguaína,Araguaína,BR,-7.22787,-48.240501,America/Araguaina,https://ourairports.com/airports/SWGN/
+BEL,SBBE,贝伦 BEL机场,Val de Cans/Júlio Cezar Ribeiro International Airport,贝伦,Belém,BR,-1.379279,-48.476207,America/Belem,https://ourairports.com/airports/SBBE/
+BOG,SKBO,波哥大 BOG机场,El Dorado International Airport,波哥大,Bogota,CO,4.70159,-74.1469,America/Bogota,https://ourairports.com/airports/SKBO/
+BOS,KBOS,波士顿 BOS机场,Boston Logan International Airport,波士顿,Boston,US,42.36197,-71.0079,America/New_York,https://ourairports.com/airports/KBOS/
+BPS,SBPS,Porto Seguro International Airport,Porto Seguro International Airport,Porto Seguro,Porto Seguro,BR,-16.438426,-39.080584,America/Bahia,https://ourairports.com/airports/SBPS/
+BRA,SNBR,Dom Ricardo Weberberger Airport,Dom Ricardo Weberberger Airport,Barreiras,Barreiras,BR,-12.0789,-45.008999,America/Bahia,https://ourairports.com/airports/SNBR/
+BSB,SBBR,巴西利亚 BSB机场,Presidente Juscelino Kubitschek International Airport,巴西利亚,Brasília,BR,-15.869167,-47.920834,America/Sao_Paulo,https://ourairports.com/airports/SBBR/
+BVB,SBBV,博阿维斯塔 BVB机场,Atlas Brasil Cantanhede International Airport,博阿维斯塔,Boa Vista,BR,2.84615,-60.690648,America/Boa_Vista,https://ourairports.com/airports/SBBV/
+BVH,SBVH,Brigadeiro Camarão Airport,Brigadeiro Camarão Airport,Vilhena,Vilhena,BR,-12.6944,-60.098301,America/Porto_Velho,https://ourairports.com/airports/SBVH/
+BYO,SBDB,Bonito Airport,Bonito Airport,Bonito,Bonito,BR,-21.2473,-56.452399,America/Campo_Grande,https://ourairports.com/airports/SBDB/
+CAC,SBCA,Coronel Adalberto Mendes da Silva Airport,Coronel Adalberto Mendes da Silva Airport,Cascavel,Cascavel,BR,-25.000323,-53.501208,America/Sao_Paulo,https://ourairports.com/airports/SBCA/
+CAY,SOCA,卡宴 CAY机场,Cayenne – Félix Eboué Airport,卡宴,Matoury,GF,4.819964,-52.361326,America/Cayenne,https://ourairports.com/airports/SOCA/
+CCS,SVMI,加拉加斯 CCS机场,Maiquetía Simón Bolívar International Airport,加拉加斯,Maiquetía,VE,10.602214,-66.991174,America/Caracas,https://ourairports.com/airports/SVMI/
+CGB,SBCY,库亚巴 CGB机场,Várzea Grande–Marechal Rondon International Airport,库亚巴,Cuiabá,BR,-15.6529,-56.116699,America/Cuiaba,https://ourairports.com/airports/SBCY/
+CGH,SBSP,圣保罗 CGH机场,Congonhas–Deputado Freitas Nobre Airport,圣保罗,São Paulo,BR,-23.627657,-46.654601,America/Sao_Paulo,https://ourairports.com/airports/SBSP/
+CGR,SBCG,大坎普 CGR机场,Campo Grande Airport,大坎普,Campo Grande,BR,-20.469998,-54.673988,America/Campo_Grande,https://ourairports.com/airports/SBCG/
+CKS,SBCJ,Carajás Airport,Carajás Airport,Parauapebas,Parauapebas,BR,-6.117841,-50.003372,America/Belem,https://ourairports.com/airports/SBCJ/
+CLV,SBCN,Nelson Ribeiro Guimarães Airport,Nelson Ribeiro Guimarães Airport,Caldas Novas,Caldas Novas,BR,-17.725096,-48.606324,America/Sao_Paulo,https://ourairports.com/airports/SBCN/
+CMG,SBCR,Corumbá International Airport,Corumbá International Airport,Corumbá,Corumbá,BR,-19.01193,-57.672772,America/Campo_Grande,https://ourairports.com/airports/SBCR/
+CNF,SBCF,贝洛奥里藏特 CNF机场,Tancredo Neves International Airport,贝洛奥里藏特,Belo Horizonte,BR,-19.63571,-43.966928,America/Sao_Paulo,https://ourairports.com/airports/SBCF/
+COR,SACO,科尔多瓦 COR机场,Ingeniero Aeronáutico Ambrosio L.V. Taravella International Airport,科尔多瓦,Cordoba,AR,-31.312346,-64.208329,America/Cordoba,https://ourairports.com/airports/SACO/
+CPV,SBKG,Presidente João Suassuna Airport,Presidente João Suassuna Airport,Campina Grande,Campina Grande,BR,-7.269662,-35.896057,America/Fortaleza,https://ourairports.com/airports/SBKG/
+CWB,SBCT,库里蒂巴 CWB机场,Curitiba-Afonso Pena International Airport,库里蒂巴,Curitiba,BR,-25.5285,-49.1758,America/Sao_Paulo,https://ourairports.com/airports/SBCT/
+CXJ,SBCX,Hugo Cantergiani Regional Airport,Hugo Cantergiani Regional Airport,Caxias Do Sul,Caxias Do Sul,BR,-29.197183,-51.187647,America/Sao_Paulo,https://ourairports.com/airports/SBCX/
+CZS,SBCZ,Cruzeiro do Sul Airport,Cruzeiro do Sul Airport,Cruzeiro Do Sul,Cruzeiro Do Sul,BR,-7.59991,-72.769501,America/Rio_Branco,https://ourairports.com/airports/SBCZ/
+DFW,KDFW,达拉斯 DFW机场,Dallas Fort Worth International Airport,达拉斯,Dallas-Fort Worth,US,32.896801,-97.038002,America/Chicago,https://ourairports.com/airports/KDFW/
+DOH,OTHH,多哈 DOH机场,Hamad International Airport,多哈,Doha,QA,25.273056,51.608056,Asia/Qatar,https://ourairports.com/airports/OTHH/
+DOU,SBDO,Dourados Airport,Dourados Airport,Dourados,Dourados,BR,-22.2019,-54.926601,America/Campo_Grande,https://ourairports.com/airports/SBDO/
+EEA,SNCP,Planalto Serrano Regional Airport,Planalto Serrano Regional Airport,Correia Pinto,Correia Pinto,BR,-27.634128,-50.358253,America/Sao_Paulo,https://ourairports.com/airports/SNCP/
+EWR,KEWR,纽瓦克 EWR机场,Newark Liberty International Airport,纽瓦克,Newark,US,40.6894,-74.170545,America/New_York,https://ourairports.com/airports/KEWR/
+EZE,SAEZ,布宜诺斯艾利斯 EZE机场,Ezeiza International Airport - Ministro Pistarini,布宜诺斯艾利斯,Buenos Aires (Ezeiza),AR,-34.8222,-58.5358,America/Buenos_Aires,https://ourairports.com/airports/SAEZ/
+FEN,SBFN,费尔南多迪诺罗尼亚 FEN机场,Fernando de Noronha Airport,费尔南多迪诺罗尼亚,Fernando de Noronha,BR,-3.854534,-32.423017,America/Noronha,https://ourairports.com/airports/SBFN/
+FLL,KFLL,劳德代尔堡 FLL机场,Fort Lauderdale Hollywood International Airport,劳德代尔堡,Fort Lauderdale,US,26.072599,-80.152702,America/New_York,https://ourairports.com/airports/KFLL/
+FLN,SBFL,弗洛里亚诺波利斯 FLN机场,Hercílio Luz International Airport,弗洛里亚诺波利斯,Florianópolis,BR,-27.670279,-48.552502,America/Sao_Paulo,https://ourairports.com/airports/SBFL/
+FOR,SBFZ,福塔莱萨 FOR机场,Pinto Martins International Airport,福塔莱萨,Fortaleza,BR,-3.775833,-38.532222,America/Fortaleza,https://ourairports.com/airports/SBFZ/
+GEL,SBNM,Santo Ângelo Airport,Santo Ângelo Airport,Santo Ângelo,Santo Ângelo,BR,-28.282503,-54.169623,America/Sao_Paulo,https://ourairports.com/airports/SBNM/
+GIG,SBGL,里约热内卢 GIG机场,Rio de Janeiro Galeão – Tom Jobim International Airport,里约热内卢,Rio De Janeiro,BR,-22.809999,-43.250557,America/Sao_Paulo,https://ourairports.com/airports/SBGL/
+GNM,SNGI,Guanambi Airport,Guanambi Airport,Guanambi,Guanambi,BR,-14.2082,-42.746101,America/Bahia,https://ourairports.com/airports/SNGI/
+GRU,SBGR,圣保罗 GRU机场,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,圣保罗,São Paulo,BR,-23.431274,-46.469954,America/Sao_Paulo,https://ourairports.com/airports/SBGR/
+GVR,SBGV,Coronel Altino Machado Airport,Coronel Altino Machado Airport,Governador Valadares,Governador Valadares,BR,-18.895882,-41.982869,America/Sao_Paulo,https://ourairports.com/airports/SBGV/
+GYN,SBGO,戈亚尼亚 GYN机场,Santa Genoveva International Airport,戈亚尼亚,Goiânia,BR,-16.632,-49.220699,America/Sao_Paulo,https://ourairports.com/airports/SBGO/
+IGU,SBFI,伊瓜苏 IGU机场,Cataratas International Airport,伊瓜苏,Foz do Iguaçu,BR,-25.594167,-54.489444,America/Sao_Paulo,https://ourairports.com/airports/SBFI/
+IMP,SBIZ,Prefeito Renato Moreira Airport,Prefeito Renato Moreira Airport,Imperatriz,Imperatriz,BR,-5.53129,-47.459999,America/Fortaleza,https://ourairports.com/airports/SBIZ/
+IOS,SBIL,Bahia - Jorge Amado Airport,Bahia - Jorge Amado Airport,Ilhéus,Ilhéus,BR,-14.815929,-39.033458,America/Bahia,https://ourairports.com/airports/SBIL/
+IPN,SBIP,Usiminas Airport,Usiminas Airport,Ipatinga,Ipatinga,BR,-19.470699,-42.487598,America/Sao_Paulo,https://ourairports.com/airports/SBIP/
+ITB,SBIH,Itaituba Airport,Itaituba Airport,Itaituba,Itaituba,BR,-4.242131,-56.000651,America/Belem,https://ourairports.com/airports/SBIH/
+IZA,SBZM,Presidente Itamar Franco Airport,Presidente Itamar Franco Airport,Juiz de Fora,Juiz de Fora,BR,-21.513086,-43.173069,America/Sao_Paulo,https://ourairports.com/airports/SBZM/
+JDO,SBJU,Orlando Bezerra de Menezes Airport,Orlando Bezerra de Menezes Airport,Juazeiro do Norte,Juazeiro do Norte,BR,-7.21932,-39.269096,America/Fortaleza,https://ourairports.com/airports/SBJU/
+JJD,SBJE,Comandante Ariston Pessoa Airport,Comandante Ariston Pessoa Airport,Cruz,Cruz,BR,-2.906425,-40.357338,America/Fortaleza,https://ourairports.com/airports/SBJE/
+JJG,SBJA,Humberto Ghizzo Bortoluzzi Regional Airport,Humberto Ghizzo Bortoluzzi Regional Airport,Jaguaruna,Jaguaruna,BR,-28.6753,-49.0596,America/Sao_Paulo,https://ourairports.com/airports/SBJA/
+JNB,FAOR,约翰内斯堡 JNB机场,O.R. Tambo International Airport,约翰内斯堡,Johannesburg,ZA,-26.140081,28.246801,Africa/Johannesburg,https://ourairports.com/airports/FAOR/
+JOI,SBJV,Lauro Carneiro de Loyola Airport,Lauro Carneiro de Loyola Airport,Joinville,Joinville,BR,-26.224501,-48.797401,America/Sao_Paulo,https://ourairports.com/airports/SBJV/
+JPA,SBJP,若昂佩索阿 JPA机场,Presidente Castro Pinto International Airport,若昂佩索阿,João Pessoa,BR,-7.148691,-34.950554,America/Fortaleza,https://ourairports.com/airports/SBJP/
+JPR,SBJI,Ji-Paraná Airport,Ji-Paraná Airport,Ji-Paraná,Ji-Paraná,BR,-10.870743,-61.846675,America/Porto_Velho,https://ourairports.com/airports/SBJI/
+JTC,SBAE,Bauru/Arealva–Moussa Nakhal Tobias State Airport,Bauru/Arealva–Moussa Nakhal Tobias State Airport,Bauru,Bauru,BR,-22.160755,-49.070325,America/Sao_Paulo,https://ourairports.com/airports/SBAE/
+LDB,SBLO,Governor José Richa Airport,Governor José Richa Airport,Londrina,Londrina,BR,-23.334375,-51.128365,America/Sao_Paulo,https://ourairports.com/airports/SBLO/
+LEC,SBLE,Coronel Horácio de Mattos Airport,Coronel Horácio de Mattos Airport,Lençóis,Lençóis,BR,-12.4823,-41.277,America/Bahia,https://ourairports.com/airports/SBLE/
+LIM,SPJC,利马 LIM机场,Jorge Chávez International Airport,利马,Lima,PE,-12.0219,-77.114305,America/Lima,https://ourairports.com/airports/SPIM/
+MAB,SBMA,João Correa da Rocha Airport,João Correa da Rocha Airport,Marabá,Marabá,BR,-5.36859,-49.138,America/Belem,https://ourairports.com/airports/SBMA/
+MAO,SBEG,马瑙斯 MAO机场,Eduardo Gomes International Airport,马瑙斯,Manaus,BR,-3.03861,-60.049702,America/Manaus,https://ourairports.com/airports/SBEG/
+MCO,KMCO,奥兰多 MCO机场,Orlando International Airport,奥兰多,Orlando,US,28.429399490356445,-81.30899810791016,America/New_York,https://ourairports.com/airports/KMCO/
+MCP,SBMQ,马卡帕 MCP机场,Macapá - Alberto Alcolumbre International Airport,马卡帕,Macapá,BR,0.050664,-51.072201,America/Belem,https://ourairports.com/airports/SBMQ/
+MCZ,SBMO,马塞约 MCZ机场,Zumbi dos Palmares International Airport,马塞约,Maceió,BR,-9.512559,-35.791839,America/Maceio,https://ourairports.com/airports/SBMO/
+MDZ,SAME,门多萨 MDZ机场,Governor Francisco Gabrielli International Airport,门多萨,Mendoza,AR,-32.831699,-68.7929,America/Mendoza,https://ourairports.com/airports/SAME/
+MGF,SBMG,Regional de Maringá - Sílvio Name Júnior Airport,Regional de Maringá - Sílvio Name Júnior Airport,Maringá,Maringá,BR,-23.47606,-52.016187,America/Sao_Paulo,https://ourairports.com/airports/SBMG/
+MIA,KMIA,迈阿密 MIA机场,Miami International Airport,迈阿密,Miami,US,25.796011,-80.289751,America/New_York,https://ourairports.com/airports/KMIA/
+MII,SBML,Frank Miloye Milenkowichi–Marília State Airport,Frank Miloye Milenkowichi–Marília State Airport,Marília,Marília,BR,-22.196899,-49.926485,America/Sao_Paulo,https://ourairports.com/airports/SBML/
+MOC,SBMK,Mário Ribeiro Airport,Mário Ribeiro Airport,Montes Claros,Montes Claros,BR,-16.706919,-43.818901,America/Sao_Paulo,https://ourairports.com/airports/SBMK/
+MVD,SUMU,蒙得维的亚 MVD机场,Carrasco General Cesáreo L. Berisso International Airport,蒙得维的亚,Ciudad de la Costa,UY,-34.835647,-56.026497,America/Montevideo,https://ourairports.com/airports/SUMU/
+MVF,SBMS,Dix-Sept Rosado Airport,Dix-Sept Rosado Airport,Mossoró,Mossoró,BR,-5.20192,-37.3643,America/Fortaleza,https://ourairports.com/airports/SBMS/
+NAT,SBSG,纳塔尔 NAT机场,Rio Grande do Norte/São Gonçalo do Amarante–Governador Aluízio Alves International Airport,纳塔尔,Natal,BR,-5.769822,-35.36661,America/Fortaleza,https://ourairports.com/airports/SBSG/
+NBJ,FNBJ,罗安达 NBJ机场,Dr. Antonio Agostinho Neto International Airport,罗安达,Luanda (Ícolo e Bengo),AO,-9.050734,13.499078,Africa/Luanda,https://ourairports.com/airports/FNBJ/
+NVT,SBNF,Ministro Victor Konder International Airport,Ministro Victor Konder International Airport,Navegantes,Navegantes,BR,-26.879431,-48.650979,America/Sao_Paulo,https://ourairports.com/airports/SBNF/
+OAL,SSKW,Cacoal Airport,Cacoal Airport,Cacoal,Cacoal,BR,-11.496,-61.4508,America/Porto_Velho,https://ourairports.com/airports/SSKW/
+OPS,SBSI,Presidente João Batista Figueiredo Airport,Presidente João Batista Figueiredo Airport,Sinop,Sinop,BR,-11.885001,-55.586109,America/Cuiaba,https://ourairports.com/airports/SBSI/
+PBM,SMJP,帕拉马里博 PBM机场,Johan Adolf Pengel International Airport,帕拉马里博,Paramaribo,SR,5.45283,-55.187801,America/Paramaribo,https://ourairports.com/airports/SMJP/
+PDP,SULS,埃斯特角城 PDP机场,Capitan Corbeta CA Curbelo International Airport,埃斯特角城,Punta del Este,UY,-34.855099,-55.094299,America/Montevideo,https://ourairports.com/airports/SULS/
+PET,SBPK,João Simões Lopes Neto International Airport,João Simões Lopes Neto International Airport,Pelotas,Pelotas,BR,-31.717189,-52.327796,America/Sao_Paulo,https://ourairports.com/airports/SBPK/
+PFB,SBPF,Lauro Kurtz Airport,Lauro Kurtz Airport,Passo Fundo,Passo Fundo,BR,-28.243976,-52.32777,America/Sao_Paulo,https://ourairports.com/airports/SBPF/
+PHB,SBPB,Parnaíba - Prefeito Doutor João Silva Filho International Airport,Parnaíba - Prefeito Doutor João Silva Filho International Airport,Parnaíba,Parnaíba,BR,-2.89375,-41.731998,America/Fortaleza,https://ourairports.com/airports/SBPB/
+PIN,SWPI,Parintins Airport,Parintins Airport,Parintins,Parintins,BR,-2.673521,-56.777625,America/Manaus,https://ourairports.com/airports/SWPI/
+PMG,SBPP,Ponta Porã Airport,Ponta Porã Airport,Ponta Porã,Ponta Porã,BR,-22.549601,-55.702599,America/Campo_Grande,https://ourairports.com/airports/SBPP/
+PMW,SBPJ,帕尔马斯 PMW机场,Brigadeiro Lysias Rodrigues Airport,帕尔马斯,Palmas,BR,-10.2915,-48.356998,America/Araguaina,https://ourairports.com/airports/SBPJ/
+PNZ,SBPL,Senador Nilo Coelho Airport,Senador Nilo Coelho Airport,Petrolina,Petrolina,BR,-9.362422,-40.569098,America/Recife,https://ourairports.com/airports/SBPL/
+POA,SBPA,阿雷格里港 POA机场,Porto Alegre-Salgado Filho International Airport,阿雷格里港,Porto Alegre,BR,-29.993984,-51.167482,America/Sao_Paulo,https://ourairports.com/airports/SBPA/
+PPB,SBDN,Presidente Prudente Airport,Presidente Prudente Airport,Presidente Prudente,Presidente Prudente,BR,-22.1751,-51.424599,America/Sao_Paulo,https://ourairports.com/airports/SBDN/
+PTO,SBPO,Juvenal Loureiro Cardoso Airport,Juvenal Loureiro Cardoso Airport,Pato Branco,Pato Branco,BR,-26.217184,-52.694463,America/Sao_Paulo,https://ourairports.com/airports/SBPO/
+PTY,MPTO,巴拿马城 PTY机场,Tocumen International Airport,巴拿马城,Tocumen,PA,9.07136,-79.383499,America/Panama,https://ourairports.com/airports/MPTO/
+PUJ,MDPC,蓬塔卡纳 PUJ机场,Punta Cana International Airport,蓬塔卡纳,Punta Cana,DO,18.567093,-68.364558,America/Santo_Domingo,https://ourairports.com/airports/MDPC/
+PVH,SBPV,波多韦柳 PVH机场,Governador Jorge Teixeira de Oliveira International Airport,波多韦柳,Porto Velho,BR,-8.708491,-63.902338,America/Porto_Velho,https://ourairports.com/airports/SBPV/
+RAO,SBRP,Leite Lopes Airport,Leite Lopes Airport,Ribeirão Preto,Ribeirão Preto,BR,-21.134314,-47.774053,America/Sao_Paulo,https://ourairports.com/airports/SBRP/
+RBR,SBRB,里奥布朗库 RBR机场,Rio Branco-Plácido de Castro International Airport,里奥布朗库,Rio Branco,BR,-9.869031,-67.893984,America/Rio_Branco,https://ourairports.com/airports/SBRB/
+REC,SBRF,累西腓 REC机场,Recife/Guararapes - Gilberto Freyre International Airport,累西腓,Recife,BR,-8.12747,-34.922961,America/Recife,https://ourairports.com/airports/SBRF/
+RIA,SBSM,Santa Maria Airport,Santa Maria Airport,Santa Maria,Santa Maria,BR,-29.711399,-53.688202,America/Sao_Paulo,https://ourairports.com/airports/SBSM/
+ROO,SBRD,Maestro Marinho Franco Airport,Maestro Marinho Franco Airport,Rondonópolis,Rondonópolis,BR,-16.584292,-54.724803,America/Cuiaba,https://ourairports.com/airports/SBRD/
+ROS,SAAR,罗萨里奥 ROS机场,Rosario Islas Malvinas International Airport,罗萨里奥,Rosario,AR,-32.9036,-60.785,America/Cordoba,https://ourairports.com/airports/SAAR/
+SCL,SCEL,圣地亚哥 SCL机场,Comodoro Arturo Merino Benítez International Airport,圣地亚哥,Santiago,CL,-33.393001556396484,-70.78579711914062,America/Santiago,https://ourairports.com/airports/SCEL/
+SDQ,MDSD,圣多明各 SDQ机场,Las Américas International Airport,圣多明各,Santo Domingo,DO,18.42970085144,-69.668899536133,America/Santo_Domingo,https://ourairports.com/airports/MDSD/
+SDU,SBRJ,里约热内卢 SDU机场,Santos Dumont Airport,里约热内卢,Rio de Janeiro,BR,-22.910397,-43.16282,America/Sao_Paulo,https://ourairports.com/airports/SBRJ/
+SJK,SBSJ,Professor Urbano Ernesto Stumpf Airport,Professor Urbano Ernesto Stumpf Airport,São José Dos Campos,São José Dos Campos,BR,-23.2292,-45.8615,America/Sao_Paulo,https://ourairports.com/airports/SBSJ/
+SJL,SBUA,São Gabriel da Cachoeira Airport,São Gabriel da Cachoeira Airport,São Gabriel da Cachoeira,São Gabriel da Cachoeira,BR,-0.14835,-66.9855,America/Manaus,https://ourairports.com/airports/SBUA/
+SJP,SBSR,Prof. Eribelto Manoel Reino State Airport,Prof. Eribelto Manoel Reino State Airport,São José do Rio Preto,São José do Rio Preto,BR,-20.817113,-49.406963,America/Sao_Paulo,https://ourairports.com/airports/SBSR/
+SLZ,SBSL,圣路易斯 SLZ机场,Marechal Cunha Machado International Airport,圣路易斯,São Luís,BR,-2.586386,-44.235008,America/Fortaleza,https://ourairports.com/airports/SBSL/
+SMT,SBSO,Adolino Bedin Regional Airport,Adolino Bedin Regional Airport,Sorriso,Sorriso,BR,-12.479177,-55.672341,America/Cuiaba,https://ourairports.com/airports/SBSO/
+SSA,SBSV,萨尔瓦多 SSA机场,Deputado Luiz Eduardo Magalhães International Airport,萨尔瓦多,Salvador,BR,-12.908611,-38.322498,America/Bahia,https://ourairports.com/airports/SBSV/
+STM,SBSN,圣塔伦 STM机场,Santarém - Maestro Wilson Fonseca International Airport,圣塔伦,Santarém,BR,-2.422423,-54.79306,America/Belem,https://ourairports.com/airports/SBSN/
+TBT,SBTT,塔巴廷加 TBT机场,Tabatinga International Airport,塔巴廷加,Tabatinga,BR,-4.25567,-69.935799,America/Eirunepe,https://ourairports.com/airports/SBTT/
+TFF,SBTF,Tefé Airport,Tefé Airport,Tefé,Tefé,BR,-3.38294,-64.724098,America/Manaus,https://ourairports.com/airports/SBTF/
+THE,SBTE,特雷西纳 THE机场,Senador Petrônio Portela Airport,特雷西纳,Teresina,BR,-5.06025,-42.823712,America/Fortaleza,https://ourairports.com/airports/SBTE/
+TMT,SBTB,Trombetas Airport,Trombetas Airport,Oriximiná,Oriximiná,BR,-1.4896,-56.396801,America/Belem,https://ourairports.com/airports/SBTB/
+UBA,SBUR,Mário de Almeida Franco Airport,Mário de Almeida Franco Airport,Uberaba,Uberaba,BR,-19.765036,-47.964805,America/Sao_Paulo,https://ourairports.com/airports/SBUR/
+UDI,SBUL,Ten. Cel. Aviador César Bombonato Airport,Ten. Cel. Aviador César Bombonato Airport,Uberlândia,Uberlândia,BR,-18.883579,-48.225936,America/Sao_Paulo,https://ourairports.com/airports/SBUL/
+UNA,SBTC,Una-Comandatuba Airport,Una-Comandatuba Airport,Una,Una,BR,-15.354358,-38.998729,America/Bahia,https://ourairports.com/airports/SBTC/
+URG,SBUG,Rubem Berta Airport,Rubem Berta Airport,Uruguaiana,Uruguaiana,BR,-29.7822,-57.0382,America/Sao_Paulo,https://ourairports.com/airports/SBUG/
+VCP,SBKP,坎皮纳斯 VCP机场,Viracopos International Airport,坎皮纳斯,Campinas,BR,-23.007404,-47.134502,America/Sao_Paulo,https://ourairports.com/airports/SBKP/
+VDC,SBVC,Glauber de Andrade Rocha Airport,Glauber de Andrade Rocha Airport,Vitória da Conquista,Vitória da Conquista,BR,-14.907885,-40.914804,America/Bahia,https://ourairports.com/airports/BR-0569/
+VIX,SBVT,维多利亚 VIX机场,Eurico de Aguiar Salles International Airport,维多利亚,Vitória,BR,-20.258,-40.285,America/Sao_Paulo,https://ourairports.com/airports/SBVT/
+VVI,SLVR,圣克鲁斯 VVI机场,Viru Viru International Airport,圣克鲁斯,Santa Cruz,BO,-17.6448,-63.135399,America/La_Paz,https://ourairports.com/airports/SLVR/
+XAP,SBCH,Serafin Enoss Bertaso Airport,Serafin Enoss Bertaso Airport,Chapecó,Chapecó,BR,-27.134199,-52.656601,America/Sao_Paulo,https://ourairports.com/airports/SBCH/
+YUL,CYUL,蒙特利尔 YUL机场,Montreal / Pierre Elliott Trudeau International Airport,蒙特利尔,Montréal,CA,45.467837,-73.742294,America/Toronto,https://ourairports.com/airports/CYUL/
+YYZ,CYYZ,多伦多 YYZ机场,Toronto Pearson International Airport,多伦多,Toronto,CA,43.675935,-79.629421,America/Toronto,https://ourairports.com/airports/CYYZ/
+GVA,LSGG,日内瓦 GVA机场,Geneva International Airport,日内瓦,Geneva,CH,46.238098,6.10895,Europe/Zurich,https://ourairports.com/airports/LSGG/
+KAA,FLKS,卡萨马 KAA机场,Kasama Airport,卡萨马,Kasama,ZM,-10.210169,31.123045,Africa/Lusaka,https://ourairports.com/airports/FLKS/
+LGW,EGKK,伦敦 LGW机场,London Gatwick Airport,伦敦,London,GB,51.148744,-0.185739,Europe/London,https://ourairports.com/airports/EGKK/
+LUN,FLKK,卢萨卡 LUN机场,Kenneth Kaunda International Airport,卢萨卡,Lusaka,ZM,-15.330833,28.452722,Africa/Lusaka,https://ourairports.com/airports/FLLS/
+LVI,FLHN,利文斯通 LVI机场,Harry Mwanga Nkumbula International Airport,利文斯通,Livingstone,ZM,-17.821524,25.819642,Africa/Lusaka,https://ourairports.com/airports/FLLI/
+MAA,VOMM,金奈 MAA机场,Chennai International Airport,金奈,Chennai,IN,12.990005,80.169296,Asia/Kolkata,https://ourairports.com/airports/VOMM/
+MFU,FLMF,姆富韦 MFU机场,Mfuwe International Airport,姆富韦,Mfuwe,ZM,-13.2589,31.9366,Africa/Lusaka,https://ourairports.com/airports/FLMF/
+MNS,FLMA,曼萨 MNS机场,Mansa Airport,曼萨,Mansa,ZM,-11.137,28.872601,Africa/Lusaka,https://ourairports.com/airports/FLMA/
+MRU,FIMP,毛里求斯 MRU机场,Sir Seewoosagur Ramgoolam International Airport,毛里求斯,Plaine Magnien,MU,-20.430201,57.683601,Indian/Mauritius,https://ourairports.com/airports/FIMP/
+NBO,HKJK,内罗毕 NBO机场,Jomo Kenyatta International Airport,内罗毕,Nairobi,KE,-1.318886,36.928233,Africa/Nairobi,https://ourairports.com/airports/HKJK/
+NLA,FLSK,恩多拉 NLA机场,Simon Mwansa Kapwepwe International Airport,恩多拉,Ndola,ZM,-12.96513,28.515624,Africa/Lusaka,https://ourairports.com/airports/FLSK/
+RRG,FIMR,罗德里格斯岛 RRG机场,Sir Charles Gaetan Duval Airport,罗德里格斯岛,Port Mathurin,MU,-19.757668,63.36103,Indian/Mauritius,https://ourairports.com/airports/FIMR/
+RUN,FMEE,圣但尼 RUN机场,Roland Garros Airport,圣但尼,Sainte-Marie,RE,-20.890087,55.518894,Indian/Reunion,https://ourairports.com/airports/FMEE/
+SLI,FLSW,索卢韦齐 SLI机场,Solwesi Airport,索卢韦齐,Solwesi,ZM,-12.173700332641602,26.365100860595703,Africa/Lusaka,https://ourairports.com/airports/FLSW/
+TNR,FMMI,塔那那利佛 TNR机场,Ivato International Airport,塔那那利佛,Antananarivo,MG,-18.7969,47.478802,Indian/Antananarivo,https://ourairports.com/airports/FMMI/
+UMB,,卡伦比拉 UMB机场,Kalumbila Airport,卡伦比拉,Kalumbila,ZM,-12.25358,25.44432,Africa/Lusaka,https://ourairports.com/airports/ZM-0045/
+WDH,FYWH,温得和克 WDH机场,Hosea Kutako International Airport,温得和克,Windhoek,NA,-22.4799,17.4709,Africa/Windhoek,https://ourairports.com/airports/FYWH/
+ZNZ,HTZA,桑给巴尔 ZNZ机场,Abeid Amani Karume International Airport,桑给巴尔,Zanzibar,TZ,-6.22202,39.224899,Africa/Dar_es_Salaam,https://ourairports.com/airports/HTZA/
+NGO,RJGG,名古屋 NGO机场,Chubu Centrair International Airport,名古屋,Tokoname,JP,34.858398,136.804993,Asia/Tokyo,https://ourairports.com/airports/RJGG/
+FKS,RJSF,福岛 FKS机场,Fukushima Airport,福岛,Sukagawa,JP,37.22740173339844,140.43099975585938,Asia/Tokyo,https://ourairports.com/airports/RJSF/
+HIJ,RJOA,广岛 HIJ机场,Hiroshima Airport,广岛,Hiroshima,JP,34.4361,132.919006,Asia/Tokyo,https://ourairports.com/airports/RJOA/
+MYJ,RJOM,松山 MYJ机场,Matsuyama Airport,松山,Matsuyama,JP,33.826893,132.700114,Asia/Tokyo,https://ourairports.com/airports/RJOM/
+CTS,RJCC,札幌 CTS机场,New Chitose Airport,札幌,Sapporo,JP,42.774753,141.690414,Asia/Tokyo,https://ourairports.com/airports/RJCC/
+KIJ,RJSN,新潟 KIJ机场,Niigata Airport,新潟,Niigata,JP,37.954166,139.112189,Asia/Tokyo,https://ourairports.com/airports/RJSN/
+OIT,RJFO,大分 OIT机场,Oita Airport,大分,Oita,JP,33.479400634799994,131.736999512,Asia/Tokyo,https://ourairports.com/airports/RJFO/
+ITM,RJOO,大阪 ITM机场,Osaka Itami International Airport,大阪,Osaka,JP,34.780853,135.440829,Asia/Tokyo,https://ourairports.com/airports/RJOO/
+SDJ,RJSS,仙台 SDJ机场,Sendai Airport,仙台,Natori,JP,38.139702,140.917007,Asia/Tokyo,https://ourairports.com/airports/RJSS/
+GAU,VEGT,古瓦哈提 GAU机场,Lokpriya Gopinath Bordoloi International Airport,古瓦哈提,Guwahati,IN,26.106654,91.585226,Asia/Kolkata,https://ourairports.com/airports/VEGT/
+PBH,VQPR,帕罗 PBH机场,Paro International Airport,帕罗,Paro,BT,27.4032,89.424599,Asia/Thimphu,https://ourairports.com/airports/VQPR/
+DAC,VGHS,达卡 DAC机场,Hazrat Shahjalal International Airport,达卡,Dhaka,BD,23.843347,90.397783,Asia/Dhaka,https://ourairports.com/airports/VGHS/
+IXB,VEBD,巴格多格拉 IXB机场,Bagdogra Airport,巴格多格拉,Siliguri,IN,26.6812,88.328598,Asia/Kolkata,https://ourairports.com/airports/VEBD/
+KTM,VNKT,加德满都 KTM机场,Tribhuvan International Airport,加德满都,Kathmandu,NP,27.6966,85.3591,Asia/Kathmandu,https://ourairports.com/airports/VNKT/
+CCU,VECC,加尔各答 CCU机场,Netaji Subhash Chandra Bose International Airport,加尔各答,Kolkata,IN,22.654012,88.44765,Asia/Kolkata,https://ourairports.com/airports/VECC/
+YON,VQTY,永布拉 YON机场,Yongphulla Airport,永布拉,Yongphulla,BT,27.25627,91.514633,Asia/Thimphu,https://ourairports.com/airports/VQTY/
+BUT,VQBT,布姆唐 BUT机场,Bathpalathang Airport,布姆唐,Jakar,BT,27.5622,90.7471,Asia/Thimphu,https://ourairports.com/airports/VQBT/
+GAY,VEGY,伽耶 GAY机场,Gaya Airport,伽耶,Gaya,IN,24.744301,84.951202,Asia/Kolkata,https://ourairports.com/airports/VEGY/
+NGS,RJFU,长崎 NGS机场,Nagasaki Airport,长崎,Nagasaki,JP,32.916901,129.914001,Asia/Tokyo,https://ourairports.com/airports/RJFU/
+HSG,RJFS,佐贺 HSG机场,Kyushu Saga International Airport,佐贺,Saga,JP,33.1497,130.302002,Asia/Tokyo,https://ourairports.com/airports/RJFS/
+HAC,RJTH,八丈岛 HAC机场,Hachijojima Airport,八丈岛,Hachijojima,JP,33.114843,139.785645,Asia/Tokyo,https://ourairports.com/airports/RJTH/
+HKD,RJCH,函馆 HKD机场,Hakodate Airport,函馆,Hakodate,JP,41.77,140.822006,Asia/Tokyo,https://ourairports.com/airports/RJCH/
+UKB,RJBE,神户 UKB机场,Kobe Airport,神户,Kobe,JP,34.632801,135.223999,Asia/Tokyo,https://ourairports.com/airports/RJBE/
+ONJ,RJSR,大馆能代 ONJ机场,Odate Noshiro Airport,大馆能代,Kitaakita,JP,40.191898,140.371002,Asia/Tokyo,https://ourairports.com/airports/RJSR/
+MMY,ROMY,宫古岛 MMY机场,Miyako Airport,宫古岛,Miyakojima,JP,24.782801,125.294998,Asia/Tokyo,https://ourairports.com/airports/ROMY/
+KMI,RJFM,宫崎 KMI机场,Miyazaki Airport,宫崎,Miyazaki,JP,31.877199,131.449005,Asia/Tokyo,https://ourairports.com/airports/RJFM/
+TOY,RJNT,富山 TOY机场,Toyama Kitokito Airport,富山,Toyama,JP,36.648416,137.187359,Asia/Tokyo,https://ourairports.com/airports/RJNT/
+KMQ,RJNK,小松 KMQ机场,Komatsu Airport / JASDF Komatsu Air Base,小松,Kanazawa,JP,36.393407,136.406895,Asia/Tokyo,https://ourairports.com/airports/RJNK/
+UBJ,RJDC,山口宇部 UBJ机场,Yamaguchi Ube Airport,山口宇部,Ube,JP,33.93,131.279007,Asia/Tokyo,https://ourairports.com/airports/RJDC/
+OKJ,RJOB,冈山 OKJ机场,Okayama Momotaro Airport,冈山,Okayama,JP,34.756901,133.854996,Asia/Tokyo,https://ourairports.com/airports/RJOB/
+IWK,RJOI,岩国 IWK机场,Iwakuni Kintaikyo Airport,岩国,Iwakuni,JP,34.146333,132.247238,Asia/Tokyo,https://ourairports.com/airports/RJOI/
+SYO,RJSY,庄内 SYO机场,Shonai Airport,庄内,Shonai,JP,38.812199,139.787003,Asia/Tokyo,https://ourairports.com/airports/RJSY/
+TKS,RJOS,德岛 TKS机场,Tokushima Awaodori Airport / JMSDF Tokushima Air Base,德岛,Tokushima,JP,34.132559,134.607816,Asia/Tokyo,https://ourairports.com/airports/RJOS/
+OKA,ROAH,那霸 OKA机场,Naha International Airport,那霸,Naha,JP,26.192437,127.639804,Asia/Tokyo,https://ourairports.com/airports/ROAH/
+KMJ,RJFT,熊本 KMJ机场,Kumamoto Airport,熊本,Kumamoto,JP,32.837299,130.854996,Asia/Tokyo,https://ourairports.com/airports/RJFT/
+ISG,ROIG,石垣岛 ISG机场,New Ishigaki Airport,石垣岛,Ishigaki,JP,24.396389,124.245,Asia/Tokyo,https://ourairports.com/airports/ROIG/
+AXT,RJSK,秋田 AXT机场,Akita Airport,秋田,Akita,JP,39.615601,140.218994,Asia/Tokyo,https://ourairports.com/airports/RJSK/
+YGJ,RJOH,米子 YGJ机场,Yonago Kitaro Airport / JASDF Miho Air Base,米子,Yonago,JP,35.492199,133.235992,Asia/Tokyo,https://ourairports.com/airports/RJOH/
+NTQ,RJNW,能登 NTQ机场,Noto Satoyama Airport,能登,Wajima,JP,37.293098,136.962006,Asia/Tokyo,https://ourairports.com/airports/RJNW/
+IWJ,RJOW,萩石见 IWJ机场,Iwami Airport,萩石见,Masuda,JP,34.676399231,131.789993286,Asia/Tokyo,https://ourairports.com/airports/RJOW/
+KUH,RJCK,钏路 KUH机场,Kushiro Airport,钏路,Kushiro,JP,43.041,144.192993,Asia/Tokyo,https://ourairports.com/airports/RJCK/
+KCZ,RJOK,高知 KCZ机场,Kochi Ryoma Airport,高知,Nankoku,JP,33.545217,133.670166,Asia/Tokyo,https://ourairports.com/airports/RJOK/
+TTJ,RJOR,鸟取 TTJ机场,Tottori Sand Dunes Conan Airport,鸟取,Tottori,JP,35.530058,134.165023,Asia/Tokyo,https://ourairports.com/airports/RJOR/
+KOJ,RJFK,鹿儿岛 KOJ机场,Kagoshima Airport,鹿儿岛,Kagoshima,JP,31.8034,130.718994,Asia/Tokyo,https://ourairports.com/airports/RJFK/
+LNZ,LOWL,林茨机场,Linz-Hörsching Airport,林茨,Linz,AT,48.235362,14.188128,Europe/Vienna,https://ourairports.com/airports/LOWL/
+ALC,LEAL,阿利坎特机场,Alicante-Elche Miguel Hernández Airport,阿利坎特,Alicante,ES,38.2822,-0.558156,Europe/Madrid,https://ourairports.com/airports/LEAL/
+ABE,KABE,Lehigh Valley International Airport,Lehigh Valley International Airport,Allentown/Bethlehem,Allentown/Bethlehem,US,40.651773,-75.442797,America/New_York,https://ourairports.com/airports/KABE/
+ABQ,KABQ,阿尔伯克基 ABQ机场,Albuquerque International Sunport,阿尔伯克基,Albuquerque,US,35.039976,-106.608925,America/Denver,https://ourairports.com/airports/KABQ/
+ACC,DGAA,阿克拉 ACC机场,Kotoka International Airport,阿克拉,Accra,GH,5.605189800262451,-0.16678600013256073,Africa/Accra,https://ourairports.com/airports/DGAA/
+AGS,KAGS,Augusta Regional At Bush Field,Augusta Regional At Bush Field,Augusta,Augusta,US,33.3699,-81.9645,America/New_York,https://ourairports.com/airports/KAGS/
+AKL,NZAA,奥克兰 AKL机场,Auckland International Airport,奥克兰,Auckland,NZ,-37.01199,174.786331,Pacific/Auckland,https://ourairports.com/airports/NZAA/
+ALB,KALB,Albany International Airport,Albany International Airport,Albany,Albany,US,42.748299,-73.801697,America/New_York,https://ourairports.com/airports/KALB/
+ANC,PANC,安克雷奇 ANC机场,Ted Stevens Anchorage International Airport,安克雷奇,Anchorage,US,61.179004,-149.992561,America/Anchorage,https://ourairports.com/airports/PANC/
+ANU,TAPA,V. C. Bird International Airport,V. C. Bird International Airport,Osbourn,Osbourn,AG,17.1367,-61.792702,America/Antigua,https://ourairports.com/airports/TAPA/
+ATW,KATW,Appleton International Airport,Appleton International Airport,Appleton,Appleton,US,44.258515,-88.519,America/Chicago,https://ourairports.com/airports/KATW/
+AUA,TNCA,阿鲁巴 AUA机场,Queen Beatrix International Airport,阿鲁巴,Oranjestad,AW,12.501056,-70.014281,America/Aruba,https://ourairports.com/airports/TNCA/
+AUS,KAUS,奥斯汀 AUS机场,Austin Bergstrom International Airport,奥斯汀,Austin,US,30.197535,-97.662015,America/Chicago,https://ourairports.com/airports/KAUS/
+AVL,KAVL,Asheville Regional Airport,Asheville Regional Airport,Asheville,Asheville,US,35.435488,-82.541853,America/New_York,https://ourairports.com/airports/KAVL/
+BDA,TXKF,百慕大 BDA机场,L.F. Wade International Airport,百慕大,Hamilton,BM,32.363802,-64.67824,Atlantic/Bermuda,https://ourairports.com/airports/TXKF/
+BDL,KBDL,哈特福德 BDL机场,Bradley International Airport,哈特福德,Hartford,US,41.938555,-72.688016,America/New_York,https://ourairports.com/airports/KBDL/
+BGI,TBPB,Grantley Adams International Airport,Grantley Adams International Airport,Bridgetown,Bridgetown,BB,13.074667,-59.491034,America/Barbados,https://ourairports.com/airports/TBPB/
+BHM,KBHM,Birmingham-Shuttlesworth International Airport,Birmingham-Shuttlesworth International Airport,Birmingham,Birmingham,US,33.562877,-86.750712,America/Chicago,https://ourairports.com/airports/KBHM/
+BIL,KBIL,Billings Logan International Airport,Billings Logan International Airport,Billings,Billings,US,45.808932,-108.541242,America/Denver,https://ourairports.com/airports/KBIL/
+BIS,KBIS,Bismarck Municipal Airport,Bismarck Municipal Airport,Bismarck,Bismarck,US,46.772734,-100.746874,America/Chicago,https://ourairports.com/airports/KBIS/
+BNA,KBNA,纳什维尔 BNA机场,Nashville International Airport,纳什维尔,Nashville,US,36.1245,-86.6782,America/Chicago,https://ourairports.com/airports/KBNA/
+BOI,KBOI,博伊西 BOI机场,Boise Air Terminal/Gowen Field,博伊西,Boise,US,43.5644,-116.223,America/Denver,https://ourairports.com/airports/KBOI/
+BON,TNCB,Flamingo International Airport,Flamingo International Airport,Kralendijk,Kralendijk,BQ,12.131,-68.268501,America/Kralendijk,https://ourairports.com/airports/TNCB/
+BTR,KBTR,Baton Rouge Metropolitan Airport,Baton Rouge Metropolitan Airport,Baton Rouge,Baton Rouge,US,30.533199,-91.149597,America/Chicago,https://ourairports.com/airports/KBTR/
+BTV,KBTV,Patrick Leahy Burlington International Airport,Patrick Leahy Burlington International Airport,Burlington,Burlington,US,44.471901,-73.153297,America/New_York,https://ourairports.com/airports/KBTV/
+BUF,KBUF,布法罗 BUF机场,Buffalo Niagara International Airport,布法罗,Buffalo,US,42.940498,-78.732201,America/New_York,https://ourairports.com/airports/KBUF/
+BUR,KBUR,Hollywood Burbank/Bob Hope Airport,Hollywood Burbank/Bob Hope Airport,Burbank,Burbank,US,34.202834,-118.35805,America/Los_Angeles,https://ourairports.com/airports/KBUR/
+BWI,KBWI,巴尔的摩 BWI机场,Baltimore/Washington International Thurgood Marshall Airport,巴尔的摩,Baltimore,US,39.1754,-76.668297,America/New_York,https://ourairports.com/airports/KBWI/
+BZE,MZBZ,伯利兹城 BZE机场,Philip S. W. Goldson International Airport,伯利兹城,Belize City,BZ,17.539951,-88.303556,America/Belize,https://ourairports.com/airports/MZBZ/
+BZN,KBZN,Bozeman Yellowstone International Airport,Bozeman Yellowstone International Airport,Bozeman,Bozeman,US,45.778853,-111.153711,America/Denver,https://ourairports.com/airports/KBZN/
+CAE,KCAE,Columbia Metropolitan Airport,Columbia Metropolitan Airport,Columbia,Columbia,US,33.938172,-81.123022,America/New_York,https://ourairports.com/airports/KCAE/
+CHA,KCHA,Chattanooga Metropolitan Airport (Lovell Field),Chattanooga Metropolitan Airport (Lovell Field),Chattanooga,Chattanooga,US,35.035301,-85.203796,America/New_York,https://ourairports.com/airports/KCHA/
+CHO,KCHO,Charlottesville Albemarle Airport,Charlottesville Albemarle Airport,Charlottesville,Charlottesville,US,38.13859939575195,-78.4529037475586,America/New_York,https://ourairports.com/airports/KCHO/
+CHS,KCHS,查尔斯顿 CHS机场,Charleston International Airport,查尔斯顿,Charleston,US,32.896159,-80.038151,America/New_York,https://ourairports.com/airports/KCHS/
+CID,KCID,The Eastern Iowa Airport,The Eastern Iowa Airport,Cedar Rapids,Cedar Rapids,US,41.884701,-91.7108,America/Chicago,https://ourairports.com/airports/KCID/
+CLE,KCLE,克利夫兰 CLE机场,Cleveland Hopkins International Airport,克利夫兰,Cleveland,US,41.411701,-81.8498,America/New_York,https://ourairports.com/airports/KCLE/
+CLT,KCLT,夏洛特 CLT机场,Charlotte Douglas International Airport,夏洛特,Charlotte,US,35.2140007019043,-80.94309997558594,America/New_York,https://ourairports.com/airports/KCLT/
+CMH,KCMH,哥伦布 CMH机场,John Glenn Columbus International Airport,哥伦布,Columbus,US,39.998001,-82.891899,America/New_York,https://ourairports.com/airports/KCMH/
+COS,KCOS,City of Colorado Springs Municipal Airport,City of Colorado Springs Municipal Airport,Colorado Springs,Colorado Springs,US,38.805801,-104.700996,America/Denver,https://ourairports.com/airports/KCOS/
+CTG,SKCG,卡塔赫纳 CTG机场,Rafael Nuñez International Airport,卡塔赫纳,Cartagena,CO,10.4424,-75.513,America/Bogota,https://ourairports.com/airports/SKCG/
+CUN,MMUN,坎昆 CUN机场,Cancún International Airport,坎昆,Cancún,MX,21.040817,-86.87347,America/Cancun,https://ourairports.com/airports/MMUN/
+CUR,TNCC,库拉索 CUR机场,Hato International Airport,库拉索,Willemstad,CW,12.1889,-68.959801,America/Curacao,https://ourairports.com/airports/TNCC/
+CVG,KCVG,辛辛那提 CVG机场,Cincinnati Northern Kentucky International Airport,辛辛那提,Cincinnati / Covington,US,39.048801,-84.667801,America/New_York,https://ourairports.com/airports/KCVG/
+DAB,KDAB,Daytona Beach International Airport,Daytona Beach International Airport,Daytona Beach,Daytona Beach,US,29.18255,-81.059464,America/New_York,https://ourairports.com/airports/KDAB/
+DAL,KDAL,达拉斯 DAL机场,Dallas Love Field,达拉斯,Dallas,US,32.844776,-96.847653,America/Chicago,https://ourairports.com/airports/KDAL/
+DAY,KDAY,James M. Cox Dayton International Airport,James M. Cox Dayton International Airport,Dayton,Dayton,US,39.902401,-84.219398,America/New_York,https://ourairports.com/airports/KDAY/
+DCA,KDCA,华盛顿 DCA机场,Ronald Reagan Washington National Airport,华盛顿,Washington,US,38.8521,-77.037697,America/New_York,https://ourairports.com/airports/KDCA/
+DEN,KDEN,丹佛 DEN机场,Denver International Airport,丹佛,Denver,US,39.860027,-104.673792,America/Denver,https://ourairports.com/airports/KDEN/
+DJT,KDJT,西棕榈滩 DJT机场,President Donald J. Trump International Airport,西棕榈滩,West Palm Beach,US,26.683201,-80.095596,America/New_York,https://ourairports.com/airports/KPBI/
+DSM,KDSM,得梅因 DSM机场,Des Moines International Airport,得梅因,Des Moines,US,41.534027,-93.656719,America/Chicago,https://ourairports.com/airports/KDSM/
+DSS,GOBD,达喀尔 DSS机场,Blaise Diagne International Airport,达喀尔,Dakar,SN,14.670878,-17.072829,Africa/Dakar,https://ourairports.com/airports/GOBD/
+DTW,KDTW,底特律 DTW机场,Detroit Metropolitan Wayne County Airport,底特律,Detroit,US,42.21377,-83.353786,America/New_York,https://ourairports.com/airports/KDTW/
+ECP,KECP,Northwest Florida Beaches International Airport,Northwest Florida Beaches International Airport,Panama City Beach,Panama City Beach,US,30.357106,-85.795414,America/Chicago,https://ourairports.com/airports/KECP/
+EDI,EGPH,爱丁堡 EDI机场,Edinburgh Airport,爱丁堡,"Ingliston, Edinburgh",GB,55.950145,-3.372288,Europe/London,https://ourairports.com/airports/EGPH/
+ELP,KELP,埃尔帕索 ELP机场,El Paso International Airport,埃尔帕索,El Paso,US,31.809908,-106.375607,America/Denver,https://ourairports.com/airports/KELP/
+EYW,KEYW,Key West International Airport,Key West International Airport,Key West,Key West,US,24.556119,-81.759579,America/New_York,https://ourairports.com/airports/KEYW/
+FAI,PAFA,费尔班克斯 FAI机场,Fairbanks International Airport,费尔班克斯,Fairbanks,US,64.815102,-147.856003,America/Anchorage,https://ourairports.com/airports/PAFA/
+FAR,KFAR,Hector International Airport,Hector International Airport,Fargo,Fargo,US,46.9207,-96.815804,America/Chicago,https://ourairports.com/airports/KFAR/
+FCA,KGPI,Glacier Park International Airport,Glacier Park International Airport,Kalispell,Kalispell,US,48.310501,-114.255997,America/Denver,https://ourairports.com/airports/KGPI/
+FSD,KFSD,Sioux Falls Regional Airport,Sioux Falls Regional Airport,Sioux Falls,Sioux Falls,US,43.585463,-96.741152,America/Chicago,https://ourairports.com/airports/KFSD/
+GCM,MWCR,大开曼 GCM机场,Owen Roberts International Airport,大开曼,George Town,KY,19.292801,-81.357697,America/Cayman,https://ourairports.com/airports/MWCR/
+GDL,MMGL,瓜达拉哈拉 GDL机场,Guadalajara International Airport,瓜达拉哈拉,Guadalajara,MX,20.523342,-103.310108,America/Mexico_City,https://ourairports.com/airports/MMGL/
+GEG,KGEG,Spokane International Airport,Spokane International Airport,Spokane,Spokane,US,47.6199,-117.533997,America/Los_Angeles,https://ourairports.com/airports/KGEG/
+GND,TGPY,Maurice Bishop International Airport,Maurice Bishop International Airport,Saint George's,Saint George's,GD,12.003996,-61.785302,America/Grenada,https://ourairports.com/airports/TGPY/
+GNV,KGNV,Gainesville Regional Airport,Gainesville Regional Airport,Gainesville,Gainesville,US,29.6900997162,-82.2717971802,America/New_York,https://ourairports.com/airports/KGNV/
+GPT,KGPT,Gulfport Biloxi International Airport,Gulfport Biloxi International Airport,Gulfport,Gulfport,US,30.405582,-89.069836,America/Chicago,https://ourairports.com/airports/KGPT/
+GRB,KGRB,Austin Straubel International Airport,Austin Straubel International Airport,Green Bay,Green Bay,US,44.483459,-88.130805,America/Chicago,https://ourairports.com/airports/KGRB/
+GRR,KGRR,Gerald R. Ford International Airport,Gerald R. Ford International Airport,Grand Rapids,Grand Rapids,US,42.880798,-85.522797,America/New_York,https://ourairports.com/airports/KGRR/
+GSO,KGSO,Piedmont Triad International Airport,Piedmont Triad International Airport,Greensboro,Greensboro,US,36.09937,-79.937262,America/New_York,https://ourairports.com/airports/KGSO/
+GSP,KGSP,Greenville-Spartanburg International Airport,Greenville-Spartanburg International Airport,Greenville/Greer/Spartanburg,Greenville/Greer/Spartanburg,US,34.895699,-82.218903,America/New_York,https://ourairports.com/airports/KGSP/
+GUA,MGGT,危地马拉城 GUA机场,La Aurora International Airport,危地马拉城,Guatemala City,GT,14.582896,-90.527515,America/Guatemala,https://ourairports.com/airports/MGGT/
+HAV,MUHA,哈瓦那 HAV机场,José Martí International Airport,哈瓦那,Havana,CU,22.989200592041016,-82.40910339355469,America/Havana,https://ourairports.com/airports/MUHA/
+HOU,KHOU,休斯敦 HOU机场,William P. Hobby Airport,休斯敦,Houston,US,29.645336,-95.276812,America/Chicago,https://ourairports.com/airports/KHOU/
+HPN,KHPN,Westchester County Airport,Westchester County Airport,White Plains,White Plains,US,41.06700134277344,-73.70760345458984,America/New_York,https://ourairports.com/airports/KHPN/
+HRL,KHRL,Valley International Airport,Valley International Airport,Harlingen,Harlingen,US,26.228500366210938,-97.65440368652344,America/Chicago,https://ourairports.com/airports/KHRL/
+HSV,KHSV,Huntsville International Airport,Huntsville International Airport,Huntsville,Huntsville,US,34.636244,-86.774378,America/Chicago,https://ourairports.com/airports/KHSV/
+ICT,KICT,Wichita Dwight D. Eisenhower National Airport,Wichita Dwight D. Eisenhower National Airport,Wichita,Wichita,US,37.650314,-97.428583,America/Chicago,https://ourairports.com/airports/KICT/
+IDA,KIDA,Idaho Falls Regional Airport,Idaho Falls Regional Airport,Idaho Falls,Idaho Falls,US,43.514599,-112.070999,America/Denver,https://ourairports.com/airports/KIDA/
+ILM,KILM,Wilmington International Airport,Wilmington International Airport,Wilmington,Wilmington,US,34.272345,-77.905117,America/New_York,https://ourairports.com/airports/KILM/
+IND,KIND,印第安纳波利斯 IND机场,Indianapolis International Airport,印第安纳波利斯,Indianapolis,US,39.7173,-86.294403,America/New_York,https://ourairports.com/airports/KIND/
+JAC,KJAC,Jackson Hole Airport,Jackson Hole Airport,Jackson,Jackson,US,43.6073,-110.737999,America/Denver,https://ourairports.com/airports/KJAC/
+JAN,KJAN,Jackson-Medgar Wiley Evers International Airport,Jackson-Medgar Wiley Evers International Airport,Jackson,Jackson,US,32.311199,-90.075897,America/Chicago,https://ourairports.com/airports/KJAN/
+JAX,KJAX,杰克逊维尔 JAX机场,Jacksonville International Airport,杰克逊维尔,Jacksonville,US,30.492469,-81.687813,America/New_York,https://ourairports.com/airports/KJAX/
+KIN,MKJP,金斯敦 KIN机场,Norman Manley International Airport,金斯敦,Kingston,JM,17.935699462890625,-76.7874984741211,America/Jamaica,https://ourairports.com/airports/MKJP/
+KOA,PHKO,科纳 KOA机场,Ellison Onizuka Kona International Airport at Keāhole,科纳,Kailua-Kona,US,19.738783,-156.045603,Pacific/Honolulu,https://ourairports.com/airports/PHKO/
+LAS,KLAS,拉斯维加斯 LAS机场,Harry Reid International Airport,拉斯维加斯,Las Vegas,US,36.083361,-115.151817,America/Los_Angeles,https://ourairports.com/airports/KLAS/
+LEX,KLEX,Blue Grass Airport,Blue Grass Airport,Lexington,Lexington,US,38.035066,-84.606738,America/New_York,https://ourairports.com/airports/KLEX/
+LGA,KLGA,纽约 LGA机场,LaGuardia Airport,纽约,New York,US,40.777199,-73.872597,America/New_York,https://ourairports.com/airports/KLGA/
+LGB,KLGB,长滩 LGB机场,Long Beach International Airport,长滩,Long Beach,US,33.816523,-118.149891,America/Los_Angeles,https://ourairports.com/airports/KLGB/
+LIH,PHLI,利胡埃 LIH机场,Lihue Airport,利胡埃,"Lihue, Kauai",US,21.974393,-159.337146,Pacific/Honolulu,https://ourairports.com/airports/PHLI/
+LIR,MRLB,利韦里亚 LIR机场,Daniel Oduber Quirós International Airport,利韦里亚,Liberia,CR,10.5933,-85.544403,America/Costa_Rica,https://ourairports.com/airports/MRLB/
+LIT,KLIT,Bill & Hillary Clinton National Airport/Adams Field,Bill & Hillary Clinton National Airport/Adams Field,Little Rock,Little Rock,US,34.729222,-92.223591,America/Chicago,https://ourairports.com/airports/KLIT/
+MBJ,MKJS,蒙特哥贝 MBJ机场,Sangster International Airport,蒙特哥贝,Montego Bay,JM,18.50342,-77.91323,America/Jamaica,https://ourairports.com/airports/MKJS/
+MCI,KMCI,堪萨斯城 MCI机场,Kansas City International Airport,堪萨斯城,Kansas City,US,39.301699,-94.713893,America/Chicago,https://ourairports.com/airports/KMCI/
+MDT,KMDT,Harrisburg International Airport,Harrisburg International Airport,Harrisburg,Harrisburg,US,40.192838,-76.762333,America/New_York,https://ourairports.com/airports/KMDT/
+MDW,KMDW,芝加哥 MDW机场,Chicago Midway International Airport,芝加哥,Chicago,US,41.785999,-87.752403,America/Chicago,https://ourairports.com/airports/KMDW/
+MEL,YMML,墨尔本 MEL机场,Melbourne Airport,墨尔本,Melbourne,AU,-37.670732,144.837898,Australia/Melbourne,https://ourairports.com/airports/YMML/
+MEM,KMEM,孟菲斯 MEM机场,Frederick W. Smith International Airport,孟菲斯,Memphis,US,35.043845,-89.97634,America/Chicago,https://ourairports.com/airports/KMEM/
+MKE,KMKE,密尔沃基 MKE机场,General Mitchell International Airport,密尔沃基,Milwaukee,US,42.947201,-87.896599,America/Chicago,https://ourairports.com/airports/KMKE/
+MLB,KMLB,Melbourne Orlando International Airport,Melbourne Orlando International Airport,Melbourne,Melbourne,US,28.102009,-80.641088,America/New_York,https://ourairports.com/airports/KMLB/
+MOB,KMOB,Mobile Regional Airport,Mobile Regional Airport,Mobile,Mobile,US,30.6912,-88.242798,America/Chicago,https://ourairports.com/airports/KMOB/
+MSN,KMSN,Dane County Regional Truax Field,Dane County Regional Truax Field,Madison,Madison,US,43.1399,-89.337502,America/Chicago,https://ourairports.com/airports/KMSN/
+MSO,KMSO,Missoula Montana Airport,Missoula Montana Airport,Missoula,Missoula,US,46.915816,-114.091107,America/Denver,https://ourairports.com/airports/KMSO/
+MSP,KMSP,明尼阿波利斯 MSP机场,Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field,明尼阿波利斯,Minneapolis,US,44.880081,-93.221741,America/Chicago,https://ourairports.com/airports/KMSP/
+MSY,KMSY,新奥尔良 MSY机场,Louis Armstrong New Orleans International Airport,新奥尔良,New Orleans,US,29.993401,-90.264673,America/Chicago,https://ourairports.com/airports/KMSY/
+MTY,MMMY,蒙特雷 MTY机场,Monterrey International Airport,蒙特雷,Monterrey,MX,25.778521,-100.106989,America/Mexico_City,https://ourairports.com/airports/MMMY/
+MYR,KMYR,Myrtle Beach International Airport,Myrtle Beach International Airport,Myrtle Beach,Myrtle Beach,US,33.679699,-78.928299,America/New_York,https://ourairports.com/airports/KMYR/
+NAS,MYNN,拿骚 NAS机场,Lynden Pindling International Airport,拿骚,Nassau,BS,25.039,-77.466202,America/Nassau,https://ourairports.com/airports/MYNN/
+OGG,PHOG,卡胡卢伊 OGG机场,Kahului International Airport,卡胡卢伊,Kahului,US,20.896263,-156.431837,Pacific/Honolulu,https://ourairports.com/airports/PHOG/
+OKC,KOKC,俄克拉何马城 OKC机场,OKC Will Rogers World Airport,俄克拉何马城,Oklahoma City,US,35.393388,-97.598248,America/Chicago,https://ourairports.com/airports/KOKC/
+OMA,KOMA,奥马哈 OMA机场,Eppley Airfield,奥马哈,Omaha,US,41.3032,-95.894096,America/Chicago,https://ourairports.com/airports/KOMA/
+ONT,KONT,安大略 ONT机场,Ontario International Airport,安大略,Ontario,US,34.056,-117.600998,America/Los_Angeles,https://ourairports.com/airports/KONT/
+ORF,KORF,Norfolk International Airport,Norfolk International Airport,Norfolk,Norfolk,US,36.895341,-76.201,America/New_York,https://ourairports.com/airports/KORF/
+PDX,KPDX,波特兰 PDX机场,Portland International Airport,波特兰,Portland,US,45.588699,-122.598,America/Los_Angeles,https://ourairports.com/airports/KPDX/
+PHL,KPHL,费城 PHL机场,Philadelphia International Airport,费城,Philadelphia,US,39.871899,-75.241096,America/New_York,https://ourairports.com/airports/KPHL/
+PHX,KPHX,凤凰城 PHX机场,Phoenix Sky Harbor International Airport,凤凰城,Phoenix,US,33.435302,-112.005905,America/Phoenix,https://ourairports.com/airports/KPHX/
+PIT,KPIT,匹兹堡 PIT机场,Pittsburgh International Airport,匹兹堡,Pittsburgh,US,40.491501,-80.232903,America/New_York,https://ourairports.com/airports/KPIT/
+PLS,MBPV,Providenciales International Airport,Providenciales International Airport,Providenciales,Providenciales,TC,21.773697,-72.268321,America/Grand_Turk,https://ourairports.com/airports/MBPV/
+PNS,KPNS,Pensacola International Airport,Pensacola International Airport,Pensacola,Pensacola,US,30.472718,-87.186639,America/Chicago,https://ourairports.com/airports/KPNS/
+POP,MDPP,Gregorio Luperon International Airport,Gregorio Luperon International Airport,Puerto Plata,Puerto Plata,DO,19.7579,-70.57,America/Santo_Domingo,https://ourairports.com/airports/MDPP/
+PSC,KPSC,Tri Cities Airport,Tri Cities Airport,Pasco,Pasco,US,46.264702,-119.119003,America/Los_Angeles,https://ourairports.com/airports/KPSC/
+PSP,KPSP,Palm Springs International Airport,Palm Springs International Airport,Palm Springs,Palm Springs,US,33.8297,-116.507004,America/Los_Angeles,https://ourairports.com/airports/KPSP/
+PVD,KPVD,Rhode Island T. F. Green International Airport,Rhode Island T. F. Green International Airport,Providence/Warwick,Providence/Warwick,US,41.725038,-71.425668,America/New_York,https://ourairports.com/airports/KPVD/
+PVR,MMPR,巴亚尔塔港 PVR机场,Puerto Vallarta International Airport,巴亚尔塔港,Puerto Vallarta,MX,20.679913,-105.254391,America/Mexico_City,https://ourairports.com/airports/MMPR/
+PWM,KPWM,Portland International Jetport,Portland International Jetport,Portland,Portland,US,43.646198,-70.309303,America/New_York,https://ourairports.com/airports/KPWM/
+RAK,GMMX,马拉喀什 RAK机场,Marrakesh Menara Airport,马拉喀什,Marrakesh,MA,31.604807,-8.035788,Africa/Casablanca,https://ourairports.com/airports/GMMX/
+RDU,KRDU,罗利达勒姆 RDU机场,Raleigh-Durham International Airport,罗利达勒姆,Raleigh/Durham,US,35.878659,-78.7873,America/New_York,https://ourairports.com/airports/KRDU/
+RIC,KRIC,里士满 RIC机场,Richmond International Airport,里士满,Richmond,US,37.505199,-77.319702,America/New_York,https://ourairports.com/airports/KRIC/
+RNO,KRNO,里诺 RNO机场,Reno Tahoe International Airport,里诺,Reno,US,39.4991,-119.767998,America/Los_Angeles,https://ourairports.com/airports/KRNO/
+ROA,KROA,Roanoke–Blacksburg Regional Airport,Roanoke–Blacksburg Regional Airport,Roanoke,Roanoke,US,37.3255,-79.975403,America/New_York,https://ourairports.com/airports/KROA/
+ROC,KROC,罗切斯特 ROC机场,Frederick Douglass Greater Rochester International Airport,罗切斯特,Rochester,US,43.1189,-77.672401,America/New_York,https://ourairports.com/airports/KROC/
+RSW,KRSW,迈尔斯堡 RSW机场,Southwest Florida International Airport,迈尔斯堡,Fort Myers,US,26.534685,-81.752816,America/New_York,https://ourairports.com/airports/KRSW/
+RTB,MHRO,Juan Manuel Gálvez International Airport,Juan Manuel Gálvez International Airport,Coxen Hole,Coxen Hole,HN,16.316799,-86.523003,America/Tegucigalpa,https://ourairports.com/airports/MHRO/
+SAL,MSLP,圣萨尔瓦多 SAL机场,El Salvador International Airport Saint Óscar Arnulfo Romero y Galdámez,圣萨尔瓦多,San Salvador (San Luis Talpa),SV,13.44447,-89.055784,America/El_Salvador,https://ourairports.com/airports/MSLP/
+SAN,KSAN,圣迭戈 SAN机场,San Diego International Airport,圣迭戈,San Diego,US,32.733601,-117.190002,America/Los_Angeles,https://ourairports.com/airports/KSAN/
+SAP,MHLM,圣佩德罗苏拉 SAP机场,Ramón Villeda Morales International Airport,圣佩德罗苏拉,San Pedro Sula,HN,15.4526,-87.923599,America/Tegucigalpa,https://ourairports.com/airports/MHLM/
+SAT,KSAT,圣安东尼奥 SAT机场,San Antonio International Airport,圣安东尼奥,San Antonio,US,29.533701,-98.469803,America/Chicago,https://ourairports.com/airports/KSAT/
+SAV,KSAV,萨凡纳 SAV机场,Savannah Hilton Head International Airport,萨凡纳,Savannah,US,32.126591,-81.19998,America/New_York,https://ourairports.com/airports/KSAV/
+SDF,KSDF,路易维尔 SDF机场,Louisville Muhammad Ali International Airport,路易维尔,Louisville,US,38.1706,-85.735076,America/New_York,https://ourairports.com/airports/KSDF/
+SGF,KSGF,Springfield Branson National Airport,Springfield Branson National Airport,Springfield,Springfield,US,37.245047,-93.388596,America/Chicago,https://ourairports.com/airports/KSGF/
+SJC,KSJC,圣何塞 SJC机场,Mineta San Jose International Airport,圣何塞,San Jose,US,37.362452,-121.929188,America/Los_Angeles,https://ourairports.com/airports/KSJC/
+SJD,MMSD,洛斯卡沃斯 SJD机场,Los Cabos International Airport,洛斯卡沃斯,San José del Cabo,MX,23.151919,-109.720731,America/Mazatlan,https://ourairports.com/airports/MMSD/
+SJO,MROC,圣何塞 SJO机场,Juan Santamaría International Airport,圣何塞,San José (Alajuela),CR,9.99386,-84.208801,America/Costa_Rica,https://ourairports.com/airports/MROC/
+SJU,TJSJ,圣胡安 SJU机场,Luis Munoz Marin International Airport,圣胡安,San Juan,PR,18.4394,-66.001801,America/Puerto_Rico,https://ourairports.com/airports/TJSJ/
+SLC,KSLC,盐湖城 SLC机场,Salt Lake City International Airport,盐湖城,Salt Lake City,US,40.78886,-111.979866,America/Denver,https://ourairports.com/airports/KSLC/
+SMF,KSMF,萨克拉门托 SMF机场,Sacramento International Airport,萨克拉门托,Sacramento,US,38.6954,-121.591003,America/Los_Angeles,https://ourairports.com/airports/KSMF/
+SNA,KSNA,圣安娜 SNA机场,John Wayne Orange County International Airport,圣安娜,Santa Ana,US,33.675063,-117.869281,America/Los_Angeles,https://ourairports.com/airports/KSNA/
+SRQ,KSRQ,Sarasota Bradenton International Airport,Sarasota Bradenton International Airport,Sarasota/Bradenton,Sarasota/Bradenton,US,27.394631,-82.554359,America/New_York,https://ourairports.com/airports/KSRQ/
+STI,MDST,Cibao International Airport,Cibao International Airport,Santiago,Santiago,DO,19.40406,-70.604431,America/Santo_Domingo,https://ourairports.com/airports/MDST/
+STL,KSTL,圣路易斯 STL机场,St. Louis Lambert International Airport,圣路易斯,St Louis,US,38.748697,-90.370003,America/Chicago,https://ourairports.com/airports/KSTL/
+STT,TIST,圣托马斯 STT机场,Cyril E. King Airport,圣托马斯,Charlotte Amalie,VI,18.337091,-64.977251,America/St_Thomas,https://ourairports.com/airports/TIST/
+STX,TISX,圣克罗伊 STX机场,Henry E. Rohlsen Airport,圣克罗伊,Christiansted,VI,17.701413,-64.802608,America/St_Thomas,https://ourairports.com/airports/TISX/
+SXM,TNCM,圣马丁 SXM机场,Princess Juliana International Airport,圣马丁,Sint Maarten,SX,18.041,-63.108898,America/Lower_Princes,https://ourairports.com/airports/TNCM/
+SYR,KSYR,锡拉丘兹 SYR机场,Syracuse Hancock International Airport,锡拉丘兹,Syracuse,US,43.11119842529297,-76.1063003540039,America/New_York,https://ourairports.com/airports/KSYR/
+TLH,KTLH,Tallahassee International Airport,Tallahassee International Airport,Tallahassee,Tallahassee,US,30.401209,-84.35433,America/New_York,https://ourairports.com/airports/KTLH/
+TPA,KTPA,坦帕 TPA机场,Tampa International Airport,坦帕,Tampa,US,27.9755,-82.533203,America/New_York,https://ourairports.com/airports/KTPA/
+TQO,MMTL,图卢姆 TQO机场,Felipe Carrillo Puerto International Airport Tulum,图卢姆,Tulum,MX,20.172098,-87.660272,America/Cancun,https://ourairports.com/airports/MMTL/
+TRI,KTRI,Tri-Cities Regional TN/VA Airport,Tri-Cities Regional TN/VA Airport,Blountville,Blountville,US,36.475201,-82.407401,America/New_York,https://ourairports.com/airports/KTRI/
+TUL,KTUL,塔尔萨 TUL机场,Tulsa International Airport,塔尔萨,Tulsa,US,36.197084,-95.886225,America/Chicago,https://ourairports.com/airports/KTUL/
+TUS,KTUS,图森 TUS机场,Tucson International Airport,图森,Tucson,US,32.115004,-110.938053,America/Phoenix,https://ourairports.com/airports/KTUS/
+TVC,KTVC,Cherry Capital Airport,Cherry Capital Airport,Traverse City,Traverse City,US,44.741402,-85.582199,America/New_York,https://ourairports.com/airports/KTVC/
+TYS,KTYS,McGhee Tyson Airport,McGhee Tyson Airport,Knoxville/Maryville,Knoxville/Maryville,US,35.811001,-83.994003,America/New_York,https://ourairports.com/airports/KTYS/
+UIO,SEQM,基多 UIO机场,Mariscal Sucre International Airport,基多,Quito,EC,-0.125399,-78.354306,America/Guayaquil,https://ourairports.com/airports/SEQM/
+UVF,TLPL,Hewanorra International Airport,Hewanorra International Airport,Vieux Fort,Vieux Fort,LC,13.7332,-60.952599,America/St_Lucia,https://ourairports.com/airports/TLPL/
+VCE,LIPZ,威尼斯 VCE机场,Venice Marco Polo Airport,威尼斯,Venezia (VE),IT,45.505299,12.3519,Europe/Rome,https://ourairports.com/airports/LIPZ/
+VPS,KVPS,Destin-Fort Walton Beach Airport,Destin-Fort Walton Beach Airport,Valparaiso,Valparaiso,US,30.481315,-86.515839,America/Chicago,https://ourairports.com/airports/KVPS/
+XNA,KXNA,Northwest Arkansas National Airport,Northwest Arkansas National Airport,Fayetteville/Springdale/Rogers,Fayetteville/Springdale/Rogers,US,36.281898,-94.306801,America/Chicago,https://ourairports.com/airports/KXNA/
+YYC,CYYC,卡尔加里 YYC机场,Calgary International Airport,卡尔加里,Calgary,CA,51.118822,-114.009933,America/Edmonton,https://ourairports.com/airports/CYYC/
+BWN,WBSB,斯里巴加湾机场,Brunei International Airport,斯里巴加湾,Bandar Seri Begawan,BN,4.9442,114.928001,Asia/Brunei,https://ourairports.com/airports/WBSB/
+CEB,RPVM,宿务机场,Mactan Cebu International Airport,宿务,Cebu City/Lapu-Lapu City,PH,10.309261,123.97974,Asia/Manila,https://ourairports.com/airports/RPVM/
+CGO,ZHCC,郑州机场,Zhengzhou Xinzheng International Airport,郑州,Zhengzhou,CN,34.526497,113.849165,Asia/Shanghai,https://ourairports.com/airports/ZHCC/
+CNX,VTCC,清迈机场,Chiang Mai International Airport,清迈,Chiang Mai,TH,18.766799926799997,98.962600708,Asia/Bangkok,https://ourairports.com/airports/VTCC/
+CTU,ZUUU,成都双流机场,Chengdu Shuangliu International Airport,成都双流,Chengdu (Shuangliu),CN,30.558257,103.945966,Asia/Shanghai,https://ourairports.com/airports/ZUUU/
+DAD,VVDN,岘港机场,Da Nang International Airport,岘港,Da Nang,VN,16.0439,108.198997,Asia/Saigon,https://ourairports.com/airports/VVDN/
+DPS,WADD,巴厘岛机场,Denpasar I Gusti Ngurah Rai International Airport,巴厘岛,"Kuta, Badung",ID,-8.748409,115.167123,Asia/Makassar,https://ourairports.com/airports/WADD/
+FOC,ZSFZ,福州机场,Fuzhou Changle International Airport,福州,Fuzhou (Changle),CN,25.929254,119.672524,Asia/Shanghai,https://ourairports.com/airports/ZSFZ/
+KTI,VDTI,金边德崇机场,Techo International Airport,金边德崇,Phnom Penh (Boeng Khyang),KH,11.359987,104.921272,Asia/Phnom_Penh,https://ourairports.com/airports/KH-0002/
+NKG,ZSNJ,南京机场,Nanjing Lukou International Airport,南京,Nanjing,CN,31.735032,118.865949,Asia/Shanghai,https://ourairports.com/airports/ZSNJ/
+PEN,WMKP,槟城机场,Penang International Airport,槟城,Penang,MY,5.296303,100.276185,Asia/Kuala_Lumpur,https://ourairports.com/airports/WMKP/
+PRG,LKPR,布拉格机场,Václav Havel Airport Prague,布拉格,Prague,CZ,50.100874,14.259911,Europe/Prague,https://ourairports.com/airports/LKPR/
+PUS,RKPK,釜山机场,Gimhae International Airport,釜山,Busan,KR,35.179501,128.938004,Asia/Seoul,https://ourairports.com/airports/RKPK/
+RGN,VYYY,仰光机场,Yangon International Airport,仰光,Yangon,MM,16.907300949099998,96.1332015991,Asia/Rangoon,https://ourairports.com/airports/VYYY/
+RMQ,RCMQ,台中机场,Taichung International Airport / Ching Chuang Kang Air Base,台中,Taichung (Qingshui),TW,24.2647,120.621002,Asia/Taipei,https://ourairports.com/airports/RCMQ/
+ROR,PTRO,科罗尔机场,Roman Tmetuchl International Airport,科罗尔,Babelthuap Island,PW,7.366965,134.544085,Pacific/Palau,https://ourairports.com/airports/PTRO/
+WUH,ZHHH,武汉机场,Wuhan Tianhe International Airport,武汉,Wuhan (Huangpi),CN,30.774798,114.213723,Asia/Shanghai,https://ourairports.com/airports/ZHHH/
+XMN,ZSAM,厦门机场,Xiamen Gaoqi International Airport,厦门,Xiamen,CN,24.543889,118.127454,Asia/Shanghai,https://ourairports.com/airports/ZSAM/
+AAT,ZWAT,阿勒泰雪都機場,Altay Xuedu Airport,阿勒泰雪都,Altay,CN,47.749886,88.085808,Asia/Shanghai,https://ourairports.com/airports/ZWAT/
+AKA,ZLAK,安康機場,Ankang Fuqiang Airport,安康,Ankang (Hanbin),CN,32.75696,108.87338,Asia/Shanghai,https://ourairports.com/airports/ZLAK/
+AKU,ZWAK,紅旗坡機場,Aksu Hongqipo Airport,紅旗坡,Aksu (Onsu),CN,41.262501,80.291702,Asia/Shanghai,https://ourairports.com/airports/ZWAK/
+BHY,ZGBH,北海機場,Beihai Fucheng Airport,北海,Beihai,CN,21.538659,109.293683,Asia/Shanghai,https://ourairports.com/airports/ZGBH/
+CGD,ZGCD,常德機場,Changde Taohuayuan Airport,常德,Changde (Dingcheng),CN,28.9189,111.639999,Asia/Shanghai,https://ourairports.com/airports/ZGCD/
+CGQ,ZYCC,長春機場,Changchun Longjia International Airport,長春,Changchun,CN,43.996201,125.684998,Asia/Shanghai,https://ourairports.com/airports/ZYCC/
+CKG,ZUCK,重慶機場,Chongqing Jiangbei International Airport,重慶,Chongqing,CN,29.712254,106.651895,Asia/Shanghai,https://ourairports.com/airports/ZUCK/
+CSX,ZGHA,長沙機場,Changsha Huanghua International Airport,長沙,Changsha (Changsha),CN,28.189199,113.220001,Asia/Shanghai,https://ourairports.com/airports/ZGHA/
+CZX,ZSCG,常州機場,Changzhou Benniu International Airport,常州,Changzhou,CN,31.920485,119.77546,Asia/Shanghai,https://ourairports.com/airports/ZSCG/
+DLU,ZPDL,鳳儀機場,Dali Fengyi Airport,鳳儀,Dali (Xiaguan),CN,25.649401,100.319,Asia/Shanghai,https://ourairports.com/airports/ZPDL/
+DOY,ZSDY,東營機場,Dongying Shengli Airport,東營,Dongying (Kenli),CN,37.50137,118.789863,Asia/Shanghai,https://ourairports.com/airports/ZSDY/
+ENH,ZHES,恩施機場,Enshi Xujiaping Airport,恩施,Enshi (Enshi),CN,30.320299,109.485001,Asia/Shanghai,https://ourairports.com/airports/ZHES/
+GYS,ZUGU,盤龍機場,Guangyuan Panlong Airport,盤龍,Guangyuan (Lizhou),CN,32.390254,105.694571,Asia/Shanghai,https://ourairports.com/airports/ZUGU/
+HAK,ZJHK,海口機場,Haikou Meilan International Airport,海口,Haikou (Meilan),CN,19.9349,110.459,Asia/Shanghai,https://ourairports.com/airports/ZJHK/
+HET,ZBHH,呼和浩特機場,Hohhot Baita International Airport,呼和浩特,Hohhot,CN,40.849658,111.824598,Asia/Shanghai,https://ourairports.com/airports/ZBHH/
+HFE,ZSOF,合肥機場,Hefei Xinqiao International Airport,合肥,Hefei,CN,31.98779,116.9769,Asia/Shanghai,https://ourairports.com/airports/ZSOF/
+HIA,ZSSH,淮安機場,Huai'an Lianshui Airport,淮安,Huai'an,CN,33.792712,119.126657,Asia/Shanghai,https://ourairports.com/airports/ZSSH/
+HLD,ZBLA,海拉爾機場,Hulunbuir Hailar Airport,海拉爾,Hailar,CN,49.208616,119.822301,Asia/Shanghai,https://ourairports.com/airports/ZBLA/
+HNY,ZGHY,南岳機場,Hengyang Nanyue Airport,南岳,Hengyang,CN,26.72208,112.617958,Asia/Shanghai,https://ourairports.com/airports/ZGHY/
+HRB,ZYHB,哈爾濱機場,Harbin Taiping International Airport,哈爾濱,Harbin,CN,45.623402,126.25,Asia/Shanghai,https://ourairports.com/airports/ZYHB/
+HTN,ZWTN,和田機場,Hotan Airport,和田,Hotan,CN,37.03850173950195,79.86489868164062,Asia/Shanghai,https://ourairports.com/airports/ZWTN/
+HUO,ZBHZ,霍林河機場,Holingol Huolinhe Airport,霍林河,Holingol,CN,45.487222,119.407222,Asia/Shanghai,https://ourairports.com/airports/ZBHZ/
+HZA,ZSHZ,牡丹機場,Heze Mudan Airport,牡丹,Heze (Dingtao),CN,35.212972,115.736748,Asia/Shanghai,https://ourairports.com/airports/ZSHZ/
+INC,ZLIC,銀川機場,Yinchuan Hedong International Airport,銀川,Yinchuan,CN,38.322758,106.393214,Asia/Shanghai,https://ourairports.com/airports/ZLIC/
+JGN,ZLJQ,嘉峪關酒泉機場,Jiayuguan International Airport,嘉峪關酒泉,Jiayuguan,CN,39.859052,98.339344,Asia/Shanghai,https://ourairports.com/airports/ZLJQ/
+JGS,ZSGS,井岡山機場,Jinggangshan Airport,井岡山,Ji'an,CN,26.856899,114.737,Asia/Shanghai,https://ourairports.com/airports/CN-0081/
+JHG,ZPJH,西雙版納機場,Xishuangbanna Gasa International Airport,西雙版納,Jinghong (Gasa),CN,21.974648,100.762224,Asia/Shanghai,https://ourairports.com/airports/ZPJH/
+JIQ,ZUQJ,黔江機場,Qianjiang Wulingshan Airport,黔江,Qianjiang,CN,29.5133333333,108.831111111,Asia/Shanghai,https://ourairports.com/airports/ZUQJ/
+JJN,ZSQZ,泉州(晉江)機場,Quanzhou Jinjiang International Airport,泉州(晉江),Quanzhou,CN,24.795855,118.588599,Asia/Shanghai,https://ourairports.com/airports/ZSQZ/
+KHG,ZWSH,喀什徠寧國際機場,Kashgar Laining International Airport,喀什徠寧,Kashgar,CN,39.542273,76.02023,Asia/Shanghai,https://ourairports.com/airports/ZWSH/
+KHN,ZSCN,南昌機場,Nanchang Changbei International Airport,南昌,Nanchang,CN,28.864815,115.90271,Asia/Shanghai,https://ourairports.com/airports/ZSCN/
+KMG,ZPPP,昆明機場,Kunming Changshui International Airport,昆明,Kunming,CN,25.110313,102.936743,Asia/Shanghai,https://ourairports.com/airports/ZPPP/
+KRL,ZWKL,庫爾勒機場,Korla Licheng Airport,庫爾勒,Korla,CN,41.614979,86.140817,Asia/Shanghai,https://ourairports.com/airports/ZWKL/
+KRY,ZWKM,克拉瑪依機場,Karamay Airport,克拉瑪依,Karamay,CN,45.46655,84.9527,Asia/Shanghai,https://ourairports.com/airports/ZWKM/
+KWE,ZUGY,貴陽機場,Guiyang Longdongbao International Airport,貴陽,Guiyang (Nanming),CN,26.541805,106.80402,Asia/Shanghai,https://ourairports.com/airports/ZUGY/
+KWL,ZGKL,桂林機場,Guilin Liangjiang International Airport,桂林,Guilin (Lingui),CN,25.219828,110.039553,Asia/Shanghai,https://ourairports.com/airports/ZGKL/
+LHW,ZLLL,蘭州機場,Lanzhou Zhongchuan International Airport,蘭州,Lanzhou (Yongdeng),CN,36.515202,103.620003,Asia/Shanghai,https://ourairports.com/airports/ZLLL/
+LJG,ZPLJ,麗江機場,Lijiang Sanyi International Airport,麗江,Lijiang,CN,26.677483,100.244944,Asia/Shanghai,https://ourairports.com/airports/ZPLJ/
+LUM,ZPMS,芒市機場,Dehong Mangshi International Airport,芒市,Dehong (Mangshi),CN,24.4011,98.5317,Asia/Shanghai,https://ourairports.com/airports/ZPMS/
+LYG,ZSLG,連雲港機場,Lianyungang Huaguoshan International Airport,連雲港,Lianyungang,CN,34.41406,119.17899,Asia/Shanghai,https://ourairports.com/airports/ZSLG/
+MIG,ZUMY,綿陽機場,Mianyang Nanjiao Airport,綿陽,Mianyang (Fucheng),CN,31.428101,104.740997,Asia/Shanghai,https://ourairports.com/airports/ZUMY/
+NBS,ZYBS,白山长白山機場,Changbaishan Airport,白山长白山,Baishan,CN,42.066944,127.602222,Asia/Shanghai,https://ourairports.com/airports/ZYBS/
+NGB,ZSNB,寧波機場,Ningbo Lishe International Airport,寧波,Ningbo,CN,29.82670021057129,121.46199798583984,Asia/Shanghai,https://ourairports.com/airports/ZSNB/
+NNG,ZGNN,南寧機場,Nanning Wuxu International Airport,南寧,Nanning (Jiangnan),CN,22.598071,108.181922,Asia/Shanghai,https://ourairports.com/airports/ZGNN/
+NNY,ZHNY,南陽機場,Nanyang Jiangying Airport,南陽,Nanyang (Wancheng),CN,32.982696,112.617467,Asia/Shanghai,https://ourairports.com/airports/ZHNY/
+OHE,ZYMH,古蓮機場,Mohe Gulian Airport,古蓮,Mohe,CN,52.916871,122.422759,Asia/Shanghai,https://ourairports.com/airports/ZYMH/
+PKX,ZBAD,大興國際機場,Beijing Daxing International Airport,北京,Beijing,CN,39.501289,116.413967,Asia/Shanghai,https://ourairports.com/airports/ZBAD/
+QSZ,ZWSC,葉爾羌機場,Shache Airport,葉爾羌,Shache,CN,38.24542,77.056149,Asia/Shanghai,https://ourairports.com/airports/ZWSC/
+SHE,ZYTX,瀋陽機場,Shenyang Taoxian International Airport,瀋陽,Shenyang,CN,41.6398,123.483668,Asia/Shanghai,https://ourairports.com/airports/ZYTX/
+SHF,ZWHZ,花園機場,Shihezi Huayuan Airport,花園,Shihezi,CN,44.2421,85.8905,Asia/Shanghai,https://ourairports.com/airports/ZWHZ/
+SJW,ZBSJ,石家莊機場,Shijiazhuang Zhengding International Airport,石家莊,Shijiazhuang,CN,38.280701,114.696999,Asia/Shanghai,https://ourairports.com/airports/ZBSJ/
+SWA,ZGOW,揭陽(汕頭)機場,Jieyang Chaoshan International Airport,揭陽(汕頭),Jieyang (Rongcheng),CN,23.552,116.5033,Asia/Shanghai,https://ourairports.com/airports/ZGOW/
+SYX,ZJSY,三亞機場,Sanya Phoenix International Airport,三亞,Sanya (Tianya),CN,18.3029,109.412003,Asia/Shanghai,https://ourairports.com/airports/ZJSY/
+TFU,ZUTF,天府國際機場,Chengdu Tianfu International Airport,成都,Chengdu (Jianyang),CN,30.31252,104.441284,Asia/Shanghai,https://ourairports.com/airports/ZUTF/
+TGO,ZBTL,通遼機場,Tongliao Airport,通遼,Tongliao,CN,43.556702,122.199997,Asia/Shanghai,https://ourairports.com/airports/ZBTL/
+TNA,ZSJN,濟南機場,Jinan Yaoqiang International Airport,濟南,Jinan (Licheng),CN,36.857201,117.216003,Asia/Shanghai,https://ourairports.com/airports/ZSJN/
+TSN,ZBTJ,天津機場,Tianjin Binhai International Airport,天津,Tianjin,CN,39.124401092499994,117.346000671,Asia/Shanghai,https://ourairports.com/airports/ZBTJ/
+TYN,ZBYN,太原機場,Taiyuan Wusu International Airport,太原,Taiyuan,CN,37.746899,112.627998,Asia/Shanghai,https://ourairports.com/airports/ZBYN/
+URC,ZWWW,烏魯木齊機場,Ürümqi Tianshan International Airport,乌鲁木齐,Ürümqi,CN,43.913584,87.479372,Asia/Shanghai,https://ourairports.com/airports/ZWWW/
+WDS,ZHSY,十堰(武当山)機場,Shiyan Wudangshan Airport,十堰(武当山),Shiyan (Maojian),CN,32.592889,110.906296,Asia/Shanghai,https://ourairports.com/airports/ZHSY/
+WEH,ZSWH,威海機場,Weihai Dashuibo Airport,威海,Weihai,CN,37.187099,122.228996,Asia/Shanghai,https://ourairports.com/airports/ZSWH/
+WUA,ZBUH,烏海機場,Wuhai Airport,烏海,Wuhai,CN,39.7934,106.7993,Asia/Shanghai,https://ourairports.com/airports/ZBUH/
+WUX,ZSWX,無錫機場,Sunan Shuofang International Airport,無錫,Wuxi,CN,31.496952,120.43038,Asia/Shanghai,https://ourairports.com/airports/ZSWX/
+XIY,ZLXY,西安咸阳機場,Xi'an Xianyang International Airport,西安咸阳,Xi'an,CN,34.442207,108.762385,Asia/Shanghai,https://ourairports.com/airports/ZLXY/
+YIN,ZWYN,伊寧機場,Ili Yining International Airport,伊寧,Ili (Yining / Ghulja),CN,43.955799,81.330299,Asia/Shanghai,https://ourairports.com/airports/ZWYN/
+YNZ,ZSYN,鹽城機場,Yancheng Nanyang International Airport,鹽城,Yancheng (Tinghu),CN,33.428317,120.20545,Asia/Shanghai,https://ourairports.com/airports/ZSYN/
+YTW,ZWYT,萬方機場,Yutian Wanfang Airport,萬方,Hotan (Yutian),CN,36.8085,81.7827,Asia/Shanghai,https://ourairports.com/airports/ZWYT/
+YTY,ZSYA,揚州(泰州)機場,Yangzhou Taizhou Airport,揚州(泰州),Yangzhou,CN,32.5634,119.7198,Asia/Shanghai,https://ourairports.com/airports/ZSYA/
+YZY,ZLZY,張掖機場,Zhangye Ganzhou Airport,張掖,Zhangye (Ganzhou),CN,38.801899,100.675003,Asia/Shanghai,https://ourairports.com/airports/ZLZY/
+ZQZ,ZBZJ,張家口機場,Zhangjiakou Ningyuan Airport,張家口,Zhangjiakou,CN,40.738664,114.933395,Asia/Shanghai,https://ourairports.com/airports/ZBZJ/
+ZUH,ZGSD,珠海機場,Zhuhai Jinwan Airport,珠海,Zhuhai (Jinwan),CN,22.006399,113.375999,Asia/Shanghai,https://ourairports.com/airports/ZGSD/
+ZYI,ZUZY,遵義機場,Zunyi Xinzhou Airport,遵義,Zunyi,CN,27.810723,107.247189,Asia/Shanghai,https://ourairports.com/airports/ZUZY/
+LOH,SECA,洛哈机场,Ciudad de Catamayo Airport,洛哈,La Toma (Catamayo),EC,-3.995606,-79.371902,America/Guayaquil,https://ourairports.com/airports/SETM/
+ETR,SERO,圣罗莎机场,Santa Rosa - Artillery Colonel Victor Larrea International Airport,圣罗莎,Santa Rosa,EC,-3.441986,-79.996957,America/Guayaquil,https://ourairports.com/airports/SERO/
+OCC,SECO,科卡机场,Francisco De Orellana Airport,科卡,Coca,EC,-0.462886,-76.986801,America/Guayaquil,https://ourairports.com/airports/SECO/
+CJJ,RKTU,清州国际机场,Cheongju International Airport/Cheongju Air Base (K-59/G-513),清州,Cheongju,KR,36.71556,127.500289,Asia/Seoul,https://ourairports.com/airports/RKTU/
+AMD,VAAH,艾哈迈达巴德机场,Sardar Vallabh Patel International Airport,艾哈迈达巴德,Ahmedabad,IN,23.0772,72.634697,Asia/Kolkata,https://ourairports.com/airports/VAAH/
+ATQ,VIAR,阿姆利则机场,Sri Guru Ram Das Ji International Airport,阿姆利则,Amritsar,IN,31.7096,74.797302,Asia/Kolkata,https://ourairports.com/airports/VIAR/
+BLR,VOBL,班加罗尔机场,Kempegowda International Airport Bengaluru,班加罗尔,Bengaluru,IN,13.1979,77.706299,Asia/Kolkata,https://ourairports.com/airports/VOBL/
+COK,VOCI,科钦机场,Cochin International Airport,科钦,Kochi,IN,10.151047,76.400838,Asia/Kolkata,https://ourairports.com/airports/VOCI/
+DBR,VEDH,达尔班加机场,Darbhanga Airport,达尔班加,Darbhanga,IN,26.192801,85.916901,Asia/Kolkata,https://ourairports.com/airports/VEDH/
+DHM,VIGG,达兰萨拉机场,Kangra Airport,达兰萨拉,Dharamshala,IN,32.164902,76.263018,Asia/Kolkata,https://ourairports.com/airports/VIGG/
+GOP,VEGK,戈勒克布尔机场,Gorakhpur Airport,戈勒克布尔,Gorakhpur,IN,26.739700317399997,83.4496994019,Asia/Kolkata,https://ourairports.com/airports/VEGK/
+IXJ,VIJU,查谟机场,Jammu Airport,查谟,Jammu,IN,32.688849,74.838152,Asia/Kolkata,https://ourairports.com/airports/VIJU/
+IXL,VILH,列城机场,Leh Kushok Bakula Rimpochee Airport,列城,Leh,IN,34.135899,77.546501,Asia/Kolkata,https://ourairports.com/airports/VILH/
+IXZ,VOPB,布莱尔港机场,Veer Savarkar International Airport / INS Utkrosh,布莱尔港,Port Blair,IN,11.640194,92.72902,Asia/Kolkata,https://ourairports.com/airports/VOPB/
+JAI,VIJP,斋浦尔机场,Jaipur International Airport,斋浦尔,Jaipur,IN,26.8242,75.812202,Asia/Kolkata,https://ourairports.com/airports/VIJP/
+PAT,VEPT,巴特那机场,Jay Prakash Narayan Airport,巴特那,Patna,IN,25.591299,85.087997,Asia/Kolkata,https://ourairports.com/airports/VEPT/
+PNQ,VAPO,浦那机场,Pune International Airport,浦那,Pune,IN,18.5821,73.919701,Asia/Kolkata,https://ourairports.com/airports/VAPO/
+SHL,VEBI,西隆机场,Shillong Airport,西隆,Shillong,IN,25.70359992980957,91.97869873046875,Asia/Kolkata,https://ourairports.com/airports/VEBI/
+SXR,VISR,斯利那加机场,Srinagar International Airport,斯利那加,Srinagar,IN,33.987099,74.7742,Asia/Kolkata,https://ourairports.com/airports/VISR/
+UDR,VAUD,乌代浦机场,Maharana Pratap Airport,乌代浦,Udaipur,IN,24.617700576799997,73.89610290530001,Asia/Kolkata,https://ourairports.com/airports/VAUD/
+VNS,VEBN,瓦拉纳西机场,Lal Bahadur Shastri International Airport,瓦拉纳西,Varanasi,IN,25.452171,82.862549,Asia/Kolkata,https://ourairports.com/airports/VEBN/
+AKS,AGGA,奥基机场,Gwaunaru'u Airport,奥基,Auki,SB,-8.70257,160.682007,Pacific/Guadalcanal,https://ourairports.com/airports/AGGA/
+BAS,AGGE,巴拉莱机场,Ballalae Airport,巴拉莱,Ballalae,SB,-6.990745,155.886656,Pacific/Guadalcanal,https://ourairports.com/airports/AGGE/
+BNY,AGGB,贝罗纳机场,Bellona/Anua Airport,贝罗纳,Anua,SB,-11.302222222200001,159.798333333,Pacific/Guadalcanal,https://ourairports.com/airports/AGGB/
+CHY,AGGC,舒瓦瑟尔湾机场,Choiseul Bay Airport,舒瓦瑟尔湾,Choiseul Bay,SB,-6.711944,156.396111,Pacific/Guadalcanal,https://ourairports.com/airports/AGGC/
+CXI,PLCH,基里蒂马蒂机场,Cassidy International Airport,基里蒂马蒂,Kiritimati,KI,1.986278,-157.350011,Pacific/Kiritimati,https://ourairports.com/airports/PLCH/
+EGM,AGGS,塞盖机场,Sege Airport,塞盖,Sege,SB,-8.57889,157.876007,Pacific/Guadalcanal,https://ourairports.com/airports/AGGS/
+FRE,AGGF,费拉机场,Fera/Maringe Airport,费拉,Fera Island,SB,-8.1075,159.576996,Pacific/Guadalcanal,https://ourairports.com/airports/AGGF/
+GZO,AGGN,吉佐机场,Nusatupe Airport,吉佐,Gizo,SB,-8.09778022766,156.863998413,Pacific/Guadalcanal,https://ourairports.com/airports/AGGN/
+INU,ANYN,瑙鲁机场,Nauru International Airport,瑙鲁,Yaren,NR,-0.547893,166.919525,Pacific/Nauru,https://ourairports.com/airports/ANYN/
+IRA,AGGK,基拉基拉机场,Ngorangora Airport,基拉基拉,Kirakira,SB,-10.449700355500001,161.897994995,Pacific/Guadalcanal,https://ourairports.com/airports/AGGK/
+KGE,AGKG,卡高机场,Kaghau Airport,卡高,Kagau Island,SB,-7.3305,157.585,Pacific/Guadalcanal,https://ourairports.com/airports/AGKG/
+MAJ,PKMJ,马朱罗机场,Marshall Islands International Airport,马朱罗,Majuro Atoll,MH,7.06511,171.271656,Pacific/Majuro,https://ourairports.com/airports/PKMJ/
+MUA,AGGM,蒙达机场,Munda Airport,蒙达,Munda,SB,-8.32797,157.263,Pacific/Guadalcanal,https://ourairports.com/airports/AGGM/
+NNB,AGGT,圣安娜机场,Santa Ana Airport,圣安娜,Santa Ana Island,SB,-10.847994,162.454108,Pacific/Guadalcanal,https://ourairports.com/airports/AGGT/
+PNI,PTPN,波纳佩机场,Pohnpei International Airport,波纳佩,Pohnpei Island,FM,6.985082,158.20992,Pacific/Pohnpei,https://ourairports.com/airports/PTPN/
+PRS,AGGP,帕拉西机场,Parasi Airport,帕拉西,Parasi,SB,-9.641670227050781,161.4250030517578,Pacific/Guadalcanal,https://ourairports.com/airports/AGGP/
+RBV,AGRM,拉马塔机场,Ramata Airport,拉马塔,Ramata,SB,-8.168060302734375,157.64300537109375,Pacific/Guadalcanal,https://ourairports.com/airports/AGRM/
+RNA,AGAR,阿罗纳机场,Ulawa Airport,阿罗纳,Arona,SB,-9.86054358262,161.979546547,Pacific/Guadalcanal,https://ourairports.com/airports/AGAR/
+RNL,AGGR,伦内尔机场,Rennell/Tingoa Airport,伦内尔,Rennell Island,SB,-11.55,160.062778,Pacific/Guadalcanal,https://ourairports.com/airports/AGGR/
+SCZ,AGGL,圣克鲁斯机场,Santa Cruz/Graciosa Bay/Luova Airport,圣克鲁斯,Santa Cruz/Graciosa Bay/Luova,SB,-10.7203,165.794998,Pacific/Guadalcanal,https://ourairports.com/airports/AGGL/
+SON,NVSS,卢甘维尔机场,Santo Pekoa International Airport,卢甘维尔,Luganville,VU,-15.505000114399998,167.220001221,Pacific/Efate,https://ourairports.com/airports/NVSS/
+SUV,NFNA,苏瓦机场,Nausori International Airport,苏瓦,Nausori,FJ,-18.044226,178.561486,Pacific/Fiji,https://ourairports.com/airports/NFNA/
+TRW,NGTA,塔拉瓦机场,Bonriki International Airport,塔拉瓦,South Tarawa,KI,1.38164,173.147003,Pacific/Tarawa,https://ourairports.com/airports/NGTA/
+VAO,AGGV,苏阿瓦瑙机场,Suavanao Airport,苏阿瓦瑙,Suavanao,SB,-7.58556,158.731003,Pacific/Guadalcanal,https://ourairports.com/airports/AGGV/
+YEG,CYEG,埃德蒙顿机场,Edmonton International Airport,埃德蒙顿,Edmonton,CA,53.3097,-113.580002,America/Edmonton,https://ourairports.com/airports/CYEG/
+YFC,CYFC,弗雷德里克顿机场,Fredericton International Airport,弗雷德里克顿,Fredericton,CA,45.868697,-66.529891,America/Moncton,https://ourairports.com/airports/CYFC/
+YHZ,CYHZ,哈利法克斯机场,Halifax / Stanfield International Airport,哈利法克斯,Halifax,CA,44.8807983398,-63.5085983276,America/Halifax,https://ourairports.com/airports/CYHZ/
+YLW,CYLW,基洛纳机场,Kelowna International Airport,基洛纳,Kelowna,CA,49.9561,-119.377998,America/Vancouver,https://ourairports.com/airports/CYLW/
+YOW,CYOW,渥太华机场,Ottawa Macdonald-Cartier International Airport,渥太华,Ottawa,CA,45.322498,-75.669197,America/Toronto,https://ourairports.com/airports/CYOW/
+YQB,CYQB,魁北克城机场,Quebec Jean Lesage International Airport,魁北克城,Quebec,CA,46.7911,-71.393303,America/Toronto,https://ourairports.com/airports/CYQB/
+YQM,CYQM,蒙克顿机场,Greater Moncton Roméo LeBlanc International Airport,蒙克顿,Moncton,CA,46.113189,-64.67719,America/Moncton,https://ourairports.com/airports/CYQM/
+YQR,CYQR,里贾纳机场,Regina International Airport,里贾纳,Regina,CA,50.431938,-104.660906,America/Regina,https://ourairports.com/airports/CYQR/
+YQT,CYQT,桑德贝机场,Thunder Bay International Airport,桑德贝,Thunder Bay,CA,48.371899,-89.323898,America/Toronto,https://ourairports.com/airports/CYQT/
+YQY,CYQY,悉尼（加拿大）机场,Sydney / J.A. Douglas McCurdy Airport,悉尼（加拿大）,Sydney,CA,46.161072,-60.049759,America/Halifax,https://ourairports.com/airports/CYQY/
+YSJ,CYSJ,圣约翰（新不伦瑞克）机场,Saint John Airport,圣约翰（新不伦瑞克）,Saint John,CA,45.31610107421875,-65.89029693603516,America/Moncton,https://ourairports.com/airports/CYSJ/
+YWG,CYWG,温尼伯机场,Winnipeg / James Armstrong Richardson International Airport,温尼伯,Winnipeg,CA,49.909999847399995,-97.2398986816,America/Winnipeg,https://ourairports.com/airports/CYWG/
+YXE,CYXE,萨斯卡通机场,Saskatoon John G. Diefenbaker International Airport,萨斯卡通,Saskatoon,CA,52.170723,-106.700793,America/Regina,https://ourairports.com/airports/CYXE/
+YXY,CYXY,怀特霍斯机场,Whitehorse / Erik Nielsen International Airport,怀特霍斯,Whitehorse,CA,60.708533,-135.065705,America/Whitehorse,https://ourairports.com/airports/CYXY/
+YYT,CYYT,圣约翰斯机场,St. John's International Airport,圣约翰斯,St. John's,CA,47.618599,-52.7519,America/St_Johns,https://ourairports.com/airports/CYYT/
+YZF,CYZF,耶洛奈夫机场,Yellowknife International Airport,耶洛奈夫,Yellowknife,CA,62.462799,-114.440002,America/Yellowknife,https://ourairports.com/airports/CYZF/
+GGT,MYEF,乔治敦（埃克苏马）机场,Exuma International Airport,乔治敦（埃克苏马）,Moss Town,BS,23.562599,-75.877998,America/Nassau,https://ourairports.com/airports/MYEF/
+LYS,LFLL,里昂机场,Lyon Saint-Exupéry Airport,里昂,"Colombier-Saugnieu, Rhône",FR,45.725996,5.090139,Europe/Paris,https://ourairports.com/airports/LFLL/
+TLS,LFBO,图卢兹机场,Toulouse-Blagnac Airport,图卢兹,Toulouse/Blagnac,FR,43.629101,1.36382,Europe/Paris,https://ourairports.com/airports/LFBO/
+BOR,VLBK,博胶国际机场,Bokeo International Airport,博胶,Ton Phueng,LA,20.323986,100.165392,Asia/Vientiane,https://ourairports.com/airports/LA-0006/
+LPQ,VLLB,琅勃拉邦国际机场,Luang Phabang International Airport,琅勃拉邦,Luang Phabang,LA,19.904273,102.167191,Asia/Vientiane,https://ourairports.com/airports/VLLB/
+LXG,VLLN,琅南塔机场,Luang Namtha Airport,琅南塔,Luang Namtha,LA,20.966999,101.400002,Asia/Vientiane,https://ourairports.com/airports/VLLN/
+PKZ,VLPS,巴色国际机场,Pakse International Airport,巴色,Pakse,LA,15.133973,105.779871,Asia/Vientiane,https://ourairports.com/airports/VLPS/
+SAI,VDSA,暹粒吴哥国际机场,Siem Reap-Angkor International Airport,暹粒吴哥,Siem Reap,KH,13.36974,104.223831,Asia/Phnom_Penh,https://ourairports.com/airports/VDSA/
+VTE,VLVT,万象国际机场,Wattay International Airport,万象,Vientiane,LA,17.985052,102.566692,Asia/Vientiane,https://ourairports.com/airports/VLVT/
+XKH,VLXK,川圹机场,Xieng Khouang Airport,川圹,Xieng Khouang,LA,19.450001,103.157997,Asia/Vientiane,https://ourairports.com/airports/VLXK/
+ZVK,VLSK,沙湾拿吉机场,Savannakhet Airport,沙湾拿吉,沙湾拿吉,LA,16.55660057067871,104.76000213623047,Asia/Vientiane,https://ourairports.com/airports/VLSK/
+BKI,WBKK,哥打京那巴鲁国际机场,Kota Kinabalu International Airport,哥打京那巴鲁,Kota Kinabalu,MY,5.932743,116.049324,Asia/Kuching,https://ourairports.com/airports/WBKK/
+BPN,WALL,巴厘巴板国际机场,Sultan Aji Muhammad Sulaiman Sepinggan International Airport,巴厘巴板,Balikpapan,ID,-1.268342,116.89452,Asia/Makassar,https://ourairports.com/airports/WALL/
+JED,OEJN,吉达国际机场,King Abdulaziz International Airport,吉达,Jeddah,SA,21.680241,39.157436,Asia/Riyadh,https://ourairports.com/airports/OEJN/
+KCH,WBGG,古晋国际机场,Kuching International Airport,古晋,Kuching,MY,1.487364,110.352859,Asia/Kuching,https://ourairports.com/airports/WBGG/
+SUB,WARR,泗水国际机场,Juanda International Airport,泗水,Surabaya,ID,-7.37983,112.787003,Asia/Jakarta,https://ourairports.com/airports/WARR/
+CJU,RKPC,济州机场,Jeju International Airport,济州,Jeju City,KR,33.512058,126.492548,Asia/Seoul,https://ourairports.com/airports/RKPC/
+HNA,RJSI,花卷机场,Iwate Hanamaki Airport,花卷,Hanamaki,JP,39.4286,141.134995,Asia/Tokyo,https://ourairports.com/airports/RJSI/
+TNN,RCNN,台南机场,Tainan International Airport / Tainan Air Base,台南,Tainan (Rende),TW,22.950399,120.206001,Asia/Taipei,https://ourairports.com/airports/RCNN/
+ARW,LRAR,阿拉德机场,Arad International Airport,阿拉德,Arad,RO,46.176136,21.264322,Europe/Bucharest,https://ourairports.com/airports/LRAR/
+BBU,LRBS,布加勒斯特伯尼亚萨机场,Bucharest Băneasa Aurel Vlaicu International Airport,布加勒斯特伯尼亚萨,Bucharest,RO,44.503133,26.102944,Europe/Bucharest,https://ourairports.com/airports/LRBS/
+BNX,LQBK,巴尼亚卢卡机场,Banja Luka International Airport,巴尼亚卢卡,Mahovljani,BA,44.941399,17.297501,Europe/Sarajevo,https://ourairports.com/airports/LQBK/
+FAO,LPFR,法鲁机场,Faro - Gago Coutinho International Airport,法鲁,Faro,PT,37.015909,-7.970939,Europe/Lisbon,https://ourairports.com/airports/LPFR/
+FKB,EDSB,卡尔斯鲁厄巴登巴登机场,Karlsruhe Baden-Baden Airport,卡尔斯鲁厄巴登巴登,Rheinmünster,DE,48.7794,8.0805,Europe/Berlin,https://ourairports.com/airports/EDSB/
+GRO,LEGE,赫罗纳机场,Girona-Costa Brava Airport,赫罗纳,Girona,ES,41.904639,2.761774,Europe/Madrid,https://ourairports.com/airports/LEGE/
+PMI,LEPA,马略卡岛帕尔马机场,Palma de Mallorca Airport,马略卡岛帕尔马,Palma de Mallorca,ES,39.551701,2.73881,Europe/Madrid,https://ourairports.com/airports/LEPA/
+PRN,BKPR,普里什蒂纳机场,Priština Adem Jashari International Airport,普里什蒂纳,Prishtina,XK,42.5728,21.035801,Europe/Belgrade,https://ourairports.com/airports/BKPR/
+SBZ,LRSB,锡比乌机场,Sibiu International Airport,锡比乌,Sibiu,RO,45.785841,24.086666,Europe/Bucharest,https://ourairports.com/airports/LRSB/
+SKG,LGTS,塞萨洛尼基机场,Thessaloniki Macedonia International Airport,塞萨洛尼基,Thessaloniki,GR,40.51928,22.970009,Europe/Athens,https://ourairports.com/airports/LGTS/
+TGD,LYPG,波德戈里察机场,Podgorica Airport / Podgorica Golubovci Airbase,波德戈里察,Podgorica,ME,42.359402,19.2519,Europe/Podgorica,https://ourairports.com/airports/LYPG/
+ZAG,LDZA,萨格勒布机场,Zagreb Franjo Tuđman International Airport,萨格勒布,Velika Gorica,HR,45.742901,16.0688,Europe/Zagreb,https://ourairports.com/airports/LDZA/
+CLO,SKCL,卡利国际机场,Alfonso Bonilla Aragon International Airport,卡利,Cali,CO,3.542717,-76.381898,America/Bogota,https://ourairports.com/airports/SKCL/
+GYE,SEGU,瓜亚基尔国际机场,José Joaquín de Olmedo International Airport,瓜亚基尔,Guayaquil,EC,-2.15742,-79.883598,America/Guayaquil,https://ourairports.com/airports/SEGU/
+MDE,SKRG,麦德林国际机场,Jose Maria Córdova International Airport,麦德林,Medellín,CO,6.16454,-75.4231,America/Bogota,https://ourairports.com/airports/SKRG/
+MGA,MNMG,马那瓜国际机场,Augusto C. Sandino (Managua) International Airport,马那瓜,Managua,NI,12.1415,-86.168198,America/Managua,https://ourairports.com/airports/MNMG/
+ADJ,OJAM,安曼马尔卡机场,Marka International (Amman Civil) Airport,安曼马尔卡,Amman,JO,31.9727,35.9916,Asia/Amman,https://ourairports.com/airports/OJAM/
+ALG,DAAG,阿尔及尔机场,Houari Boumediene Airport,阿尔及尔,Algiers,DZ,36.693886,3.214531,Africa/Algiers,https://ourairports.com/airports/DAAG/
+ALP,OSAP,阿勒颇机场,Aleppo International Airport,阿勒颇,Aleppo,SY,36.181262,37.226869,Asia/Damascus,https://ourairports.com/airports/OSAP/
+AMM,OJAI,安曼阿勒娅王后机场,Queen Alia International Airport,安曼阿勒娅王后,Amman,JO,31.7226009369,35.9931983948,Asia/Amman,https://ourairports.com/airports/OJAI/
+AQJ,OJAQ,亚喀巴机场,King Hussein International Airport,亚喀巴,Aqaba,JO,29.611601,35.018101,Asia/Amman,https://ourairports.com/airports/OJAQ/
+AUH,OMAA,阿布扎比机场,Zayed International Airport,阿布扎比,Abu Dhabi,AE,24.440966,54.649237,Asia/Dubai,https://ourairports.com/airports/OMAA/
+BAH,OBBI,巴林机场,Bahrain International Airport,巴林,Manama,BH,26.267295,50.63764,Asia/Bahrain,https://ourairports.com/airports/OBBI/
+BEN,HLLB,班加西机场,Benina International Airport,班加西,Benina,LY,32.096802,20.269501,Africa/Tripoli,https://ourairports.com/airports/HLLB/
+BEY,OLBA,贝鲁特机场,Beirut Rafic Hariri International Airport,贝鲁特,Beirut,LB,33.819833,35.487443,Asia/Beirut,https://ourairports.com/airports/OLBA/
+BGW,ORBI,巴格达机场,Baghdad International Airport / New Al Muthana Air Base,巴格达,Baghdad,IQ,33.262501,44.2346,Asia/Baghdad,https://ourairports.com/airports/ORBI/
+BSR,ORMM,巴士拉机场,Basra International Airport,巴士拉,Basra,IQ,30.549101,47.662102,Asia/Baghdad,https://ourairports.com/airports/ORMM/
+CAI,HECA,开罗机场,Cairo International Airport,开罗,Cairo,EG,30.111534,31.396694,Africa/Cairo,https://ourairports.com/airports/HECA/
+DAM,OSDI,大马士革机场,Damascus International Airport,大马士革,Damascus,SY,33.4114990234375,36.51559829711914,Asia/Damascus,https://ourairports.com/airports/OSDI/
+DME,UUDD,莫斯科多莫杰多沃机场,Domodedovo International Airport,莫斯科多莫杰多沃,Moscow,RU,55.408798,37.9063,Europe/Moscow,https://ourairports.com/airports/UUDD/
+DMM,OEDF,达曼机场,King Fahd International Airport,达曼,Ad Dammam,SA,26.4691,49.798209,Asia/Riyadh,https://ourairports.com/airports/OEDF/
+EBL,ORER,埃尔比勒机场,Erbil International Airport,埃尔比勒,Arbil,IQ,36.236047,43.946615,Asia/Baghdad,https://ourairports.com/airports/ORER/
+HAM,EDDH,汉堡机场,Hamburg Helmut Schmidt Airport,汉堡,Hamburg,DE,53.630402,9.98823,Europe/Berlin,https://ourairports.com/airports/EDDH/
+ISU,ORSJ,苏莱曼尼亚机场,Jalal Talabani International Airport,苏莱曼尼亚,Sulaymaniyah,IQ,35.560487,45.315137,Asia/Baghdad,https://ourairports.com/airports/ORSU/
+KWI,OKKK,科威特机场,Kuwait International Airport,科威特,Kuwait City,KW,29.224487,47.969813,Asia/Kuwait,https://ourairports.com/airports/OKKK/
+LCA,LCLK,拉纳卡机场,Larnaca International Airport,拉纳卡,Larnaca,CY,34.875099,33.624901,Asia/Nicosia,https://ourairports.com/airports/LCLK/
+MCX,URML,马哈奇卡拉机场,Makhachkala Uytash International Airport,马哈奇卡拉,Makhachkala,RU,42.816799,47.652302,Europe/Moscow,https://ourairports.com/airports/URML/
+MED,OEMA,麦地那机场,Prince Mohammad Bin Abdulaziz Airport,麦地那,Medina,SA,24.5534,39.705101,Asia/Riyadh,https://ourairports.com/airports/OEMA/
+MJI,HLLM,的黎波里米提加机场,Mitiga International Airport,的黎波里米提加,Tripoli,LY,32.89177,13.287878,Africa/Tripoli,https://ourairports.com/airports/HLLM/
+MRA,HLMS,米苏拉塔机场,Misrata International Airport,米苏拉塔,Misrata,LY,32.325001,15.061,Africa/Tripoli,https://ourairports.com/airports/HLMS/
+NJF,ORNI,纳杰夫机场,Al Najaf International Airport,纳杰夫,Najaf,IQ,31.991116,44.405019,Asia/Baghdad,https://ourairports.com/airports/ORNI/
+RUH,OERK,利雅得机场,King Khalid International Airport,利雅得,Riyadh,SA,24.9576,46.698799,Asia/Riyadh,https://ourairports.com/airports/OERK/
+SHJ,OMSJ,沙迦机场,Sharjah International Airport,沙迦,Sharjah,AE,25.3286,55.5172,Asia/Dubai,https://ourairports.com/airports/OMSJ/
+TAS,UZTT,塔什干机场,Tashkent International Airport,塔什干,Tashkent,UZ,41.2579,69.281197,Asia/Tashkent,https://ourairports.com/airports/UTTT/
+TBS,UGTB,第比利斯机场,Tbilisi International Airport,第比利斯,Tbilisi,GE,41.669201,44.9547,Asia/Tbilisi,https://ourairports.com/airports/UGTB/

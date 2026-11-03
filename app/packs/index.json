@@ -1,11 +1,179 @@
 {
- "active": "ci-2026w-demo.1",
+ "active": "global-202611.stable1",
  "packs": [
   {
    "version": "ci-2026w-demo.1",
    "title": "华航 2026/27 冬季时刻表 · 演示包",
    "file": "ci-2026w-demo.1.json",
    "generated_at": "2026-11-02T12:25:22+00:00"
+  },
+  {
+   "version": "asia-202611.1",
+   "title": "亚洲精选 · 香港直飞与日本续程（2026年11月）",
+   "file": "asia-202611.1.json",
+   "generated_at": "2026-11-02T15:32:18+00:00"
+  },
+  {
+   "version": "global-202611.1",
+   "title": "全球航线 · 2026 年 11 月（第一批）",
+   "file": "global-202611.1.json",
+   "generated_at": "2026-11-02T20:11:26+00:00"
+  },
+  {
+   "version": "global-202611.2",
+   "title": "Global November 2026 — ANA and Emirates",
+   "file": "global-202611.2.json",
+   "generated_at": "2026-11-02T20:21:54+00:00"
+  },
+  {
+   "version": "global-202611.3",
+   "title": "Global November 2026 — Pacific expansion",
+   "file": "global-202611.3.json",
+   "generated_at": "2026-11-02T20:25:17+00:00"
+  },
+  {
+   "version": "global-202611.4",
+   "title": "Global November 2026 — European network",
+   "file": "global-202611.4.json",
+   "generated_at": "2026-11-03T04:26:31+00:00"
+  },
+  {
+   "version": "global-202611.5",
+   "title": "全球航线 2026年11月 · 巴西民航局扩充",
+   "file": "global-202611.5.json",
+   "generated_at": "2026-11-03T05:07:28+00:00"
+  },
+  {
+   "version": "global-202611.6",
+   "title": "全球航线 2026年11月 · 非洲与印度洋扩充",
+   "file": "global-202611.6.json",
+   "generated_at": "2026-11-03T05:10:12+00:00"
+  },
+  {
+   "version": "global-202611.7",
+   "title": "全球航线 2026年11月 · 日本区域连接",
+   "file": "global-202611.7.json",
+   "generated_at": "2026-11-03T05:11:47+00:00"
+  },
+  {
+   "version": "global-202611.8",
+   "title": "全球航线 2026年11月 · 不丹与南亚连接",
+   "file": "global-202611.8.json",
+   "generated_at": "2026-11-03T05:15:08+00:00"
+  },
+  {
+   "version": "global-202611.9",
+   "title": "Global verified schedules · November 2026 · 9",
+   "file": "global-202611.9.json",
+   "generated_at": "2026-11-03T05:19:27+00:00"
+  },
+  {
+   "version": "global-202611.10",
+   "title": "Global verified schedules · November 2026 · 10",
+   "file": "global-202611.10.json",
+   "generated_at": "2026-11-03T09:25:14+00:00"
+  },
+  {
+   "version": "global-202611.11",
+   "title": "Global verified schedules · November 2026 · 11",
+   "file": "global-202611.11.json",
+   "generated_at": "2026-11-03T09:29:40+00:00"
+  },
+  {
+   "version": "global-202611.12",
+   "title": "Global verified schedules · November 2026 · 12",
+   "file": "global-202611.12.json",
+   "generated_at": "2026-11-03T09:32:21+00:00"
+  },
+  {
+   "version": "global-202611.13",
+   "title": "Global verified schedules · November 2026 · 13",
+   "file": "global-202611.13.json",
+   "generated_at": "2026-11-03T09:33:54+00:00"
+  },
+  {
+   "version": "global-202611.14",
+   "title": "Global verified schedules · November 2026 · 14",
+   "file": "global-202611.14.json",
+   "generated_at": "2026-11-03T09:39:34+00:00"
+  },
+  {
+   "version": "global-202611.15",
+   "title": "Global verified schedules · November 2026 · 15",
+   "file": "global-202611.15.json",
+   "generated_at": "2026-11-03T09:41:28+00:00"
+  },
+  {
+   "version": "global-202611.16",
+   "title": "Global verified schedules · November 2026 · 16",
+   "file": "global-202611.16.json",
+   "generated_at": "2026-11-03T09:45:32+00:00"
+  },
+  {
+   "version": "global-202611.17",
+   "title": "Global verified schedules · November 2026 · 17",
+   "file": "global-202611.17.json",
+   "generated_at": "2026-11-03T09:52:43+00:00"
+  },
+  {
+   "version": "global-202611.18",
+   "title": "Global verified schedules · November 2026 · 18",
+   "file": "global-202611.18.json",
+   "generated_at": "2026-11-03T14:37:16+00:00"
+  },
+  {
+   "version": "global-202611.19",
+   "title": "Global verified schedules · November 2026 · 19",
+   "file": "global-202611.19.json",
+   "generated_at": "2026-11-03T14:41:10+00:00"
+  },
+  {
+   "version": "global-202611.20",
+   "title": "Global verified schedules · November 2026 · 20",
+   "file": "global-202611.20.json",
+   "generated_at": "2026-11-03T14:42:19+00:00"
+  },
+  {
+   "version": "global-202611.21",
+   "title": "Global verified schedules · November 2026 · 21",
+   "file": "global-202611.21.json",
+   "generated_at": "2026-11-03T14:48:23+00:00"
+  },
+  {
+   "version": "global-202611.22",
+   "title": "Global verified schedules · November 2026 · 22",
+   "file": "global-202611.22.json",
+   "generated_at": "2026-11-03T14:49:25+00:00"
+  },
+  {
+   "version": "global-202611.23",
+   "title": "Global verified schedules · November 2026 · 23",
+   "file": "global-202611.23.json",
+   "generated_at": "2026-11-03T14:51:14+00:00"
+  },
+  {
+   "version": "global-202611.24",
+   "title": "Global verified schedules · November 2026 · 24",
+   "file": "global-202611.24.json",
+   "generated_at": "2026-11-03T14:53:48+00:00"
+  },
+  {
+   "version": "global-202611.25",
+   "title": "Global verified schedules · November 2026 · 25",
+   "file": "global-202611.25.json",
+   "generated_at": "2026-11-03T14:57:57+00:00"
+  },
+  {
+   "version": "global-202611.26",
+   "title": "Global verified schedules · November 2026 · 26",
+   "file": "global-202611.26.json",
+   "generated_at": "2026-11-03T15:03:32+00:00"
+  },
+  {
+   "version": "global-202611.stable1",
+   "title": "全球航线 · 2026年11月稳定版",
+   "file": "global-202611.stable1.json",
+   "generated_at": "2026-11-03T18:41:37+00:00"
   }
  ]
 }
