@@ -3,3 +3,6 @@ userdata/
 __pycache__/
 *.tmp
 .test-userdata/
+app/assets/map/*.mbtiles
+app/assets/map/*.part
+app/assets/map/fonts/

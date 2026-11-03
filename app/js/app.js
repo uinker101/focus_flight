@@ -3,7 +3,8 @@ import { loadPack, getPack, getPackIndex, activatePack, installPack, diffPacks, 
 import { zonedParts, addDays, fmtHM, fmtDate, fmtDuration, fmtClock, localDayOffset, weekdayZh } from './time.js';
 import { applyTheme } from './sun.js';
 import { makeProfile, sample, interpolate, bearing, PHASE_TEXT } from './sim.js';
-import { MapView } from './map.js';
+import { RouteMap } from './routemap.js';
+import { FlightMap } from './flightmap.js';
 import { computeCollections, packTotals } from './collections.js';
 import { passSVG, svgToPngBlob } from './pass.js';
 import { goalEditor, goalChecklist, goalsDone, allGoalsDone } from './goals.js';
@@ -505,8 +506,7 @@ function viewFlight() {
   document.body.dataset.view = 'flight';
   $app.innerHTML = `
     <div class="ptv" data-ptv>
-      <canvas class="ptv-map"></canvas>
-      <div class="ptv-3d" hidden></div>
+      <div class="ptv-map"></div>
       <div class="ptv-top">
         <div class="ptv-title"><span class="mono">${esc(f.flight)}</span> ${esc(f.airline.name)} · ${esc(o.city)} → ${esc(d.city)}</div>
         ${j.todos.length ? `<div class="ptv-goals">
@@ -545,7 +545,7 @@ function viewFlight() {
           <div><label>${esc(d.city)}时间</label><b data-v="dtime"></b></div>
         </div>
         <div class="ptv-foot">
-          <span class="dim small">参考班表模拟飞行 · 计划航程 ${fmtDuration(f.duration_min)} · 非实时航班动态</span>
+          <span class="dim small">参考班表模拟飞行 · 计划航程 ${fmtDuration(f.duration_min)} · 非实时航班动态 · 地图 © OpenStreetMap 贡献者、Mapterhorn、NASA</span>
           ${st.settings.demo ? `<span class="seg small" data-speeds><button data-speed="1">×1</button><button data-speed="30">×30</button><button data-speed="120">×120</button></span>` : ''}
           <button class="btn small ghost" data-abort>提前结束</button>
         </div>
@@ -559,46 +559,20 @@ function viewFlight() {
       </div>
     </div>`;
 
-  const mapCanvas = $app.querySelector('canvas');
-  const map = new MapView(mapCanvas);
-  map.setFlight(o, d);
-  map.setAirports([{ ...o, kind: 'origin' }, { ...d, kind: 'dest' }]);
+  const needle = $app.querySelector('[data-needle]');
+  const map = new FlightMap($app.querySelector('.ptv-map'), {
+    origin: o, destination: d, model, style: planeStyle(),
+    onCompass: (deg) => { needle.style.transform = `rotate(${deg}deg)`; },
+  });
   const panel = $app.querySelector('.ptv-panel');
-  // "Follow" is a 3D view (Three.js), loaded the first time it is chosen.
-  let mode = 'route';
-  let follow = null;
-  let followReady = null;
-  let lastPlane = null;
-  const padding = () => ({ top: 90, bottom: panel.offsetHeight + 40, left: 40, right: 40 });
-  const fitPadding = () => {
-    map.setPadding(padding());
-    follow?.setPadding(padding());
-  };
+  const fitPadding = () => map.setPadding({ top: 90, bottom: panel.offsetHeight + 40, left: 40, right: 40 });
   fitPadding();
   window.addEventListener('resize', fitPadding);
-  map.init();
 
-  const needle = $app.querySelector('[data-needle]');
   function setMode(m) {
-    mode = m;
     $app.querySelectorAll('[data-mode]').forEach((x) => x.classList.toggle('on', x.dataset.mode === m));
     $app.querySelector('[data-follow]').hidden = m !== 'follow';
-    mapCanvas.hidden = m === 'follow';
-    if (m !== 'follow') {
-      follow?.show(false);
-      map.setMode(m);
-      return;
-    }
-    followReady ||= import('./follow3d.js').then(({ FollowView }) => {
-      follow = new FollowView($app.querySelector('.ptv-3d'), {
-        origin: o, destination: d, model, style: planeStyle(),
-        onCompass: (deg) => { needle.style.transform = `rotate(${deg}deg)`; },
-      });
-      follow.setPadding(padding());
-      if (lastPlane) follow.setPlane(...lastPlane);
-      return follow.init();
-    });
-    followReady.then(() => follow.show(mode === 'follow'));
+    map.setMode(m);
   }
   const markStyle = () => $app.querySelectorAll('[data-style]').forEach((b) => b.classList.toggle('on', b.dataset.style === planeStyle()));
   markStyle();
@@ -606,9 +580,9 @@ function viewFlight() {
     st.settings.planeStyle = b.dataset.style;
     save();
     markStyle();
-    follow?.setStyle(planeStyle());
+    map.setStyle(planeStyle());
   }));
-  $app.querySelector('[data-north]').addEventListener('click', () => follow?.northUp());
+  $app.querySelector('[data-north]').addEventListener('click', () => map.northUp());
 
   const goalsBox = $app.querySelector('.ptv-goals');
   if (goalsBox) {
@@ -657,9 +631,7 @@ function viewFlight() {
     const pos = interpolate(o, d, sm.fraction);
     const ahead = interpolate(o, d, Math.min(1, sm.fraction + 0.002));
     const heading = sm.fraction < 0.998 ? bearing(pos, ahead) : bearing(o, d);
-    map.setPlane(pos, heading, sm.fraction);
-    lastPlane = [pos, heading, sm];
-    follow?.setPlane(pos, heading, sm);
+    map.setPlane(pos, heading, sm);
     const tFrac = min / f.duration_min;
     $app.querySelector('[data-fill]').style.width = `${(tFrac * 100).toFixed(2)}%`;
     $app.querySelector('[data-pplane]').style.left = `${(tFrac * 100).toFixed(2)}%`;
@@ -680,7 +652,6 @@ function viewFlight() {
     tick,
     destroy() {
       map.destroy();
-      follow?.destroy();
       window.removeEventListener('resize', fitPadding);
       if (document.fullscreenElement) document.exitFullscreen();
     },
@@ -836,9 +807,9 @@ function viewCollection(tab = 'passes') {
   } else if (tab === 'routes') {
     const routes = [...col.routes.values()].sort((a, b) => b.count - a.count);
     body = `<div class="routes-layout">
-      <div class="routes-map"><canvas></canvas></div>
+      <div class="routes-map"></div>
       <ul class="route-list">${routes.map((r) => `<li data-route="${esc(r.key)}"><b class="mono">${esc(r.key)}</b> <span>${esc(r.a.city)} – ${esc(r.b.city)}</span> <span class="dim">${r.count} 次</span>
-        <div class="small dim">${r.journeys.map((id) => st.journeys.find((x) => x.id === id)).map((x) => `<a href="#/pass/${x.id}">${esc(x.flight.flight)} ${fmtDate(x.ended_at, homeTz(), { weekday: false })}</a>`).join(' · ')}</div></li>`).join('') || '<li class="dim">成功完成航程后，航线会画在地图上。</li>'}</ul>
+        <div class="small dim">${r.journeys.map((id) => st.journeys.find((x) => x.id === id)).map((x) => `<a href="#/pass/${x.id}" data-journey="${x.id}">${esc(x.flight.flight)} ${fmtDate(x.ended_at, homeTz(), { weekday: false })}</a>`).join(' · ')}</div></li>`).join('') || '<li class="dim">成功完成航程后，航线会画在地球上；同一航线飞几次就有几条线。</li>'}</ul>
     </div>`;
   }
 
@@ -848,15 +819,25 @@ function viewCollection(tab = 'passes') {
     ${body}`);
 
   if (tab === 'routes') {
-    map = new MapView($app.querySelector('.routes-map canvas'));
     const routes = [...col.routes.values()];
-    map.setRoutes(routes.map((r) => ({ a: r.a, b: r.b, count: r.count, key: r.key })));
     const visited = new Set(routes.flatMap((r) => [r.a.iata, r.b.iata]));
-    map.setAirports(Object.values(pack.airports).map((a) => ({ ...a, kind: visited.has(a.iata) ? 'visited' : 'other' })));
-    map.init();
+    const mark = (jid) => $app.querySelectorAll('[data-journey]').forEach((a) => {
+      a.classList.toggle('hot', a.dataset.journey === jid);
+      a.closest('li').classList.toggle('hot', !!jid && !!a.closest('li').querySelector(`[data-journey="${jid}"]`));
+    });
+    map = new RouteMap($app.querySelector('.routes-map'), {
+      routes,
+      airports: Object.values(pack.airports).map((a) => ({ ...a, visited: visited.has(a.iata) })),
+      onHover: mark,
+      onClick: (jid) => go(`pass/${jid}`),
+    });
     $app.querySelectorAll('[data-route]').forEach((li) => {
-      li.addEventListener('mouseenter', () => map.setHighlight(li.dataset.route));
-      li.addEventListener('mouseleave', () => map.setHighlight(null));
+      li.addEventListener('mouseenter', () => map.highlightRoute(li.dataset.route));
+      li.addEventListener('mouseleave', () => map.highlightRoute(null));
+      li.querySelectorAll('[data-journey]').forEach((a) => {
+        a.addEventListener('mouseenter', () => map.highlightJourney(a.dataset.journey));
+        a.addEventListener('mouseleave', () => map.highlightRoute(li.dataset.route));
+      });
     });
   }
   return { destroy: () => map?.destroy() };
