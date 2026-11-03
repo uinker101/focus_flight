@@ -6,7 +6,7 @@ import { makeProfile, sample, interpolate, bearing, PHASE_TEXT } from './sim.js'
 import { RouteMap } from './routemap.js';
 import { FlightMap } from './flightmap.js';
 import { computeCollections, packTotals } from './collections.js';
-import { passSVG, svgToPngBlob } from './pass.js';
+import { passSVG, passBackSVG, svgToPngBlob } from './pass.js';
 import { goalEditor, goalChecklist, goalsDone, allGoalsDone } from './goals.js';
 
 const $app = document.getElementById('app');
@@ -718,7 +718,8 @@ function viewPass(id, fresh) {
     shell('collection', '<div class="empty">找不到这张登机牌。</div>');
     return {};
   }
-  const svg = passSVG(j, homeTz());
+  const front = passSVG(j, homeTz());
+  const back = passBackSVG(j, homeTz());
   const isNew = fresh === 'new';
   const col = computeCollections(st);
   const firsts = [];
@@ -730,21 +731,37 @@ function viewPass(id, fresh) {
   shell('collection', `
     <section class="pass-view ${isNew ? 'fresh' : ''}">
       ${isNew ? `<div class="eyebrow">已加入收藏</div><h1>登机牌已出票</h1>${firsts.length ? `<div class="unlocks">${firsts.map((t) => `<span class="unlock">★ ${esc(t)}</span>`).join('')}</div>` : ''}` : `<div class="eyebrow">登机牌 ${esc(j.pass_no)}</div><h1>${esc(j.flight.origin.city)} → ${esc(j.flight.destination.city)}</h1>`}
-      <div class="printer"><div class="pass-big print-target">${svg}</div></div>
+      <div class="printer"><div class="pass-big">
+        <div class="pass-flip" data-flip role="button" tabindex="0" title="翻面">
+          <div class="pass-face">${front}</div>
+          <div class="pass-face back">${back}</div>
+        </div>
+      </div></div>
       <div class="pass-actions">
         <button class="btn primary" data-png>下载图片</button>
         <button class="btn" data-print>打印 / 存为 PDF</button>
         <a class="btn ghost" href="#/collection/passes">登机牌墙</a>
         <a class="btn ghost" href="#/">回首页</a>
       </div>
-      <p class="dim small">“存为 PDF”在打印窗口左下角选择。图片和打印内容相同，重复下载不影响收藏次数。</p>
+      <p class="dim small">点击登机牌翻面，背面是这一程完成的目标。下载图片保存当前这一面；打印包含正反两面，“存为 PDF”在打印窗口左下角选择。重复下载不影响收藏次数。</p>
     </section>`);
+  const flip = $app.querySelector('[data-flip]');
+  // A div, not a <button>: printing splits it into a front page and a back page, which a button can't do.
+  flip.addEventListener('click', () => flip.classList.toggle('flipped'));
+  flip.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    e.preventDefault();
+    flip.classList.toggle('flipped');
+  });
+  // The printer slot only clips while the new pass slides out; afterwards the card can turn freely.
+  $app.querySelector('.pass-big').addEventListener('animationend', () => $app.querySelector('.pass-view').classList.remove('fresh'));
   $app.querySelector('[data-print]').addEventListener('click', () => window.print());
   $app.querySelector('[data-png]').addEventListener('click', async () => {
-    const blob = await svgToPngBlob(svg);
+    const showingBack = flip.classList.contains('flipped');
+    const blob = await svgToPngBlob(showingBack ? back : front);
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
-    a.download = `focus-flight-${j.pass_no}.png`;
+    a.download = `focus-flight-${j.pass_no}${showingBack ? '-back' : ''}.png`;
     a.click();
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   });
