@@ -223,9 +223,16 @@ body[data-view=flight] { overflow: hidden; }
 
 /* --- pass --- */
 .pass-view { text-align: center; }
-.printer { margin: 26px auto; max-width: 960px; overflow: hidden; padding: 6px 6px 20px; }
+.printer { margin: 26px auto; max-width: 960px; padding: 6px 6px 20px; }
+.pass-view.fresh .printer { overflow: hidden; }
+.pass-big { perspective: 3000px; }
 .pass-big svg { width: 100%; height: auto; display: block; border-radius: 22px; box-shadow: 0 14px 40px rgba(0,0,0,0.22); }
 .pass-view.fresh .pass-big { animation: print-out 1.6s cubic-bezier(.2,.8,.2,1) both; }
+.pass-flip { display: grid; border-radius: 22px; cursor: pointer; transform-style: preserve-3d; transition: transform .7s cubic-bezier(.3,.7,.25,1); }
+.pass-flip.flipped { transform: rotateY(180deg); }
+.pass-flip:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+.pass-face { grid-area: 1 / 1; -webkit-backface-visibility: hidden; backface-visibility: hidden; }
+.pass-face.back { transform: rotateY(180deg); }
 @keyframes print-out { from { transform: translateY(-105%); opacity: 0.2; } 60% { opacity: 1; } to { transform: none; opacity: 1; } }
 .pass-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
 .unlocks { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-top: 10px; }
@@ -281,12 +288,15 @@ body[data-view=flight] { overflow: hidden; }
   .ptv-top { right: 20px; top: 120px; }
 }
 
-/* --- print: only the boarding pass --- */
+/* --- print: the boarding pass, front then back on its own page --- */
 @media print {
   @page { size: landscape; margin: 12mm; }
   body { background: #fff; }
-  body * { visibility: hidden; }
-  .print-target, .print-target * { visibility: visible; }
-  .print-target { position: absolute; left: 0; top: 0; width: 100%; animation: none !important; }
-  .print-target svg { box-shadow: none !important; }
+  .topbar, .pass-view > :not(.printer) { display: none !important; }
+  .page, .printer { max-width: none; margin: 0; padding: 0; }
+  .pass-big { animation: none !important; perspective: none; }
+  .pass-flip { display: block; transform: none !important; outline: none !important; }
+  .pass-face { transform: none !important; }
+  .pass-face.back { break-before: page; }
+  .pass-big svg { box-shadow: none !important; }
 }
