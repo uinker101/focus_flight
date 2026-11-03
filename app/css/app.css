@@ -3,7 +3,7 @@
   --bg: #eef3f8; --bg-2: #e3ebf3; --panel: #ffffff; --panel-2: #f6f9fc;
   --text: #0f1d2b; --text-dim: #5b6b7c; --line: #d5dee8;
   --accent: #2563a8; --accent-2: #d97a14; --good: #2f8a5b; --bad: #b5473a;
-  --map-ocean: #cfe2f2; --map-land: #f6f2e9; --locked: #b8c3cf;
+  --route-todo: #7d90a6; --locked: #b8c3cf;
   --radius: 14px;
   --font: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Helvetica Neue", sans-serif;
   --mono: "SF Mono", ui-monospace, Menlo, Monaco, monospace;
@@ -168,8 +168,16 @@ dialog::backdrop { background: rgba(5, 12, 22, 0.45); backdrop-filter: blur(2px)
 
 /* --- flight PTV --- */
 body[data-view=flight] { overflow: hidden; }
-.ptv { position: fixed; inset: 0; background: var(--map-ocean); }
-.ptv-map { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.ptv { position: fixed; inset: 0; background: #0b1726; }
+.ptv-map { position: absolute; inset: 0; background: #0b1726; }
+.ptv-follow[hidden] { display: none; }
+.ptv-follow { position: absolute; right: 20px; top: 70px; display: flex; gap: 8px; align-items: center; padding: 4px; border-radius: 12px; background: color-mix(in srgb, var(--panel) 86%, transparent); backdrop-filter: blur(10px); box-shadow: 0 2px 12px rgba(0,0,0,0.12); }
+.ptv-follow .seg { background: transparent; }
+.ptv-note { font-size: 13px; color: var(--text-dim); padding: 0 8px; }
+.compass { width: 34px; height: 34px; padding: 0; border: 0; border-radius: 50%; background: var(--panel); box-shadow: 0 1px 3px rgba(0,0,0,0.18); cursor: pointer; display: grid; place-items: center; }
+.compass svg { width: 24px; height: 24px; }
+.compass .n { fill: var(--bad); }
+.compass .s { fill: var(--text-dim); }
 .ptv-top { position: absolute; left: 20px; top: 16px; right: 360px; }
 .ptv-title { display: inline-block; padding: 8px 14px; border-radius: 12px; background: color-mix(in srgb, var(--panel) 86%, transparent); backdrop-filter: blur(10px); font-weight: 600; box-shadow: 0 2px 12px rgba(0,0,0,0.12); }
 .ptv-goals { margin-top: 8px; width: min(320px, 100%); border-radius: 12px; background: color-mix(in srgb, var(--panel) 88%, transparent); backdrop-filter: blur(10px); box-shadow: 0 2px 12px rgba(0,0,0,0.12); overflow: hidden; }
@@ -215,9 +223,16 @@ body[data-view=flight] { overflow: hidden; }
 
 /* --- pass --- */
 .pass-view { text-align: center; }
-.printer { margin: 26px auto; max-width: 960px; overflow: hidden; padding: 6px 6px 20px; }
+.printer { margin: 26px auto; max-width: 960px; padding: 6px 6px 20px; }
+.pass-view.fresh .printer { overflow: hidden; }
+.pass-big { perspective: 3000px; }
 .pass-big svg { width: 100%; height: auto; display: block; border-radius: 22px; box-shadow: 0 14px 40px rgba(0,0,0,0.22); }
 .pass-view.fresh .pass-big { animation: print-out 1.6s cubic-bezier(.2,.8,.2,1) both; }
+.pass-flip { display: grid; border-radius: 22px; cursor: pointer; transform-style: preserve-3d; transition: transform .7s cubic-bezier(.3,.7,.25,1); }
+.pass-flip.flipped { transform: rotateY(180deg); }
+.pass-flip:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+.pass-face { grid-area: 1 / 1; -webkit-backface-visibility: hidden; backface-visibility: hidden; }
+.pass-face.back { transform: rotateY(180deg); }
 @keyframes print-out { from { transform: translateY(-105%); opacity: 0.2; } 60% { opacity: 1; } to { transform: none; opacity: 1; } }
 .pass-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
 .unlocks { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-top: 10px; }
@@ -244,11 +259,12 @@ body[data-view=flight] { overflow: hidden; }
 .type-chip { padding: 4px 10px; border-radius: 8px; background: color-mix(in srgb, var(--accent-2) 16%, transparent); font-size: 13.5px; }
 .type-chip.locked { background: var(--bg-2); color: var(--text-dim); }
 .routes-layout { display: grid; grid-template-columns: 1.7fr 1fr; gap: 18px; }
-.routes-map { height: 520px; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); }
-.routes-map canvas { width: 100%; height: 100%; display: block; }
+.routes-map { position: relative; height: 520px; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); background: #0b1726; }
 .route-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; align-content: start; }
 .route-list li { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; }
-.route-list li:hover { border-color: var(--accent-2); }
+.route-list li:hover, .route-list li.hot { border-color: var(--accent-2); }
+.route-list a.hot { color: var(--accent-2); font-weight: 700; }
+.map-missing { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); max-width: 360px; padding: 14px 18px; border-radius: 12px; background: var(--panel); color: var(--text); box-shadow: 0 4px 20px rgba(0,0,0,0.25); font-size: 14px; line-height: 1.6; z-index: 5; }
 
 /* --- settings --- */
 .settings { margin-bottom: 16px; }
@@ -269,15 +285,18 @@ body[data-view=flight] { overflow: hidden; }
   .board td:nth-child(2) .small { display: none; }
   .t-time { font-size: 16px; }
   .ptv-stats { grid-template-columns: repeat(3, 1fr); }
-  .ptv-top { right: 20px; top: 70px; }
+  .ptv-top { right: 20px; top: 120px; }
 }
 
-/* --- print: only the boarding pass --- */
+/* --- print: the boarding pass, front then back on its own page --- */
 @media print {
   @page { size: landscape; margin: 12mm; }
   body { background: #fff; }
-  body * { visibility: hidden; }
-  .print-target, .print-target * { visibility: visible; }
-  .print-target { position: absolute; left: 0; top: 0; width: 100%; animation: none !important; }
-  .print-target svg { box-shadow: none !important; }
+  .topbar, .pass-view > :not(.printer) { display: none !important; }
+  .page, .printer { max-width: none; margin: 0; padding: 0; }
+  .pass-big { animation: none !important; perspective: none; }
+  .pass-flip { display: block; transform: none !important; outline: none !important; }
+  .pass-face { transform: none !important; }
+  .pass-face.back { break-before: page; }
+  .pass-big svg { box-shadow: none !important; }
 }

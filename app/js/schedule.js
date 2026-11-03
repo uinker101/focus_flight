@@ -114,6 +114,28 @@ export function snapshotFlight(inst) {
   };
 }
 
+// 3D models in app/assets/aircraft (see the README there): file → the ICAO types
+// shown with it. Variants without a model of their own (neo, MAX, 777-300ER,
+// 787-10, E175, ATR 72 …) use the closest airframe; the text still names the real type.
+const MODEL_TYPES = {
+  a318: 'A318', a319: 'A319 A19N', a320: 'A320 A20N', a321: 'A321 A21N',
+  a332: 'A332 A338', a333: 'A333 A339', a343: 'A342 A343', a346: 'A345 A346',
+  a359: 'A359 A35K', a380: 'A388', cs100: 'BCS1', cs300: 'BCS3',
+  b736: 'B736', b737: 'B737 B37M', b738: 'B738 B38M', b739: 'B739 B39M B3XM',
+  b744: 'B744', b748: 'B748', b752: 'B752', b753: 'B753', b762: 'B762', b763: 'B763', b764: 'B764',
+  b772: 'B772 B77L', b773: 'B773 B77W', b788: 'B788', b789: 'B789 B78X',
+  atr42: 'AT43 AT45 AT46 AT72 AT75 AT76', q400: 'DH8D', bae146: 'B461 B462 B463 RJ85 RJ1H',
+  crj700: 'CRJ7', crj900: 'CRJ9 CRJX', e170: 'E170 E75S E75L', e190: 'E190 E195 E290 E295',
+};
+const TYPE_MODELS = Object.fromEntries(Object.entries(MODEL_TYPES).flatMap(([file, types]) => types.split(' ').map((t) => [t, file])));
+// When the source only narrows it down to a family, show the family's usual model.
+const FAMILY_MODELS = { 'A320 系列': 'a320', A330: 'a333', A350: 'a359', '737 NG': 'b738', 747: 'b748', 767: 'b763', 777: 'b773', 787: 'b788' };
+
+/** Model file for the flight's aircraft, or null when the aircraft is unknown or has no model. */
+export function aircraftModel(ac) {
+  return TYPE_MODELS[ac.type] || FAMILY_MODELS[ac.family] || null;
+}
+
 export function aircraftLabel(ac) {
   if (ac.type && pack?.aircraft_types[ac.type]) {
     const t = pack.aircraft_types[ac.type];

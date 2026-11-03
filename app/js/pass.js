@@ -30,21 +30,29 @@ function barcode(seed, x, y, w, h) {
   return out;
 }
 
-/** Up to three goals, the last line summarising the rest. */
-function goalLines(todos, x, y) {
-  if (!todos.length) return `<text x="${x}" y="${y}" font-size="14" fill="#6b7a8a">（未设定）</text>`;
-  const shown = todos.length > 3 ? todos.slice(0, 2) : todos;
-  const lines = shown.map((t) => `✓ ${truncate(t.text, 24)}`);
-  if (todos.length > 3) lines.push(`✓ 以及另外 ${todos.length - 2} 项`);
-  return lines.map((line, i) => `<text x="${x}" y="${y + i * 19}" font-size="14" font-weight="600" fill="#10202f"><tspan fill="#2f8a5b">${esc(line.slice(0, 1))}</tspan>${esc(line.slice(1))}</text>`).join('');
-}
-
 function field(x, y, label, value, { size = 20, mono = true } = {}) {
   return `<text x="${x}" y="${y}" font-size="11" fill="#6b7a8a" letter-spacing="0.5">${esc(label)}</text>
   <text x="${x}" y="${y + size + 6}" font-size="${size}" font-weight="700" fill="#10202f" ${mono ? `font-family="${MONO}"` : ''}>${esc(value)}</text>`;
 }
 
-/** Journey (completed, success) → SVG string. */
+const BAND = '#1c3d66';
+
+/** Card outline, paper and top band shared by both sides. */
+function card(inner) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" font-family="${FONT}">
+  <defs>
+    <clipPath id="card"><rect x="0" y="0" width="${W}" height="${H}" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="${W}" height="${H}" fill="#fbfaf6"/>
+    <rect width="${W}" height="66" fill="${BAND}"/>
+    <text x="36" y="30" font-size="13" fill="#bcd0e6" letter-spacing="2">FOCUS FLIGHT · 专注航班</text>
+    ${inner}
+  </g>
+</svg>`;
+}
+
+/** Journey (completed, success) → SVG string of the front. */
 export function passSVG(j, homeTz) {
   const f = j.flight;
   const o = f.origin;
@@ -53,15 +61,7 @@ export function passSVG(j, homeTz) {
   const aircraft = f.aircraft.name ? `${f.aircraft.manufacturer} ${f.aircraft.name}` : f.aircraft.status === 'family' ? `${f.aircraft.family} 系列` : '未确定';
   const plus = f.arr_offset ? ` +${f.arr_offset}` : '';
   const finished = `${fmtDate(j.ended_at, homeTz, { weekday: false })} ${fmtHM(j.ended_at, homeTz)}`;
-  const band = '#1c3d66';
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" font-family="${FONT}">
-  <defs>
-    <clipPath id="card"><rect x="0" y="0" width="${W}" height="${H}" rx="22"/></clipPath>
-  </defs>
-  <g clip-path="url(#card)">
-    <rect width="${W}" height="${H}" fill="#fbfaf6"/>
-    <rect width="${W}" height="66" fill="${band}"/>
-    <text x="36" y="30" font-size="13" fill="#bcd0e6" letter-spacing="2">FOCUS FLIGHT · 专注航班</text>
+  return card(`
     <text x="36" y="53" font-size="19" font-weight="700" fill="#ffffff">${esc(f.airline.name)} ${esc(f.airline.name_en || '')}</text>
     <text x="700" y="30" font-size="13" fill="#bcd0e6" text-anchor="end" letter-spacing="2">BOARDING PASS</text>
     <text x="700" y="53" font-size="19" font-weight="700" fill="#ffffff" text-anchor="end">登机牌</text>
@@ -83,8 +83,6 @@ export function passSVG(j, homeTz) {
     ${field(470, 230, '计划抵达 ARR', f.arr_local + plus)}
     ${field(600, 230, '飞行时长 TIME', fmtDuration(j.real_ms / 60000), { size: 18, mono: false })}
     ${field(36, 284, '机型 AIRCRAFT', aircraft, { size: 16, mono: false })}
-    <text x="340" y="284" font-size="11" fill="#6b7a8a" letter-spacing="0.5">完成目标 GOALS</text>
-    ${goalLines(j.todos || [], 340, 305)}
 
     <line x1="720" y1="66" x2="720" y2="${H}" stroke="#c7cfd8" stroke-width="2" stroke-dasharray="6 6"/>
     <circle cx="720" cy="66" r="12" fill="#e9eef3"/>
@@ -95,10 +93,32 @@ export function passSVG(j, homeTz) {
     <g fill="#10202f">${barcode(j.pass_no + j.id, 748, 282, 180, 44)}</g>
     <text x="838" y="344" font-size="11" fill="#6b7a8a" text-anchor="middle" font-family="${MONO}">${esc(j.pass_no)}</text>
 
-    <text x="36" y="${H - 18}" font-size="11" fill="#8a97a5">模拟飞行纪念 · 非真实登机凭证 · 参考班表 ${esc(f.pack_version)} · 计划时刻为出发／抵达机场当地时间</text>
-    ${j.demo ? `<g transform="translate(640 142) rotate(-12)"><rect x="-70" y="-24" width="140" height="44" rx="8" fill="none" stroke="#c0392b" stroke-width="3" opacity="0.75"/><text x="0" y="7" font-size="20" font-weight="800" fill="#c0392b" text-anchor="middle" opacity="0.75">演示加速</text></g>` : ''}
-  </g>
-</svg>`;
+    <text x="36" y="${H - 18}" font-size="11" fill="#8a97a5">模拟飞行纪念 · 参考班表 ${esc(f.pack_version)} · 计划时刻为出发／抵达机场当地时间</text>
+    ${j.demo ? `<g transform="translate(640 142) rotate(-12)"><rect x="-70" y="-24" width="140" height="44" rx="8" fill="none" stroke="#c0392b" stroke-width="3" opacity="0.75"/><text x="0" y="7" font-size="20" font-weight="800" fill="#c0392b" text-anchor="middle" opacity="0.75">演示加速</text></g>` : ''}`);
+}
+
+/** The back: every goal of the trip, ticked. The stub's notches sit mirrored on the left. */
+export function passBackSVG(j, homeTz) {
+  const f = j.flight;
+  const todos = j.todos || [];
+  const date = fmtDate(j.started_at, homeTz, { weekday: false, year: true });
+  const big = todos.length <= 4;
+  const size = big ? 20 : 16;
+  const step = big ? 42 : 27;
+  const top = big ? 162 : 152;
+  const rows = todos.length
+    ? todos.map((t, i) => `<text x="40" y="${top + i * step}" font-size="${size}" font-weight="600" fill="#10202f"><tspan fill="#2f8a5b" font-weight="800">✓</tspan><tspan dx="12">${esc(truncate(t.text, big ? 42 : 52))}</tspan></text>`).join('')
+    : `<text x="40" y="${top}" font-size="16" fill="#6b7a8a">（这一程没有设定目标）</text>`;
+  return card(`
+    <text x="36" y="53" font-size="19" font-weight="700" fill="#ffffff">这一程完成的目标</text>
+    <text x="${W - 30}" y="42" font-size="15" font-weight="700" fill="#ffffff" text-anchor="end" font-family="${MONO}">${esc(j.pass_no)}</text>
+    <circle cx="${W - 720}" cy="66" r="12" fill="#e9eef3"/>
+    <circle cx="${W - 720}" cy="${H}" r="12" fill="#e9eef3"/>
+
+    <text x="36" y="104" font-size="15" fill="#33475b"><tspan font-weight="700" fill="#10202f" font-family="${MONO}">${esc(f.flight)}</tspan><tspan dx="10">${esc(f.origin.city)} ${esc(f.origin.iata)} → ${esc(f.destination.city)} ${esc(f.destination.iata)} · ${esc(date)}</tspan></text>
+    ${todos.length ? `<text x="${W - 36}" y="104" font-size="15" font-weight="700" fill="#2f8a5b" text-anchor="end">${todos.filter((t) => t.done).length}/${todos.length} 完成</text>` : ''}
+    <line x1="36" y1="120" x2="${W - 36}" y2="120" stroke="#dde3ea" stroke-width="1.5"/>
+    ${rows}`);
 }
 
 export async function svgToPngBlob(svg, scale = 2) {

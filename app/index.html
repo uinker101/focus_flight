@@ -5,10 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Focus Flight</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='26'%3E%E2%9C%88%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/vendor/maplibre/maplibre-gl.css">
   <link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
   <div id="app"><div class="loading">正在载入本地数据…</div></div>
+  <script type="importmap">{ "imports": { "three": "/vendor/three/three.module.min.js", "three/addons/": "/vendor/three/addons/", "maplibre-gl": "/vendor/maplibre/maplibre-gl.mjs" } }</script>
   <script type="module" src="/js/app.js"></script>
 </body>
 </html>

@@ -1,11 +1,12 @@
 import { loadState, getState, save, sendPauseBeacon, sendHeartbeat, getHeartbeat, onExternalChange, refreshState, importState, HOME_PRESETS, defaultState } from './store.js';
-import { loadPack, getPack, getPackIndex, activatePack, installPack, diffPacks, departuresBetween, departuresOnDate, snapshotFlight, aircraftLabel, EVIDENCE_TEXT } from './schedule.js';
+import { loadPack, getPack, getPackIndex, activatePack, installPack, diffPacks, departuresBetween, departuresOnDate, snapshotFlight, aircraftLabel, aircraftModel, EVIDENCE_TEXT } from './schedule.js';
 import { zonedParts, addDays, fmtHM, fmtDate, fmtDuration, fmtClock, localDayOffset, weekdayZh } from './time.js';
 import { applyTheme } from './sun.js';
 import { makeProfile, sample, interpolate, bearing, PHASE_TEXT } from './sim.js';
-import { MapView } from './map.js';
+import { RouteMap } from './routemap.js';
+import { FlightMap } from './flightmap.js';
 import { computeCollections, packTotals } from './collections.js';
-import { passSVG, svgToPngBlob } from './pass.js';
+import { passSVG, passBackSVG, svgToPngBlob } from './pass.js';
 import { goalEditor, goalChecklist, goalsDone, allGoalsDone } from './goals.js';
 
 const $app = document.getElementById('app');
@@ -500,10 +501,12 @@ function viewFlight() {
   const o = f.origin;
   const d = f.destination;
   const profile = makeProfile(o, d, f.duration_min);
+  const model = aircraftModel(f.aircraft);
+  const planeStyle = () => (model && (st.settings.planeStyle || '3d') === '3d' ? '3d' : '2d');
   document.body.dataset.view = 'flight';
   $app.innerHTML = `
     <div class="ptv" data-ptv>
-      <canvas class="ptv-map"></canvas>
+      <div class="ptv-map"></div>
       <div class="ptv-top">
         <div class="ptv-title"><span class="mono">${esc(f.flight)}</span> ${esc(f.airline.name)} · ${esc(o.city)} → ${esc(d.city)}</div>
         ${j.todos.length ? `<div class="ptv-goals">
@@ -517,6 +520,12 @@ function viewFlight() {
         </div>
         <button class="icon-btn" data-fs title="全屏">⛶</button>
         <a class="icon-btn" href="#/" title="回首页（航程继续）">⌂</a>
+      </div>
+      <div class="ptv-follow" data-follow hidden>
+        ${model
+          ? '<div class="seg"><button data-style="2d">2D 图标</button><button data-style="3d">3D 模型</button></div>'
+          : `<span class="ptv-note">${['exact', 'family'].includes(f.aircraft.status) ? '暂无此机型 3D 模型' : '机型未确定'} · 2D 图标</span>`}
+        <button class="compass" data-north title="正北朝上"><svg viewBox="0 0 24 24" data-needle><path d="M12 2.5 16 12h-8z" class="n"/><path d="M12 21.5 8 12h8z" class="s"/></svg></button>
       </div>
       <div class="ptv-panel">
         <div class="ptv-progress">
@@ -536,7 +545,7 @@ function viewFlight() {
           <div><label>${esc(d.city)}时间</label><b data-v="dtime"></b></div>
         </div>
         <div class="ptv-foot">
-          <span class="dim small">参考班表模拟飞行 · 计划航程 ${fmtDuration(f.duration_min)} · 非实时航班动态</span>
+          <span class="dim small">参考班表模拟飞行 · 计划航程 ${fmtDuration(f.duration_min)} · 非实时航班动态 · 地图 © OpenStreetMap 贡献者、Mapterhorn、NASA</span>
           ${st.settings.demo ? `<span class="seg small" data-speeds><button data-speed="1">×1</button><button data-speed="30">×30</button><button data-speed="120">×120</button></span>` : ''}
           <button class="btn small ghost" data-abort>提前结束</button>
         </div>
@@ -550,14 +559,30 @@ function viewFlight() {
       </div>
     </div>`;
 
-  const map = new MapView($app.querySelector('canvas'));
-  map.setFlight(o, d);
-  map.setAirports([{ ...o, kind: 'origin' }, { ...d, kind: 'dest' }]);
+  const needle = $app.querySelector('[data-needle]');
+  const map = new FlightMap($app.querySelector('.ptv-map'), {
+    origin: o, destination: d, model, style: planeStyle(),
+    onCompass: (deg) => { needle.style.transform = `rotate(${deg}deg)`; },
+  });
   const panel = $app.querySelector('.ptv-panel');
   const fitPadding = () => map.setPadding({ top: 90, bottom: panel.offsetHeight + 40, left: 40, right: 40 });
   fitPadding();
   window.addEventListener('resize', fitPadding);
-  map.init();
+
+  function setMode(m) {
+    $app.querySelectorAll('[data-mode]').forEach((x) => x.classList.toggle('on', x.dataset.mode === m));
+    $app.querySelector('[data-follow]').hidden = m !== 'follow';
+    map.setMode(m);
+  }
+  const markStyle = () => $app.querySelectorAll('[data-style]').forEach((b) => b.classList.toggle('on', b.dataset.style === planeStyle()));
+  markStyle();
+  $app.querySelectorAll('[data-style]').forEach((b) => b.addEventListener('click', () => {
+    st.settings.planeStyle = b.dataset.style;
+    save();
+    markStyle();
+    map.setStyle(planeStyle());
+  }));
+  $app.querySelector('[data-north]').addEventListener('click', () => map.northUp());
 
   const goalsBox = $app.querySelector('.ptv-goals');
   if (goalsBox) {
@@ -571,10 +596,7 @@ function viewFlight() {
     goalsBox.querySelector('[data-goals-toggle]').addEventListener('click', () => goalsBox.classList.toggle('collapsed'));
   }
 
-  $app.querySelectorAll('[data-mode]').forEach((b) => b.addEventListener('click', () => {
-    $app.querySelectorAll('[data-mode]').forEach((x) => x.classList.toggle('on', x === b));
-    map.setMode(b.dataset.mode);
-  }));
+  $app.querySelectorAll('[data-mode]').forEach((b) => b.addEventListener('click', () => setMode(b.dataset.mode)));
   $app.querySelector('[data-fs]').addEventListener('click', () => {
     if (document.fullscreenElement) document.exitFullscreen();
     else $app.querySelector('[data-ptv]').requestFullscreen?.();
@@ -609,7 +631,7 @@ function viewFlight() {
     const pos = interpolate(o, d, sm.fraction);
     const ahead = interpolate(o, d, Math.min(1, sm.fraction + 0.002));
     const heading = sm.fraction < 0.998 ? bearing(pos, ahead) : bearing(o, d);
-    map.setPlane(pos, heading, sm.fraction);
+    map.setPlane(pos, heading, sm);
     const tFrac = min / f.duration_min;
     $app.querySelector('[data-fill]').style.width = `${(tFrac * 100).toFixed(2)}%`;
     $app.querySelector('[data-pplane]').style.left = `${(tFrac * 100).toFixed(2)}%`;
@@ -696,7 +718,8 @@ function viewPass(id, fresh) {
     shell('collection', '<div class="empty">找不到这张登机牌。</div>');
     return {};
   }
-  const svg = passSVG(j, homeTz());
+  const front = passSVG(j, homeTz());
+  const back = passBackSVG(j, homeTz());
   const isNew = fresh === 'new';
   const col = computeCollections(st);
   const firsts = [];
@@ -708,21 +731,37 @@ function viewPass(id, fresh) {
   shell('collection', `
     <section class="pass-view ${isNew ? 'fresh' : ''}">
       ${isNew ? `<div class="eyebrow">已加入收藏</div><h1>登机牌已出票</h1>${firsts.length ? `<div class="unlocks">${firsts.map((t) => `<span class="unlock">★ ${esc(t)}</span>`).join('')}</div>` : ''}` : `<div class="eyebrow">登机牌 ${esc(j.pass_no)}</div><h1>${esc(j.flight.origin.city)} → ${esc(j.flight.destination.city)}</h1>`}
-      <div class="printer"><div class="pass-big print-target">${svg}</div></div>
+      <div class="printer"><div class="pass-big">
+        <div class="pass-flip" data-flip role="button" tabindex="0" title="翻面">
+          <div class="pass-face">${front}</div>
+          <div class="pass-face back">${back}</div>
+        </div>
+      </div></div>
       <div class="pass-actions">
         <button class="btn primary" data-png>下载图片</button>
         <button class="btn" data-print>打印 / 存为 PDF</button>
         <a class="btn ghost" href="#/collection/passes">登机牌墙</a>
         <a class="btn ghost" href="#/">回首页</a>
       </div>
-      <p class="dim small">“存为 PDF”在打印窗口左下角选择。图片和打印内容相同，重复下载不影响收藏次数。</p>
+      <p class="dim small">点击登机牌翻面，背面是这一程完成的目标。下载图片保存当前这一面；打印包含正反两面，“存为 PDF”在打印窗口左下角选择。重复下载不影响收藏次数。</p>
     </section>`);
+  const flip = $app.querySelector('[data-flip]');
+  // A div, not a <button>: printing splits it into a front page and a back page, which a button can't do.
+  flip.addEventListener('click', () => flip.classList.toggle('flipped'));
+  flip.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    e.preventDefault();
+    flip.classList.toggle('flipped');
+  });
+  // The printer slot only clips while the new pass slides out; afterwards the card can turn freely.
+  $app.querySelector('.pass-big').addEventListener('animationend', () => $app.querySelector('.pass-view').classList.remove('fresh'));
   $app.querySelector('[data-print]').addEventListener('click', () => window.print());
   $app.querySelector('[data-png]').addEventListener('click', async () => {
-    const blob = await svgToPngBlob(svg);
+    const showingBack = flip.classList.contains('flipped');
+    const blob = await svgToPngBlob(showingBack ? back : front);
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
-    a.download = `focus-flight-${j.pass_no}.png`;
+    a.download = `focus-flight-${j.pass_no}${showingBack ? '-back' : ''}.png`;
     a.click();
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   });
@@ -785,9 +824,9 @@ function viewCollection(tab = 'passes') {
   } else if (tab === 'routes') {
     const routes = [...col.routes.values()].sort((a, b) => b.count - a.count);
     body = `<div class="routes-layout">
-      <div class="routes-map"><canvas></canvas></div>
+      <div class="routes-map"></div>
       <ul class="route-list">${routes.map((r) => `<li data-route="${esc(r.key)}"><b class="mono">${esc(r.key)}</b> <span>${esc(r.a.city)} – ${esc(r.b.city)}</span> <span class="dim">${r.count} 次</span>
-        <div class="small dim">${r.journeys.map((id) => st.journeys.find((x) => x.id === id)).map((x) => `<a href="#/pass/${x.id}">${esc(x.flight.flight)} ${fmtDate(x.ended_at, homeTz(), { weekday: false })}</a>`).join(' · ')}</div></li>`).join('') || '<li class="dim">成功完成航程后，航线会画在地图上。</li>'}</ul>
+        <div class="small dim">${r.journeys.map((id) => st.journeys.find((x) => x.id === id)).map((x) => `<a href="#/pass/${x.id}" data-journey="${x.id}">${esc(x.flight.flight)} ${fmtDate(x.ended_at, homeTz(), { weekday: false })}</a>`).join(' · ')}</div></li>`).join('') || '<li class="dim">成功完成航程后，航线会画在地球上；同一航线飞几次就有几条线。</li>'}</ul>
     </div>`;
   }
 
@@ -797,15 +836,25 @@ function viewCollection(tab = 'passes') {
     ${body}`);
 
   if (tab === 'routes') {
-    map = new MapView($app.querySelector('.routes-map canvas'));
     const routes = [...col.routes.values()];
-    map.setRoutes(routes.map((r) => ({ a: r.a, b: r.b, count: r.count, key: r.key })));
     const visited = new Set(routes.flatMap((r) => [r.a.iata, r.b.iata]));
-    map.setAirports(Object.values(pack.airports).map((a) => ({ ...a, kind: visited.has(a.iata) ? 'visited' : 'other' })));
-    map.init();
+    const mark = (jid) => $app.querySelectorAll('[data-journey]').forEach((a) => {
+      a.classList.toggle('hot', a.dataset.journey === jid);
+      a.closest('li').classList.toggle('hot', !!jid && !!a.closest('li').querySelector(`[data-journey="${jid}"]`));
+    });
+    map = new RouteMap($app.querySelector('.routes-map'), {
+      routes,
+      airports: Object.values(pack.airports).map((a) => ({ ...a, visited: visited.has(a.iata) })),
+      onHover: mark,
+      onClick: (jid) => go(`pass/${jid}`),
+    });
     $app.querySelectorAll('[data-route]').forEach((li) => {
-      li.addEventListener('mouseenter', () => map.setHighlight(li.dataset.route));
-      li.addEventListener('mouseleave', () => map.setHighlight(null));
+      li.addEventListener('mouseenter', () => map.highlightRoute(li.dataset.route));
+      li.addEventListener('mouseleave', () => map.highlightRoute(null));
+      li.querySelectorAll('[data-journey]').forEach((a) => {
+        a.addEventListener('mouseenter', () => map.highlightJourney(a.dataset.journey));
+        a.addEventListener('mouseleave', () => map.highlightRoute(li.dataset.route));
+      });
     });
   }
   return { destroy: () => map?.destroy() };
