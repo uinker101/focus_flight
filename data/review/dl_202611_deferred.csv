@@ -1,0 +1,462 @@
+flight,origin,destination,days,departure,arrival,reason,source_kind,page
+DL1909,AGS,ATL,1234567,11:55,14:58,duration-distance anomaly,dom,5
+DL1895,ATL,AGS,1234567,21:15,23:47,duration-distance anomaly,dom,5
+DL3059,ATL,AVL,1234567,08:20,11:13,duration-distance anomaly,dom,6
+DL3116,ATL,AVL,1234567,21:15,23:56,duration-distance anomaly,dom,6
+DL2504,ATL,BDL,1234567,15:40,21:19,duration-distance anomaly,dom,6
+DL3111,ATL,BTR,1234567,18:15,22:02,duration-distance anomaly,dom,8
+DL3008,ATL,CAE,1234567,19:10,22:00,duration-distance anomaly,dom,8
+DL1366,ATL,CHA,1234567,20:30,22:47,duration-distance anomaly,dom,9
+DL3179,ATL,CHS,1234567,16:40,19:39,duration-distance anomaly,dom,9
+DL775,ATL,CLE,1234567,09:15,14:16,duration-distance anomaly,dom,9
+DL1501,ATL,CMH,1234567,17:59,22:34,duration-distance anomaly,dom,10
+DL2810,ATL,DAB,1234567,19:20,23:17,duration-distance anomaly,dom,11
+DL2461,ATL,DAY,1234567,14:00,18:02,duration-distance anomaly,dom,11
+DL1266,ATL,DJT,1234567,07:00,19:32,duration-distance anomaly,dom,12
+DL1005,ATL,DTW,1234567,08:30,17:17,duration-distance anomaly,dom,13
+DL2823,ATL,ECP,1234567,12:32,15:22,duration-distance anomaly,dom,13
+DL2494,ATL,ECP,1234567,18:59,21:06,duration-distance anomaly,dom,13
+DL3131,ATL,ECP,1234567,21:20,23:24,duration-distance anomaly,dom,13
+DL2345,ATL,FLL,1234567,12:35,17:23,duration-distance anomaly,dom,14
+DL1107,ATL,FLL,14567,18:35,23:29,duration-distance anomaly,dom,14
+DL2718,ATL,GPT,1234567,12:40,16:18,duration-distance anomaly,dom,14
+DL3022,ATL,HSV,1234567,21:30,23:01,duration-distance anomaly,dom,16
+DL3070,ATL,ILM,1234567,19:30,23:09,duration-distance anomaly,dom,17
+DL763,ATL,LAX,1234567,07:00,19:55,duration-distance anomaly,dom,18
+DL1347,ATL,LIT,1234567,12:30,17:02,duration-distance anomaly,dom,19
+DL3027,ATL,LIT,1234567,13:41,16:37,duration-distance anomaly,dom,19
+DL2435,ATL,MLB,1234567,17:45,23:11,duration-distance anomaly,dom,22
+DL3198,ATL,PNS,1234567,09:05,11:09,duration-distance anomaly,dom,25
+DL2425,ATL,SAV,1234567,15:20,21:35,duration-distance anomaly,dom,27
+DL527,ATL,SAV,1234567,16:41,20:05,duration-distance anomaly,dom,27
+DL1057,ATL,SRQ,1234567,18:25,23:11,duration-distance anomaly,dom,29
+DL2833,ATL,STL,1234567,17:30,22:04,duration-distance anomaly,dom,29
+DL1720,ATL,TPA,1234567,13:45,21:24,duration-distance anomaly,dom,30
+DL1596,ATL,TRI,1234567,17:45,22:28,duration-distance anomaly,dom,30
+DL2745,ATL,VPS,1234567,21:15,23:20,duration-distance anomaly,dom,31
+DL1584,AUS,LAX,1234567,14:00,20:26,duration-distance anomaly,dom,32
+DL2509,BNA,BOS,1234567,07:25,15:40,duration-distance anomaly,dom,35
+DL1473,BNA,LGA,1234567,06:11,16:31,duration-distance anomaly,dom,35
+DL1410,BOS,AUS,1234567,06:15,14:53,duration-distance anomaly,dom,36
+DL2785,BOS,CHS,1234567,08:00,14:39,duration-distance anomaly,dom,36
+DL2426,BOS,DCA,6,16:00,20:59,duration-distance anomaly,dom,37
+DL2305,BOS,DFW,1234567,12:00,23:05,duration-distance anomaly,dom,37
+DL675,BOS,MCI,1234567,06:10,12:53,duration-distance anomaly,dom,38
+DL776,BOS,MIA,1234567,12:05,19:36,duration-distance anomaly,dom,38
+DL514,BOS,PHX,1234567,08:15,21:53,duration-distance anomaly,dom,38
+DL1384,BUF,ATL,1234567,12:16,17:43,duration-distance anomaly,dom,39
+DL2582,BUR,SLC,1234567,07:00,12:31,duration-distance anomaly,dom,40
+DL2357,BWI,MSP,1234567,11:55,16:53,duration-distance anomaly,dom,40
+DL2785,CHS,BOS,1234567,11:41,18:05,duration-distance anomaly,dom,41
+DL1500,CLE,ATL,1234567,08:05,14:52,duration-distance anomaly,dom,42
+DL1656,CLT,ATL,1234567,06:31,12:12,duration-distance anomaly,dom,42
+DL1750,CMH,ATL,1234567,14:31,18:20,duration-distance anomaly,dom,43
+DL2461,DAY,ATL,1234567,16:25,20:33,duration-distance anomaly,dom,44
+DL2544,DEN,SLC,1234567,05:25,08:55,duration-distance anomaly,dom,47
+DL2663,DEN,SLC,1234567,15:00,19:47,duration-distance anomaly,dom,47
+DL948,DFW,LAX,1234567,16:10,21:40,duration-distance anomaly,dom,48
+DL2660,DTW,ALB,1234567,16:20,23:28,duration-distance anomaly,dom,49
+DL3145,DTW,BHM,1234567,16:45,20:43,duration-distance anomaly,dom,50
+DL2316,DTW,BNA,1234567,15:59,18:52,duration-distance anomaly,dom,50
+DL1872,DTW,BUF,123457,17:50,23:59,duration-distance anomaly,dom,50
+DL2352,DTW,CLT,1234567,17:45,21:54,duration-distance anomaly,dom,51
+DL1321,DTW,MCI,1234567,16:50,20:51,duration-distance anomaly,dom,53
+DL1733,DTW,MIA,1234567,11:00,17:59,duration-distance anomaly,dom,53
+DL2358,DTW,ORD,1234567,15:50,18:14,duration-distance anomaly,dom,54
+DL2164,DTW,RDU,1234567,10:00,16:10,duration-distance anomaly,dom,54
+DL2839,DTW,RDU,1234567,17:40,23:42,duration-distance anomaly,dom,54
+DL1365,DTW,SAT,1234567,16:20,23:07,duration-distance anomaly,dom,55
+DL1371,DTW,STL,1234567,12:15,15:47,duration-distance anomaly,dom,56
+DL1541,DTW,STL,1234567,15:50,20:51,duration-distance anomaly,dom,56
+DL1689,DTW,SYR,1234567,16:15,23:18,duration-distance anomaly,dom,56
+DL555,DTW,TPA,1234567,08:35,17:38,duration-distance anomaly,dom,56
+DL2424,DTW,TVC,1234567,19:45,23:59,duration-distance anomaly,dom,56
+DL2823,ECP,ATL,1234567,13:34,18:28,duration-distance anomaly,dom,56
+DL2345,FLL,ATL,1234567,15:35,20:40,duration-distance anomaly,dom,58
+DL3199,GPT,ATL,1234567,10:03,14:54,duration-distance anomaly,dom,60
+DL2718,GPT,ATL,1234567,13:46,19:30,duration-distance anomaly,dom,60
+DL3004,GSO,ATL,1234567,06:00,09:43,duration-distance anomaly,dom,60
+DL1085,GSO,ATL,1234567,08:08,11:20,duration-distance anomaly,dom,60
+DL1146,GSP,ATL,1234567,06:00,09:25,duration-distance anomaly,dom,60
+DL3010,GSP,ATL,1234567,15:40,18:08,duration-distance anomaly,dom,61
+DL2709,IAH,ATL,1234567,08:05,17:29,duration-distance anomaly,dom,62
+DL1417,IAH,LGA,1234567,07:05,17:26,duration-distance anomaly,dom,62
+DL731,ILM,ATL,1234567,12:40,16:07,duration-distance anomaly,dom,63
+DL2639,JFK,BOS,1234567,19:00,23:05,duration-distance anomaly,dom,65
+DL1387,JFK,MSY,1234567,12:30,19:04,duration-distance anomaly,dom,66
+DL2093,JFK,TPA,1234567,11:20,18:41,duration-distance anomaly,dom,67
+DL2253,LAS,LAX,1234567,09:15,12:09,duration-distance anomaly,dom,68
+DL2243,LAX,MCI,1234567,13:30,23:48,duration-distance anomaly,dom,70
+DL1080,LAX,MEM,134567,12:00,23:59,duration-distance anomaly,dom,71
+DL1438,LAX,SJC,1234567,16:00,20:02,duration-distance anomaly,dom,72
+DL1121,LGA,BNA,6,10:35,19:26,duration-distance anomaly,dom,73
+DL873,LGA,DFW,1234567,07:10,20:23,duration-distance anomaly,dom,74
+DL2068,LGA,MCI,1234567,14:53,21:24,duration-distance anomaly,dom,75
+DL379,LGA,RSW,1234567,07:05,13:51,duration-distance anomaly,dom,76
+DL1347,LIT,ATL,1234567,14:01,20:29,duration-distance anomaly,dom,77
+DL1972,MCI,LAX,1234567,07:05,13:02,duration-distance anomaly,dom,77
+DL2702,MCO,JFK,1234567,09:25,15:47,duration-distance anomaly,dom,80
+DL3118,MLB,ATL,1234567,11:04,15:11,duration-distance anomaly,dom,84
+DL2724,MSP,BNA,1234567,07:00,12:25,duration-distance anomaly,dom,85
+DL2357,MSP,BWI,1234567,07:05,14:05,duration-distance anomaly,dom,85
+DL2295,MSP,FAR,1234567,15:19,23:30,duration-distance anomaly,dom,87
+DL674,MSP,IND,1234567,16:00,22:59,duration-distance anomaly,dom,87
+DL1657,MSP,MCI,1234567,18:00,23:24,duration-distance anomaly,dom,88
+DL2932,MSP,RDU,1234567,16:36,23:57,duration-distance anomaly,dom,90
+DL1609,MSP,STL,1234567,18:00,23:22,duration-distance anomaly,dom,91
+DL3182,MYR,ATL,1234567,14:15,17:56,duration-distance anomaly,dom,92
+DL2231,ORD,SLC,1234567,07:05,17:23,duration-distance anomaly,dom,95
+DL2757,ORF,ATL,1234567,15:00,19:10,duration-distance anomaly,dom,95
+DL1013,PNS,ATL,1234567,16:00,20:00,duration-distance anomaly,dom,98
+DL1192,RDU,ATL,1234567,05:15,08:34,duration-distance anomaly,dom,99
+DL2164,RDU,DTW,1234567,12:28,19:06,duration-distance anomaly,dom,99
+DL2511,ROC,ATL,1234567,12:09,17:48,duration-distance anomaly,dom,101
+DL1374,SDF,ATL,1234567,10:00,13:13,duration-distance anomaly,dom,104
+DL3195,SDF,ATL,1234567,14:50,18:18,duration-distance anomaly,dom,104
+DL2635,SEA,SFO,1234567,17:54,23:56,duration-distance anomaly,dom,107
+DL854,SGF,ATL,1234567,13:00,18:51,duration-distance anomaly,dom,109
+DL905,SLC,ATL,1234567,06:00,23:35,duration-distance anomaly,dom,110
+DL1340,SLC,BIL,1234567,16:19,22:25,duration-distance anomaly,dom,110
+DL2111,SLC,BOI,1234567,17:20,23:59,duration-distance anomaly,dom,110
+DL339,SLC,BUR,1234567,15:10,21:57,duration-distance anomaly,dom,111
+DL2046,SLC,BZN,1234567,17:10,22:39,duration-distance anomaly,dom,111
+DL1464,SLC,FCA,1234567,17:50,22:57,duration-distance anomaly,dom,111
+DL2608,SLC,IDA,1234567,17:30,22:22,duration-distance anomaly,dom,112
+DL1662,SLC,LAS,1234567,21:35,23:59,duration-distance anomaly,dom,112
+DL1578,SLC,LGB,1234567,17:40,21:41,duration-distance anomaly,dom,113
+DL1723,SLC,MSO,1234567,15:30,23:00,duration-distance anomaly,dom,113
+DL1614,SLC,ONT,1234567,17:45,23:55,duration-distance anomaly,dom,113
+DL1373,SLC,PDX,1234567,18:35,23:51,duration-distance anomaly,dom,114
+DL1712,SLC,PSC,1234567,17:30,23:32,duration-distance anomaly,dom,114
+DL1607,SLC,RNO,1234567,17:25,23:59,duration-distance anomaly,dom,114
+DL1202,SLC,SAN,1234567,17:45,23:55,duration-distance anomaly,dom,114
+DL2762,SLC,SFO,1234567,17:30,22:29,duration-distance anomaly,dom,115
+DL1272,SLC,SJC,1234567,17:25,23:54,duration-distance anomaly,dom,115
+DL1582,SLC,SMF,1234567,17:20,23:56,duration-distance anomaly,dom,115
+DL1304,SLC,SNA,1234567,17:30,22:05,duration-distance anomaly,dom,115
+DL1371,STL,DTW,1234567,13:41,18:56,duration-distance anomaly,dom,117
+DL1507,TRI,ATL,1234567,13:22,16:26,duration-distance anomaly,dom,119
+DL747,JFK,LAX,1234567,10:00,18:16,duration over route median by more than 60 minutes,dom,2
+DL972,LAX,JFK,1234567,08:25,20:06,duration over route median by more than 60 minutes,dom,3
+DL939,LAX,JFK,1234567,08:30,20:59,duration over route median by more than 60 minutes,dom,3
+DL676,LAX,JFK,1234567,20:40,06:45,duration over route median by more than 60 minutes,dom,3
+DL683,SAN,JFK,6,13:10,23:00,duration over route median by more than 60 minutes,dom,4
+DL1109,ABQ,ATL,1234567,14:00,21:47,duration over route median by more than 60 minutes,dom,5
+DL1137,ALB,ATL,1234567,12:09,17:05,duration over route median by more than 60 minutes,dom,5
+DL1137,ATL,ALB,1234567,09:00,13:20,duration over route median by more than 60 minutes,dom,5
+DL1397,ATL,AUS,1234567,12:20,15:46,duration over route median by more than 60 minutes,dom,6
+DL2104,ATL,AUS,1234567,12:20,15:55,duration over route median by more than 60 minutes,dom,6
+DL2334,ATL,BUF,1234567,19:05,23:59,duration over route median by more than 60 minutes,dom,8
+DL2928,ATL,BWI,1234567,16:43,20:52,duration over route median by more than 60 minutes,dom,8
+DL1339,ATL,CLE,1234567,19:05,22:28,duration over route median by more than 60 minutes,dom,10
+DL3167,ATL,DAY,1234567,20:30,23:16,duration over route median by more than 60 minutes,dom,11
+DL727,ATL,DCA,1234567,18:50,22:01,duration over route median by more than 60 minutes,dom,11
+DL746,ATL,DEN,1234567,15:15,20:20,duration over route median by more than 60 minutes,dom,12
+DL2094,ATL,DSM,1234567,12:52,15:32,duration over route median by more than 60 minutes,dom,12
+DL1472,ATL,EYW,1234567,11:00,14:20,duration over route median by more than 60 minutes,dom,14
+DL3030,ATL,GNV,1234567,11:34,14:09,duration over route median by more than 60 minutes,dom,14
+DL1446,ATL,GNV,1234567,13:28,15:58,duration over route median by more than 60 minutes,dom,14
+DL3079,ATL,GNV,1234567,20:20,22:43,duration over route median by more than 60 minutes,dom,14
+DL2058,ATL,GRR,1234567,15:18,18:58,duration over route median by more than 60 minutes,dom,15
+DL1695,ATL,IAD,1234567,14:18,17:40,duration over route median by more than 60 minutes,dom,16
+DL1309,ATL,IAD,1234567,18:30,21:34,duration over route median by more than 60 minutes,dom,16
+DL1682,ATL,IAH,1234567,08:55,11:32,duration over route median by more than 60 minutes,dom,16
+DL2890,ATL,IAH,1234567,12:55,15:34,duration over route median by more than 60 minutes,dom,16
+DL2952,ATL,IND,1234567,08:30,11:49,duration over route median by more than 60 minutes,dom,17
+DL1056,ATL,IND,1234567,17:22,20:29,duration over route median by more than 60 minutes,dom,17
+DL475,ATL,JAN,1234567,19:30,21:39,duration over route median by more than 60 minutes,dom,17
+DL2315,ATL,JAX,1234567,19:25,21:54,duration over route median by more than 60 minutes,dom,18
+DL326,ATL,LAX,1234567,15:35,18:34,duration over route median by more than 60 minutes,dom,18
+DL1443,ATL,MCI,1234567,12:20,15:14,duration over route median by more than 60 minutes,dom,20
+DL1470,ATL,MCI,1234567,16:25,19:14,duration over route median by more than 60 minutes,dom,20
+DL2881,ATL,MCO,1234567,19:05,21:54,duration over route median by more than 60 minutes,dom,20
+DL1248,ATL,MDT,1234567,09:06,12:52,duration over route median by more than 60 minutes,dom,20
+DL3020,ATL,MEM,1234567,19:44,21:53,duration over route median by more than 60 minutes,dom,21
+DL2388,ATL,MKE,1234567,19:21,22:28,duration over route median by more than 60 minutes,dom,22
+DL2681,ATL,MSN,1234567,09:15,12:37,duration over route median by more than 60 minutes,dom,22
+DL1280,ATL,MSP,1234567,19:05,22:54,duration over route median by more than 60 minutes,dom,22
+DL2632,ATL,OMA,1234567,08:15,11:27,duration over route median by more than 60 minutes,dom,23
+DL2707,ATL,OMA,34567,17:30,21:29,duration over route median by more than 60 minutes,dom,23
+DL2879,ATL,ORD,1234567,16:30,19:16,duration over route median by more than 60 minutes,dom,24
+DL2755,ATL,ORF,1234567,09:05,12:26,duration over route median by more than 60 minutes,dom,24
+DL2731,ATL,ORF,1234567,19:45,22:57,duration over route median by more than 60 minutes,dom,24
+DL503,ATL,PDX,1234567,13:45,19:14,duration over route median by more than 60 minutes,dom,24
+DL1329,ATL,PHL,1234567,16:17,20:30,duration over route median by more than 60 minutes,dom,24
+DL2065,ATL,PHL,1234567,18:25,22:05,duration over route median by more than 60 minutes,dom,24
+DL836,ATL,PHX,1234567,16:25,19:47,duration over route median by more than 60 minutes,dom,25
+DL1071,ATL,PIT,1234567,17:08,21:02,duration over route median by more than 60 minutes,dom,25
+DL2583,ATL,PIT,14567,19:00,22:49,duration over route median by more than 60 minutes,dom,25
+DL2138,ATL,PWM,1234567,18:25,23:35,duration over route median by more than 60 minutes,dom,25
+DL2511,ATL,ROC,1234567,09:01,13:29,duration over route median by more than 60 minutes,dom,26
+DL1153,ATL,RSW,1234567,10:10,13:32,duration over route median by more than 60 minutes,dom,26
+DL1196,ATL,RSW,1234567,11:55,15:06,duration over route median by more than 60 minutes,dom,26
+DL1222,ATL,SAT,1234567,20:15,23:31,duration over route median by more than 60 minutes,dom,27
+DL1374,ATL,SDF,1234567,07:34,10:32,duration over route median by more than 60 minutes,dom,27
+DL472,ATL,SEA,1234567,14:05,19:04,duration over route median by more than 60 minutes,dom,28
+DL517,ATL,SFO,1234567,13:50,20:06,duration over route median by more than 60 minutes,dom,28
+DL826,ATL,SNA,1234567,11:20,18:42,duration over route median by more than 60 minutes,dom,29
+DL3115,ATL,SRQ,1234567,13:46,16:54,duration over route median by more than 60 minutes,dom,29
+DL1403,ATL,STL,1234567,21:15,23:56,duration over route median by more than 60 minutes,dom,29
+DL1325,ATL,TUL,1234567,13:00,16:38,duration over route median by more than 60 minutes,dom,30
+DL2048,ATL,VPS,1234567,09:45,11:11,duration over route median by more than 60 minutes,dom,31
+DL2597,ATL,YUL,1234567,09:00,13:39,duration over route median by more than 60 minutes,dom,31
+DL2104,AUS,ATL,1234567,15:00,20:22,duration over route median by more than 60 minutes,dom,32
+DL2062,AUS,MSP,1234567,14:10,18:25,duration over route median by more than 60 minutes,dom,32
+DL2739,BDL,ATL,1234567,15:59,20:26,duration over route median by more than 60 minutes,dom,34
+DL2007,BDL,MSP,1234567,11:55,17:06,duration over route median by more than 60 minutes,dom,34
+DL2682,BNA,DTW,1234567,10:18,15:01,duration over route median by more than 60 minutes,dom,35
+DL2724,BNA,MSP,1234567,10:06,14:07,duration over route median by more than 60 minutes,dom,35
+DL1973,BNA,SLC,1234567,17:00,22:15,duration over route median by more than 60 minutes,dom,35
+DL2920,BOI,SLC,1234567,17:14,20:09,duration over route median by more than 60 minutes,dom,36
+DL2464,BOS,ATL,1234567,17:20,21:30,duration over route median by more than 60 minutes,dom,36
+DL973,BOS,ATL,1234567,18:25,22:26,duration over route median by more than 60 minutes,dom,36
+DL2196,BOS,FLL,1234567,14:54,21:57,duration over route median by more than 60 minutes,dom,37
+DL508,BOS,LAX,1234567,16:15,22:28,duration over route median by more than 60 minutes,dom,37
+DL2804,BOS,ORD,1234567,18:55,22:40,duration over route median by more than 60 minutes,dom,38
+DL730,BOS,RSW,1234567,13:05,18:42,duration over route median by more than 60 minutes,dom,39
+DL2889,BOS,SEA,1234567,15:45,22:05,duration over route median by more than 60 minutes,dom,39
+DL445,BOS,SLC,1234567,16:15,22:13,duration over route median by more than 60 minutes,dom,39
+DL1439,BOS,TPA,1234567,13:20,19:48,duration over route median by more than 60 minutes,dom,39
+DL2730,BTR,ATL,1234567,15:49,19:40,duration over route median by more than 60 minutes,dom,39
+DL2266,BUF,ATL,1234567,15:59,19:42,duration over route median by more than 60 minutes,dom,39
+DL1224,CHS,LGA,1234567,11:30,15:06,duration over route median by more than 60 minutes,dom,42
+DL775,CLE,ATL,1234567,13:00,17:11,duration over route median by more than 60 minutes,dom,42
+DL1079,CMH,ATL,1234567,08:00,11:14,duration over route median by more than 60 minutes,dom,43
+DL2302,CVG,ATL,1234567,07:00,09:40,duration over route median by more than 60 minutes,dom,43
+DL2780,DAL,ATL,1234567,17:26,22:00,duration over route median by more than 60 minutes,dom,44
+DL706,DEN,ATL,1234567,09:00,18:01,duration over route median by more than 60 minutes,dom,46
+DL2346,DEN,LGA,1234567,07:15,18:14,duration over route median by more than 60 minutes,dom,46
+DL735,DFW,DTW,1234567,13:36,19:15,duration over route median by more than 60 minutes,dom,48
+DL873,DFW,LGA,1234567,09:00,17:12,duration over route median by more than 60 minutes,dom,48
+DL794,DFW,LGA,67,09:00,16:28,duration over route median by more than 60 minutes,dom,48
+DL2094,DSM,ATL,1234567,14:51,19:27,duration over route median by more than 60 minutes,dom,49
+DL1467,DTW,ATL,1234567,16:20,19:45,duration over route median by more than 60 minutes,dom,49
+DL2715,DTW,BWI,1234567,20:00,23:27,duration over route median by more than 60 minutes,dom,50
+DL655,DTW,FLL,1234567,06:00,10:13,duration over route median by more than 60 minutes,dom,51
+DL2296,DTW,FLL,1234567,18:30,23:22,duration over route median by more than 60 minutes,dom,51
+DL916,DTW,LAS,1234567,19:45,22:32,duration over route median by more than 60 minutes,dom,52
+DL1487,DTW,LGA,1234567,07:00,10:12,duration over route median by more than 60 minutes,dom,52
+DL2602,DTW,LGA,1234567,14:09,17:35,duration over route median by more than 60 minutes,dom,53
+DL1468,DTW,MIA,1234567,07:00,12:53,duration over route median by more than 60 minutes,dom,53
+DL461,DTW,RSW,1234567,16:30,21:46,duration over route median by more than 60 minutes,dom,55
+DL1355,DTW,TPA,1234567,17:50,22:07,duration over route median by more than 60 minutes,dom,56
+DL2033,EWR,SLC,1234567,16:35,21:24,duration over route median by more than 60 minutes,dom,57
+DL1472,EYW,ATL,1234567,14:00,18:03,duration over route median by more than 60 minutes,dom,57
+DL655,FLL,DTW,1234567,09:00,13:28,duration over route median by more than 60 minutes,dom,58
+DL2641,FLL,JFK,1234567,15:28,20:20,duration over route median by more than 60 minutes,dom,58
+DL3030,GNV,ATL,1234567,13:31,16:21,duration over route median by more than 60 minutes,dom,60
+DL1446,GNV,ATL,1234567,15:23,18:22,duration over route median by more than 60 minutes,dom,60
+DL2161,GRR,ATL,1234567,07:45,12:04,duration over route median by more than 60 minutes,dom,60
+DL2641,JFK,FLL,1234567,11:14,15:56,duration over route median by more than 60 minutes,dom,65
+DL806,JFK,LAS,1234567,15:10,19:45,duration over route median by more than 60 minutes,dom,66
+DL2500,JFK,MIA,1234567,15:22,20:00,duration over route median by more than 60 minutes,dom,66
+DL791,JFK,PHX,1234567,08:00,14:46,duration over route median by more than 60 minutes,dom,66
+DL688,JFK,SEA,1234567,17:40,23:04,duration over route median by more than 60 minutes,dom,67
+DL2261,LAS,MSP,1234567,08:43,15:02,duration over route median by more than 60 minutes,dom,68
+DL2154,LAX,MSY,1234567,15:30,23:59,duration over route median by more than 60 minutes,dom,71
+DL1634,LAX,ORD,1234567,15:00,23:55,duration over route median by more than 60 minutes,dom,71
+DL2457,LAX,PDX,1234567,18:30,22:40,duration over route median by more than 60 minutes,dom,71
+DL2986,LAX,SFO,1234567,20:30,23:25,duration over route median by more than 60 minutes,dom,72
+DL1173,LEX,ATL,1234567,15:34,18:30,duration over route median by more than 60 minutes,dom,73
+DL856,LGA,DFW,1234567,08:45,13:14,duration over route median by more than 60 minutes,dom,74
+DL1181,LGA,FLL,1234567,10:45,16:50,duration over route median by more than 60 minutes,dom,74
+DL2109,LGA,IAH,1234567,15:00,21:36,duration over route median by more than 60 minutes,dom,75
+DL572,LGA,MCI,1234567,07:00,12:21,duration over route median by more than 60 minutes,dom,75
+DL2347,LGA,MIA,1234567,07:05,12:19,duration over route median by more than 60 minutes,dom,75
+DL2300,LGA,MIA,1234567,13:10,18:33,duration over route median by more than 60 minutes,dom,75
+DL1362,LGA,MSP,1234567,17:05,20:54,duration over route median by more than 60 minutes,dom,75
+DL2466,MCI,ATL,1234567,13:01,17:41,duration over route median by more than 60 minutes,dom,77
+DL1443,MCI,ATL,1234567,14:36,19:57,duration over route median by more than 60 minutes,dom,77
+DL2741,MCI,DTW,1234567,12:00,17:08,duration over route median by more than 60 minutes,dom,77
+DL572,MCI,LGA,1234567,10:08,17:02,duration over route median by more than 60 minutes,dom,78
+DL2529,MCO,AUS,14567,18:15,21:54,duration over route median by more than 60 minutes,dom,79
+DL484,MCO,LAX,1234567,06:00,10:31,duration over route median by more than 60 minutes,dom,80
+DL1523,MCO,LGA,234567,06:00,11:38,duration over route median by more than 60 minutes,dom,80
+DL2812,MCO,LGA,1234567,13:55,19:00,duration over route median by more than 60 minutes,dom,80
+DL1654,MCO,MSP,1234567,08:40,13:02,duration over route median by more than 60 minutes,dom,80
+DL1730,MCO,MSP,1234567,11:25,15:31,duration over route median by more than 60 minutes,dom,80
+DL1248,MDT,ATL,1234567,11:44,16:08,duration over route median by more than 60 minutes,dom,81
+DL1627,MEM,DTW,1234567,10:36,15:16,duration over route median by more than 60 minutes,dom,82
+DL1468,MIA,DTW,1234567,11:13,17:07,duration over route median by more than 60 minutes,dom,82
+DL1514,MIA,JFK,1234567,15:30,20:15,duration over route median by more than 60 minutes,dom,83
+DL1998,MIA,LGA,1234567,11:25,16:31,duration over route median by more than 60 minutes,dom,83
+DL2681,MSN,ATL,1234567,11:14,16:45,duration over route median by more than 60 minutes,dom,84
+DL2007,MSP,BDL,1234567,07:06,13:58,duration over route median by more than 60 minutes,dom,85
+DL2488,MSP,BOI,1234567,18:15,23:59,duration over route median by more than 60 minutes,dom,85
+DL2614,MSP,BOS,1234567,17:30,23:44,duration over route median by more than 60 minutes,dom,85
+DL2821,MSP,CLT,1234567,12:59,18:17,duration over route median by more than 60 minutes,dom,86
+DL1134,MSP,CVG,1234567,12:45,18:09,duration over route median by more than 60 minutes,dom,86
+DL1675,MSP,FLL,1234567,15:30,23:30,duration over route median by more than 60 minutes,dom,87
+DL1711,MSP,GRR,1234567,18:15,22:47,duration over route median by more than 60 minutes,dom,87
+DL2673,MSP,IAH,1234567,10:10,15:48,duration over route median by more than 60 minutes,dom,87
+DL1442,MSP,LAS,1234567,18:40,23:44,duration over route median by more than 60 minutes,dom,88
+DL2719,MSP,LGA,1234567,07:00,12:34,duration over route median by more than 60 minutes,dom,88
+DL2225,MSP,MCO,1234567,08:50,17:04,duration over route median by more than 60 minutes,dom,88
+DL2151,MSP,PDX,1234567,20:15,23:46,duration over route median by more than 60 minutes,dom,89
+DL2703,MSP,PHL,1234567,18:20,23:50,duration over route median by more than 60 minutes,dom,89
+DL2284,MSP,PHX,1234567,11:20,17:46,duration over route median by more than 60 minutes,dom,90
+DL2268,MSP,RSW,1234567,15:00,23:21,duration over route median by more than 60 minutes,dom,90
+DL2087,MSP,SJC,1234567,15:00,20:54,duration over route median by more than 60 minutes,dom,91
+DL2107,MSP,SNA,1234567,15:00,20:56,duration over route median by more than 60 minutes,dom,91
+DL2385,MSP,TPA,1234567,15:15,23:10,duration over route median by more than 60 minutes,dom,91
+DL1387,MSY,JFK,1234567,16:00,23:57,duration over route median by more than 60 minutes,dom,92
+DL2020,OKC,ATL,1234567,13:32,19:06,duration over route median by more than 60 minutes,dom,93
+DL1125,OMA,ATL,1234567,13:10,19:18,duration over route median by more than 60 minutes,dom,93
+DL1477,ORD,ATL,1234567,15:40,20:52,duration over route median by more than 60 minutes,dom,93
+DL2646,ORD,BOS,1234567,16:40,23:08,duration over route median by more than 60 minutes,dom,93
+DL2943,ORD,LGA,1234567,14:00,19:13,duration over route median by more than 60 minutes,dom,94
+DL637,ORD,SEA,1234567,16:00,20:38,duration over route median by more than 60 minutes,dom,94
+DL2755,ORF,ATL,1234567,12:00,15:31,duration over route median by more than 60 minutes,dom,95
+DL2551,PDX,LAX,1234567,17:09,21:25,duration over route median by more than 60 minutes,dom,96
+DL2284,PHX,MSP,1234567,15:01,22:54,duration over route median by more than 60 minutes,dom,97
+DL2274,PHX,MSP,1234567,15:05,22:55,duration over route median by more than 60 minutes,dom,97
+DL1447,PHX,SLC,1234567,10:40,14:04,duration over route median by more than 60 minutes,dom,98
+DL3122,PIT,ATL,14567,17:59,22:00,duration over route median by more than 60 minutes,dom,98
+DL3198,PNS,ATL,1234567,10:45,14:12,duration over route median by more than 60 minutes,dom,98
+DL1874,PNS,ATL,1234567,17:24,20:54,duration over route median by more than 60 minutes,dom,98
+DL2147,PVD,ATL,1234567,13:14,18:47,duration over route median by more than 60 minutes,dom,99
+DL1407,RDU,DTW,1234567,17:00,20:50,duration over route median by more than 60 minutes,dom,100
+DL3152,RIC,ATL,1234567,14:30,18:18,duration over route median by more than 60 minutes,dom,101
+DL1196,RSW,ATL,1234567,14:50,18:04,duration over route median by more than 60 minutes,dom,101
+DL730,RSW,BOS,1234567,17:35,22:47,duration over route median by more than 60 minutes,dom,101
+DL2277,RSW,DTW,1234567,07:40,13:55,duration over route median by more than 60 minutes,dom,102
+DL2001,RSW,DTW,1234567,12:31,17:53,duration over route median by more than 60 minutes,dom,102
+DL379,RSW,LGA,1234567,11:09,17:45,duration over route median by more than 60 minutes,dom,102
+DL936,SEA,ANC,1234567,17:50,23:24,duration over route median by more than 60 minutes,dom,105
+DL739,SEA,AUS,1234567,07:15,15:03,duration over route median by more than 60 minutes,dom,105
+DL438,SEA,BOS,1234567,11:08,22:10,duration over route median by more than 60 minutes,dom,105
+DL2851,SEA,DEN,1234567,18:00,23:55,duration over route median by more than 60 minutes,dom,105
+DL870,SEA,DFW,1234567,14:40,23:57,duration over route median by more than 60 minutes,dom,105
+DL1706,SEA,DTW,1234567,09:45,19:10,duration over route median by more than 60 minutes,dom,105
+DL2672,SEA,SAN,1234567,17:55,22:54,duration over route median by more than 60 minutes,dom,107
+DL2159,SFO,MSP,1234567,13:32,21:15,duration over route median by more than 60 minutes,dom,109
+DL2671,SLC,AUS,1234567,07:45,13:13,duration over route median by more than 60 minutes,dom,110
+DL2920,SLC,BOI,1234567,15:00,17:59,duration over route median by more than 60 minutes,dom,110
+DL2255,SLC,DTW,1234567,17:10,23:59,duration over route median by more than 60 minutes,dom,111
+DL1466,SLC,GEG,1234567,21:20,23:52,duration over route median by more than 60 minutes,dom,112
+DL2247,SLC,ORD,1234567,07:45,13:47,duration over route median by more than 60 minutes,dom,113
+DL2998,SLC,SEA,1234567,21:20,23:59,duration over route median by more than 60 minutes,dom,114
+DL1091,SLC,SFO,1234567,20:40,23:59,duration over route median by more than 60 minutes,dom,115
+DL3115,SRQ,ATL,1234567,16:20,19:42,duration over route median by more than 60 minutes,dom,116
+DL2822,STL,DTW,1234567,16:39,21:00,duration over route median by more than 60 minutes,dom,117
+DL1492,STL,SLC,1234567,17:00,21:18,duration over route median by more than 60 minutes,dom,117
+DL1439,TPA,BOS,1234567,17:40,23:07,duration over route median by more than 60 minutes,dom,118
+DL2301,TPA,MSP,1234567,14:15,18:19,duration over route median by more than 60 minutes,dom,119
+DL2620,TUL,ATL,1234567,12:49,17:59,duration over route median by more than 60 minutes,dom,119
+DL2629,YUL,ATL,1234567,12:44,17:41,duration over route median by more than 60 minutes,dom,120
+DL1855,JFK,STI,1234567,13:30,19:59,duration over route median by more than 60 minutes,int,14
+DL1763,SJU,ATL,1234567,07:00,11:05,duration over route median by more than 60 minutes,int,17
+DL2335,IDA,SLC,1234567,06:00,07:15,Only outbound verified; inbound source times anomalous; airport not yet reachable from HKG,dom,63
+DL2292,TVC,DTW,1234567,06:00,07:18,Only outbound verified; inbound source times anomalous; airport not yet reachable from HKG,dom,120
+DL2090,ATL,MSP,6,10:05,11:45,same_flight conflicting operating day,dom,1
+DL2090,ATL,MSP,6,10:00,11:45,same_flight conflicting operating day,dom,22
+DL672,ATL,SFO,4,10:15,12:46,same_flight conflicting operating day,dom,1
+DL672,ATL,SFO,4,10:05,12:49,same_flight conflicting operating day,dom,28
+DL1070,DTW,PHX,1,09:05,11:30,same_flight conflicting operating day,dom,1
+DL1070,DTW,PHX,1,08:45,11:37,same_flight conflicting operating day,dom,54
+DL1070,DTW,PHX,2,09:05,11:30,same_flight conflicting operating day,dom,1
+DL1070,DTW,PHX,2,08:45,11:37,same_flight conflicting operating day,dom,54
+DL1070,DTW,PHX,3,09:05,11:30,same_flight conflicting operating day,dom,1
+DL1070,DTW,PHX,3,08:45,11:37,same_flight conflicting operating day,dom,54
+DL1070,DTW,PHX,4,09:05,11:30,same_flight conflicting operating day,dom,1
+DL1070,DTW,PHX,4,08:45,11:37,same_flight conflicting operating day,dom,54
+DL1070,DTW,PHX,5,09:05,11:30,same_flight conflicting operating day,dom,1
+DL1070,DTW,PHX,5,08:45,11:37,same_flight conflicting operating day,dom,54
+DL1070,DTW,PHX,6,09:05,11:30,same_flight conflicting operating day,dom,1
+DL1070,DTW,PHX,6,08:45,11:37,same_flight conflicting operating day,dom,54
+DL1070,DTW,PHX,7,09:05,11:30,same_flight conflicting operating day,dom,1
+DL1070,DTW,PHX,7,08:45,11:37,same_flight conflicting operating day,dom,54
+DL683,JFK,SAN,6,08:30,11:44,same_flight conflicting operating day,dom,2
+DL683,JFK,SAN,6,08:30,11:58,same_flight conflicting operating day,dom,66
+DL677,LAS,ATL,2,07:08,13:54,same_flight conflicting operating day,dom,3
+DL677,LAS,ATL,2,07:08,14:04,same_flight conflicting operating day,dom,67
+DL677,LAS,ATL,3,07:08,13:54,same_flight conflicting operating day,dom,3
+DL677,LAS,ATL,3,07:08,14:04,same_flight conflicting operating day,dom,67
+DL677,LAS,ATL,4,07:08,13:54,same_flight conflicting operating day,dom,3
+DL677,LAS,ATL,4,07:08,14:04,same_flight conflicting operating day,dom,67
+DL677,LAS,ATL,5,07:08,13:54,same_flight conflicting operating day,dom,3
+DL677,LAS,ATL,5,07:08,14:04,same_flight conflicting operating day,dom,67
+DL677,LAS,ATL,6,07:08,13:54,same_flight conflicting operating day,dom,3
+DL677,LAS,ATL,6,07:08,14:04,same_flight conflicting operating day,dom,67
+DL677,LAS,ATL,7,07:08,13:54,same_flight conflicting operating day,dom,3
+DL677,LAS,ATL,7,07:08,14:04,same_flight conflicting operating day,dom,67
+DL748,LAS,ATL,1,12:30,19:29,same_flight conflicting operating day,dom,3
+DL748,LAS,ATL,1,12:29,19:26,same_flight conflicting operating day,dom,67
+DL748,LAS,ATL,2,12:30,19:29,same_flight conflicting operating day,dom,3
+DL748,LAS,ATL,2,12:29,19:26,same_flight conflicting operating day,dom,67
+DL748,LAS,ATL,3,12:30,19:29,same_flight conflicting operating day,dom,3
+DL748,LAS,ATL,3,12:29,19:26,same_flight conflicting operating day,dom,67
+DL748,LAS,ATL,4,12:30,19:29,same_flight conflicting operating day,dom,3
+DL748,LAS,ATL,4,12:29,19:26,same_flight conflicting operating day,dom,67
+DL748,LAS,ATL,5,12:30,19:29,same_flight conflicting operating day,dom,3
+DL748,LAS,ATL,5,12:29,19:26,same_flight conflicting operating day,dom,67
+DL748,LAS,ATL,6,12:30,19:29,same_flight conflicting operating day,dom,3
+DL748,LAS,ATL,6,12:29,19:26,same_flight conflicting operating day,dom,67
+DL748,LAS,ATL,7,12:30,19:29,same_flight conflicting operating day,dom,3
+DL748,LAS,ATL,7,12:29,19:26,same_flight conflicting operating day,dom,67
+DL901,PHX,ATL,2,07:20,12:47,same_flight conflicting operating day,dom,3
+DL901,PHX,ATL,2,07:20,13:36,same_flight conflicting operating day,dom,97
+DL901,PHX,ATL,3,07:20,12:47,same_flight conflicting operating day,dom,3
+DL901,PHX,ATL,3,07:20,13:36,same_flight conflicting operating day,dom,97
+DL901,PHX,ATL,4,07:20,12:47,same_flight conflicting operating day,dom,3
+DL901,PHX,ATL,4,07:20,13:36,same_flight conflicting operating day,dom,97
+DL901,PHX,ATL,5,07:20,12:47,same_flight conflicting operating day,dom,3
+DL901,PHX,ATL,5,07:20,13:36,same_flight conflicting operating day,dom,97
+DL901,PHX,ATL,6,07:20,12:47,same_flight conflicting operating day,dom,3
+DL901,PHX,ATL,6,07:20,13:36,same_flight conflicting operating day,dom,97
+DL901,PHX,ATL,7,07:20,12:47,same_flight conflicting operating day,dom,3
+DL901,PHX,ATL,7,07:20,13:36,same_flight conflicting operating day,dom,97
+DL1070,PHX,DTW,1,12:55,18:33,same_flight conflicting operating day,dom,3
+DL1070,PHX,DTW,1,12:16,18:32,same_flight conflicting operating day,dom,97
+DL1070,PHX,DTW,2,12:55,18:33,same_flight conflicting operating day,dom,3
+DL1070,PHX,DTW,2,12:16,18:32,same_flight conflicting operating day,dom,97
+DL1070,PHX,DTW,3,12:55,18:33,same_flight conflicting operating day,dom,3
+DL1070,PHX,DTW,3,12:16,18:32,same_flight conflicting operating day,dom,97
+DL1070,PHX,DTW,4,12:55,18:33,same_flight conflicting operating day,dom,3
+DL1070,PHX,DTW,4,12:16,18:32,same_flight conflicting operating day,dom,97
+DL1070,PHX,DTW,5,12:55,18:33,same_flight conflicting operating day,dom,3
+DL1070,PHX,DTW,5,12:16,18:32,same_flight conflicting operating day,dom,97
+DL1070,PHX,DTW,6,12:55,18:33,same_flight conflicting operating day,dom,3
+DL1070,PHX,DTW,6,12:16,18:32,same_flight conflicting operating day,dom,97
+DL1070,PHX,DTW,7,12:55,18:33,same_flight conflicting operating day,dom,3
+DL1070,PHX,DTW,7,12:16,18:32,same_flight conflicting operating day,dom,97
+DL907,SLC,ATL,1,07:00,12:50,same_flight conflicting operating day,dom,4
+DL907,SLC,ATL,1,07:00,12:35,same_flight conflicting operating day,dom,110
+DL907,SLC,ATL,2,07:00,12:50,same_flight conflicting operating day,dom,4
+DL907,SLC,ATL,2,07:00,12:35,same_flight conflicting operating day,dom,110
+DL907,SLC,ATL,3,07:00,12:50,same_flight conflicting operating day,dom,4
+DL907,SLC,ATL,3,07:00,12:35,same_flight conflicting operating day,dom,110
+DL907,SLC,ATL,4,07:00,12:50,same_flight conflicting operating day,dom,4
+DL907,SLC,ATL,4,07:00,12:35,same_flight conflicting operating day,dom,110
+DL907,SLC,ATL,5,07:00,12:50,same_flight conflicting operating day,dom,4
+DL907,SLC,ATL,5,07:00,12:35,same_flight conflicting operating day,dom,110
+DL907,SLC,ATL,6,07:00,12:50,same_flight conflicting operating day,dom,4
+DL907,SLC,ATL,6,07:00,12:35,same_flight conflicting operating day,dom,110
+DL897,SLC,ATL,1,08:00,13:40,same_flight conflicting operating day,dom,4
+DL897,SLC,ATL,1,08:10,13:51,same_flight conflicting operating day,dom,110
+DL897,SLC,ATL,2,08:00,13:40,same_flight conflicting operating day,dom,4
+DL897,SLC,ATL,2,08:10,13:51,same_flight conflicting operating day,dom,110
+DL897,SLC,ATL,3,08:00,13:40,same_flight conflicting operating day,dom,4
+DL897,SLC,ATL,3,08:10,13:51,same_flight conflicting operating day,dom,110
+DL897,SLC,ATL,4,08:00,13:40,same_flight conflicting operating day,dom,4
+DL897,SLC,ATL,4,08:10,13:51,same_flight conflicting operating day,dom,110
+DL897,SLC,ATL,5,08:00,13:40,same_flight conflicting operating day,dom,4
+DL897,SLC,ATL,5,08:10,13:51,same_flight conflicting operating day,dom,110
+DL897,SLC,ATL,6,08:00,13:40,same_flight conflicting operating day,dom,4
+DL897,SLC,ATL,6,08:10,13:51,same_flight conflicting operating day,dom,110
+DL1877,JFK,SJU,6,08:00,12:54,same_flight conflicting operating day,int,5
+DL1877,JFK,SJU,6,08:00,13:05,same_flight conflicting operating day,int,14
+DL1877,SJU,JFK,6,14:10,17:19,same_flight conflicting operating day,int,10
+DL1877,SJU,JFK,6,14:10,17:21,same_flight conflicting operating day,int,17
+DL1915,JFK,LAX,6,18:00,21:31,same_time conflicting operating day,dom,2
+DL353,JFK,LAX,6,18:00,21:29,same_time conflicting operating day,dom,2
+DL556,SNA,JFK,2,12:30,22:33,same_time conflicting operating day,dom,116
+DL2006,SNA,JFK,2,12:30,20:51,same_time conflicting operating day,dom,116
+DL556,SNA,JFK,3,12:30,22:33,same_time conflicting operating day,dom,116
+DL2006,SNA,JFK,3,12:30,20:51,same_time conflicting operating day,dom,116
+DL556,SNA,JFK,4,12:30,22:33,same_time conflicting operating day,dom,116
+DL2006,SNA,JFK,4,12:30,20:51,same_time conflicting operating day,dom,116
+DL556,SNA,JFK,5,12:30,22:33,same_time conflicting operating day,dom,116
+DL2006,SNA,JFK,5,12:30,20:51,same_time conflicting operating day,dom,116
+DL556,SNA,JFK,6,12:30,22:33,same_time conflicting operating day,dom,116
+DL2006,SNA,JFK,6,12:30,20:51,same_time conflicting operating day,dom,116

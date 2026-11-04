@@ -1,0 +1,3 @@
+schedule_id,operating_airline,operating_flight_number,marketing_codeshares,origin,destination,days_of_week,departure_local,arrival_local,arrival_day_offset,reference_week_start,source_valid_from,source_valid_to,aircraft_raw,aircraft_type,aircraft_evidence_status,passenger_status,source_ref,captured_at,verification_status,notes
+ci-expand-2026w-BI452-TPEBWN-1310-7,BI,BI452,CI9504,TPE,BWN,7,13:10,16:45,0,2026-11-09,2026-10-25,2027-03-27,32N,,,passenger,ci-2026w,2026-11-03,source_parsed,PDF p.7 原文: CI 9504 (BI 452)；适用期间 -；只保留参考周且未被已有来源覆盖的运行日。
+ci-expand-2026w-BI451-BWNTPE-0835-7,BI,BI451,CI9503,BWN,TPE,7,08:35,12:10,0,2026-11-09,2026-10-25,2027-03-27,32N,,,passenger,ci-2026w,2026-11-03,source_parsed,PDF p.7 原文: CI 9503 (BI 451)；适用期间 -；只保留参考周且未被已有来源覆盖的运行日。

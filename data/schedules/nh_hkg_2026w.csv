@@ -1,0 +1,7 @@
+schedule_id,operating_airline,operating_flight_number,marketing_codeshares,origin,destination,days_of_week,departure_local,arrival_local,arrival_day_offset,reference_week_start,source_valid_from,source_valid_to,aircraft_raw,aircraft_type,aircraft_evidence_status,passenger_status,source_ref,captured_at,verification_status,notes
+nh-hkg-2026w-NH812-HKGNRT-1234567,NH,NH812,,HKG,NRT,1234567,10:00,15:10,0,2026-11-09,2026-10-26,2027-03-28,,,,passenger,nh-hkg-2026w,2026-11-02,source_checked,官方班表逐行核对；成田往返栏；日期均按出发机场当地日，时刻为两端当地计划时刻。
+nh-hkg-2026w-NH811-NRTHKG-1234567,NH,NH811,,NRT,HKG,1234567,18:25,22:50,0,2026-11-09,2026-10-25,2027-03-27,,,,passenger,nh-hkg-2026w,2026-11-02,source_checked,官方班表逐行核对；成田往返栏；日期均按出发机场当地日，时刻为两端当地计划时刻。
+nh-hkg-2026w-NH860-HKGHND-1234567,NH,NH860,,HKG,HND,1234567,14:20,19:15,0,2026-11-09,2026-10-25,2027-03-27,,,,passenger,nh-hkg-2026w,2026-11-02,source_checked,官方班表逐行核对；羽田往返栏；日期均按出发机场当地日，时刻为两端当地计划时刻。
+nh-hkg-2026w-NH859-HNDHKG-1234567,NH,NH859,,HND,HKG,1234567,08:50,12:55,0,2026-11-09,2026-10-25,2027-03-27,,,,passenger,nh-hkg-2026w,2026-11-02,source_checked,官方班表逐行核对；羽田往返栏；日期均按出发机场当地日，时刻为两端当地计划时刻。
+nh-hkg-2026w-NH814-HKGHND-1234567,NH,NH814,,HKG,HND,1234567,00:15,05:00,0,2026-11-09,2026-10-25,2027-03-27,,,,passenger,nh-hkg-2026w,2026-11-02,source_checked,官方班表逐行核对；羽田往返栏；日期均按出发机场当地日，时刻为两端当地计划时刻。
+nh-hkg-2026w-NH813-HNDHKG-1234567,NH,NH813,,HND,HKG,1234567,01:45,05:45,0,2026-11-09,2026-10-25,2027-03-27,,,,passenger,nh-hkg-2026w,2026-11-02,source_checked,官方班表逐行核对；羽田往返栏；日期均按出发机场当地日，时刻为两端当地计划时刻。

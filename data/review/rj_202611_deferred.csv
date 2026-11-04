@@ -1,0 +1,13 @@
+page,o,d,f,days,dep,arr,off,raw,annotation,reason
+1,ADJ,ALY,RJ854,15,09:35,10:35,0,320,Monday Friday (From ADJ),Alexandria airport code ALY conflicts with current commercial airport identity; not mapped to HBE by guess.
+1,ALY,ADJ,RJ855,15,11:35,14:30,0,320,Monday Friday (To ADJ),Alexandria airport code ALY conflicts with current commercial airport identity; not mapped to HBE by guess.
+2,AMM,CMN,RJ555,47,02:35,05:50,0,321,Thursday Sunday,Source GMT+0 versus actual November Morocco timezone UTC+1; clock basis unconfirmed.
+2,CMN,AMM,RJ556,47,07:05,15:45,0,321,Thursday Sunday,Source GMT+0 versus actual November Morocco timezone UTC+1; clock basis unconfirmed.
+4,AMM,BOM,RJ194,4,21:25,05:15,1,320,Thursday (Only 04Nov),Specific November date outside reference week.
+4,AMM,RUH,RJ736,6,04:50,07:05,0,295,Saturday (28Nov),Specific November date outside reference week.
+4,AMM,RUH,RJ736,4,12:00,14:15,0,295,Thursday (19Nov),Specific November date outside reference week.
+4,AMM,YYZ,RJ271,135,10:50,16:55,0,789,Monday Wednesday Friday,One-stop through journey; intermediate times not supplied.
+4,BOM,AMM,RJ195,5,06:20,09:50,0,320,Friday (Only 04Nov),Specific November date outside reference week.
+4,RUH,AMM,RJ737,6,08:05,10:40,0,295,Saturday (28Nov),Specific November date outside reference week.
+4,RUH,AMM,RJ737,4,15:15,17:50,0,295,Thursday (19Nov),Specific November date outside reference week.
+4,YYZ,AMM,RJ272,135,19:25,16:40,1,789,Monday Wednesday Friday,One-stop through journey; intermediate times not supplied.
