@@ -1,7 +1,8 @@
 // The 3D aircraft model for the follow view, drawn by Three.js as a MapLibre
-// custom layer on top of the map. Like an airline moving map it keeps one size
-// on screen whatever the zoom, flies a little higher at cruise with its shadow on
-// the map below, and pitches up or down with the flight phase.
+// custom layer on top of the map. Its size on screen comes from the map every
+// frame (larger when zoomed in, smaller when zoomed out); it flies a little higher
+// at cruise with its shadow on the map below, and pitches up or down with the
+// flight phase.
 
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
@@ -11,21 +12,21 @@ const RAD = Math.PI / 180;
 const PITCH = { takeoff: 8, climb: 5, descent: -2, approach: -1, landing: 3 };
 
 export class AircraftLayer {
-  /** file: model name in /assets/aircraft; onReady() once the model has loaded. */
-  constructor(file, onReady) {
+  /** file: model name in /assets/aircraft; sizePx(): its length on screen now; onReady() once the model has loaded. */
+  constructor(file, sizePx, onReady) {
     this.id = 'aircraft3d';
     this.type = 'custom';
     this.renderingMode = '3d';
     this.file = file;
+    this.sizePx = sizePx;
     this.onReady = onReady;
     this.ready = false;
     this.visible = false;
     this.state = null;
   }
 
-  set(state, planePx) {
+  set(state) {
     this.state = state;
-    this.planePx = planePx;
   }
 
   show(on) {
@@ -79,7 +80,7 @@ export class AircraftLayer {
   render(gl, args) {
     if (!this.visible || !this.ready || !this.state) return;
     const s = this.state;
-    const len = this.planePx / (512 * 2 ** this.map.getZoom()); // map units for planePx on screen
+    const len = this.sizePx() / (512 * 2 ** this.map.getZoom()); // map units for that many pixels on screen
     const lift = (0.03 + 0.25 * s.alt) * len;
     this.model.position.set(0, lift, 0);
     this.model.rotation.set((PITCH[s.phase] || 0) * RAD, -s.heading * RAD, 0);

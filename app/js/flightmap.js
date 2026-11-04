@@ -2,8 +2,8 @@
 // the globe, and following the aircraft — on the offline basemap with the
 // day/night shade. Following works like an airline moving map: drag to turn
 // 360° and tilt, wheel or pinch to zoom around the aircraft, compass for
-// north-up, and the aircraft keeps one on-screen size whatever the zoom, as the
-// 2D icon or a 3D model (aircraft3d.js, loaded the first time it is shown).
+// north-up; zooming in brings the aircraft closer and zooming out leaves it
+// smaller, as the 2D icon or a 3D model (aircraft3d.js, loaded the first time it is shown).
 
 import { createMap, maplibregl, C, FIRST_LABEL } from './basemap.js';
 import { greatCircle, interpolate } from './sim.js';
@@ -12,6 +12,7 @@ const RAD = Math.PI / 180;
 const TILT = 58; // default view of the 3D model, from behind and above
 const MAX_TILT = 72;
 const FOLLOW_KM = 700; // map height shown when following starts
+const GROWTH = 0.5; // the followed aircraft grows or shrinks at this fraction of the map's rate when zooming
 const PLANE = new Path2D('M0,-15 C1.6,-15 2.2,-13 2.2,-10 L2.2,-4 L14,3 L14,5.6 L2.2,2 L2.2,9 L5.6,12 L5.6,14 L0,12.6 L-5.6,14 L-5.6,12 L-2.2,9 L-2.2,2 L-14,5.6 L-14,3 L-2.2,-4 L-2.2,-10 C-2.2,-13 -1.6,-15 0,-15 Z');
 const ICON_PX = 64; // CSS size of the plane image at icon-size 1
 
@@ -131,7 +132,7 @@ export class FlightMap {
     this.map.getSource('plane').setData(point(at, { heading: s.heading }));
     this.at = at;
     this.recenter();
-    this.aircraft?.set(s, this.planePx());
+    this.aircraft?.set(s);
     this.map.triggerRepaint();
   }
 
@@ -143,9 +144,15 @@ export class FlightMap {
     if (Math.abs(dLon) > 1e-7 || Math.abs(c.lat - this.at[1]) > 1e-7) this.map.setCenter(this.at);
   }
 
-  /** Aircraft size on screen in the follow view, as in airline moving maps. */
-  planePx() {
-    return Math.max(100, Math.min(190, (this.map.getContainer().clientHeight - this.pad.top - this.pad.bottom) * 0.24));
+  /**
+   * Aircraft length on screen in the follow view. At the starting zoom it is the
+   * size airline moving maps use; zooming in brings it closer and zooming out
+   * leaves it smaller, at half the map's rate so it neither fills the screen nor
+   * shrinks to a dot (about 4× and 1/3 at the zoom limits).
+   */
+  planePx(zoom = this.map.getZoom()) {
+    const base = Math.max(100, Math.min(190, (this.map.getContainer().clientHeight - this.pad.top - this.pad.bottom) * 0.24));
+    return base * 2 ** ((zoom - this.followZoom) * GROWTH);
   }
 
   /** Zoom at which `km` of map fills the height of the screen at the aircraft. */
@@ -188,7 +195,8 @@ export class FlightMap {
       map.easeTo({ center: [this.mid.lon, this.mid.lat], zoom: Math.log2((0.85 * Math.max(200, h) * Math.PI) / 512), bearing: 0, pitch: 0, duration });
     } else {
       const s = this.state || { lon: this.o.lon, lat: this.o.lat, heading: 0 };
-      map.easeTo({ center: [s.lon, s.lat], zoom: this.zoomFor(FOLLOW_KM), bearing: s.heading, pitch: this.tiltable() ? TILT : 0, duration });
+      this.followZoom = this.zoomFor(FOLLOW_KM);
+      map.easeTo({ center: [s.lon, s.lat], zoom: this.followZoom, bearing: s.heading, pitch: this.tiltable() ? TILT : 0, duration });
     }
   }
 
@@ -206,15 +214,19 @@ export class FlightMap {
     const three = this.mode === 'follow' && this.tiltable();
     if (three && !this.aircraftReady) {
       this.aircraftReady = import('./aircraft3d.js').then(({ AircraftLayer }) => {
-        this.aircraft = new AircraftLayer(this.modelFile, () => this.applyStyle());
-        this.aircraft.set(this.state, this.planePx());
+        this.aircraft = new AircraftLayer(this.modelFile, () => this.planePx(), () => this.applyStyle());
+        this.aircraft.set(this.state);
         this.map.addLayer(this.aircraft);
       });
     }
     const shown = three && !!this.aircraft?.ready;
     this.aircraft?.show(shown);
-    const iconPx = this.mode === 'follow' ? this.planePx() * 0.7 : ICON_PX * 0.75;
-    this.map.setLayoutProperty('plane', 'icon-size', iconPx / ICON_PX);
+    // While following, the 2D icon is sized by zoom like the model (exponential stops give exactly planePx).
+    const z = this.followZoom;
+    const icon = (zoom) => (this.planePx(zoom) * 0.7) / ICON_PX;
+    this.map.setLayoutProperty('plane', 'icon-size', this.mode === 'follow'
+      ? ['interpolate', ['exponential', 2 ** GROWTH], ['zoom'], z - 8, icon(z - 8), z + 8, icon(z + 8)]
+      : 0.75);
     this.map.setPaintProperty('plane', 'icon-opacity', shown ? 0 : 1);
     this.map.triggerRepaint();
   }
