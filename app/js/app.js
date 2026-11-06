@@ -2,7 +2,8 @@ import { loadState, getState, save, sendPauseBeacon, sendHeartbeat, getHeartbeat
 import { loadPack, getPack, getPackIndex, activatePack, installPack, diffPacks, departuresBetween, departuresOnDate, snapshotFlight, aircraftLabel, aircraftModel, EVIDENCE_TEXT } from './schedule.js';
 import { zonedParts, addDays, fmtHM, fmtDate, fmtDuration, fmtClock, localDayOffset, weekdayZh } from './time.js';
 import { applyTheme } from './sun.js';
-import { makeProfile, sample, interpolate, bearing, PHASE_TEXT } from './sim.js';
+import { makeProfile, sample, makeRoute, routePosition, PHASE_TEXT } from './sim.js';
+import { referenceRoute } from './navigation.js';
 import { RouteMap } from './routemap.js';
 import { FlightMap } from './flightmap.js';
 import { computeCollections, packTotals } from './collections.js';
@@ -500,7 +501,13 @@ function viewFlight() {
   const f = j.flight;
   const o = f.origin;
   const d = f.destination;
-  const profile = makeProfile(o, d, f.duration_min);
+  // Existing saves acquire a reference plan once; future pack updates keep it.
+  if (!f.route) {
+    f.route = referenceRoute(o, d);
+    if (f.route) save();
+  }
+  const route = makeRoute(f.route ? f.route.points : [o, d]);
+  const profile = makeProfile(o, d, f.duration_min, route);
   const model = aircraftModel(f.aircraft);
   const planeStyle = () => (model && (st.settings.planeStyle || '3d') === '3d' ? '3d' : '2d');
   document.body.dataset.view = 'flight';
@@ -545,11 +552,13 @@ function viewFlight() {
           <div><label>${esc(d.city)}时间</label><b data-v="dtime"></b></div>
         </div>
         <div class="ptv-foot">
-          <span class="dim small">参考班表模拟飞行 · 计划航程 ${fmtDuration(f.duration_min)} · 非实时航班动态 · 地图 © OpenStreetMap 贡献者、Mapterhorn、NASA</span>
+          <span class="dim small">参考班表模拟飞行 · 计划航程 ${fmtDuration(f.duration_min)} · ${f.route ? `参考航路 · ${esc(f.route.source.cycle)}${f.route.note ? '' : ' 导航数据'}` : '大圆参考 · 无航路资料'} · 地图 © OpenStreetMap 贡献者、Mapterhorn、NASA</span>
+          ${f.route ? '<button class="btn small ghost" data-route-info>航路详情</button>' : ''}
           ${st.settings.demo ? `<span class="seg small" data-speeds><button data-speed="1">×1</button><button data-speed="30">×30</button><button data-speed="120">×120</button></span>` : ''}
           <button class="btn small ghost" data-abort>提前结束</button>
         </div>
       </div>
+      <dialog class="route-dialog"></dialog>
       <div class="ptv-paused" data-paused hidden>
         <div class="card">
           <h2>航程已暂停</h2>
@@ -561,10 +570,22 @@ function viewFlight() {
 
   const needle = $app.querySelector('[data-needle]');
   const map = new FlightMap($app.querySelector('.ptv-map'), {
-    origin: o, destination: d, model, style: planeStyle(),
+    origin: o, destination: d, route, model, style: planeStyle(),
     onCompass: (deg) => { needle.style.transform = `rotate(${deg}deg)`; },
   });
   const panel = $app.querySelector('.ptv-panel');
+  $app.querySelector('[data-route-info]')?.addEventListener('click', () => {
+    const dlg = $app.querySelector('.route-dialog');
+    const plan = f.route;
+    dlg.innerHTML = `<form method="dialog" class="dlg">
+      <div class="dlg-head"><h2>${esc(o.iata)} → ${esc(d.iata)} 参考航路</h2><button class="icon-btn" aria-label="关闭">✕</button></div>
+      <p>${Math.round(route.distanceKm)} 公里 · ${plan.points.length - 2} 个航路点 · ${esc(plan.source.cycle)}</p>
+      <p class="dim small">${esc(plan.note || '沿真实导航点和历史航路网规划，非该班实际轨迹。DCT 为规划的直飞连接段，包含机场进出连接；未模拟跑道、SID／STAR、当天风场和空域限制。')}</p>
+      <p class="dim small">来源：${esc(plan.source.title)} · ${esc(plan.source.license)}</p>
+      <ol class="route-points">${plan.points.map((p, i) => `<li><b class="mono">${esc(p.name)}</b><span class="dim small">${i ? `经 ${esc(plan.legs[i - 1])} · ` : ''}${p.lat.toFixed(4)}, ${p.lon.toFixed(4)}</span></li>`).join('')}</ol>
+    </form>`;
+    dlg.showModal();
+  });
   const fitPadding = () => map.setPadding({ top: 90, bottom: panel.offsetHeight + 40, left: 40, right: 40 });
   fitPadding();
   window.addEventListener('resize', fitPadding);
@@ -628,9 +649,7 @@ function viewFlight() {
     const now = Date.now();
     const min = simElapsed(j, now) / 60000;
     const sm = sample(profile, min);
-    const pos = interpolate(o, d, sm.fraction);
-    const ahead = interpolate(o, d, Math.min(1, sm.fraction + 0.002));
-    const heading = sm.fraction < 0.998 ? bearing(pos, ahead) : bearing(o, d);
+    const { pos, heading } = routePosition(route, sm.fraction);
     map.setPlane(pos, heading, sm);
     const tFrac = min / f.duration_min;
     $app.querySelector('[data-fill]').style.width = `${(tFrac * 100).toFixed(2)}%`;

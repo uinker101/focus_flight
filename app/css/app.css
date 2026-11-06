@@ -145,7 +145,7 @@ textarea { width: 100%; resize: vertical; }
 .t-time small { font-family: var(--font); font-size: 11px; color: var(--accent-2); }
 sup { font-size: 11px; color: var(--accent-2); margin-left: 2px; }
 
-dialog.flight-dialog { border: 0; padding: 0; border-radius: 18px; background: var(--panel); color: var(--text); width: min(560px, 92vw); box-shadow: 0 20px 60px rgba(0,0,0,0.35); }
+dialog.flight-dialog, dialog.route-dialog { border: 0; padding: 0; border-radius: 18px; background: var(--panel); color: var(--text); width: min(560px, 92vw); box-shadow: 0 20px 60px rgba(0,0,0,0.35); }
 dialog::backdrop { background: rgba(5, 12, 22, 0.45); backdrop-filter: blur(2px); }
 .dlg { padding: 22px 24px; }
 .dlg-head { display: flex; justify-content: space-between; align-items: flex-start; }
@@ -208,6 +208,10 @@ body[data-view=flight] { overflow: hidden; }
 .ptv-stats b { font-family: var(--mono); font-size: 16px; white-space: nowrap; }
 .ptv-foot { display: flex; gap: 12px; align-items: center; justify-content: space-between; margin-top: 10px; border-top: 1px solid var(--line); padding-top: 8px; }
 .ptv-foot .seg { margin-left: auto; }
+.ptv-foot > button { flex-shrink: 0; }
+.route-points { padding-left: 28px; }
+.route-points li { padding: 6px 0; }
+.route-points li span { display: block; }
 .ptv-paused { position: absolute; inset: 0; display: grid; place-items: center; background: rgba(5, 12, 22, 0.35); backdrop-filter: blur(3px); }
 .ptv-paused[hidden] { display: none; }
 .ptv-paused .card { max-width: 420px; text-align: center; }

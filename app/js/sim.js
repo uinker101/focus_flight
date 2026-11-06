@@ -1,6 +1,6 @@
 // Flight simulation: one profile gives position, speed, altitude and phase
 // from elapsed time, scaled so the whole gate-to-gate block equals the
-// scheduled duration and the ground track equals the great-circle distance.
+// scheduled duration and the ground track follows the reference flight plan.
 
 const R_KM = 6371;
 const RAD = Math.PI / 180;
@@ -36,6 +36,41 @@ export function greatCircle(a, b, n = 96) {
   return Array.from({ length: n + 1 }, (_, i) => interpolate(a, b, i / n));
 }
 
+/** Densify each navigation leg for the map, with cumulative distances in km. */
+export function makeRoute(waypoints) {
+  const points = [{ ...waypoints[0] }];
+  const distances = [0];
+  for (let i = 1; i < waypoints.length; i++) {
+    const a = waypoints[i - 1], b = waypoints[i];
+    const km = distanceKm(a, b);
+    if (km < 1e-6) continue;
+    const start = distances.at(-1);
+    const count = Math.ceil(km / 30);
+    for (let k = 1; k <= count; k++) {
+      points.push(k === count ? { ...b } : interpolate(a, b, k / count));
+      distances.push(start + km * k / count);
+    }
+  }
+  return { points, distances, distanceKm: distances.at(-1) };
+}
+
+/** Locate by flown distance, not by vertex count (navigation legs vary in length). */
+export function routePosition(route, fraction) {
+  const km = Math.max(0, Math.min(1, fraction)) * route.distanceKm;
+  let lo = 0, hi = route.points.length - 1;
+  while (hi - lo > 1) {
+    const mid = (lo + hi) >> 1;
+    if (route.distances[mid] <= km) lo = mid;
+    else hi = mid;
+  }
+  const a = route.points[lo], b = route.points[hi];
+  const f = (km - route.distances[lo]) / (route.distances[hi] - route.distances[lo]);
+  const pos = interpolate(a, b, f);
+  // At arrival keep the inbound heading, not the bearing from the origin.
+  const heading = f < 1 - 1e-8 ? bearing(pos, b) : (bearing(b, a) + 180) % 360;
+  return { pos, heading, index: lo };
+}
+
 export const PHASE_TEXT = {
   boarding: '登机',
   taxi_out: '滑行',
@@ -49,8 +84,8 @@ export const PHASE_TEXT = {
   arrived: '已抵达',
 };
 
-export function makeProfile(origin, destination, durationMin) {
-  const dist = distanceKm(origin, destination);
+export function makeProfile(origin, destination, durationMin, route = null) {
+  const dist = route ? route.distanceKm : distanceKm(origin, destination);
   const D = durationMin;
   const taxiOut = Math.min(12, 0.08 * D);
   const climb = Math.min(25, 0.22 * D);

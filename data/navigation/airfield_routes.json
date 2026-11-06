@@ -1,0 +1,71 @@
+{
+  "source": {
+    "id": "osm-airfield-reference",
+    "title": "© OpenStreetMap contributors · Ramata / Seghe 跑道端点",
+    "url": "https://www.openstreetmap.org/copyright",
+    "license": "ODbL-1.0",
+    "retrieved_at": "2026-11-07",
+    "cycle": "机场地理参考"
+  },
+  "routes": {
+    "RBV-EGM": {
+      "points": [
+        [
+          "AGRM-RWY",
+          -8.1702243,
+          157.6448778
+        ],
+        [
+          "AGGS-RWY",
+          -8.5773468,
+          157.8716938
+        ]
+      ],
+      "note": "52 公里短途。历史航路网最近的 MUNDA 会造成 2.27 倍绕行；使用两端机场的真实跑道端点作 DCT 参考，不模拟进离场程序或声称实际跑道选择。"
+    }
+  },
+  "evidence": [
+    {
+      "url": "https://www.openstreetmap.org/way/552956950",
+      "way_id": "552956950",
+      "way_version": "1",
+      "nodes": [
+        {
+          "id": "5338310971",
+          "version": "2",
+          "timestamp": "2018-11-06T22:43:50Z",
+          "lat": "-8.1702243",
+          "lon": "157.6448778"
+        },
+        {
+          "id": "5338310972",
+          "version": "1",
+          "timestamp": "2018-01-14T05:11:55Z",
+          "lat": "-8.1656364",
+          "lon": "157.6395349"
+        }
+      ]
+    },
+    {
+      "url": "https://www.openstreetmap.org/way/205611143",
+      "way_id": "205611143",
+      "way_version": "2",
+      "nodes": [
+        {
+          "id": "2155830125",
+          "version": "2",
+          "timestamp": "2014-11-08T16:31:11Z",
+          "lat": "-8.5773468",
+          "lon": "157.8716938"
+        },
+        {
+          "id": "2155830172",
+          "version": "2",
+          "timestamp": "2014-11-08T16:31:11Z",
+          "lat": "-8.5795518",
+          "lon": "157.8796777"
+        }
+      ]
+    }
+  ]
+}

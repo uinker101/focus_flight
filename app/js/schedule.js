@@ -1,6 +1,7 @@
 // Project weekly schedule templates onto the real calendar.
 
 import { zonedParts, zonedToUtc, addDays } from './time.js';
+import { loadRoutes, referenceRoute } from './navigation.js';
 
 let pack = null;
 let packIndex = null;
@@ -8,7 +9,7 @@ let packIndex = null;
 export async function loadPack() {
   packIndex = await (await fetch('/packs/index.json')).json();
   const entry = packIndex.packs.find((p) => p.version === packIndex.active);
-  pack = await (await fetch(`/packs/${entry.file}`)).json();
+  [pack] = await Promise.all([fetch(`/packs/${entry.file}`).then((r) => r.json()), loadRoutes()]);
   return pack;
 }
 
@@ -100,6 +101,7 @@ export function snapshotFlight(inst) {
     codeshares: [...s.codeshares],
     origin: { ...pack.airports[s.origin] },
     destination: { ...pack.airports[s.destination] },
+    route: referenceRoute(pack.airports[s.origin], pack.airports[s.destination]),
     dep_local: s.dep,
     arr_local: s.arr,
     arr_offset: s.arr_offset,

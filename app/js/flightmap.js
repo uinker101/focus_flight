@@ -6,7 +6,7 @@
 // smaller, as the 2D icon or a 3D model (aircraft3d.js, loaded the first time it is shown).
 
 import { createMap, maplibregl, C, FIRST_LABEL } from './basemap.js';
-import { greatCircle, interpolate } from './sim.js';
+import { routePosition } from './sim.js';
 
 const RAD = Math.PI / 180;
 const TILT = 58; // default view of the 3D model, from behind and above
@@ -52,7 +52,7 @@ export class FlightMap {
    * /assets/aircraft or null; style: '2d' | '3d'; onCompass(deg): where north
    * points on screen, clockwise from up.
    */
-  constructor(box, { origin, destination, model, style, onCompass }) {
+  constructor(box, { origin, destination, route, model, style, onCompass }) {
     this.box = box;
     this.o = origin;
     this.d = destination;
@@ -61,8 +61,9 @@ export class FlightMap {
     this.mode = 'route';
     this.pad = { top: 0, right: 0, bottom: 0, left: 0 };
     this.state = null;
-    this.route = unwrap(greatCircle(origin, destination));
-    this.mid = interpolate(origin, destination, 0.5);
+    this.path = route;
+    this.route = unwrap(route.points);
+    this.mid = routePosition(route, 0.5).pos;
 
     const map = this.map = createMap(box, {
       center: [origin.lon, origin.lat], zoom: 3, maxPitch: 0,
@@ -122,8 +123,7 @@ export class FlightMap {
     if (!this.loaded || !this.state) return;
     const s = this.state;
     const pts = this.route;
-    const n = pts.length - 1;
-    const cut = Math.max(0, Math.min(n, Math.floor(s.fraction * n)));
+    const cut = routePosition(this.path, s.fraction).index;
     // The flown line ends at the aircraft and the rest starts there.
     const here = pts[cut];
     const at = [s.lon + Math.round((here[0] - s.lon) / 360) * 360, s.lat];

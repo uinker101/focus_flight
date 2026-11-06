@@ -86,6 +86,14 @@ python3 -I tools/build_pack.py --version ci-2026w-demo.1 --title "华航 2026/27
 
 网站把 `days` + `dep`（出发机场时区）投影到当前日历，抵达时刻 = 出发时间戳 + `duration_min`，再换算成目的机场当地时间。这样跨日、夏令时都不会算出负航程。
 
+## 参考航路（独立于班表包）
+
+`app/assets/routes/reference.json` 是所有当前航班共享的离线航路表：`nodes` 保存 `[名称, 纬度, 经度]`，`routes["HKG-TPE"]` 保存导航点索引 `nodes` 与逐段连接名称 `legs`（含两端机场连接，因此比点索引多一项）。`DCT` 表示规划直飞段，其他名称来自原始航路文件。`source`、`airfield_source` 保存数据来源；少量机场参考路径可以指定 `source: "airfield"` 与解释 `note`。
+
+值机快照新增 `route: { version, source, note, points: [{name,lat,lon}], legs }`，保存展开后的航路。已有进行中存档首次进入飞行页时补入并保存当前参考航路；已完成登机牌不变。导入包的未知机场组合仍显式显示“大圆参考 · 无航路资料”，不能计入参考航路覆盖。
+
+原始数据和许可在 `data/navigation/`，全量覆盖及每条航路距离报告在 `data/review/reference_routes.json`。构建与真实性范围见 [参考航路说明](REFERENCE_ROUTES.md)。
+
 ## 现有数据
 
 - `ci-2026w`：华航 2026/27 冬季时刻表 PDF（2026-10-25 至 2027-03-27）。`tools/extract_ci_timetable.py` 提取全部 1150 行到 `data/extracted/ci_timetable_2026w.csv`；有 4 个航线块列对不齐，没有自动收录。
