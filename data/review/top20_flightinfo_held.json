@@ -1,0 +1,747 @@
+[
+ {
+  "flight": "AK404",
+  "reason": "Incomplete dated schedule block",
+  "raw": "16:25\nPadang (PDG)\n18:40\nKuala Lumpur (KUL) T2\nAirbus A320neo\nBegins\n2027-02-04\n-\nValid to\n2027-03-01\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Monday, Thursday, Friday and Sunday\nEvery Monday, Thursday, Friday and Sunday\n【14†Image†images.flight.info】\nAirAsia"
+ },
+ {
+  "flight": "AK405",
+  "reason": "Incomplete dated schedule block",
+  "raw": "15:45\nKuala Lumpur (KUL) T2\n16:00\nPadang (PDG)\nAirbus A320neo\nBegins\n2027-03-03\n-\nValid to\n2027-03-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery day of the week except Tuesdays\nEvery day of the week except Tuesdays\n【14†Image†images.flight.info】"
+ },
+ {
+  "flight": "AK406",
+  "reason": "Incomplete dated schedule block",
+  "raw": "11:15\nKuala Lumpur (KUL) T2\n11:30\nPadang (PDG)\nAirbus A320\nBegins\n2027-03-05\n-\nValid to\n2027-03-26\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Monday, Friday and Sunday\nEvery Monday, Friday and Sunday\n【14†Image†images.flight.info】\nAirAsia\nAXM406\nDuration"
+ },
+ {
+  "flight": "AK6432",
+  "reason": "Incomplete dated schedule block",
+  "raw": "15:25\nKuala Lumpur (KUL) T2\n16:35\nKota Bharu (KBR)\nAirbus A320neo\nBegins\n2027-03-01\n-\nValid to\n2027-03-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery day of the week except Tuesdays and Thursdays"
+ },
+ {
+  "flight": "AK6433",
+  "reason": "Incomplete dated schedule block",
+  "raw": "17:00\nKota Bharu (KBR)\n18:10\nKuala Lumpur (KUL) T2\nAirbus A320neo\nBegins\n2027-03-01\n-\nValid to\n2027-03-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery day of the week except Tuesdays and Thursdays\nEvery day of the week except Tuesdays and Thursdays"
+ },
+ {
+  "flight": "AK711",
+  "reason": "Incomplete dated schedule block",
+  "raw": "11:55\nKuala Lumpur (KUL) T2\n13:00\nSingapore (SIN) T4\nAirbus A320\nBegins\n2027-03-28\n-\nValid to\n2027-10-26\nsun\nmon\ntue\nwed"
+ },
+ {
+  "flight": "BA127",
+  "reason": "Incomplete dated schedule block",
+  "raw": "13:50\nLondon (LHR) T5\n00:05\nDoha (DOH)\nBoeing 777\nBegins\n2027-01-01\n-\nValid to\n2027-01-08\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Friday\nEvery Friday\n【14†Image†images.flight.info】\nBritish Airways\nBAW127\nDuration"
+ },
+ {
+  "flight": "BA1403",
+  "reason": "Incomplete dated schedule block",
+  "raw": "19:05\nBelfast (BHD)\n20:20\nLondon (LHR) T5\nAirbus A320 (sharklets)\nBegins\n2027-04-03\n-\nValid to\n2027-10-26\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Saturday\nEvery Saturday\n【14†Image†images.flight.info】\nBritish Airways"
+ },
+ {
+  "flight": "BA1450",
+  "reason": "Incomplete dated schedule block",
+  "raw": "12:55\nLondon (LHR) T5\n14:20\nEdinburgh (EDI)\nAirbus A319\nBegins\n2027-04-02\n-\nValid to\n2027-10-26\nsun\nmon\ntue\nwed\nthu\nfri"
+ },
+ {
+  "flight": "BA1482",
+  "reason": "Incomplete dated schedule block",
+  "raw": "13:00\nLondon (LHR) T5\n14:30\nGlasgow (GLA) TM\nAirbus A319\nOperates only\n2027-03-09\nsun\nmon"
+ },
+ {
+  "flight": "BA225",
+  "reason": "Incomplete dated schedule block",
+  "raw": "13:40\nLondon (LHR) T5\n17:50\nNew Orleans (MSY)\nBoeing 787-8\nBegins\n2027-02-11\n-\nValid to\n2027-02-22\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Monday, Thursday and Saturday\nEvery Monday, Thursday and Saturday\n【14†Image†images.flight.info】\nBritish Airways\nBAW225\nDuration"
+ },
+ {
+  "flight": "BA293",
+  "reason": "Incomplete dated schedule block",
+  "raw": "16:25\nLondon (LHR) T5\n19:55\nDulles (IAD)\nBoeing 787-10\nBegins\n2026-12-04\n-\nValid to\n2026-12-18\nsun\nmon\ntue\nwed\nthu\nfri\nsat"
+ },
+ {
+  "flight": "BA314",
+  "reason": "Incomplete dated schedule block",
+  "raw": "15:05\nLondon (LHR) T5\n17:30\nParis (CDG) T2C\nAirbus A321neo\nBegins\n2027-01-09\n-\nValid to\n2027-02-10\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Monday, Wednesday and Saturday\nEvery Monday, Wednesday and Saturday\n【14†Image†images.flight.info】\nBritish Airways"
+ },
+ {
+  "flight": "BA419",
+  "reason": "Incomplete dated schedule block",
+  "raw": "11:20\nLuxembourg (LUX)\n11:55\nLondon (LHR) T3\nAirbus A319\nOperates only\n2026-12-12\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Saturday"
+ },
+ {
+  "flight": "BA510",
+  "reason": "Incomplete dated schedule block",
+  "raw": "15:00\nLondon (LHR) T5\n18:05\nLisbon (LIS) T1\nAirbus A320\nOperates only\n2027-01-15\nsun\nmon\ntue\nwed\nthu\nfri\nsat"
+ },
+ {
+  "flight": "BA574",
+  "reason": "Incomplete dated schedule block",
+  "raw": "14:55\nLondon (LHR) T5\n18:05\nMilan (LIN)\nAirbus A320\nBegins\n2027-10-31\n-\nValid to"
+ },
+ {
+  "flight": "BA636",
+  "reason": "Incomplete dated schedule block",
+  "raw": "13:25\nLondon (LHR) T5\n19:15\nAthens (ATH)\nAirbus A321neo\nBegins\n2027-01-20\n-\nValid to"
+ },
+ {
+  "flight": "BA698",
+  "reason": "Incomplete dated schedule block",
+  "raw": "15:10\nLondon (LHR)\n18:30\nVienna (VIE) T3\nAirbus A319\nOperates only\n2027-01-09\nsun\nmon\ntue"
+ },
+ {
+  "flight": "BA708",
+  "reason": "Incomplete dated schedule block",
+  "raw": "06:30\nLondon (LHR) T5\n09:20\nZurich (ZRH)\nAirbus A319\nOperates only\n2026-12-31\nsun"
+ },
+ {
+  "flight": "BA780",
+  "reason": "Incomplete dated schedule block",
+  "raw": "13:20\nLondon (LHR) T5\n16:55\nStockholm (ARN) T2\nAirbus A320neo\nBegins\n2027-03-19\n-\nValid to\n2027-03-26\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Friday\nEvery Friday"
+ },
+ {
+  "flight": "BA790",
+  "reason": "Incomplete dated schedule block",
+  "raw": "07:50\nLondon (LHR) T3\n10:50\nGothenburg (GOT)\nAirbus A319\nBegins\n2026-12-25\n-\nValid to\n2026-12-28\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nMondays and Fridays"
+ },
+ {
+  "flight": "BA800",
+  "reason": "Incomplete dated schedule block",
+  "raw": "07:55\nLondon (LHR) T5\n10:00\nReykjavik (KEF)\nAirbus A320neo\nBegins\n2027-03-31\n-\nValid to\n2027-10-26\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Wednesday\nEvery Wednesday\n【14†Image†images.flight.info】\nBritish Airways\nBAW800\nDuration"
+ },
+ {
+  "flight": "BA900",
+  "reason": "Incomplete dated schedule block",
+  "raw": "07:55\nLondon (LHR) T5\n10:35\nFrankfurt (FRA) T3\nAirbus A320neo\nBegins\n2026-12-18\n-\nValid to"
+ },
+ {
+  "flight": "BA968",
+  "reason": "Incomplete dated schedule block",
+  "raw": "15:25\nLondon (LHR) T5\n18:10\nHamburg (HAM) T2\nAirbus A319\nBegins\n2027-03-01\n-\nValid to\n2027-03-08\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Monday\nEvery Monday\n【14†Image†images.flight.info】\nBritish Airways\nBAW968\nDuration"
+ },
+ {
+  "flight": "BA984",
+  "reason": "Incomplete dated schedule block",
+  "raw": "13:40\nLondon (LHR) T5\n16:40\nBerlin (BER) T1\nAirbus A320 (sharklets)\nOperates only\n2027-01-13\nsun\nmon\ntue"
+ },
+ {
+  "flight": "F92346",
+  "reason": "Incomplete dated schedule block",
+  "raw": "11:05\nDenver (DEN)\n15:35\nIndianapolis (IND)\nAirbus A321neo\nBegins\n2026-12-19\n-\nValid to\n2026-12-25\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Monday, Tuesday, Friday and Saturday\nEvery Monday, Tuesday, Friday and Saturday\n【14†Image†images.flight.info】\nFrontier Airlines\nFFT2346"
+ },
+ {
+  "flight": "F92817",
+  "reason": "Incomplete dated schedule block",
+  "raw": "12:54\nDenver (DEN)\n14:19\nSan Diego (SAN) T1\nAirbus A320neo\nBegins\n2026-12-19\n-\nValid to\n2027-01-02\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Saturday\nEvery Saturday\n【14†Image†images.flight.info】\nFrontier Airlines\nFFT2817"
+ },
+ {
+  "flight": "F93366",
+  "reason": "Incomplete dated schedule block",
+  "raw": "08:35\nDenver (DEN)\n11:37\nDallas (DFW) TE\nAirbus A321neo\nBegins\n2026-12-18\n-\nValid to\n2027-01-04\nsun\nmon\ntue\nwed\nthu\nfri\nsat"
+ },
+ {
+  "flight": "FZ863",
+  "reason": "Incomplete dated schedule block",
+  "raw": "13:55\nDubai (DXB) T2\n14:25\nDammam (DMM)\nBoeing 737MAX 8 Passenger\nBegins\n2027-03-28\n-\nValid to\n2027-10-19\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery weekday\nEvery weekday"
+ },
+ {
+  "flight": "IB1009",
+  "reason": "Operating carrier/flight not established",
+  "raw": "07:45\nMadrid (MAD) T4\n09:00\nAlicante (ALC)\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2027-03-24\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Monday, Tuesday and Wednesday\nEvery Monday, Tuesday and Wednesday\n【14†Image†images.flight.info】\nIberia\nIBE1009\nDuration\n1h 15m\nDistance\n221 mi, 356 km\nCoreshare\nAA 8608 /AV 6027 /DT 8858 /JL 9433 /QR 8095 /VY 5572 /BA 7119 /AY 4821\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1009",
+  "reason": "Operating carrier/flight not established",
+  "raw": "08:30\nMadrid (MAD) T4\n09:45\nAlicante (ALC)\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2027-03-25\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Thursday\nEvery Thursday\n【14†Image†images.flight.info】\nIberia\nIBE1009\nDuration\n1h 15m\nDistance\n221 mi, 356 km\nCoreshare\nAA 8608 /AV 6027 /DT 8858 /JL 9433 /QR 8095 /VY 5572 /BA 7119 /AY 4821\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1009",
+  "reason": "Operating carrier/flight not established",
+  "raw": "07:20\nMadrid (MAD) T4\n08:35\nAlicante (ALC)\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2027-03-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Friday, Saturday and Sunday\nEvery Friday, Saturday and Sunday\n【14†Image†images.flight.info】\nIberia\nIBE1009\nDuration\n1h 15m\nDistance\n221 mi, 356 km\nCoreshare\nAA 8608 /AV 6027 /DT 8858 /JL 9433 /QR 8095 /VY 5572 /BA 7119 /AY 4821\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1021",
+  "reason": "Operating carrier/flight not established",
+  "raw": "12:05\nMadrid (MAD) T4\n13:15\nGranada (GRX)\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2027-03-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery day of the week except Thursdays and Fridays\nEvery day of the week except Thursdays and Fridays\n【14†Image†images.flight.info】\nIberia\nIBE1021\nDuration\n1h 10m\nDistance\n228 mi, 367 km\nCoreshare\nAA 8643 /QR 6874 /VY 5603 /BA 7187 /AY 4825\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1021",
+  "reason": "Operating carrier/flight not established",
+  "raw": "12:25\nMadrid (MAD) T4\n13:35\nGranada (GRX)\nCanadair (Bombardier) Regional Jet 1000\nBegins\n2026-11-05\n-\nValid to\n2026-12-17\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Thursday\nEvery Thursday\n【14†Image†images.flight.info】\nIberia\nIBE1021\nDuration\n1h 10m\nDistance\n228 mi, 367 km\nCoreshare\nAA 8643 /QR 6874 /VY 5603 /BA 7187 /AY 4825\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1021",
+  "reason": "Operating carrier/flight not established",
+  "raw": "12:35\nMadrid (MAD) T4\n13:45\nGranada (GRX)\nCanadair (Bombardier) Regional Jet 1000\nBegins\n2026-11-06\n-\nValid to\n2027-03-26\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Friday\nEvery Friday\n【14†Image†images.flight.info】\nIberia\nIBE1021\nDuration\n1h 10m\nDistance\n228 mi, 367 km\nCoreshare\nAA 8643 /QR 6874 /VY 5603 /BA 7187 /AY 4825\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1039",
+  "reason": "Operating carrier/flight not established",
+  "raw": "11:35\nMadrid (MAD) T4\n13:10\nMenorca (MAH)\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2027-03-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery weekday\nEvery weekday\n【14†Image†images.flight.info】\nIberia\nIBE1039\nDuration\n1h 35m\nDistance\n415 mi, 668 km\nCoreshare\nAA 8583\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFood and beverages for purchase\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1047",
+  "reason": "Operating carrier/flight not established",
+  "raw": "07:15\nMadrid (MAD) T4\n08:40\nSantiago De Compostela (SCQ)\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2026-11-22\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Tuesday, Wednesday, Saturday and Sunday\nEvery Tuesday, Wednesday, Saturday and Sunday\n【14†Image†images.flight.info】\nIberia\nIBE1047\nDuration\n1h 25m\nDistance\n302 mi, 486 km\nCoreshare\nAV 6124 /VY 5611 /AA 8565 /JL 6991\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1059",
+  "reason": "Operating carrier/flight not established",
+  "raw": "08:25\nMadrid (MAD) T4\n09:35\nSantander (SDR)\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2027-03-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery day of the week except Sundays\nEvery day of the week except Sundays\n【14†Image†images.flight.info】\nIberia\nIBE1059\nDuration\n1h 10m\nDistance\n205 mi, 330 km\nCoreshare\nVY 5617 /JL 9441 /AY 5621\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1059",
+  "reason": "Operating carrier/flight not established",
+  "raw": "07:35\nMadrid (MAD) T4\n08:45\nSantander (SDR)\nCanadair (Bombardier) Regional Jet 1000\nBegins\n2026-11-01\n-\nValid to\n2026-12-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Sunday\nEvery Sunday\n【14†Image†images.flight.info】\nIberia\nIBE1059\nDuration\n1h 10m\nDistance\n205 mi, 330 km\nCoreshare\nVY 5617 /JL 9441 /AY 5621\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1083",
+  "reason": "Operating carrier/flight not established",
+  "raw": "23:00\nMadrid (MAD) T4\n00:05\nValencia (VLC)\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2027-03-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery weekday\nEvery weekday\n【14†Image†images.flight.info】\nIberia\nIBE1083\nDuration\n1h 05m\nDistance\n177 mi, 285 km\nCoreshare\nAV 6096 /AY 5609 /LA 1749 /QR 6884 /VY 5312 /BA 7253 /CZ 7313 /CX 1908\nSame day flight\nNo\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1089",
+  "reason": "Operating carrier/flight not established",
+  "raw": "07:30\nMadrid (MAD) T4\n08:50\nJerez De La Frontera (XRY)\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2027-01-05\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery day of the week except Wednesdays and Fridays\nEvery day of the week except Wednesdays and Fridays\n【14†Image†images.flight.info】\nIberia\nIBE1089\nDuration\n1h 20m\nDistance\n292 mi, 470 km\nCoreshare\nAA 8508 /JL 7839 /QR 5379 /VY 5587 /AY 4799\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1089",
+  "reason": "Operating carrier/flight not established",
+  "raw": "08:15\nMadrid (MAD) T4\n09:35\nJerez De La Frontera (XRY)\nCanadair (Bombardier) Regional Jet 1000\nBegins\n2026-11-04\n-\nValid to\n2027-03-26\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nWednesdays and Fridays\nWednesdays and Fridays\n【14†Image†images.flight.info】\nIberia\nIBE1089\nDuration\n1h 20m\nDistance\n292 mi, 470 km\nCoreshare\nAA 8508 /JL 7839 /VY 5587 /QR 5379 /AY 4799\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1121",
+  "reason": "Operating carrier/flight not established",
+  "raw": "11:25\nMadrid (MAD) T4\n12:40\nAsturias (OVD)\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2026-12-01\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery day of the week except Fridays and Sundays\nEvery day of the week except Fridays and Sundays\n【14†Image†images.flight.info】\nIberia\nIBE1121\nDuration\n1h 15m\nDistance\n249 mi, 401 km\nCoreshare\nAA 8758 /BA 7205 /CX 1775 /VY 5493 /AV 2566 /QR 6572\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1173",
+  "reason": "Operating carrier/flight not established",
+  "raw": "21:35\nMadrid (MAD) T4\n23:25\nMarseille (MRS) T1\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2027-03-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery weekday\nEvery weekday\n【14†Image†images.flight.info】\nIberia\nIBE1173\nDuration\n1h 50m\nDistance\n497 mi, 800 km\nCoreshare\nQR 8084 /VY 5548 /LA 1832\nSame day flight\nYes\nTerminal\nDeparture: T4 Arrival: T1\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1185",
+  "reason": "Operating carrier/flight not established",
+  "raw": "21:55\nMadrid (MAD) T4\n23:45\nLyon (LYS) T1\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2027-03-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery weekday\nEvery weekday\n【14†Image†images.flight.info】\nIberia\nIBE1185\nDuration\n1h 50m\nDistance\n570 mi, 917 km\nCoreshare\nLA 1664 /QR 6531 /VY 5786\nSame day flight\nYes\nTerminal\nDeparture: T4 Arrival: T1\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1189",
+  "reason": "Operating carrier/flight not established",
+  "raw": "07:10\nMadrid (MAD) T4\n08:35\nToulouse (TLS)\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2026-12-06\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Monday, Wednesday, Saturday and Sunday\nEvery Monday, Wednesday, Saturday and Sunday\n【14†Image†images.flight.info】\nIberia\nIBE1189\nDuration\n1h 25m\nDistance\n336 mi, 541 km\nCoreshare\nAA 8753 /VY 5788 /QR 6558 /JL 9411 /AY 4787\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1189",
+  "reason": "Operating carrier/flight not established",
+  "raw": "07:10\nMadrid (MAD) T4\n08:35\nToulouse (TLS)\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2026-12-01\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Tuesday, Thursday and Friday\nEvery Tuesday, Thursday and Friday\n【14†Image†images.flight.info】\nIberia\nIBE1189\nDuration\n1h 25m\nDistance\n336 mi, 541 km\nCoreshare\nAA 8753 /VY 5788 /JL 9411 /QR 6558 /AY 4787\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1199",
+  "reason": "Operating carrier/flight not established",
+  "raw": "07:10\nMadrid (MAD) T4\n08:35\nBordeaux (BOD) TA\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2026-11-30\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery weekday\nEvery weekday\n【14†Image†images.flight.info】\nIberia\nIBE1199\nDuration\n1h 25m\nDistance\n335 mi, 539 km\nCoreshare\nAA 8621 /QR 7248 /VY 5510 /JL 9431 /AY 4771\nSame day flight\nYes\nTerminal\nDeparture: T4 Arrival: TA\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1217",
+  "reason": "Operating carrier/flight not established",
+  "raw": "22:00\nMadrid (MAD) T4\n23:55\nNice (NCE) T1\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2027-03-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery weekday\nEvery weekday\n【14†Image†images.flight.info】\nIberia\nIBE1217\nDuration\n1h 55m\nDistance\n598 mi, 962 km\nCoreshare\nLA 1727 /QR 6577 /VY 5534\nSame day flight\nYes\nTerminal\nDeparture: T4 Arrival: T1\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1247",
+  "reason": "Operating carrier/flight not established",
+  "raw": "09:15\nMadrid (MAD) T4\n11:25\nTurin (TRN)\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2027-03-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery weekday\nEvery weekday\n【14†Image†images.flight.info】\nIberia\nIBE1247\nDuration\n2h 10m\nDistance\n658 mi, 1059 km\nCoreshare\nQR 6972 /VY 5556\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1309",
+  "reason": "Operating carrier/flight not established",
+  "raw": "08:50\nMadrid (MAD) T4\n11:30\nMunich (MUC) T1\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2027-03-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery weekday\nEvery weekday\n【14†Image†images.flight.info】\nIberia\nIBE1309\nDuration\n2h 40m\nDistance\n935 mi, 1504 km\nCoreshare\nVY 5855 /AA 8628\nSame day flight\nYes\nTerminal\nDeparture: T4 Arrival: T1\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1319",
+  "reason": "Operating carrier/flight not established",
+  "raw": "08:45\nMadrid (MAD) T4\n11:20\nDusseldorf (DUS)\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2027-03-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery weekday\nEvery weekday\n【14†Image†images.flight.info】\nIberia\nIBE1319\nDuration\n2h 35m\nDistance\n899 mi, 1446 km\nCoreshare\nAA 8745 /VY 5336\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1327",
+  "reason": "Operating carrier/flight not established",
+  "raw": "08:40\nMadrid (MAD) T4\n11:25\nFrankfurt (FRA) T3\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2027-03-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery weekday\nEvery weekday\n【14†Image†images.flight.info】\nIberia\nIBE1327\nDuration\n2h 45m\nDistance\n888 mi, 1429 km\nCoreshare\nAA 8640 /AY 5626 /JL 9427 /VY 5516\nSame day flight\nYes\nTerminal\nDeparture: T4 Arrival: T3\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1355",
+  "reason": "Operating carrier/flight not established",
+  "raw": "11:10\nMadrid (MAD) T4S\n12:05\nCasablanca (CMN) T1\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2027-03-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery weekday\nEvery weekday\n【14†Image†images.flight.info】\nIberia\nIBE1355\nDuration\n1h 55m\nDistance\n541 mi, 870 km\nCoreshare\nAA 8693 /BA 7264 /QR 6981 /VY 5371\nSame day flight\nYes\nTerminal\nDeparture: T4S Arrival: T1\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1361",
+  "reason": "Operating carrier/flight not established",
+  "raw": "11:25\nMadrid (MAD) T4S\n11:55\nTangier (TNG)\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2027-03-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery weekday\nEvery weekday\n【14†Image†images.flight.info】\nIberia\nIBE1361\nDuration\n1h 30m\nDistance\n353 mi, 568 km\nCoreshare\nAA 8560 /AT 5308 /QR 5064 /VY 5437 /BA 7095\nSame day flight\nYes\nTerminal\nDeparture: T4S\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\n"
+ },
+ {
+  "flight": "IB1377",
+  "reason": "Operating carrier/flight not established",
+  "raw": "12:25\nMadrid (MAD) T4S\n14:00\nAlgiers (ALG) T4\nCanadair (Bombardier) Regional Jet 1000\nBegins\nNow\nValid to\n2027-03-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nTuesdays and Saturdays\nTuesdays and Saturdays\n【14†Image†images.flight.info】\nIberia\nIBE1377\nDuration\n1h 35m\nDistance\n452 mi, 727 km\nCoreshare\nVY 5868\nSame day flight\nYes\nTerminal\nDeparture: T4S Arrival: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n100\nEconomy\n100\nLoading flight status...\nAd\n### General route info\n##### Frequency:\nDaily\nTue Sat\n##### Direct distance\n450 miles, 724 km\n##### "
+ },
+ {
+  "flight": "IB1513",
+  "reason": "Operating carrier/flight not established",
+  "raw": "22:35\nMadrid (MAD) T4\n00:15\nLanzarote (ACE) T1\nAirbus A320 (sharklets)\nBegins\nNow\nValid to\n2026-11-30\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Monday\nEvery Monday\n【14†Image†images.flight.info】\nIberia\nIBE1513\nDuration\n2h 40m\nDistance\n983 mi, 1582 km\nCoreshare\nLA 1675 /QR 5359 /VY 5163 /PC 7813 /BA 4293 /CZ 1342\nSame day flight\nNo\nTerminal\nDeparture: T4 Arrival: T1\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n174\nEconomy\n174\n"
+ },
+ {
+  "flight": "IB1513",
+  "reason": "Operating carrier/flight not established",
+  "raw": "22:35\nMadrid (MAD) T4\n00:15\nLanzarote (ACE) T1\nAirbus A320 (sharklets)\nBegins\nNow\nValid to\n2026-11-18\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nTuesdays and Wednesdays\nTuesdays and Wednesdays\n【14†Image†images.flight.info】\nIberia\nIBE1513\nDuration\n2h 40m\nDistance\n983 mi, 1582 km\nCoreshare\nLA 1675 /QR 5359 /VY 5163 /PC 7813 /CX 1868 /BA 4293 /CZ 1342\nSame day flight\nNo\nTerminal\nDeparture: T4 Arrival: T1\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n174\nEconomy\n174\n"
+ },
+ {
+  "flight": "IB1513",
+  "reason": "Operating carrier/flight not established",
+  "raw": "22:35\nMadrid (MAD) T4\n00:15\nLanzarote (ACE) T1\nAirbus A321neo\nBegins\nNow\nValid to\n2026-12-03\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nThursdays and Saturdays\nThursdays and Saturdays\n【14†Image†images.flight.info】\nIberia\nIBE1513\nDuration\n2h 40m\nDistance\n983 mi, 1582 km\nCoreshare\nLA 1675 /QR 5359 /VY 5163 /PC 7813 /BA 4293 /CZ 1342\nSame day flight\nNo\nTerminal\nDeparture: T4 Arrival: T1\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n224\nEconomy\n224\n"
+ },
+ {
+  "flight": "IB1513",
+  "reason": "Operating carrier/flight not established",
+  "raw": "22:35\nMadrid (MAD) T4\n00:15\nLanzarote (ACE) T1\nAirbus A321neo\nBegins\n2026-11-06\n-\nValid to\n2026-11-15\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nFridays and Sundays\nFridays and Sundays\n【14†Image†images.flight.info】\nIberia\nIBE1513\nDuration\n2h 40m\nDistance\n983 mi, 1582 km\nCoreshare\nLA 1675 /QR 5359 /VY 5163 /PC 7813 /CX 1868 /BA 4293 /CZ 1342\nSame day flight\nNo\nTerminal\nDeparture: T4 Arrival: T1\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n224\nEconomy\n224\n"
+ },
+ {
+  "flight": "IB1513",
+  "reason": "Incomplete dated schedule block",
+  "raw": "22:35\nMadrid (MAD) T4\n00:15\nLanzarote (ACE) T1\nAirbus A321neo\nBegins\n2027-01-21\n-\nValid to"
+ },
+ {
+  "flight": "IB1527",
+  "reason": "Operating carrier/flight not established",
+  "raw": "21:00\nMadrid (MAD) T4\n22:45\nPuerto del Rosario (FUE)\nAirbus A321neo\nBegins\n2026-11-03\n-\nValid to\n2026-11-09\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery day of the week except Saturdays and Sundays\nEvery day of the week except Saturdays and Sundays\n【14†Image†images.flight.info】\nIberia\nIBE1527\nDuration\n2h 45m\nDistance\n1020 mi, 1641 km\nCoreshare\nLA 1831 /PC 7827 /CX 1933 /VY 5020 /BA 7186 /CZ 1345\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n224\nEconomy\n224\n"
+ },
+ {
+  "flight": "IB1527",
+  "reason": "Operating carrier/flight not established",
+  "raw": "21:00\nMadrid (MAD) T4\n22:45\nPuerto del Rosario (FUE)\nAirbus A320 (sharklets)\nBegins\n2026-11-07\n-\nValid to\n2026-11-22\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Tuesday, Saturday and Sunday\nEvery Tuesday, Saturday and Sunday\n【14†Image†images.flight.info】\nIberia\nIBE1527\nDuration\n2h 45m\nDistance\n1020 mi, 1641 km\nCoreshare\nLA 1831 /PC 7827 /CX 1933 /VY 5020 /BA 7186 /CZ 1345\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n174\nEconomy\n174\n"
+ },
+ {
+  "flight": "IB1527",
+  "reason": "Operating carrier/flight not established",
+  "raw": "21:00\nMadrid (MAD) T4\n22:45\nPuerto del Rosario (FUE)\nAirbus A321neo\nBegins\n2026-11-11\n-\nValid to\n2026-11-20\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Monday, Wednesday, Thursday and Friday\nEvery Monday, Wednesday, Thursday and Friday\n【14†Image†images.flight.info】\nIberia\nIBE1527\nDuration\n2h 45m\nDistance\n1020 mi, 1641 km\nCoreshare\nLA 1831 /PC 7827 /CX 1933 /VY 5020 /BA 7186 /CZ 1345\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n224\nEconomy\n224\n"
+ },
+ {
+  "flight": "IB1527",
+  "reason": "Incomplete dated schedule block",
+  "raw": "21:00\nMadrid (MAD) T4\n22:45\nPuerto del Rosario (FUE)\nAirbus A321neo\nBegins\n2027-02-08\n-\nValid to"
+ },
+ {
+  "flight": "IB1531",
+  "reason": "Operating carrier/flight not established",
+  "raw": "11:30\nMadrid (MAD) T4\n13:35\nSanta Cruz De La Palma (SPC)\nAirbus A321neo\nBegins\nNow\nValid to\n2026-11-09\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery day of the week except Saturdays\nEvery day of the week except Saturdays\n【14†Image†images.flight.info】\nIberia\nIBE1531\nDuration\n3h 05m\nDistance\n1153 mi, 1855 km\nCoreshare\nQR 5357 /VY 5418 /LA 5427 /BA 7222\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n224\nEconomy\n224\n"
+ },
+ {
+  "flight": "IB1531",
+  "reason": "Operating carrier/flight not established",
+  "raw": "11:30\nMadrid (MAD) T4\n13:35\nSanta Cruz De La Palma (SPC)\nAirbus A320 (sharklets)\nBegins\n2026-11-07\n-\nValid to\n2026-11-28\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Tuesday, Thursday and Saturday\nEvery Tuesday, Thursday and Saturday\n【14†Image†images.flight.info】\nIberia\nIBE1531\nDuration\n3h 05m\nDistance\n1153 mi, 1855 km\nCoreshare\nQR 5357 /VY 5418 /LA 5427 /BA 7222\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n174\nEconomy\n174\n"
+ },
+ {
+  "flight": "IB1531",
+  "reason": "Operating carrier/flight not established",
+  "raw": "11:30\nMadrid (MAD) T4\n13:35\nSanta Cruz De La Palma (SPC)\nAirbus A321neo\nBegins\n2026-11-11\n-\nValid to\n2026-11-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Monday, Wednesday, Friday and Sunday\nEvery Monday, Wednesday, Friday and Sunday\n【14†Image†images.flight.info】\nIberia\nIBE1531\nDuration\n3h 05m\nDistance\n1153 mi, 1855 km\nCoreshare\nQR 5357 /VY 5418 /LA 5427 /BA 7222\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n224\nEconomy\n224\n"
+ },
+ {
+  "flight": "IB1629",
+  "reason": "Operating carrier/flight not established",
+  "raw": "20:55\nMadrid (MAD) T4\n22:50\nLas Palmas (LPA)\nAirbus A321neo\nBegins\nNow\nValid to\n2026-11-17\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nTuesdays and Sundays\nTuesdays and Sundays\n【14†Image†images.flight.info】\nIberia\nIBE1629\nDuration\n2h 55m\nDistance\n1102 mi, 1773 km\nCoreshare\nFB 1427 /LA 1666 /QR 8031 /VY 5245 /PC 7829 /BT 5210 /CZ 1343\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n224\nEconomy\n224\n"
+ },
+ {
+  "flight": "IB1629",
+  "reason": "Operating carrier/flight not established",
+  "raw": "20:55\nMadrid (MAD) T4\n22:50\nLas Palmas (LPA)\nAirbus A320 (sharklets)\nBegins\n2026-11-04\n-\nValid to\n2026-12-03\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nWednesdays and Thursdays\nWednesdays and Thursdays\n【14†Image†images.flight.info】\nIberia\nIBE1629\nDuration\n2h 55m\nDistance\n1102 mi, 1773 km\nCoreshare\nFB 1427 /LA 1666 /QR 8031 /VY 5245 /PC 7829 /CZ 1343\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n174\nEconomy\n174\n"
+ },
+ {
+  "flight": "IB1629",
+  "reason": "Operating carrier/flight not established",
+  "raw": "21:00\nMadrid (MAD) T4\n22:55\nLas Palmas (LPA)\nAirbus A321neo\nBegins\n2026-11-07\n-\nValid to\n2026-11-28\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Saturday\nEvery Saturday\n【14†Image†images.flight.info】\nIberia\nIBE1629\nDuration\n2h 55m\nDistance\n1102 mi, 1773 km\nCoreshare\nFB 1427 /LA 1666 /QR 8031 /VY 5245 /PC 7829 /CZ 1343\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n224\nEconomy\n224\n"
+ },
+ {
+  "flight": "IB1629",
+  "reason": "Operating carrier/flight not established",
+  "raw": "20:55\nMadrid (MAD) T4\n22:50\nLas Palmas (LPA)\nAirbus A321neo\nBegins\n2026-11-13\n-\nValid to\n2026-12-04\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nMondays and Fridays\nMondays and Fridays\n【14†Image†images.flight.info】\nIberia\nIBE1629\nDuration\n2h 55m\nDistance\n1102 mi, 1773 km\nCoreshare\nFB 1427 /LA 1666 /QR 8031 /VY 5245 /PC 7829 /CZ 1343\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n224\nEconomy\n224\n"
+ },
+ {
+  "flight": "IB1695",
+  "reason": "Operating carrier/flight not established",
+  "raw": "11:35\nMadrid (MAD) T4\n12:50\nIbiza (IBZ)\nAirbus A320 (sharklets)\nBegins\nNow\nValid to\n2026-11-09\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery day of the week except Thursdays and Fridays\nEvery day of the week except Thursdays and Fridays\n【14†Image†images.flight.info】\nIberia\nIBE1695\nDuration\n1h 15m\nDistance\n286 mi, 460 km\nCoreshare\nAA 8785 /VY 5394 /QR 6523 /BA 7142\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n174\nEconomy\n174\n"
+ },
+ {
+  "flight": "IB1695",
+  "reason": "Operating carrier/flight not established",
+  "raw": "11:35\nMadrid (MAD) T4\n12:50\nIbiza (IBZ)\nAirbus A321neo\nBegins\n2026-11-05\n-\nValid to\n2026-11-20\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Tuesday, Thursday and Friday\nEvery Tuesday, Thursday and Friday\n【14†Image†images.flight.info】\nIberia\nIBE1695\nDuration\n1h 15m\nDistance\n286 mi, 460 km\nCoreshare\nAA 8785 /VY 5394 /QR 6523 /BA 7142\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n224\nEconomy\n224\n"
+ },
+ {
+  "flight": "IB1695",
+  "reason": "Operating carrier/flight not established",
+  "raw": "11:35\nMadrid (MAD) T4\n12:50\nIbiza (IBZ)\nAirbus A320 (sharklets)\nBegins\n2026-11-11\n-\nValid to\n2026-11-23\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Monday, Wednesday, Saturday and Sunday\nEvery Monday, Wednesday, Saturday and Sunday\n【14†Image†images.flight.info】\nIberia\nIBE1695\nDuration\n1h 15m\nDistance\n286 mi, 460 km\nCoreshare\nAA 8785 /VY 5394 /QR 6523 /BA 7142\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n174\nEconomy\n174\n"
+ },
+ {
+  "flight": "IB1873",
+  "reason": "Operating carrier/flight not established",
+  "raw": "21:25\nMadrid (MAD) T4S\n02:00\nAthens (ATH)\nAirbus A321neo\nBegins\nNow\nValid to\n2026-12-08\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery day of the week except Wednesdays and Saturdays\nEvery day of the week except Wednesdays and Saturdays\n【14†Image†images.flight.info】\nIberia\nIBE1873\nDuration\n3h 35m\nDistance\n1485 mi, 2389 km\nCoreshare\nAA 8747 /LY 8390 /VY 5282\nSame day flight\nNo\nTerminal\nDeparture: T4S\nMeals\nFirst class: Food for purchase Business & economy class: Dinner& Snack or brunch\nSeats\n224\nEconomy\n224\n"
+ },
+ {
+  "flight": "IB1873",
+  "reason": "Operating carrier/flight not established",
+  "raw": "21:55\nMadrid (MAD) T4S\n02:30\nAthens (ATH)\nAirbus A321neo\nBegins\nNow\nValid to\n2026-12-09\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nWednesdays and Saturdays\nWednesdays and Saturdays\n【14†Image†images.flight.info】\nIberia\nIBE1873\nDuration\n3h 35m\nDistance\n1485 mi, 2389 km\nCoreshare\nAA 8747 /LY 8390 /VY 5282\nSame day flight\nNo\nTerminal\nDeparture: T4S\nMeals\nFirst class: Food for purchase Business & economy class: Dinner& Snack or brunch\nSeats\n224\nEconomy\n224\n"
+ },
+ {
+  "flight": "IB1881",
+  "reason": "Operating carrier/flight not established",
+  "raw": "07:45\nMadrid (MAD) T4S\n09:20\nDublin (DUB) T2\nAirbus A320 (sharklets)\nBegins\nNow\nValid to\n2026-12-05\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Tuesday, Wednesday and Saturday\nEvery Tuesday, Wednesday and Saturday\n【14†Image†images.flight.info】\nIberia\nIBE1881\nDuration\n2h 35m\nDistance\n908 mi, 1461 km\nCoreshare\nVY 5190 /EI 5790 /AA 8605\nSame day flight\nYes\nTerminal\nDeparture: T4S Arrival: T2\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Snack or brunch\nSeats\n174\nEconomy\n174\n"
+ },
+ {
+  "flight": "IB2292",
+  "reason": "Operating carrier/flight not established",
+  "raw": "07:40\nMadrid (MAD) T4\n09:35\nMelilla (MLN)\nATR 72\nBegins\n2026-10-25\n-\nValid to\n2026-12-23\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery weekday\nEvery weekday\n【14†Image†images.flight.info】\nIberia\nIBE2292\nDuration\n1h 55m\nDistance\n362 mi, 582 km\nCoreshare\nQR 8045 /VY 5692\nSame day flight\nYes\nTerminal\nDeparture: T4\nMeals\nFirst class: Food and beverages for purchase Business & economy class: Breakfast\nSeats\n71\nEconomy\n71\n"
+ },
+ {
+  "flight": "IB429",
+  "reason": "Incomplete dated schedule block",
+  "raw": "07:25\nMadrid (MAD) T4\n08:30\nBilbao (BIO)\nAirbus A321\nBegins\n2027-02-03\n-\nValid to\n2027-02-15\nsun\nmon\ntue\nwed"
+ },
+ {
+  "flight": "IB442",
+  "reason": "Incomplete dated schedule block",
+  "raw": "06:45\nBilbao (BIO)\n07:55\nMadrid (MAD) T4\nAirbus A320 (sharklets)\nBegins\n2027-01-15\n-\nValid to\n2027-02-05\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Friday\nEvery Friday"
+ },
+ {
+  "flight": "IB473",
+  "reason": "Incomplete dated schedule block",
+  "raw": "22:15\nMadrid (MAD) T4\n23:35\nVigo (VGO)\nAirbus A320 (sharklets)\nBegins\n2027-02-23\n-\nValid to\n2027-03-12\nsun\nmon\ntue\nwed"
+ },
+ {
+  "flight": "IB597",
+  "reason": "Incomplete dated schedule block",
+  "raw": "09:05\nMadrid (MAD) T4\n11:30\nBrussels (BRU)\nAirbus A320 (sharklets)\nBegins\n2027-01-21\n-\nValid to\n2027-02-16\nsun\nmon\ntue\nwed\nthu\nfri"
+ },
+ {
+  "flight": "IB731",
+  "reason": "Incomplete dated schedule block",
+  "raw": "08:40\nMadrid (MAD) T4\n11:25\nAmsterdam (AMS)\nAirbus A319\nBegins\n2027-02-04\n-\nValid to\n2027-02-07\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Thursday, Friday and Sunday\nEvery Thursday, Friday and Sunday\n【14†Image†images.flight.info】\nIberia"
+ },
+ {
+  "flight": "IB809",
+  "reason": "Incomplete dated schedule block",
+  "raw": "12:00\nMadrid (MAD) T4\n14:55\nPrague (PRG) T2\nAirbus A321\nBegins\n2027-01-21\n-\nValid to\n2027-02-13\nsun\nmon\ntue\nwed\nthu"
+ },
+ {
+  "flight": "IB817",
+  "reason": "Incomplete dated schedule block",
+  "raw": "11:25\nMadrid (MAD) T4\n14:45\nCopenhagen (CPH) T2\nAirbus A320\nBegins\n2027-01-12\n-\nValid to"
+ },
+ {
+  "flight": "MH1057",
+  "reason": "Incomplete dated schedule block",
+  "raw": "17:45\nKuala Lumpur (KUL) T1\n18:45\nJohor Bharu (JHB)\nBoeing 737-800 Passenger\nBegins\n2027-01-08\n-\nValid to\n2027-01-16\nsun\nmon\ntue\nwed"
+ },
+ {
+  "flight": "MH1269",
+  "reason": "Incomplete dated schedule block",
+  "raw": "10:40\nKuantan (KUA)\n11:40\nKuala Lumpur (KUL) T1\nBoeing 737-800 Passenger\nBegins\n2027-02-04\n-\nValid to\n2027-02-09\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nTuesdays and Thursdays\nTuesdays and Thursdays\n【14†Image†images.flight.info】"
+ },
+ {
+  "flight": "MH1276",
+  "reason": "Incomplete dated schedule block",
+  "raw": "18:15\nKuala Lumpur (KUL) T1\n19:00\nKuantan (KUA)\nBoeing 737-800 (winglets) Passenger/BBJ2\nBegins\n2027-03-13\n-"
+ },
+ {
+  "flight": "MH196",
+  "reason": "Incomplete dated schedule block",
+  "raw": "19:50\nKuala Lumpur (KUL) T1\n21:55\nDhaka (DAC) T1\nAirbus A330-200\nBegins\n2027-02-13\n-\nValid to\n2027-02-14\nsun\nmon\ntue\nwed"
+ },
+ {
+  "flight": "MH376",
+  "reason": "Incomplete dated schedule block",
+  "raw": "09:00\nKuala Lumpur (KUL) T1\n13:10\nGuangzhou (CAN) T2\nAirbus A330-300\nBegins\n2027-03-28\n-\nValid to"
+ },
+ {
+  "flight": "MH864",
+  "reason": "Incomplete dated schedule block",
+  "raw": "15:50\nKuala Lumpur (KUL) T1\n16:00\nKuala Namu (KNO)\nBoeing 737MAX 8 Passenger\nBegins\n2027-03-01\n-"
+ },
+ {
+  "flight": "TK184",
+  "reason": "Incomplete dated schedule block",
+  "raw": "14:00\nCancun (CUN) T4\n10:15\nIstanbul (IST)\nBoeing 787-9\nBegins\n2027-03-31\n-\nValid to\n2027-11-02\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Wednesday, Friday and Sunday\nEvery Wednesday, Friday and Sunday\n【14†Image†images.flight.info】"
+ },
+ {
+  "flight": "TK2241",
+  "reason": "Incomplete dated schedule block",
+  "raw": "04:45\nGaziantep (GZT)\n06:40\nIstanbul (IST)\nAirbus A321neo\nBegins\n2027-02-02\n-\nValid to\n2027-02-10\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery weekday\nEvery weekday\n【14†Image†images.flight.info】\nTurkish Airlines\nTHY2241\nDuration"
+ },
+ {
+  "flight": "TK2242",
+  "reason": "Incomplete dated schedule block",
+  "raw": "07:30\nIstanbul (IST)\n09:25\nGolgen (GNY)\nAirbus A321\nBegins\n2027-01-20\n-"
+ },
+ {
+  "flight": "TK2504",
+  "reason": "Incomplete dated schedule block",
+  "raw": "07:40\nIstanbul (IST)\n08:55\nBodrum (BJV) TD\nBoeing 737-800 (winglets) Passenger/BBJ2\nBegins\n2026-12-21\n-"
+ },
+ {
+  "flight": "TK2602",
+  "reason": "Incomplete dated schedule block",
+  "raw": "07:30\nIstanbul (IST)\n09:25\nDiyarbakir (DIY)\nBoeing 737-800 (winglets) Passenger/BBJ2\nBegins\n2027-02-17\n-\nValid to\n2027-02-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nWednesdays and Saturdays\nWednesdays and Saturdays\n【14†Image†images.flight.info】"
+ },
+ {
+  "flight": "TK2603",
+  "reason": "Incomplete dated schedule block",
+  "raw": "10:10\nDiyarbakir (DIY)\n12:25\nIstanbul (IST)\nBoeing 737-800 (winglets) Passenger/BBJ2\nBegins\n2027-02-17\n-\nValid to\n2027-02-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nWednesdays and Saturdays\nWednesdays and Saturdays\n【14†Image†images.flight.info】"
+ },
+ {
+  "flight": "TK2704",
+  "reason": "Incomplete dated schedule block",
+  "raw": "09:15\nIstanbul (IST)\n11:15\nErzurum (ERZ)\nAirbus A321\nBegins\n2027-03-21\n-\nValid to\n2027-03-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery day of the week except Tuesdays and Wednesdays"
+ },
+ {
+  "flight": "TK2705",
+  "reason": "Incomplete dated schedule block",
+  "raw": "12:10\nErzurum (ERZ)\n14:30\nIstanbul (IST)\nAirbus A321\nBegins\n2027-03-21\n-\nValid to\n2027-03-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery day of the week except Tuesdays and Wednesdays"
+ },
+ {
+  "flight": "TK2826",
+  "reason": "Incomplete dated schedule block",
+  "raw": "07:00\nIstanbul (IST)\n08:45\nTrabzon (TZX)\nBoeing 737-900 (winglets) Passenger/BBJ3\nBegins\n2027-03-03\n-\nValid to\n2027-03-24\nsun"
+ },
+ {
+  "flight": "TK338",
+  "reason": "Incomplete dated schedule block",
+  "raw": "02:10\nIstanbul (IST)\n06:05\nBaku (GYD) T1\nAirbus A321neo\nBegins\n2027-03-11\n-\nValid to\n2027-03-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery weekday\nEvery weekday\n【14†Image†images.flight.info】\nTurkish Airlines\nTHY338"
+ },
+ {
+  "flight": "TK355",
+  "reason": "Incomplete dated schedule block",
+  "raw": "02:30\nAstana (NQZ) T1\n06:05\nIstanbul (IST)\nAirbus A330-300\nBegins\n2027-04-04\n-\nValid to\n2027-05-02\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Sunday\nEvery Sunday\n【14†Image†images.flight.info】"
+ },
+ {
+  "flight": "TK376",
+  "reason": "Incomplete dated schedule block",
+  "raw": "02:20\nIstanbul (IST)\n05:40\nTbilisi (TBS)\nBoeing 737MAX 9 Passenger\nBegins\n2027-01-09\n-\nValid to\n2027-02-02\nsun\nmon"
+ },
+ {
+  "flight": "TK571",
+  "reason": "Incomplete dated schedule block",
+  "raw": "10:40\nNouakchott (NKC)\n20:10\nIstanbul (IST)\nAirbus A330-200\nBegins\n2027-03-03\n-\nValid to\n2027-03-24\nsun"
+ },
+ {
+  "flight": "TK804",
+  "reason": "Incomplete dated schedule block",
+  "raw": "02:10\nIstanbul (IST)\n04:45\nErbil (EBL)\nAirbus A321neo\nBegins\n2027-06-15\n-"
+ },
+ {
+  "flight": "TR289",
+  "reason": "Incomplete dated schedule block",
+  "raw": "14:05\nDenpasar (DPS)\n16:55\nSingapore (SIN) T1\nBoeing 787-8\nBegins\n2027-03-28\n-\nValid to\n2027-10-30\nsun\nmon\ntue"
+ },
+ {
+  "flight": "TR309",
+  "reason": "Incomplete dated schedule block",
+  "raw": "14:15\nJakarta (CGK) T3\n17:05\nSingapore (SIN) T1\nAirbus A320\nBegins\n2027-02-16\n-\nValid to\n2027-02-28\nsun\nmon"
+ },
+ {
+  "flight": "TR430",
+  "reason": "Incomplete dated schedule block",
+  "raw": "06:50\nSingapore (SIN) T1\n08:30\nPenang (PEN)\nAirbus A320neo\nBegins\n2027-02-20\n-\nValid to\n2027-02-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery day of the week except Sundays"
+ },
+ {
+  "flight": "TR431",
+  "reason": "Incomplete dated schedule block",
+  "raw": "09:30\nPenang (PEN)\n11:00\nSingapore (SIN) T1\nAirbus A320neo\nBegins\n2027-02-20\n-\nValid to\n2027-02-27\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery day of the week except Sundays"
+ },
+ {
+  "flight": "TR486",
+  "reason": "Incomplete dated schedule block",
+  "raw": "15:45\nSingapore (SIN) T1\n17:05\nIpoh (IPH)\nAirbus A320\nBegins\n2027-03-04"
+ },
+ {
+  "flight": "TR487",
+  "reason": "Incomplete dated schedule block",
+  "raw": "17:25\nIpoh (IPH)\n18:55\nSingapore (SIN) T1\nAirbus A320neo\nBegins\n2027-03-28\n-"
+ },
+ {
+  "flight": "TR893",
+  "reason": "Incomplete dated schedule block",
+  "raw": "23:10\nTaipei (TPE) T1\n04:00\nSingapore (SIN) T1\nBoeing 787-8\nBegins\n2027-03-02\n-\nValid to\n2027-03-23\nsun"
+ },
+ {
+  "flight": "UX1665",
+  "reason": "Incomplete dated schedule block",
+  "raw": "15:25\nMadrid (MAD) T2\n17:25\nGeneva (GVA) T1\nBoeing 737-800 Passenger\nOperates only\n2026-12-10\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Thursday\nEvery Thursday"
+ },
+ {
+  "flight": "UX33",
+  "reason": "Incomplete dated schedule block",
+  "raw": "16:50\nMadrid (MAD) T1\n19:25\nPunta Cana (PUJ) TB\nBoeing 787-9\nBegins\n2027-03-31\n-\nValid to\n2027-04-07\nsun"
+ },
+ {
+  "flight": "UX4065",
+  "reason": "Incomplete dated schedule block",
+  "raw": "15:10\nMadrid (MAD) T2\n16:15\nValencia (VLC)\nBoeing 737-800 (winglets) Passenger/BBJ2\nBegins\n2027-09-27\n-\nValid to"
+ },
+ {
+  "flight": "UX45",
+  "reason": "Incomplete dated schedule block",
+  "raw": "23:55\nMadrid (MAD) T1\n07:35\nMontevideo (MVD)\nBoeing 787-9\nBegins\n2027-06-21\n-\nValid to\n2027-09-19\nsun"
+ },
+ {
+  "flight": "UX5047",
+  "reason": "Incomplete dated schedule block",
+  "raw": "19:05\nMadrid (MAD) T2\n20:20\nMalaga (AGP)\nBoeing 737-800 Passenger\nOperates only\n2026-12-10\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Thursday"
+ },
+ {
+  "flight": "UX5053",
+  "reason": "Incomplete dated schedule block",
+  "raw": "19:20\nMadrid (MAD) T2\n20:30\nSevilla (SVQ)\nBoeing 737-800 (winglets) Passenger/BBJ2\nBegins\n2027-02-18\n-\nValid to\n2027-02-24\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nWednesdays and Thursdays\nWednesdays and Thursdays\n【14†Image†images.flight.info】\nAir Europa\nAEA5053\nDuration"
+ },
+ {
+  "flight": "UX51",
+  "reason": "Published duration/clock conflicts with reference-week time zones",
+  "raw": {
+   "airline": "UX",
+   "flight": "UX51",
+   "origin": "MAD",
+   "destination": "HAV",
+   "dep": "15:05",
+   "arr": "19:05",
+   "days": "37",
+   "aircraft": "Boeing 787-9",
+   "valid_from": "2026-11-06",
+   "valid_to": "2026-11-29",
+   "source": "flightinfo-ux-top20-202611",
+   "notes": "Dated Flight.info secondary timetable, https://www.flight.info/UX51; published duration 600 minutes; reference-week intersection. Not live status.",
+   "raw": {
+    "url": "https://www.flight.info/UX51",
+    "start": "2026-11-06",
+    "end": "2026-11-29",
+    "availability": "Wednesdays and Sundays",
+    "duration_min": 600
+   }
+  }
+ },
+ {
+  "flight": "UX51",
+  "reason": "Published duration/clock conflicts with reference-week time zones",
+  "raw": {
+   "airline": "UX",
+   "flight": "UX51",
+   "origin": "MAD",
+   "destination": "HAV",
+   "dep": "15:10",
+   "arr": "19:10",
+   "days": "14",
+   "aircraft": "Boeing 787-9",
+   "valid_from": "2026-11-06",
+   "valid_to": "2026-11-30",
+   "source": "flightinfo-ux-top20-202611",
+   "notes": "Dated Flight.info secondary timetable, https://www.flight.info/UX51; published duration 600 minutes; reference-week intersection. Not live status.",
+   "raw": {
+    "url": "https://www.flight.info/UX51",
+    "start": "2026-11-06",
+    "end": "2026-11-30",
+    "availability": "Mondays and Thursdays",
+    "duration_min": 600
+   }
+  }
+ },
+ {
+  "flight": "UX7159",
+  "reason": "Incomplete dated schedule block",
+  "raw": "19:00\nMadrid (MAD) T2\n20:05\nBilbao (BIO)\nBoeing 737-800 (winglets) Passenger/BBJ2\nBegins\n2026-12-25\n-\nValid to\n2026-12-27\nsun\nmon"
+ },
+ {
+  "flight": "UX7236",
+  "reason": "Incomplete dated schedule block",
+  "raw": "17:00\nLa Coruna (LCG)\n18:10\nMadrid (MAD) T2\nBoeing 737-800 (winglets) Passenger/BBJ2\nBegins\n2026-12-29\n-\nValid to\n2027-01-07\nsun\nmon"
+ },
+ {
+  "flight": "WN1543",
+  "reason": "Incomplete dated schedule block",
+  "raw": "08:50\nDenver (DEN)\n11:00\nSeattle (SEA)\nBoeing 737-700 Passenger (Scimitar Winglets)\nBegins\n2026-12-01"
+ },
+ {
+  "flight": "WN1589",
+  "reason": "Incomplete dated schedule block",
+  "raw": "08:50\nDenver (DEN)\n10:20\nSpokane (GEG)\nBoeing 737MAX 8 Passenger\nBegins\n2026-12-18\n-\nValid to\n2026-12-23"
+ },
+ {
+  "flight": "WN1601",
+  "reason": "Incomplete dated schedule block",
+  "raw": "05:55\nIndianapolis (IND)\n08:15\nOrlando (MCO)\nBoeing 737MAX 8 Passenger\nBegins\n2027-01-15\n-\nValid to\n2027-01-18"
+ },
+ {
+  "flight": "WN1615",
+  "reason": "Incomplete dated schedule block",
+  "raw": "19:30\nDenver (DEN)\n22:30\nDallas (DAL) T1\nBoeing 737-700 Passenger (Scimitar Winglets)\nOperates only\n2027-01-04\nsun\nmon\ntue"
+ },
+ {
+  "flight": "WN1623",
+  "reason": "Incomplete dated schedule block",
+  "raw": "11:35\nFort Myers (RSW)\n14:25\nIndianapolis (IND)\nBoeing 737-800 (winglets) Passenger/BBJ2\nOperates only\n2027-03-13"
+ },
+ {
+  "flight": "WN1657",
+  "reason": "Incomplete dated schedule block",
+  "raw": "19:30\nDenver (DEN)\n23:55\nIndianapolis (IND)\nBoeing 737MAX 8 Passenger\nOperates only\n2027-01-04\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Monday\nEvery Monday"
+ },
+ {
+  "flight": "WN1734",
+  "reason": "Incomplete dated schedule block",
+  "raw": "19:10\nGreenville (GSP)\n19:25\nNashville (BNA)\nBoeing 737MAX 8 Passenger\nBegins\n2027-01-06\n-\nValid to\n2027-01-14\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery day of the week except Saturdays\nEvery day of the week except Saturdays\n【14†Image†images.flight.info】\nSouthwest Airlines"
+ },
+ {
+  "flight": "WN1737",
+  "reason": "Incomplete dated schedule block",
+  "raw": "16:15\nSalt Lake City (SLC)\n17:40\nDenver (DEN)\nBoeing 737-800 (winglets) Passenger/BBJ2\nOperates only\n2026-12-17\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Thursday\nEvery Thursday\n【14†Image†images.flight.info】"
+ },
+ {
+  "flight": "WN1760",
+  "reason": "Incomplete dated schedule block",
+  "raw": "20:55\nDenver (DEN)\n23:00\nPhoenix (PHX) T4\nBoeing 737MAX 8 Passenger\nBegins\n2026-12-18\n-\nValid to\n2026-12-23\nsun\nmon\ntue\nwed\nthu"
+ },
+ {
+  "flight": "WN1785",
+  "reason": "Incomplete dated schedule block",
+  "raw": "21:45\nHouston (HOU)\n22:40\nAustin (AUS)\nBoeing 737-700 Passenger (Scimitar Winglets)\nBegins\n2027-01-31\n-\nValid to\n2027-02-07\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Thursday, Friday and Sunday"
+ },
+ {
+  "flight": "WN2695",
+  "reason": "Incomplete dated schedule block",
+  "raw": "18:25\nKansas City (MCI)\n19:50\nChicago (MDW)\nBoeing 737MAX 8 Passenger\nOperates only\n2027-01-05\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Tuesday\nEvery Tuesday\n【14†Image†images.flight.info】"
+ },
+ {
+  "flight": "WN2775",
+  "reason": "Incomplete dated schedule block",
+  "raw": "14:35\nBaltimore (BWI)\n17:10\nTampa (TPA)\nBoeing 737-700 Passenger (Scimitar Winglets)\nBegins\n2027-01-15\n-\nValid to\n2027-01-18\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nMondays and Fridays"
+ },
+ {
+  "flight": "WN3097",
+  "reason": "Incomplete dated schedule block",
+  "raw": "18:15\nNew Orleans (MSY)\n20:10\nDenver (DEN)\nBoeing 737-800 (winglets) Passenger/BBJ2\nBegins\n2027-03-11\n-\nValid to\n2027-03-12\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nThursdays and Fridays\nThursdays and Fridays\n【14†Image†images.flight.info】\nSouthwest Airlines\nSWA3097\nDuration"
+ },
+ {
+  "flight": "WN3408",
+  "reason": "Incomplete dated schedule block",
+  "raw": "07:40\nPhoenix (PHX) T4\n11:55\nChicago (MDW)\nBoeing 737MAX 8 Passenger\nBegins\n2026-12-19\n-\nValid to\n2027-01-02\nsun\nmon\ntue\nwed\nthu"
+ },
+ {
+  "flight": "WN4120",
+  "reason": "Incomplete dated schedule block",
+  "raw": "17:40\nChicago (MDW)\n20:05\nPittsburgh (PIT)\nBoeing 737MAX 8 Passenger\nBegins\n2027-01-06\n-\nValid to\n2027-01-14\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery day of the week except Saturdays\nEvery day of the week except Saturdays"
+ },
+ {
+  "flight": "WN4393",
+  "reason": "Incomplete dated schedule block",
+  "raw": "19:00\nChicago (MDW)\n21:20\nCincinnati (CVG)\nBoeing 737-700 Passenger (Scimitar Winglets)\nBegins\n2026-12-27\n-"
+ },
+ {
+  "flight": "WN4402",
+  "reason": "Incomplete dated schedule block",
+  "raw": "06:45\nSanta Ana (SNA)\n09:15\nPhoenix (PHX) T4\nBoeing 737-700 Passenger (Scimitar Winglets)\nBegins\n2026-12-24\n-\nValid to\n2027-01-01\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nThursdays and Fridays\nThursdays and Fridays\n【14†Image†images.flight.info】\nSouthwest Airlines"
+ },
+ {
+  "flight": "WN4888",
+  "reason": "Incomplete dated schedule block",
+  "raw": "15:05\nWashington (DCA) T1\n17:30\nOklahoma City (OKC)\nBoeing 737-800 (winglets) Passenger/BBJ2\nBegins\n2027-02-08\n-\nValid to\n2027-02-19\nsun\nmon\ntue\nwed\nthu\nfri\nsat\nEvery Monday, Thursday and Friday\nEvery Monday, Thursday and Friday"
+ }
+]

@@ -72,8 +72,8 @@ def check_row(row, airports, airlines, codes, types, sources):
     for key in ("departure_local", "arrival_local"):
         if not TIME_RE.match(row[key]):
             errors.append(f"{key} {row[key]!r} 不是 HH:MM")
-    if row["arrival_day_offset"] not in ("0", "1", "2"):
-        errors.append(f"抵达跨日 {row['arrival_day_offset']!r} 应为 0/1/2")
+    if row["arrival_day_offset"] not in ("-1", "0", "1", "2"):
+        errors.append(f"抵达跨日 {row['arrival_day_offset']!r} 应为 -1/0/1/2")
     if row["source_ref"] not in sources:
         errors.append(f"来源 {row['source_ref']!r} 不在 sources.csv")
     if row["verification_status"] not in VERIFICATION:

@@ -1,0 +1,19 @@
+Source: https://www.qrcargo.com/s/network-and-services/flight-schedule
+Captured: 2026-11-05
+Weekly Schedule: Mon 9 Nov through Sun 15 Nov 2026
+All records: Passenger; segment airport labels individually read.
+Days: only green DOM cells in the rendered weekly table; inactive letters excluded.
+All times are local; arrival day inferred from endpoint time zones.
+
+QR0756 ATL DOH 1357 19:20 16:40 A350
+QR0708 IAD DOH 1234567 20:05 16:45 B777
+QR0755 DOH ATL 1357 07:55 15:45 A350
+QR0707 DOH IAD 1234567 09:25 15:55 B777
+QR0739 DOH LAX 2467 07:40 13:25 A350
+QR0737 DOH SFO 1246 07:35 13:30 A350
+QR0703 DOH JFK 1234567 01:35 08:00 B777
+QR0701 DOH JFK 1234567 08:00 15:00 B777
+QR0740 LAX DOH 2467 15:35 18:15 A350
+QR0738 SFO DOH 1246 15:50 19:00 A350
+QR0704 JFK DOH 1234567 10:20 06:25 B777
+QR0702 JFK DOH 1234567 21:00 17:05 B777

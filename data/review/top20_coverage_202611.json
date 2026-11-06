@@ -1,0 +1,1112 @@
+{
+  "pack": "global-202611.top20",
+  "coverage": {
+    "airports": 1013,
+    "airlines": 132,
+    "aircraft_types": 29,
+    "schedules": 35781,
+    "aircraft_evidence": {
+      "missing": 8765,
+      "exact": 13449,
+      "family": 78,
+      "unmapped": 13393,
+      "varies": 36,
+      "multiple": 60
+    },
+    "note": "精选参考班表，不代表这些机场的全部真实航班。"
+  },
+  "airports": [
+    {
+      "airport": "ATL",
+      "before": {
+        "destinations": 186,
+        "airlines": 5,
+        "templates": 850,
+        "airline_destinations": {
+          "DL": 185,
+          "UA": 6,
+          "AA": 7,
+          "LH": 1,
+          "QR": 1
+        }
+      },
+      "after": {
+        "destinations": 187,
+        "airlines": 9,
+        "templates": 864,
+        "airline_destinations": {
+          "DL": 185,
+          "KE": 1,
+          "TK": 1,
+          "AF": 1,
+          "KL": 1,
+          "UA": 6,
+          "AA": 7,
+          "LH": 1,
+          "QR": 1
+        }
+      },
+      "daily": [
+        771,
+        727,
+        729,
+        778,
+        778,
+        781,
+        773
+      ]
+    },
+    {
+      "airport": "DXB",
+      "before": {
+        "destinations": 19,
+        "airlines": 4,
+        "templates": 29,
+        "airline_destinations": {
+          "EK": 11,
+          "KB": 1,
+          "RJ": 1,
+          "SG": 6
+        }
+      },
+      "after": {
+        "destinations": 143,
+        "airlines": 10,
+        "templates": 309,
+        "airline_destinations": {
+          "EK": 118,
+          "KB": 1,
+          "RJ": 1,
+          "SG": 6,
+          "6E": 6,
+          "AI": 1,
+          "BA": 1,
+          "AF": 1,
+          "KL": 1,
+          "FZ": 32
+        }
+      },
+      "daily": [
+        258,
+        252,
+        262,
+        259,
+        262,
+        264,
+        260
+      ]
+    },
+    {
+      "airport": "HND",
+      "before": {
+        "destinations": 75,
+        "airlines": 9,
+        "templates": 239,
+        "airline_destinations": {
+          "AC": 1,
+          "CI": 1,
+          "JL": 2,
+          "CX": 1,
+          "DL": 6,
+          "IT": 1,
+          "NH": 68,
+          "UA": 6,
+          "AA": 2
+        }
+      },
+      "after": {
+        "destinations": 82,
+        "airlines": 18,
+        "templates": 350,
+        "airline_destinations": {
+          "AC": 1,
+          "CI": 1,
+          "JL": 33,
+          "CX": 1,
+          "DL": 6,
+          "IT": 1,
+          "NH": 68,
+          "AA": 3,
+          "BA": 1,
+          "EK": 1,
+          "KE": 2,
+          "LH": 2,
+          "OZ": 2,
+          "SQ": 1,
+          "TK": 1,
+          "TR": 1,
+          "AF": 1,
+          "UA": 6
+        }
+      },
+      "daily": [
+        330,
+        327,
+        330,
+        328,
+        331,
+        327,
+        325
+      ]
+    },
+    {
+      "airport": "DFW",
+      "before": {
+        "destinations": 19,
+        "airlines": 6,
+        "templates": 144,
+        "airline_destinations": {
+          "AC": 1,
+          "AA": 6,
+          "CX": 1,
+          "DL": 9,
+          "RJ": 1,
+          "UA": 6
+        }
+      },
+      "after": {
+        "destinations": 104,
+        "airlines": 14,
+        "templates": 724,
+        "airline_destinations": {
+          "AC": 1,
+          "AA": 100,
+          "CX": 1,
+          "DL": 9,
+          "RJ": 1,
+          "BA": 1,
+          "EK": 1,
+          "IB": 1,
+          "JL": 1,
+          "KE": 1,
+          "LH": 1,
+          "TK": 1,
+          "AF": 1,
+          "UA": 6
+        }
+      },
+      "daily": [
+        502,
+        461,
+        485,
+        508,
+        508,
+        449,
+        506
+      ]
+    },
+    {
+      "airport": "PVG",
+      "before": {
+        "destinations": 131,
+        "airlines": 14,
+        "templates": 407,
+        "airline_destinations": {
+          "9C": 25,
+          "AC": 2,
+          "BR": 1,
+          "CI": 2,
+          "MU": 81,
+          "CZ": 2,
+          "CX": 1,
+          "DL": 3,
+          "NH": 3,
+          "HO": 45,
+          "Y8": 1,
+          "FM": 36,
+          "SQ": 1,
+          "UA": 2
+        }
+      },
+      "after": {
+        "destinations": 143,
+        "airlines": 43,
+        "templates": 689,
+        "airline_destinations": {
+          "9C": 26,
+          "AC": 2,
+          "BR": 1,
+          "CI": 2,
+          "MU": 81,
+          "CZ": 24,
+          "CX": 1,
+          "DL": 3,
+          "NH": 3,
+          "HO": 45,
+          "Y8": 1,
+          "FM": 36,
+          "SQ": 1,
+          "AA": 1,
+          "AI": 1,
+          "BA": 1,
+          "EK": 1,
+          "JL": 3,
+          "KE": 1,
+          "LH": 2,
+          "OZ": 1,
+          "TK": 1,
+          "AF": 1,
+          "KL": 1,
+          "CA": 24,
+          "HU": 8,
+          "ZH": 2,
+          "KN": 4,
+          "3U": 6,
+          "MF": 5,
+          "SC": 2,
+          "OQ": 1,
+          "PN": 1,
+          "EU": 1,
+          "8L": 1,
+          "GJ": 1,
+          "JD": 2,
+          "KY": 1,
+          "NS": 1,
+          "G5": 1,
+          "GS": 1,
+          "QW": 1,
+          "UA": 2
+        }
+      },
+      "daily": [
+        479,
+        473,
+        474,
+        476,
+        479,
+        473,
+        475
+      ]
+    },
+    {
+      "airport": "ORD",
+      "before": {
+        "destinations": 118,
+        "airlines": 8,
+        "templates": 797,
+        "airline_destinations": {
+          "AC": 2,
+          "BR": 1,
+          "CX": 1,
+          "DL": 8,
+          "NH": 2,
+          "RJ": 1,
+          "UA": 114,
+          "AA": 4
+        }
+      },
+      "after": {
+        "destinations": 124,
+        "airlines": 15,
+        "templates": 1065,
+        "airline_destinations": {
+          "AC": 2,
+          "BR": 1,
+          "CX": 1,
+          "DL": 8,
+          "NH": 2,
+          "RJ": 1,
+          "AA": 53,
+          "EK": 1,
+          "JL": 2,
+          "KE": 1,
+          "LH": 2,
+          "TK": 1,
+          "AF": 1,
+          "KL": 1,
+          "UA": 114
+        }
+      },
+      "daily": [
+        603,
+        595,
+        600,
+        601,
+        600,
+        572,
+        602
+      ]
+    },
+    {
+      "airport": "LHR",
+      "before": {
+        "destinations": 27,
+        "airlines": 11,
+        "templates": 77,
+        "airline_destinations": {
+          "AC": 5,
+          "BA": 3,
+          "JJ": 1,
+          "BI": 1,
+          "CI": 1,
+          "CX": 1,
+          "DL": 7,
+          "NH": 1,
+          "RJ": 1,
+          "UA": 7,
+          "AA": 2
+        }
+      },
+      "after": {
+        "destinations": 106,
+        "airlines": 23,
+        "templates": 411,
+        "airline_destinations": {
+          "AC": 5,
+          "BA": 92,
+          "JJ": 1,
+          "BI": 1,
+          "CI": 1,
+          "CX": 1,
+          "DL": 7,
+          "NH": 1,
+          "RJ": 1,
+          "AA": 9,
+          "AI": 3,
+          "B6": 2,
+          "EK": 1,
+          "IB": 1,
+          "JL": 1,
+          "KE": 1,
+          "MH": 1,
+          "OZ": 1,
+          "SQ": 1,
+          "TK": 1,
+          "AF": 1,
+          "KL": 1,
+          "UA": 7
+        }
+      },
+      "daily": [
+        186,
+        173,
+        179,
+        181,
+        181,
+        179,
+        176
+      ]
+    },
+    {
+      "airport": "IST",
+      "before": {
+        "destinations": 5,
+        "airlines": 3,
+        "templates": 10,
+        "airline_destinations": {
+          "TK": 2,
+          "NH": 1,
+          "RJ": 2
+        }
+      },
+      "after": {
+        "destinations": 105,
+        "airlines": 10,
+        "templates": 233,
+        "airline_destinations": {
+          "TK": 102,
+          "NH": 1,
+          "RJ": 2,
+          "6E": 2,
+          "EK": 1,
+          "OZ": 1,
+          "SQ": 1,
+          "AF": 1,
+          "KL": 1,
+          "TO": 2
+        }
+      },
+      "daily": [
+        96,
+        90,
+        98,
+        92,
+        95,
+        91,
+        95
+      ]
+    },
+    {
+      "airport": "CAN",
+      "before": {
+        "destinations": 9,
+        "airlines": 10,
+        "templates": 53,
+        "airline_destinations": {
+          "9C": 4,
+          "BR": 1,
+          "CI": 1,
+          "CZ": 1,
+          "CX": 1,
+          "NH": 1,
+          "QV": 1,
+          "HO": 2,
+          "MU": 2,
+          "FM": 2
+        }
+      },
+      "after": {
+        "destinations": 114,
+        "airlines": 33,
+        "templates": 796,
+        "airline_destinations": {
+          "9C": 4,
+          "BR": 1,
+          "CI": 1,
+          "CZ": 101,
+          "CX": 1,
+          "NH": 1,
+          "QV": 1,
+          "HO": 3,
+          "MU": 26,
+          "FM": 2,
+          "EK": 1,
+          "JL": 1,
+          "KE": 1,
+          "SQ": 1,
+          "TK": 1,
+          "TR": 1,
+          "CA": 18,
+          "GJ": 3,
+          "ZH": 26,
+          "3U": 8,
+          "JD": 8,
+          "OQ": 12,
+          "BK": 1,
+          "HU": 15,
+          "PN": 2,
+          "MF": 7,
+          "EU": 1,
+          "KY": 1,
+          "SC": 3,
+          "NS": 1,
+          "KN": 2,
+          "GS": 1,
+          "8L": 1
+        }
+      },
+      "daily": [
+        595,
+        586,
+        595,
+        586,
+        595,
+        586,
+        595
+      ]
+    },
+    {
+      "airport": "DEN",
+      "before": {
+        "destinations": 134,
+        "airlines": 3,
+        "templates": 527,
+        "airline_destinations": {
+          "AC": 3,
+          "DL": 9,
+          "UA": 132
+        }
+      },
+      "after": {
+        "destinations": 136,
+        "airlines": 8,
+        "templates": 669,
+        "airline_destinations": {
+          "AC": 3,
+          "DL": 9,
+          "AA": 6,
+          "LH": 2,
+          "TK": 1,
+          "F9": 24,
+          "WN": 14,
+          "UA": 132
+        }
+      },
+      "daily": [
+        416,
+        392,
+        408,
+        420,
+        426,
+        400,
+        423
+      ]
+    },
+    {
+      "airport": "DEL",
+      "before": {
+        "destinations": 25,
+        "airlines": 9,
+        "templates": 40,
+        "airline_destinations": {
+          "AC": 2,
+          "MK": 1,
+          "B3": 1,
+          "CX": 1,
+          "KB": 1,
+          "NH": 1,
+          "SG": 17,
+          "UA": 1,
+          "AA": 1
+        }
+      },
+      "after": {
+        "destinations": 82,
+        "airlines": 21,
+        "templates": 223,
+        "airline_destinations": {
+          "AC": 2,
+          "MK": 1,
+          "B3": 1,
+          "CX": 1,
+          "KB": 1,
+          "NH": 1,
+          "SG": 17,
+          "6E": 53,
+          "AI": 17,
+          "BA": 1,
+          "EK": 1,
+          "JL": 2,
+          "KE": 1,
+          "LH": 2,
+          "MH": 1,
+          "SQ": 1,
+          "TK": 1,
+          "AF": 1,
+          "KL": 1,
+          "UA": 1,
+          "AA": 1
+        }
+      },
+      "daily": [
+        182,
+        188,
+        188,
+        186,
+        190,
+        187,
+        193
+      ]
+    },
+    {
+      "airport": "ICN",
+      "before": {
+        "destinations": 17,
+        "airlines": 12,
+        "templates": 34,
+        "airline_destinations": {
+          "AC": 2,
+          "BI": 1,
+          "CI": 2,
+          "KE": 2,
+          "CX": 1,
+          "DL": 5,
+          "OZ": 1,
+          "7C": 1,
+          "IT": 1,
+          "QV": 1,
+          "RS": 1,
+          "UA": 2
+        }
+      },
+      "after": {
+        "destinations": 76,
+        "airlines": 21,
+        "templates": 163,
+        "airline_destinations": {
+          "AC": 2,
+          "BI": 1,
+          "CI": 2,
+          "KE": 56,
+          "CX": 1,
+          "DL": 5,
+          "OZ": 20,
+          "7C": 14,
+          "IT": 1,
+          "QV": 1,
+          "RS": 1,
+          "AA": 1,
+          "AI": 1,
+          "EK": 1,
+          "MH": 1,
+          "SQ": 1,
+          "TK": 1,
+          "TR": 2,
+          "AF": 1,
+          "KL": 1,
+          "UA": 2
+        }
+      },
+      "daily": [
+        126,
+        127,
+        130,
+        127,
+        131,
+        130,
+        128
+      ]
+    },
+    {
+      "airport": "LAX",
+      "before": {
+        "destinations": 76,
+        "airlines": 12,
+        "templates": 467,
+        "airline_destinations": {
+          "AC": 3,
+          "JJ": 1,
+          "BR": 1,
+          "CX": 1,
+          "DL": 45,
+          "JX": 1,
+          "NH": 2,
+          "UA": 46,
+          "AA": 28,
+          "LH": 2,
+          "AS": 2,
+          "QR": 1
+        }
+      },
+      "after": {
+        "destinations": 85,
+        "airlines": 24,
+        "templates": 500,
+        "airline_destinations": {
+          "AC": 3,
+          "JJ": 1,
+          "BR": 1,
+          "CX": 1,
+          "DL": 45,
+          "JX": 1,
+          "NH": 2,
+          "B6": 3,
+          "BA": 1,
+          "EK": 1,
+          "IB": 1,
+          "JL": 3,
+          "KE": 1,
+          "OZ": 1,
+          "SQ": 2,
+          "TK": 1,
+          "AF": 2,
+          "KL": 1,
+          "WN": 2,
+          "UA": 46,
+          "AA": 28,
+          "LH": 2,
+          "AS": 2,
+          "QR": 1
+        }
+      },
+      "daily": [
+        371,
+        338,
+        348,
+        375,
+        372,
+        361,
+        377
+      ]
+    },
+    {
+      "airport": "CDG",
+      "before": {
+        "destinations": 30,
+        "airlines": 12,
+        "templates": 50,
+        "airline_destinations": {
+          "AC": 2,
+          "MK": 1,
+          "AF": 9,
+          "JJ": 1,
+          "BR": 1,
+          "CX": 1,
+          "DL": 9,
+          "NH": 1,
+          "RJ": 1,
+          "SQ": 1,
+          "UA": 4,
+          "AA": 1
+        }
+      },
+      "after": {
+        "destinations": 138,
+        "airlines": 18,
+        "templates": 1035,
+        "airline_destinations": {
+          "AC": 2,
+          "MK": 1,
+          "AF": 132,
+          "JJ": 1,
+          "BR": 1,
+          "CX": 1,
+          "DL": 9,
+          "NH": 1,
+          "RJ": 1,
+          "SQ": 1,
+          "AA": 4,
+          "AI": 1,
+          "EK": 1,
+          "JL": 1,
+          "KE": 1,
+          "TK": 1,
+          "KL": 1,
+          "UA": 4
+        }
+      },
+      "daily": [
+        297,
+        294,
+        291,
+        301,
+        298,
+        294,
+        302
+      ]
+    },
+    {
+      "airport": "PEK",
+      "before": {
+        "destinations": 11,
+        "airlines": 9,
+        "templates": 46,
+        "airline_destinations": {
+          "AC": 1,
+          "CA": 1,
+          "BR": 1,
+          "CI": 1,
+          "CX": 1,
+          "NH": 2,
+          "MU": 2,
+          "SQ": 1,
+          "UA": 2
+        }
+      },
+      "after": {
+        "destinations": 127,
+        "airlines": 23,
+        "templates": 958,
+        "airline_destinations": {
+          "AC": 1,
+          "CA": 103,
+          "BR": 1,
+          "CI": 1,
+          "CX": 1,
+          "NH": 2,
+          "MU": 2,
+          "SQ": 1,
+          "EK": 1,
+          "JL": 1,
+          "LH": 1,
+          "TK": 1,
+          "AF": 1,
+          "KL": 1,
+          "HU": 35,
+          "ZH": 8,
+          "SC": 10,
+          "3U": 8,
+          "GJ": 1,
+          "KY": 1,
+          "TV": 1,
+          "8L": 1,
+          "UA": 2
+        }
+      },
+      "daily": [
+        499,
+        509,
+        500,
+        509,
+        500,
+        504,
+        504
+      ]
+    },
+    {
+      "airport": "SIN",
+      "before": {
+        "destinations": 24,
+        "airlines": 10,
+        "templates": 56,
+        "airline_destinations": {
+          "AC": 1,
+          "BI": 1,
+          "CI": 2,
+          "CX": 1,
+          "SQ": 15,
+          "JX": 1,
+          "KB": 1,
+          "NH": 2,
+          "PX": 1,
+          "UA": 1
+        }
+      },
+      "after": {
+        "destinations": 78,
+        "airlines": 21,
+        "templates": 247,
+        "airline_destinations": {
+          "AC": 1,
+          "BI": 1,
+          "CI": 2,
+          "CX": 1,
+          "SQ": 60,
+          "JX": 1,
+          "KB": 1,
+          "NH": 2,
+          "PX": 1,
+          "6E": 4,
+          "BA": 2,
+          "EK": 2,
+          "JL": 2,
+          "KE": 1,
+          "LH": 1,
+          "OZ": 1,
+          "TK": 3,
+          "TR": 22,
+          "AF": 1,
+          "KL": 2,
+          "UA": 1
+        }
+      },
+      "daily": [
+        195,
+        191,
+        196,
+        192,
+        200,
+        195,
+        198
+      ]
+    },
+    {
+      "airport": "AMS",
+      "before": {
+        "destinations": 21,
+        "airlines": 9,
+        "templates": 34,
+        "airline_destinations": {
+          "AC": 1,
+          "KL": 2,
+          "JJ": 1,
+          "CI": 1,
+          "AF": 1,
+          "CX": 1,
+          "DL": 9,
+          "RJ": 1,
+          "UA": 4
+        }
+      },
+      "after": {
+        "destinations": 144,
+        "airlines": 17,
+        "templates": 822,
+        "airline_destinations": {
+          "AC": 1,
+          "KL": 107,
+          "JJ": 1,
+          "CI": 1,
+          "AF": 1,
+          "CX": 1,
+          "DL": 9,
+          "RJ": 1,
+          "AA": 1,
+          "6E": 1,
+          "AI": 1,
+          "EK": 1,
+          "KE": 1,
+          "SQ": 1,
+          "TK": 1,
+          "HV": 36,
+          "UA": 4
+        }
+      },
+      "daily": [
+        250,
+        249,
+        243,
+        253,
+        254,
+        246,
+        260
+      ]
+    },
+    {
+      "airport": "MAD",
+      "before": {
+        "destinations": 16,
+        "airlines": 12,
+        "templates": 43,
+        "airline_destinations": {
+          "AC": 1,
+          "UX": 3,
+          "AD": 2,
+          "CA": 1,
+          "IB": 6,
+          "JJ": 1,
+          "FR": 1,
+          "CX": 1,
+          "DL": 2,
+          "RJ": 1,
+          "UA": 2,
+          "AA": 1
+        }
+      },
+      "after": {
+        "destinations": 81,
+        "airlines": 18,
+        "templates": 292,
+        "airline_destinations": {
+          "AC": 1,
+          "UX": 34,
+          "AD": 2,
+          "CA": 1,
+          "IB": 51,
+          "JJ": 1,
+          "FR": 1,
+          "CX": 1,
+          "DL": 2,
+          "RJ": 1,
+          "AA": 6,
+          "EK": 1,
+          "KE": 1,
+          "TK": 1,
+          "AF": 1,
+          "KL": 1,
+          "TO": 1,
+          "UA": 2
+        }
+      },
+      "daily": [
+        111,
+        109,
+        108,
+        113,
+        108,
+        108,
+        108
+      ]
+    },
+    {
+      "airport": "SZX",
+      "before": {
+        "destinations": 16,
+        "airlines": 7,
+        "templates": 47,
+        "airline_destinations": {
+          "9C": 12,
+          "CI": 2,
+          "CZ": 1,
+          "NH": 1,
+          "HO": 1,
+          "MU": 2,
+          "FM": 1
+        }
+      },
+      "after": {
+        "destinations": 94,
+        "airlines": 30,
+        "templates": 656,
+        "airline_destinations": {
+          "9C": 12,
+          "CI": 2,
+          "CZ": 54,
+          "NH": 1,
+          "HO": 3,
+          "MU": 13,
+          "FM": 1,
+          "EK": 1,
+          "KE": 1,
+          "ZH": 54,
+          "HU": 18,
+          "CA": 10,
+          "KY": 1,
+          "DZ": 15,
+          "MF": 7,
+          "3U": 7,
+          "GJ": 1,
+          "PN": 3,
+          "OQ": 2,
+          "SC": 3,
+          "GY": 2,
+          "EU": 1,
+          "TV": 2,
+          "NS": 1,
+          "JD": 1,
+          "GS": 1,
+          "KN": 2,
+          "BK": 1,
+          "DR": 1,
+          "8L": 1
+        }
+      },
+      "daily": [
+        495,
+        493,
+        494,
+        495,
+        492,
+        497,
+        493
+      ]
+    },
+    {
+      "airport": "KUL",
+      "before": {
+        "destinations": 7,
+        "airlines": 8,
+        "templates": 20,
+        "airline_destinations": {
+          "MK": 1,
+          "BI": 1,
+          "CI": 1,
+          "MH": 1,
+          "CX": 1,
+          "JX": 1,
+          "NH": 2,
+          "SQ": 1
+        }
+      },
+      "after": {
+        "destinations": 86,
+        "airlines": 17,
+        "templates": 232,
+        "airline_destinations": {
+          "MK": 1,
+          "BI": 1,
+          "CI": 1,
+          "MH": 66,
+          "CX": 1,
+          "JX": 1,
+          "NH": 2,
+          "SQ": 1,
+          "6E": 2,
+          "BA": 1,
+          "EK": 1,
+          "JL": 1,
+          "KE": 1,
+          "LH": 1,
+          "TK": 1,
+          "KL": 2,
+          "AK": 50
+        }
+      },
+      "daily": [
+        139,
+        134,
+        123,
+        125,
+        134,
+        126,
+        136
+      ]
+    }
+  ],
+  "validation": {
+    "airports_passed": 20,
+    "projected_instances": 47928,
+    "reachable_airports": 1013,
+    "returnable_airports": 1013
+  }
+}

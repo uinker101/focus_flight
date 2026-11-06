@@ -1,0 +1,3861 @@
+[
+ {
+  "source": "aa-us5-202611",
+  "row": 44,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ABQ",
+   "LAX",
+   "4913",
+   "1234567",
+   "12:57",
+   "14:14",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 45,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ABQ",
+   "LAX",
+   "6480",
+   "1234567",
+   "06:30",
+   "07:52",
+   "E75",
+   "O75",
+   "11/6/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 82,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "CLT",
+   "5043",
+   "...45.7",
+   "09:18",
+   "10:46",
+   "CR9",
+   "CP9",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 83,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "CLT",
+   "5145",
+   "...45.7",
+   "15:36",
+   "17:00",
+   "CR9",
+   "CP9",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 84,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "CLT",
+   "5176",
+   "...45.7",
+   "06:45",
+   "08:20",
+   "CR9",
+   "CP9",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 85,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "CLT",
+   "5293",
+   "...45.7",
+   "18:39",
+   "20:12",
+   "CR9",
+   "CP9",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 86,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "CLT",
+   "5416",
+   "...45.7",
+   "12:31",
+   "13:55",
+   "CR9",
+   "CP9",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 87,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "CLT",
+   "5145",
+   "1......",
+   "16:25",
+   "17:55",
+   "CR9",
+   "CP9",
+   "11/2/26",
+   "11/16/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 89,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "CLT",
+   "5043",
+   "123....",
+   "08:15",
+   "09:50",
+   "CR9",
+   "CP9",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 90,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "CLT",
+   "5158",
+   "123....",
+   "10:37",
+   "12:05",
+   "CR9",
+   "CP9",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 91,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "CLT",
+   "5293",
+   "123..6.",
+   "17:47",
+   "19:17",
+   "CR9",
+   "CP9",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 92,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "CLT",
+   "5416",
+   "123..6.",
+   "14:31",
+   "15:55",
+   "CR9",
+   "CP9",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 94,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "CLT",
+   "5043",
+   ".....6.",
+   "09:55",
+   "11:23",
+   "CR9",
+   "CP9",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 95,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "CLT",
+   "5145",
+   ".....6.",
+   "16:46",
+   "18:16",
+   "CR9",
+   "CP9",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 113,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "DCA",
+   "4697",
+   ".2....7",
+   "10:54",
+   "12:51",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/17/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 114,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "DCA",
+   "3962",
+   "12345.7",
+   "14:24",
+   "16:18",
+   "E75",
+   "E7M",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 115,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "DCA",
+   "4689",
+   "12345.7",
+   "20:15",
+   "22:12",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 116,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "DCA",
+   "5503",
+   "12345.7",
+   "16:55",
+   "18:50",
+   "CR9",
+   "CP9",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 117,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "DCA",
+   "4628",
+   "1.345..",
+   "06:15",
+   "08:12",
+   "E75",
+   "E75",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 118,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "DCA",
+   "4697",
+   "1.345..",
+   "10:47",
+   "12:44",
+   "E75",
+   "R75",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 119,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "DCA",
+   "5471",
+   "12345..",
+   "09:02",
+   "10:55",
+   "CR9",
+   "CP9",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 120,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "DCA",
+   "4628",
+   ".2.....",
+   "06:02",
+   "07:59",
+   "E75",
+   "E75",
+   "11/3/26",
+   "11/17/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 121,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "DCA",
+   "4328",
+   ".....6.",
+   "10:54",
+   "12:48",
+   "E75",
+   "E7M",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 122,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "DCA",
+   "5477",
+   ".....6.",
+   "07:01",
+   "09:00",
+   "CR7",
+   "CR7",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 123,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "DCA",
+   "5503",
+   ".....6.",
+   "17:16",
+   "19:15",
+   "CR7",
+   "CR7",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 124,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "DCA",
+   "5471",
+   "......7",
+   "08:01",
+   "10:00",
+   "CR7",
+   "CR7",
+   "11/8/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 190,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "LGA",
+   "4478",
+   "......7",
+   "12:31",
+   "14:55",
+   "E75",
+   "E75",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 191,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "LGA",
+   "4460",
+   "12345.7",
+   "14:49",
+   "17:19",
+   "E70",
+   "E7R",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 192,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "LGA",
+   "4481",
+   "12345.7",
+   "19:28",
+   "22:00",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 193,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "LGA",
+   "4514",
+   "1234567",
+   "16:45",
+   "19:13",
+   "E70",
+   "E7R",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 194,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "LGA",
+   "4446",
+   "12345..",
+   "06:00",
+   "08:22",
+   "E70",
+   "E7R",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 195,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "LGA",
+   "4478",
+   "1234...",
+   "12:13",
+   "14:37",
+   "E75",
+   "E75",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 196,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "LGA",
+   "4557",
+   "12345.7",
+   "09:39",
+   "12:02",
+   "E75",
+   "E75",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 197,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "LGA",
+   "4478",
+   "....5..",
+   "12:36",
+   "15:00",
+   "E75",
+   "E75",
+   "11/6/26",
+   "11/13/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 198,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "LGA",
+   "4446",
+   ".....6.",
+   "08:00",
+   "10:24",
+   "E75",
+   "E75",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 199,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "LGA",
+   "4460",
+   ".....6.",
+   "13:36",
+   "16:00",
+   "E75",
+   "E75",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 241,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "MIA",
+   "3663",
+   ".2..5..",
+   "05:30",
+   "07:24",
+   "E75",
+   "E7M",
+   "11/13/26",
+   "11/17/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 291,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "PHL",
+   "5079",
+   "1.345.7",
+   "11:23",
+   "13:31",
+   "CR7",
+   "CR7",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 292,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "PHL",
+   "5456",
+   "1234567",
+   "13:31",
+   "15:40",
+   "CR9",
+   "CP9",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 294,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ATL",
+   "PHL",
+   "5079",
+   ".2...6.",
+   "11:36",
+   "13:45",
+   "CR9",
+   "CP9",
+   "11/3/26",
+   "11/17/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 464,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "AUS",
+   "LAX",
+   "6186",
+   "1234567",
+   "07:08",
+   "08:50",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 465,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "AUS",
+   "LAX",
+   "6208",
+   "1234567",
+   "15:23",
+   "16:58",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 835,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "BNA",
+   "JFK",
+   "4350",
+   "1234567",
+   "10:58",
+   "14:30",
+   "E75",
+   "E75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 836,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "BNA",
+   "JFK",
+   "4784",
+   "1234567",
+   "08:30",
+   "11:59",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 837,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "BNA",
+   "JFK",
+   "4343",
+   "1234567",
+   "17:25",
+   "21:00",
+   "E75",
+   "E75",
+   "11/6/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 1180,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "BOS",
+   "JFK",
+   "4444",
+   "1234567",
+   "17:30",
+   "19:04",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 1181,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "BOS",
+   "JFK",
+   "4639",
+   "0.234567",
+   "06:01",
+   "07:30",
+   "E75",
+   "E75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 1182,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "BOS",
+   "JFK",
+   "4639",
+   "1......",
+   "06:00",
+   "07:29",
+   "E75",
+   "E75",
+   "11/2/26",
+   "11/9/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 1183,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "BOS",
+   "JFK",
+   "4371",
+   "12345.7",
+   "11:46",
+   "13:14",
+   "E75",
+   "R75",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 1184,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "BOS",
+   "JFK",
+   "4448",
+   "12345.7",
+   "12:45",
+   "14:10",
+   "E75",
+   "E75",
+   "11/6/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 1185,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "BOS",
+   "JFK",
+   "4371",
+   ".....6.",
+   "12:01",
+   "13:29",
+   "E75",
+   "R75",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 1186,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "BOS",
+   "JFK",
+   "4448",
+   ".....6.",
+   "11:14",
+   "12:39",
+   "E75",
+   "E75",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 1801,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLE",
+   "JFK",
+   "4575",
+   "1234567",
+   "10:20",
+   "12:06",
+   "E75",
+   "E75",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 1802,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLE",
+   "JFK",
+   "4764",
+   "....567",
+   "17:48",
+   "19:35",
+   "E75",
+   "E75",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 1803,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLE",
+   "JFK",
+   "4764",
+   "1234...",
+   "17:38",
+   "19:30",
+   "E75",
+   "E75",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 1911,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLT",
+   "ATL",
+   "5043",
+   "...45.7",
+   "07:10",
+   "08:48",
+   "CR9",
+   "CP9",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 1912,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLT",
+   "ATL",
+   "5145",
+   "...45.7",
+   "13:41",
+   "15:06",
+   "CR9",
+   "CP9",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 1913,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLT",
+   "ATL",
+   "5293",
+   "...45.7",
+   "16:43",
+   "18:09",
+   "CR9",
+   "CP9",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 1914,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLT",
+   "ATL",
+   "5306",
+   "...45.7",
+   "20:30",
+   "21:58",
+   "CR9",
+   "CP9",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 1915,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLT",
+   "ATL",
+   "5416",
+   "...45.7",
+   "10:29",
+   "12:00",
+   "CR9",
+   "CP9",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 1916,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLT",
+   "ATL",
+   "5145",
+   "1......",
+   "14:30",
+   "15:55",
+   "CR9",
+   "CP9",
+   "11/2/26",
+   "11/16/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 1918,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLT",
+   "ATL",
+   "5158",
+   "123....",
+   "08:40",
+   "10:07",
+   "CR9",
+   "CP9",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 1919,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLT",
+   "ATL",
+   "5293",
+   "123..6.",
+   "15:52",
+   "17:17",
+   "CR9",
+   "CP9",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 1920,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLT",
+   "ATL",
+   "5306",
+   "123..6.",
+   "19:45",
+   "21:12",
+   "CR9",
+   "CP9",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 1921,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLT",
+   "ATL",
+   "5416",
+   "123..6.",
+   "12:15",
+   "13:39",
+   "CR9",
+   "CP9",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 1924,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLT",
+   "ATL",
+   "5145",
+   ".....6.",
+   "14:49",
+   "16:14",
+   "CR9",
+   "CP9",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 2742,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLT",
+   "IAD",
+   "5220",
+   "...45.7",
+   "11:21",
+   "12:53",
+   "CR7",
+   "CR7",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 2743,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLT",
+   "IAD",
+   "5222",
+   "...45.7",
+   "18:05",
+   "19:37",
+   "CR9",
+   "CP9",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 2744,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLT",
+   "IAD",
+   "5332",
+   "...45.7",
+   "07:31",
+   "09:03",
+   "CR9",
+   "CP9",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 2745,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLT",
+   "IAD",
+   "5447",
+   "...45.7",
+   "15:42",
+   "17:14",
+   "CR7",
+   "CR7",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 2747,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLT",
+   "IAD",
+   "5222",
+   "123..6.",
+   "17:15",
+   "18:47",
+   "CR9",
+   "CP9",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 2748,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLT",
+   "IAD",
+   "5332",
+   "123....",
+   "08:40",
+   "10:11",
+   "CR7",
+   "CR7",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 2749,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLT",
+   "IAD",
+   "5447",
+   "1.3....",
+   "15:12",
+   "16:43",
+   "CR7",
+   "CR7",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 2750,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLT",
+   "IAD",
+   "5447",
+   ".2.....",
+   "13:50",
+   "15:21",
+   "CR7",
+   "CR7",
+   "11/3/26",
+   "11/17/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 2751,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CLT",
+   "IAD",
+   "5220",
+   ".....6.",
+   "09:45",
+   "11:17",
+   "CR9",
+   "CP9",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 4278,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CMH",
+   "JFK",
+   "4405",
+   "12345.7",
+   "14:46",
+   "16:49",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 4279,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CMH",
+   "JFK",
+   "4808",
+   "1234567",
+   "07:00",
+   "08:59",
+   "E75",
+   "E75",
+   "11/6/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 4280,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "CMH",
+   "JFK",
+   "4405",
+   ".....6.",
+   "14:58",
+   "17:01",
+   "E75",
+   "R75",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 4524,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "DCA",
+   "ATL",
+   "5503",
+   "....5.7",
+   "14:19",
+   "16:25",
+   "CR9",
+   "CP9",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 4525,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "DCA",
+   "ATL",
+   "4697",
+   ".2....7",
+   "08:20",
+   "10:24",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/17/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 4526,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "DCA",
+   "ATL",
+   "3962",
+   "12345.7",
+   "11:41",
+   "13:54",
+   "E75",
+   "E7M",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 4527,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "DCA",
+   "ATL",
+   "4595",
+   "1234..7",
+   "20:23",
+   "22:32",
+   "E75",
+   "E75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 4528,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "DCA",
+   "ATL",
+   "4689",
+   "12345.7",
+   "17:40",
+   "19:44",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 4529,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "DCA",
+   "ATL",
+   "4697",
+   "1.345..",
+   "08:13",
+   "10:17",
+   "E75",
+   "R75",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 4530,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "DCA",
+   "ATL",
+   "5471",
+   "12345..",
+   "06:20",
+   "08:30",
+   "CR9",
+   "CP9",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 4531,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "DCA",
+   "ATL",
+   "5503",
+   "1234...",
+   "14:10",
+   "16:16",
+   "CR9",
+   "CP9",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 4532,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "DCA",
+   "ATL",
+   "5510",
+   "....5..",
+   "21:17",
+   "23:23",
+   "CR7",
+   "CR7",
+   "11/6/26",
+   "11/13/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 4533,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "DCA",
+   "ATL",
+   "4328",
+   ".....6.",
+   "08:04",
+   "10:17",
+   "E75",
+   "E7M",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 4534,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "DCA",
+   "ATL",
+   "5237",
+   ".....6.",
+   "18:00",
+   "20:06",
+   "CR7",
+   "CR7",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 4535,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "DCA",
+   "ATL",
+   "5503",
+   ".....6.",
+   "13:55",
+   "15:59",
+   "CR7",
+   "CR7",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 5041,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "DCA",
+   "JFK",
+   "4781",
+   "......7",
+   "17:14",
+   "19:02",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 5042,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "DCA",
+   "JFK",
+   "4396",
+   "1234567",
+   "06:00",
+   "07:27",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 5043,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "DCA",
+   "JFK",
+   "4781",
+   "123456",
+   "17:12",
+   "19:00",
+   "E75",
+   "R75",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 5044,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "DCA",
+   "JFK",
+   "4522",
+   ".....6.",
+   "14:41",
+   "16:16",
+   "E75",
+   "R75",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 5045,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "DCA",
+   "JFK",
+   "4522",
+   "......7",
+   "15:05",
+   "16:40",
+   "E75",
+   "R75",
+   "11/8/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 5046,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "DCA",
+   "JFK",
+   "4522",
+   "12345..",
+   "14:56",
+   "16:31",
+   "E75",
+   "R75",
+   "11/9/26",
+   "11/17/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 5623,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "DEN",
+   "LAX",
+   "6189",
+   "1234567",
+   "07:09",
+   "09:20",
+   "CR7",
+   "OO7",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 5624,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "DEN",
+   "LAX",
+   "6281",
+   "1234567",
+   "18:46",
+   "20:34",
+   "CR7",
+   "OO7",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 5625,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "DEN",
+   "LAX",
+   "6422",
+   "1234567",
+   "12:17",
+   "13:57",
+   "CR7",
+   "OO7",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 8638,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ELP",
+   "LAX",
+   "4971",
+   "1234567",
+   "11:55",
+   "13:18",
+   "E75",
+   "O75",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 8639,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ELP",
+   "LAX",
+   "6427",
+   "1234567",
+   "06:00",
+   "07:23",
+   "CR7",
+   "OO7",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9011,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "IAD",
+   "CLT",
+   "5220",
+   "...45.7",
+   "13:24",
+   "14:57",
+   "CR7",
+   "CR7",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9012,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "IAD",
+   "CLT",
+   "5222",
+   "...45.7",
+   "20:07",
+   "21:45",
+   "CR9",
+   "CP9",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9013,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "IAD",
+   "CLT",
+   "5332",
+   "...45.7",
+   "09:33",
+   "11:08",
+   "CR9",
+   "CP9",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9014,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "IAD",
+   "CLT",
+   "5447",
+   "...45.7",
+   "17:44",
+   "19:24",
+   "CR7",
+   "CR7",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9016,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "IAD",
+   "CLT",
+   "5222",
+   "123..6.",
+   "19:17",
+   "20:55",
+   "CR9",
+   "CP9",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9017,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "IAD",
+   "CLT",
+   "5332",
+   "123....",
+   "10:44",
+   "12:22",
+   "CR7",
+   "CR7",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9018,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "IAD",
+   "CLT",
+   "5447",
+   "1.3....",
+   "17:15",
+   "18:55",
+   "CR7",
+   "CR7",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9019,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "IAD",
+   "CLT",
+   "5447",
+   ".2.....",
+   "15:55",
+   "17:28",
+   "CR7",
+   "CR7",
+   "11/3/26",
+   "11/17/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9020,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "IAD",
+   "CLT",
+   "5220",
+   ".....6.",
+   "11:48",
+   "13:25",
+   "CR9",
+   "CP9",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9125,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "IAH",
+   "LAX",
+   "6309",
+   "1234567",
+   "15:19",
+   "17:15",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9126,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "IAH",
+   "LAX",
+   "6340",
+   "1234567",
+   "20:19",
+   "22:20",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9351,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "IND",
+   "JFK",
+   "4592",
+   "1234567",
+   "12:39",
+   "14:53",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9352,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "IND",
+   "JFK",
+   "4631",
+   "1234567",
+   "07:20",
+   "09:26",
+   "E75",
+   "E75",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9640,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "BNA",
+   "4343",
+   "1234567",
+   "13:23",
+   "15:06",
+   "E75",
+   "E75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9641,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "BNA",
+   "4350",
+   "1234567",
+   "08:29",
+   "10:18",
+   "E75",
+   "E75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9642,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "BNA",
+   "4356",
+   "1234567",
+   "15:59",
+   "17:48",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9653,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "BOS",
+   "4357",
+   "1234567",
+   "08:07",
+   "09:25",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9654,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "BOS",
+   "4397",
+   "1234567",
+   "22:30",
+   "23:44",
+   "E75",
+   "E75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9655,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "BOS",
+   "4618",
+   "1234567",
+   "15:34",
+   "16:57",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9656,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "BOS",
+   "4707",
+   "12345.7",
+   "11:00",
+   "12:15",
+   "E75",
+   "E75",
+   "11/6/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9657,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "BOS",
+   "4707",
+   ".....6.",
+   "09:25",
+   "10:44",
+   "E75",
+   "E75",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9671,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "CLE",
+   "4670",
+   "1234567",
+   "16:29",
+   "18:28",
+   "E75",
+   "E75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9673,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "CLE",
+   "4516",
+   "12345.7",
+   "10:30",
+   "12:24",
+   "E75",
+   "E75",
+   "11/6/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9674,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "CLE",
+   "4516",
+   ".....6.",
+   "09:59",
+   "11:58",
+   "E75",
+   "E75",
+   "11/14/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9705,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "CMH",
+   "4603",
+   "12345.7",
+   "14:50",
+   "16:55",
+   "E75",
+   "E75",
+   "11/6/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9706,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "CMH",
+   "4767",
+   "12345.7",
+   "17:29",
+   "19:36",
+   "E75",
+   "R75",
+   "11/6/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9707,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "CMH",
+   "4603",
+   ".....6.",
+   "13:59",
+   "16:04",
+   "E75",
+   "E75",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9708,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "CMH",
+   "4767",
+   ".....6.",
+   "16:59",
+   "19:03",
+   "E75",
+   "R75",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9722,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "DCA",
+   "4361",
+   ".2...67",
+   "06:30",
+   "08:04",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/17/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9723,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "DCA",
+   "4508",
+   "12345.7",
+   "17:29",
+   "19:23",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9724,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "DCA",
+   "4640",
+   "1234567",
+   "08:28",
+   "10:02",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9725,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "DCA",
+   "4361",
+   "1.345..",
+   "06:40",
+   "08:14",
+   "E75",
+   "R75",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9726,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "DCA",
+   "4508",
+   ".....6.",
+   "17:41",
+   "19:35",
+   "E75",
+   "R75",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9770,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "IND",
+   "4449",
+   "12345.7",
+   "15:17",
+   "17:45",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9771,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "IND",
+   "4586",
+   "1234567",
+   "20:30",
+   "22:50",
+   "E75",
+   "E75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9772,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "IND",
+   "4449",
+   ".....6.",
+   "14:30",
+   "16:53",
+   "E75",
+   "R75",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9891,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "ORF",
+   "4359",
+   "12345.7",
+   "15:29",
+   "17:01",
+   "E75",
+   "E75",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9892,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "ORF",
+   "4359",
+   ".....6.",
+   "15:30",
+   "17:02",
+   "E75",
+   "E75",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9920,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "PIT",
+   "4362",
+   "1234567",
+   "13:45",
+   "15:34",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9921,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "PIT",
+   "4611",
+   "1234567",
+   "19:42",
+   "21:34",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9934,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "RDU",
+   "4501",
+   "1234567",
+   "17:29",
+   "19:32",
+   "E75",
+   "E75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9936,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "RDU",
+   "4385",
+   "1234567",
+   "21:41",
+   "23:41",
+   "E75",
+   "R75",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9937,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "RDU",
+   "4378",
+   "12345.7",
+   "09:30",
+   "11:39",
+   "E75",
+   "E75",
+   "11/6/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 9938,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "JFK",
+   "RDU",
+   "4378",
+   ".....6.",
+   "11:00",
+   "13:09",
+   "E75",
+   "E75",
+   "11/14/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10077,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAS",
+   "LAX",
+   "6190",
+   "1..4567",
+   "16:12",
+   "17:37",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10079,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAS",
+   "LAX",
+   "6425",
+   "1234567",
+   "11:20",
+   "12:44",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10082,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAS",
+   "LAX",
+   "6341",
+   ".23....",
+   "18:30",
+   "19:56",
+   "E75",
+   "O75",
+   "11/3/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10182,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "ABQ",
+   "4913",
+   "1234567",
+   "09:23",
+   "12:26",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10183,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "ABQ",
+   "6515",
+   "1234567",
+   "20:59",
+   "23:59",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10192,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "AUS",
+   "6201",
+   "1234567",
+   "18:48",
+   "23:56",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10193,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "AUS",
+   "6208",
+   "1234567",
+   "09:38",
+   "14:50",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10270,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "DEN",
+   "6264",
+   "123.567",
+   "18:39",
+   "22:09",
+   "CR7",
+   "OO7",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10271,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "DEN",
+   "6281",
+   "1234567",
+   "14:44",
+   "18:15",
+   "CR7",
+   "OO7",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10272,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "DEN",
+   "6422",
+   "1234567",
+   "08:12",
+   "11:46",
+   "CR7",
+   "OO7",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10273,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "DEN",
+   "6264",
+   "...4...",
+   "18:35",
+   "22:05",
+   "CR7",
+   "OO7",
+   "11/5/26",
+   "11/12/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10338,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "DSM",
+   "6285",
+   "1234567",
+   "14:02",
+   "19:33",
+   "CR7",
+   "OO7",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10343,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "ELP",
+   "6288",
+   "123.567",
+   "20:28",
+   "23:30",
+   "CR7",
+   "OO7",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10344,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "ELP",
+   "4971",
+   "1234567",
+   "08:13",
+   "11:24",
+   "E75",
+   "O75",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10345,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "ELP",
+   "6288",
+   "...4...",
+   "20:57",
+   "23:59",
+   "CR7",
+   "OO7",
+   "11/5/26",
+   "11/12/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10373,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "IAH",
+   "6309",
+   "...45.7",
+   "09:18",
+   "14:49",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10374,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "IAH",
+   "6340",
+   "1234567",
+   "14:18",
+   "19:49",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10375,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "IAH",
+   "6309",
+   "123..6.",
+   "09:00",
+   "14:31",
+   "E75",
+   "O75",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10447,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "LAS",
+   "6190",
+   "1234567",
+   "14:22",
+   "15:42",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10448,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "LAS",
+   "6425",
+   "1234567",
+   "09:23",
+   "10:45",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10518,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "OMA",
+   "4942",
+   "1234567",
+   "07:35",
+   "12:57",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10519,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "OMA",
+   "6223",
+   "1234567",
+   "18:23",
+   "23:42",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10561,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "PDX",
+   "6345",
+   "1234567",
+   "21:29",
+   "00:01",
+   "CR7",
+   "OO7",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10619,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "SAF",
+   "6347",
+   "123.567",
+   "14:42",
+   "17:47",
+   "CR7",
+   "OO7",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10620,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "SAF",
+   "6347",
+   "...4...",
+   "14:44",
+   "17:49",
+   "CR7",
+   "OO7",
+   "11/5/26",
+   "11/12/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10624,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "SEA",
+   "6444",
+   "...4..7",
+   "18:30",
+   "21:35",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10625,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "SEA",
+   "4997",
+   "12345.7",
+   "09:54",
+   "13:00",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10626,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "SEA",
+   "4945",
+   "1..4567",
+   "12:56",
+   "16:00",
+   "E75",
+   "O75",
+   "11/2/26",
+   "11/16/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10627,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "SEA",
+   "6444",
+   "123.56.",
+   "18:15",
+   "21:20",
+   "E75",
+   "O75",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10628,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "SEA",
+   "4945",
+   ".23....",
+   "12:50",
+   "15:54",
+   "E75",
+   "O75",
+   "11/3/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10640,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "SFO",
+   "6429",
+   "1..4567",
+   "11:39",
+   "13:19",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/16/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10641,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "SFO",
+   "6439",
+   "1..4567",
+   "16:26",
+   "18:02",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/16/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10642,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "SFO",
+   "6316",
+   "1234567",
+   "09:27",
+   "11:07",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10643,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "SFO",
+   "6324",
+   "1234567",
+   "14:04",
+   "15:36",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10644,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "SFO",
+   "6448",
+   "1234567",
+   "18:51",
+   "20:27",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10645,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "SFO",
+   "6441",
+   "1..4567",
+   "07:03",
+   "08:40",
+   "E75",
+   "O75",
+   "11/2/26",
+   "11/16/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10665,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "STL",
+   "6502",
+   "1234567",
+   "15:00",
+   "20:42",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10668,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "TUL",
+   "6451",
+   "1234567",
+   "10:23",
+   "15:36",
+   "CR7",
+   "OO7",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10674,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "XNA",
+   "6236",
+   "1234567",
+   "18:03",
+   "23:31",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10675,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LAX",
+   "XNA",
+   "6437",
+   "1234567",
+   "10:13",
+   "15:43",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10683,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LGA",
+   "ATL",
+   "4431",
+   "1234..7",
+   "18:30",
+   "21:15",
+   "E70",
+   "E7R",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10684,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LGA",
+   "ATL",
+   "4460",
+   "12345.7",
+   "11:40",
+   "14:19",
+   "E70",
+   "E7R",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10685,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LGA",
+   "ATL",
+   "4481",
+   "12345.7",
+   "16:11",
+   "18:57",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10686,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LGA",
+   "ATL",
+   "4514",
+   "1234567",
+   "13:17",
+   "16:13",
+   "E70",
+   "E7R",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10687,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LGA",
+   "ATL",
+   "4478",
+   "......7",
+   "09:15",
+   "11:58",
+   "E75",
+   "E75",
+   "11/1/26",
+   "11/22/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10688,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LGA",
+   "ATL",
+   "4557",
+   "12345..",
+   "06:30",
+   "09:09",
+   "E75",
+   "E75",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10689,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LGA",
+   "ATL",
+   "4478",
+   "1234...",
+   "09:00",
+   "11:43",
+   "E75",
+   "E75",
+   "11/2/26",
+   "11/30/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10690,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LGA",
+   "ATL",
+   "4431",
+   "....5..",
+   "18:29",
+   "21:08",
+   "E75",
+   "E75",
+   "11/6/26",
+   "11/13/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10691,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LGA",
+   "ATL",
+   "4478",
+   "....5..",
+   "09:22",
+   "12:05",
+   "E75",
+   "E75",
+   "11/6/26",
+   "11/27/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10692,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LGA",
+   "ATL",
+   "4460",
+   ".....6.",
+   "10:21",
+   "13:04",
+   "E75",
+   "E75",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 10693,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "LGA",
+   "ATL",
+   "4481",
+   ".....6.",
+   "17:15",
+   "19:54",
+   "E75",
+   "E75",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 12300,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "MIA",
+   "ATL",
+   "3573",
+   "1.34...",
+   "20:40",
+   "22:46",
+   "E75",
+   "E7M",
+   "11/12/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 14056,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "OMA",
+   "LAX",
+   "6479",
+   "...45.7",
+   "06:45",
+   "08:42",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/15/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 14057,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "OMA",
+   "LAX",
+   "4942",
+   "1234567",
+   "13:29",
+   "15:17",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 14058,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "OMA",
+   "LAX",
+   "6479",
+   "123..6.",
+   "06:15",
+   "08:12",
+   "E75",
+   "O75",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 15895,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "ORF",
+   "JFK",
+   "4759",
+   "1234567",
+   "14:45",
+   "16:24",
+   "E75",
+   "E75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 15990,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "PDX",
+   "LAX",
+   "6290",
+   "1234567",
+   "06:51",
+   "09:38",
+   "CR7",
+   "OO7",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 16034,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "PHL",
+   "ATL",
+   "5456",
+   "1234567",
+   "10:35",
+   "13:00",
+   "CR9",
+   "CP9",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 16035,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "PHL",
+   "ATL",
+   "5079",
+   "1.345.7",
+   "08:30",
+   "10:52",
+   "CR7",
+   "CR7",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 16037,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "PHL",
+   "ATL",
+   "5079",
+   ".2...6.",
+   "08:35",
+   "11:01",
+   "CR9",
+   "CP9",
+   "11/3/26",
+   "11/17/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 17751,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "PHX",
+   "SFO",
+   "6276",
+   "1234567",
+   "08:35",
+   "10:03",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 17942,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "PIT",
+   "JFK",
+   "4493",
+   "1234567",
+   "06:04",
+   "07:48",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 17943,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "PIT",
+   "JFK",
+   "4568",
+   "12345.7",
+   "12:55",
+   "14:35",
+   "E75",
+   "R75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 17944,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "PIT",
+   "JFK",
+   "4568",
+   ".....6.",
+   "12:50",
+   "14:30",
+   "E75",
+   "R75",
+   "11/7/26",
+   "11/14/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 18381,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "RDU",
+   "JFK",
+   "4378",
+   "1234567",
+   "13:39",
+   "15:43",
+   "E75",
+   "E75",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 18382,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "RDU",
+   "JFK",
+   "4510",
+   "1234567",
+   "06:07",
+   "07:59",
+   "E75",
+   "E75",
+   "11/2/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 18383,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "RDU",
+   "JFK",
+   "4474",
+   "1234567",
+   "17:40",
+   "19:35",
+   "E75",
+   "R75",
+   "11/6/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 19238,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "SEA",
+   "LAX",
+   "4945",
+   "1..4567",
+   "16:30",
+   "19:25",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/16/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 19239,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "SEA",
+   "LAX",
+   "4997",
+   "12345.7",
+   "13:35",
+   "16:31",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 19240,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "SEA",
+   "LAX",
+   "6420",
+   "1234567",
+   "07:10",
+   "10:19",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 19241,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "SEA",
+   "LAX",
+   "4945",
+   ".23....",
+   "16:24",
+   "19:19",
+   "E75",
+   "O75",
+   "11/3/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 19374,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "SFO",
+   "LAX",
+   "6270",
+   "1..4567",
+   "10:33",
+   "12:10",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/16/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 19375,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "SFO",
+   "LAX",
+   "6324",
+   "1..4567",
+   "16:10",
+   "17:50",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/16/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 19376,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "SFO",
+   "LAX",
+   "6429",
+   "1..4567",
+   "14:05",
+   "15:41",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/16/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 19377,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "SFO",
+   "LAX",
+   "6440",
+   "1..4567",
+   "18:32",
+   "20:14",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/16/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 19378,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "SFO",
+   "LAX",
+   "6316",
+   "1234567",
+   "12:00",
+   "13:37",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 19380,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "SFO",
+   "LAX",
+   "6441",
+   "1..4567",
+   "09:13",
+   "10:50",
+   "E75",
+   "O75",
+   "11/2/26",
+   "11/16/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 19382,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "SFO",
+   "LAX",
+   "6214",
+   ".23....",
+   "15:07",
+   "16:43",
+   "E75",
+   "O75",
+   "11/3/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 19383,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "SFO",
+   "LAX",
+   "6440",
+   ".23....",
+   "18:10",
+   "19:52",
+   "E75",
+   "O75",
+   "11/3/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 19461,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "SFO",
+   "PHX",
+   "6206",
+   "1234567",
+   "05:50",
+   "09:03",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 19832,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "STL",
+   "LAX",
+   "4912",
+   "1234567",
+   "08:10",
+   "10:37",
+   "E75",
+   "O75",
+   "11/1/26",
+   "11/18/26"
+  ]
+ },
+ {
+  "source": "aa-us5-202611",
+  "row": 20270,
+  "reason": "American Eagle actual operator not stated; not imported as AA",
+  "raw": [
+   "TUL",
+   "LAX",
+   "4948",
+   "1234567",
+   "16:14",
+   "17:49",
+   "CR7",
+   "OO7",
+   "11/1/26",
+   "11/18/26"
+  ]
+ }
+]

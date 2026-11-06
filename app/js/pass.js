@@ -59,7 +59,7 @@ export function passSVG(j, homeTz) {
   const d = f.destination;
   const date = fmtDate(j.started_at, homeTz, { weekday: false, year: true });
   const aircraft = f.aircraft.name ? `${f.aircraft.manufacturer} ${f.aircraft.name}` : f.aircraft.status === 'family' ? `${f.aircraft.family} 系列` : '未确定';
-  const plus = f.arr_offset ? ` +${f.arr_offset}` : '';
+  const plus = f.arr_offset ? ` ${f.arr_offset > 0 ? '+' : ''}${f.arr_offset}` : '';
   const finished = `${fmtDate(j.ended_at, homeTz, { weekday: false })} ${fmtHM(j.ended_at, homeTz)}`;
   return card(`
     <text x="36" y="53" font-size="19" font-weight="700" fill="#ffffff">${esc(f.airline.name)} ${esc(f.airline.name_en || '')}</text>

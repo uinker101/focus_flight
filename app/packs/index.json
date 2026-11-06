@@ -1,5 +1,5 @@
 {
- "active": "global-202611.stable1",
+ "active": "global-202611.top20",
  "packs": [
   {
    "version": "ci-2026w-demo.1",
@@ -174,6 +174,60 @@
    "title": "全球航线 · 2026年11月稳定版",
    "file": "global-202611.stable1.json",
    "generated_at": "2026-11-03T18:41:37+00:00"
+  },
+  {
+   "version": "global-202611.priority1",
+   "title": "全球航线 · 国泰、长荣、星宇、美联航扩充",
+   "file": "global-202611.priority1.json",
+   "generated_at": "2026-11-05T10:43:09+00:00"
+  },
+  {
+   "version": "global-202611.shanghai1",
+   "title": "全球航线 · 上海国内网络扩充",
+   "file": "global-202611.shanghai1.json",
+   "generated_at": "2026-11-05T10:55:32+00:00"
+  },
+  {
+   "version": "global-202611.us5",
+   "title": "全球航线 · 美国五大机场扩充",
+   "file": "global-202611.us5.json",
+   "generated_at": "2026-11-05T16:00:19+00:00"
+  },
+  {
+   "version": "global-202611.top20a",
+   "title": "全球航线 · 前20机场扩充（第一批）",
+   "file": "global-202611.top20a.json",
+   "generated_at": "2026-11-06T02:58:45+00:00"
+  },
+  {
+   "version": "global-202611.top20b",
+   "title": "全球航线 · 前20机场扩充（中美网络）",
+   "file": "global-202611.top20b.json",
+   "generated_at": "2026-11-06T03:02:15+00:00"
+  },
+  {
+   "version": "global-202611.top20c",
+   "title": "全球航线 · 前20机场扩充（法航荷航）",
+   "file": "global-202611.top20c.json",
+   "generated_at": "2026-11-06T05:07:40+00:00"
+  },
+  {
+   "version": "global-202611.top20d",
+   "title": "全球航线 · 前20机场扩充（洲际网络）",
+   "file": "global-202611.top20d.json",
+   "generated_at": "2026-11-06T05:10:17+00:00"
+  },
+  {
+   "version": "global-202611.top20e",
+   "title": "全球航线 · 前20机场扩充（区域网络）",
+   "file": "global-202611.top20e.json",
+   "generated_at": "2026-11-06T11:27:08+00:00"
+  },
+  {
+   "version": "global-202611.top20",
+   "title": "全球航线 · 前20机场网络扩充",
+   "file": "global-202611.top20.json",
+   "generated_at": "2026-11-06T11:31:17+00:00"
   }
  ]
 }

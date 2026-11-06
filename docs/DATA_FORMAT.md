@@ -29,7 +29,7 @@
 | `origin` / `destination` | 机场 IATA 三字码 | 必须在 airports.csv |
 | `days_of_week` | 升序数字 `1`–`7`，1=星期一 | 如 `1234567`、`135`；只写参考周里有证据运行的日子 |
 | `departure_local` / `arrival_local` | `HH:MM` 24 小时制 | 各自机场当地的**计划**时刻；不得填实际起降时间 |
-| `arrival_day_offset` | `0` / `1` / `2` | 抵达相对出发日跨了几天（按当地日期） |
+| `arrival_day_offset` | `-1` / `0` / `1` / `2` | 抵达相对出发日跨了几天（按当地日期）；`-1` 表示跨日期变更线后在前一天抵达 |
 | `reference_week_start` | `YYYY-MM-DD`，必须是星期一 | 本行依据的参考周 |
 | `source_valid_from` / `source_valid_to` | `YYYY-MM-DD` | 来源班表的有效期 |
 | `aircraft_raw` | 原文 | 来源里的机型原文，如 `359`、`333/32Q`、`EQV`；没有就留空 |

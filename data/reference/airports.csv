@@ -707,3 +707,310 @@ RUH,OERK,利雅得机场,King Khalid International Airport,利雅得,Riyadh,SA,2
 SHJ,OMSJ,沙迦机场,Sharjah International Airport,沙迦,Sharjah,AE,25.3286,55.5172,Asia/Dubai,https://ourairports.com/airports/OMSJ/
 TAS,UZTT,塔什干机场,Tashkent International Airport,塔什干,Tashkent,UZ,41.2579,69.281197,Asia/Tashkent,https://ourairports.com/airports/UTTT/
 TBS,UGTB,第比利斯机场,Tbilisi International Airport,第比利斯,Tbilisi,GE,41.669201,44.9547,Asia/Tbilisi,https://ourairports.com/airports/UGTB/
+ACV,KACV,California Redwood Coast-Humboldt County Airport,California Redwood Coast-Humboldt County Airport,Arcata/Eureka,Arcata/Eureka,US,40.978101,-124.109,America/Los_Angeles,ourairports; openflights timezone
+BFL,KBFL,Meadows Field,Meadows Field,Bakersfield,Bakersfield,US,35.433601,-119.056999,America/Los_Angeles,ourairports; openflights timezone
+BJX,MMLO,Guanajuato International Airport,Guanajuato International Airport,Silao,Silao,MX,20.992695,-101.480284,America/Mexico_City,ourairports; openflights timezone
+BQN,TJBQ,Rafael Hernández International Airport,Rafael Hernández International Airport,Aguadilla,Aguadilla,PR,18.4949,-67.129402,America/Puerto_Rico,ourairports; openflights timezone
+CHC,NZCH,基督城国际机场,Christchurch International Airport,基督城,Christchurch,NZ,-43.489029,172.532065,Pacific/Auckland,ourairports; openflights timezone
+CMB,VCBI,班达拉奈克国际机场,Bandaranaike International Colombo Airport,科伦坡,Colombo,LK,7.180759906768799,79.88410186767578,Asia/Colombo,ourairports; openflights timezone
+CZM,MMCZ,Cozumel International Airport,Cozumel International Airport,Cozumel,Cozumel,MX,20.514922,-86.928538,America/Cancun,ourairports; openflights timezone
+DOM,TDPD,Douglas-Charles Airport,Douglas-Charles Airport,Marigot,Marigot,DM,15.546673,-61.301082,America/Dominica,ourairports; openflights timezone
+DRO,KDRO,Durango La Plata County Airport,Durango La Plata County Airport,Durango,Durango,US,37.151501,-107.753998,America/Denver,ourairports; openflights timezone
+EGE,KEGE,Eagle County Regional Airport,Eagle County Regional Airport,Eagle,Eagle,US,39.64260101,-106.9179993,America/Denver,ourairports; openflights timezone
+EUG,KEUG,Eugene Airport,Eugene Airport,Eugene,Eugene,US,44.124599,-123.211998,America/Los_Angeles,ourairports; openflights timezone
+FAT,KFAT,Fresno Yosemite International Airport,Fresno Yosemite International Airport,Fresno,Fresno,US,36.775767,-119.718018,America/Los_Angeles,ourairports; openflights timezone
+GEO,SYCJ,Cheddi Jagan International Airport,Cheddi Jagan International Airport,Georgetown,Georgetown,GY,6.49855,-58.254101,America/Guyana,ourairports; openflights timezone
+GJT,KGJT,Grand Junction Regional Airport,Grand Junction Regional Airport,Grand Junction,Grand Junction,US,39.126663,-108.529387,America/Denver,ourairports; openflights timezone
+GTF,KGTF,Great Falls International Airport,Great Falls International Airport,Great Falls,Great Falls,US,47.481998,-111.371002,America/Denver,ourairports; openflights timezone
+GUM,PGUM,安东尼奥·汪帕特国际机场,Antonio B. Won Pat International Airport,关岛,Hagåtña,GU,13.485,144.797282,Pacific/Guam,ourairports; openflights timezone
+HDN,KHDN,Yampa Valley Airport,Yampa Valley Airport,Hayden,Hayden,US,40.481201,-107.218002,America/Denver,ourairports; openflights timezone
+HYD,VOHS,拉吉夫·甘地国际机场,Rajiv Gandhi International Airport,海得拉巴,Hyderabad,IN,17.231318,78.429855,Asia/Kolkata,ourairports; openflights timezone
+KEF,BIKF,凯夫拉维克国际机场,Keflavik International Airport,雷克雅未克,Reykjavík,IS,63.985001,-22.6056,Atlantic/Reykjavik,ourairports; openflights timezone
+KSA,PTSA,Kosrae International Airport,Kosrae International Airport,Okat,Okat,FM,5.35698,162.957993,Pacific/Kosrae,ourairports; openflights timezone
+KWA,PKWA,Bucholz Army Air Field,Bucholz Army Air Field,Kwajalein,Kwajalein,MH,8.720120429992676,167.73199462890625,Pacific/Majuro,ourairports; openflights timezone
+MAF,KMAF,Midland International Air and Space Port,Midland International Air and Space Port,Midland,Midland,US,31.942499,-102.202003,America/Chicago,ourairports; openflights timezone
+MFE,KMFE,McAllen Miller International Airport,McAllen Miller International Airport,McAllen,McAllen,US,26.176141,-98.237965,America/Chicago,ourairports; openflights timezone
+MFR,KMFR,Rogue Valley International-Medford Airport,Rogue Valley International-Medford Airport,Medford,Medford,US,42.374199,-122.873001,America/Los_Angeles,ourairports; openflights timezone
+MID,MMMD,Manuel Crescencio Rejón International Airport,Manuel Crescencio Rejón International Airport,Mérida,Mérida,MX,20.930485,-89.645462,America/Mexico_City,ourairports; openflights timezone
+MRY,KMRY,Monterey Regional Airport,Monterey Regional Airport,Monterey,Monterey,US,36.586777,-121.844183,America/Los_Angeles,ourairports; openflights timezone
+MTJ,KMTJ,Montrose Regional Airport,Montrose Regional Airport,Montrose,Montrose,US,38.5098,-107.893997,America/Denver,ourairports; openflights timezone
+POS,TTPP,Piarco International Airport,Piarco International Airport,Port of Spain,Port of Spain,TT,10.59535,-61.337568,America/Port_of_Spain,ourairports; openflights timezone
+PPT,NTAA,Fa'a'ā International Airport,Fa'a'ā International Airport,Papeete,Papeete,PF,-17.553472,-149.606936,Pacific/Tahiti,ourairports; openflights timezone
+PXM,MMPS,Puerto Escondido International Airport,Puerto Escondido International Airport,Puerto Escondido,Puerto Escondido,MX,15.876808,-97.0891,America/Mexico_City,ourairports; openflights timezone
+QRO,MMQT,Querétaro Intercontinental Airport,Querétaro Intercontinental Airport,Querétaro,Querétaro,MX,20.618779,-100.186449,America/Mexico_City,ourairports; openflights timezone
+RAP,KRAP,Rapid City Regional Airport,Rapid City Regional Airport,Rapid City,Rapid City,US,44.0452995300293,-103.05699920654297,America/Denver,ourairports; openflights timezone
+RDM,KRDM,Roberts Field,Roberts Field,Redmond,Redmond,US,44.254101,-121.150002,America/Los_Angeles,ourairports; openflights timezone
+SBA,KSBA,Santa Barbara Municipal Airport,Santa Barbara Municipal Airport,Santa Barbara,Santa Barbara,US,34.426201,-119.839996,America/Los_Angeles,ourairports; openflights timezone
+SBN,KSBN,South Bend International Airport,South Bend International Airport,South Bend,South Bend,US,41.708304,-86.316922,America/New_York,ourairports; openflights timezone
+SBP,KSBP,San Luis County Regional Airport,San Luis County Regional Airport,San Luis Obispo,San Luis Obispo,US,35.236801147499996,-120.641998291,America/Los_Angeles,ourairports; openflights timezone
+SKB,TKPK,Robert L. Bradshaw International Airport,Robert L. Bradshaw International Airport,Basseterre,Basseterre,KN,17.310845,-62.719117,America/St_Kitts,ourairports; openflights timezone
+SPN,PGSN,塞班国际机场,Saipan International Airport,塞班,"I Fadang, Saipan",MP,15.119384,145.728848,Pacific/Saipan,ourairports; openflights timezone
+TKK,PTKK,Chuuk International Airport,Chuuk International Airport,Weno Island,Weno Island,FM,7.46187,151.843002,Pacific/Truk,ourairports; openflights timezone
+VER,MMVR,General Heriberto Jara International Airport,General Heriberto Jara International Airport,Veracruz,Veracruz,MX,19.139589,-96.188602,America/Mexico_City,ourairports; openflights timezone
+WNZ,ZSWZ,温州龙湾国际机场,Wenzhou Longwan International Airport,温州,Wenzhou (Longwan),CN,27.910572,120.853465,Asia/Shanghai,ourairports; openflights timezone
+XPL,MHPR,帕尔梅罗拉国际机场,Palmerola International Airport,科马亚瓜,Palmerola,HN,14.3824,-87.621201,America/Tegucigalpa,ourairports; openflights timezone
+YAP,PTYA,Yap International Airport,Yap International Airport,Yap Island,Yap Island,FM,9.49891,138.082993,Pacific/Truk,ourairports; openflights timezone
+CRK,RPLC,克拉克国际机场,Clark International Airport / Clark Air Base,安赫莱斯,Mabalacat,PH,15.186,120.559998,Asia/Manila,ourairports
+MFM,VMMC,澳门国际机场,Macau International Airport,澳门,Nossa Senhora do Carmo,MO,22.149599,113.592003,Asia/Macau,ourairports
+PQC,VVPQ,富国国际机场,Phú Quốc International Airport,富国岛,Phu Quoc Island,VN,10.169783,103.99353,Asia/Ho_Chi_Minh,ourairports
+SHI,RORS,下地岛机场,Shimojishima Airport,宫古岛,Miyakojima,JP,24.8267,125.144997,Asia/Tokyo,ourairports
+ACX,ZUYI,兴义万峰林,Xingyi Wanfenglin Airport,兴义,Xingyi,CN,25.083423,104.960804,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+AOG,ZYAS,鞍山腾鳌,Anshan Teng'ao Airport / Anshan Air Base,鞍山,Anshan,CN,41.105301,122.853996,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+BAR,ZJQH,琼海博鳌,Qionghai Bo'ao Airport,琼海,Qionghai,CN,19.140951,110.452766,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+BAV,ZBOW,包头东河,Baotou Donghe International Airport,包头,Baotou,CN,40.560001,109.997002,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+BPE,ZBDH,秦皇岛北戴河,Qinhuangdao Beidaihe Airport,秦皇岛,Qinhuangdao,CN,39.666384,119.061384,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+CIF,ZBCF,赤峰玉龙,Chifeng Yulong Airport,赤峰,Chifeng,CN,42.159723,118.840971,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+CIH,ZBCZ,长治王村,Changzhi Wangcun Airport,长治,Changzhi,CN,36.247501,113.125999,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+DAT,ZBDT,大同云冈,Datong Yungang International Airport,大同,Datong,CN,40.06139,113.480509,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+DNH,ZLDH,敦煌莫高,Dunhuang Mogao International Airport,敦煌,Dunhuang,CN,40.161953,94.812827,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+DQA,ZYDQ,大庆萨尔图,Daqing Sartu Airport,大庆,Daqing,CN,46.750883,125.138642,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+DSN,ZBDS,鄂尔多斯伊金霍洛国际机场,Ordos Ejin Horo International Airport,鄂尔多斯,Ordos,CN,39.493514,109.8599,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+DYG,ZGDY,张家界荷花,Zhangjiajie Hehua International Airport,张家界,Zhangjiajie,CN,29.104749,110.442786,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+DZH,ZUDA,达州/金垭,Dazhou Jinya Airport,达州,Dazhou,CN,31.048815,107.435646,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+ENY,ZLYA,延安南泥湾,Yan'an Nanniwan Airport,延安,Yan'an,CN,36.479413,109.464083,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+HCZ,ZGCZ,郴州北湖机场,Chenzhou Beihu Airport,郴州,Chenzhou,CN,25.753419,112.845404,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+HDG,ZBHD,邯郸,Handan Airport,邯郸,Handan,CN,36.524824,114.424126,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+HLH,ZBUL,乌兰浩特机场,Ulanhot Yilelite Airport,乌兰浩特,Ulanhot,CN,46.195333,122.008333,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+HSC,ZGSG,韶关/丹霞,Shaoguan Danxia Airport,韶关,Shaoguan,CN,24.9786,113.420998,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+HUZ,ZGHZ,惠州平潭,Huizhou Pingtan Airport,惠州,Huizhou,CN,23.049999,114.599998,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+HZG,ZLHZ,汉中城固,Hanzhong Chenggu Airport,汉中,Hanzhong,CN,33.133527,107.203817,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+JMU,ZYJM,佳木斯机场,Jiamusi Songjiang International Airport,佳木斯,Jiamusi,CN,46.842793,130.46426,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+JNZ,ZYJZ,锦州锦州湾机场,Jinzhou Bay Airport,锦州,Jinzhou,CN,40.936032,121.277114,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+JRJ,ZSRJ,赣州瑞金机场,Ganzhou Ruijin Airport,瑞金,Ganzhou,CN,25.960236,116.077016,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+KOW,ZSGZ,赣州黄金,Ganzhou Huangjin Airport,赣州,Ganzhou,CN,25.853333,114.778889,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+LCX,ZSLO,连城冠豸山,Liancheng Guanzhishan Airport,龙岩,Longyan,CN,25.67592,116.745907,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+LFQ,ZBLF,临汾尧都,Linfen Yaodu Airport,临汾,Linfen,CN,36.132629,111.641236,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+LLV,ZBLL,吕梁大武,Lüliang Dawu Airport,吕梁,Lüliang,CN,37.683333,111.142778,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+LNJ,ZPLC,临沧博尚,Lincang Boshang Airport,临沧,Lincang,CN,23.7381,100.025002,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+LYI,ZSLY,临沂启阳,Linyi Qiyang Airport,临沂,Linyi,CN,35.052918,118.411828,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+LZH,ZGZH,柳州白莲,Liuzhou Bailian Airport / Bailian Air Base,柳州,Liuzhou,CN,24.2075,109.390999,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+LZO,ZULZ,泸州云龙,Luzhou Yunlong Airport,泸州,Luzhou,CN,29.030357,105.468407,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+MXZ,ZGMX,梅州梅县,Meizhou Meixian Changgangji International Airport,梅州,Meizhou,CN,24.263425,116.097857,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+NAO,ZUNC,南充高坪,Nanchong Gaoping Airport,南充,Nanchong,CN,30.798104,106.16415,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+PZI,ZUZH,攀枝花保安营机场,Panzhihua Bao'anying Airport,攀枝花,Panzhihua,CN,26.54,101.79852,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+SHS,ZHJZ,荆州/沙市,Jingzhou Shashi Airport,荆州,Jingzhou,CN,30.29281,112.44854,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+SQJ,ZSSM,三明沙县,Sanming Shaxian Airport,三明,Sanming,CN,26.4263,117.8336,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+SZH,ZBSG,朔州滋润,Shuozhou Zirun Airport,朔州,Shuozhou,CN,39.273241,112.691552,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+TCZ,ZPTC,腾冲驼峰,Tengchong Tuofeng Airport,腾冲,Baoshan,CN,24.938056,98.485833,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+TVS,ZBSN,唐山三女河,Tangshan Sannühe Airport,唐山,Tangshan,CN,39.7178,118.002625,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+UYN,ZLYL,榆林榆阳,Yulin Yuyang Airport,榆林,Yulin,CN,38.35971,109.590927,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+WMT,ZUMT,遵义茅台机场,Zunyi Maotai Airport,遵义,Zunyi,CN,27.961837,106.435416,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+WUT,ZBXZ,忻州五台山,Xinzhou Wutaishan Airport,忻州,Xinzhou,CN,38.597456,112.969173,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+WXN,ZUWX,万州五桥,Wanzhou Wuqiao Airport,万州,Wanzhou,CN,30.8017,108.433,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+XFN,ZHXF,襄阳刘集,Xiangyang Liuji Airport,襄阳,Xiangyang,CN,32.152222,112.291666,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+XIC,ZUXC,西昌青山,Xichang Qingshan Airport,西昌,Liangshan,CN,27.9891,102.183998,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+XNN,ZLXN,西宁曹家堡,Xining Caojiabao International Airport,西宁,Haidong,CN,36.52775,102.040215,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+YBP,ZUYB,宜宾五粮液机场,Yibin Wuliangye Airport,宜宾,Yibin,CN,28.858431,104.526157,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+YCU,ZBYC,运城盐湖,Yuncheng Yanhu International Airport,运城,Yuncheng,CN,35.117823,111.034023,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+YIH,ZHYC,宜昌三峡,Yichang Sanxia Airport,宜昌,Yichang,CN,30.554132,111.482563,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+YIW,ZSYW,义乌,Yiwu Airport,义乌,Yiwu/Jinhua,CN,29.342095,120.03116,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+YKH,ZYYK,营口兰旗机场,Yingkou Lanqi Airport,营口,Yingkou,CN,40.542524,122.3586,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+YLX,ZGYL,玉林/福绵,Yulin Fumian Airport,玉林,Yulin,CN,22.433042,110.119996,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+YNJ,ZYYJ,延吉朝阳川,Yanji Chaoyangchuan Airport,延吉,Yanji,CN,42.8828010559,129.451004028,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+YNT,ZSYT,烟台蓬莱,Yantai Penglai International Airport,烟台,Yantai,CN,37.659724,120.978124,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+YYA,ZGYY,岳阳三荷机场,Yueyang Sanhe Airport,岳阳,Yueyang,CN,29.311699,113.281574,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+ZAT,ZPZT,昭通,Zhaotong Zhaoyang Airport,昭通,Zhaotong,CN,27.205843,103.691511,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+ZHA,ZGZJ,湛江吴川机场,Zhanjiang Wuchuan International Airport,湛江,Zhanjiang,CN,21.481667,110.590278,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+LBB,KLBB,拉伯克普雷斯顿史密斯国际机场,Lubbock Preston Smith International Airport,拉伯克,Lubbock,US,33.663601,-101.822998,America/Chicago,OurAirports coordinates; OpenFlights timezone
+AQG,ZSAQ,安庆,Anqing Tianzhushan Airport / Anqing North Air Base,安庆,Anqing,CN,30.582199,117.050003,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+BZJ,ZSBO,亳州,Bozhou Airport (under construction),亳州,Bozhou,CN,33.560777,115.911859,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+BZX,ZUBZ,巴中恩阳机场,Bazhong Enyang Airport,巴中恩阳机场,Bazhong,CN,31.73842,106.644872,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+DDG,ZYDD,丹东浪头,Dandong Langtou International Airport,丹东浪头,Dandong (Zhenxing),CN,40.025453,124.28669,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+FUG,ZSFY,阜阳,Fuyang Xiguan Airport,阜阳,"Yingzhou, Fuyang",CN,32.882157,115.734364,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+FUO,ZGFS,佛山沙堤,Foshan Shadi Airport,佛山沙堤,Foshan (Nanhai),CN,23.0825,113.070833,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+HMI,ZWHM,哈密机场,Hami Airport,哈密机场,Hami,CN,42.8414,93.669197,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+HPG,ZHSN,恩施许家坪,Shennongjia Hongping Airport,恩施许家坪,Shennongjia (Hongping),CN,31.626,110.34,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+HQQ,ZHQQ,安阳红旗渠,Anyang Hongqiqu Airport,安阳红旗渠,Anyang,CN,35.870833,114.461944,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+HSF,ZYSD,绥芬河/东宁,Suifenhe Dongning Airport,绥芬河/东宁,Suifenhe,CN,44.453889,130.843889,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+HYN,ZSLQ,台州路桥,Taizhou Luqiao Airport,台州路桥,Taizhou (Luqiao),CN,28.562201,121.429001,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+JDZ,ZSJD,景德镇罗家机场,Jingdezhen Luojia Airport,景德镇罗家机场,Jingdezhen,CN,29.3386,117.176003,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+JNG,ZSJG,济宁大安机场,Jining Da'an Airport,济宁大安机场,Jining,CN,35.647358,116.743269,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+JNH,ZSJX,嘉兴南湖,Jiaxing Nanhu Airport,嘉兴南湖,"Xiuzhou, Hangzhou",CN,30.698056,120.663056,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+JUH,ZSJH,池州九华山,Chizhou Jiuhuashan Airport,池州九华山,Chizhou,CN,30.7403,117.6856,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+JUZ,ZSJU,衢州,Quzhou Airport,衢州,Quzhou (Kezheng),CN,28.96613,118.898793,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+JXA,ZYJX,鸡西兴凯湖,Jixi Xingkaihu Airport,鸡西兴凯湖,Jixi,CN,45.293,131.193,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+LIJ,ZSLI,丽水,Lishui Airport,丽水,Lishui (Liandu),CN,28.3727,119.839,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+LXA,ZULS,拉萨贡嘎,Lhasa Gonggar International Airport,拉萨贡嘎,Shannan (Gonggar),CN,29.298001,90.911951,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+LYA,ZHLY,洛阳北郊,Luoyang Beijiao Airport,洛阳北郊,Luoyang (Laocheng),CN,34.7411,112.388,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+LZG,ZULA,阆中古城,Langzhong Gucheng Airport,阆中古城,Nanchong (Langzhong),CN,31.50191,106.034417,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+LZY,ZUNZ,林芝米林,Nyingchi Mainling Airport,林芝米林,Nyingchi (Mainling),CN,29.303301,94.335297,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+NDG,ZYQQ,齐齐哈尔三家子机场,Qiqihar Sanjiazi Airport,齐齐哈尔三家子机场,Qiqihar,CN,47.229969,123.914179,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+NTG,ZSNT,南通兴东,Nantong Xingdong International Airport,南通兴东,Nantong (Tongzhou),CN,32.073566,120.980076,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+NZH,ZBMZ,满洲里西郊机场,Manzhouli Xijiao Airport,满洲里西郊机场,Manzhouli,CN,49.566667,117.33,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+RLK,ZBYZ,巴彦淖尔/天吉泰,Bayannur Tianjitai Airport,巴彦淖尔/天吉泰,Bayannur,CN,40.926358,107.74093,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+SQD,ZSSR,上饶三清山,Shangrao Sanqingshan Airport,上饶三清山,Shangrao (Hengfeng),CN,28.3797,117.9643,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+TXN,ZSTX,黄山屯溪,Huangshan Tunxi International Airport,黄山屯溪,Huangshan,CN,29.733299,118.255997,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+WGN,ZGSY,邵阳武冈,Shaoyang Wugang Airport,邵阳武冈,Shaoyang (Wugang),CN,26.806123,110.641042,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+WHA,ZSWA,芜湖宣州机场,Wuhu Xuanzhou Airport,芜湖宣州机场,Wuhu,CN,31.1045,118.66687,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+WNH,ZPWS,文山砚山,Wenshan Puzhehei Airport,文山砚山,Wenshan,CN,23.5583,104.3255,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+WSK,ZUWS,重庆巫山机场,Chongqing Wushan Airport,重庆巫山机场,Wushan,CN,31.06896,109.708958,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+XIL,ZBXH,锡林浩特,Xilinhot Airport,锡林浩特,Xilinhot,CN,43.91559982299805,115.96399688720703,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+XNT,ZBXT,邢台褡裢机场,Xingtai Dalian Airport,邢台褡裢机场,Xingtai,CN,36.8831,114.4293,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+XUZ,ZSXZ,徐州观音,Xuzhou Guanyin International Airport,徐州观音,Xuzhou,CN,34.059056,117.555278,Asia/Shanghai,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+ABJ,DIAP,Félix-Houphouët-Boigny International Airport,Félix-Houphouët-Boigny International Airport,Abidjan,Abidjan,CI,5.26139,-3.92629,Africa/Abidjan,OurAirports coordinates; OpenFlights timezone
+ABV,DNAA,Nnamdi Azikiwe International Airport,Nnamdi Azikiwe International Airport,Abuja,Abuja,NG,9.00679,7.26317,Africa/Lagos,OurAirports coordinates; OpenFlights timezone
+ABZ,EGPD,Aberdeen International Airport,Aberdeen International Airport,Aberdeen,Aberdeen,GB,57.2019,-2.19778,Europe/London,OurAirports coordinates; OpenFlights timezone
+AGA,GMAD,Al Massira Airport,Al Massira Airport,Agadir (Temsia),Agadir (Temsia),MA,30.322478,-9.412003,Africa/Casablanca,OurAirports coordinates; OpenFlights timezone
+BES,LFRB,Brest Bretagne airport,Brest Bretagne airport,Brest,Brest,FR,48.447899,-4.41854,Europe/Paris,OurAirports coordinates; OpenFlights timezone
+BGO,ENBR,"Bergen Airport, Flesland","Bergen Airport, Flesland",Bergen,Bergen,NO,60.2934,5.21814,Europe/Oslo,OurAirports coordinates; OpenFlights timezone
+BHX,EGBB,Birmingham Airport,Birmingham Airport,"Birmingham, West Midlands","Birmingham, West Midlands",GB,52.453899,-1.74803,Europe/London,OurAirports coordinates; OpenFlights timezone
+BIO,LEBB,Bilbao Airport,Bilbao Airport,Bilbao,Bilbao,ES,43.301102,-2.91061,Europe/Madrid,OurAirports coordinates; OpenFlights timezone
+BLL,EKBI,Billund Airport,Billund Airport,Billund,Billund,DK,55.740335,9.157019,Europe/Copenhagen,OurAirports coordinates; OpenFlights timezone
+BOD,LFBD,Bordeaux–Mérignac Airport,Bordeaux–Mérignac Airport,Bordeaux,Bordeaux,FR,44.82865,-0.715356,Europe/Paris,OurAirports coordinates; OpenFlights timezone
+BRS,EGGD,Bristol Airport,Bristol Airport,Bristol,Bristol,GB,51.382326,-2.716453,Europe/London,OurAirports coordinates; OpenFlights timezone
+BZV,FCBB,Maya-Maya International Airport,Maya-Maya International Airport,Brazzaville,Brazzaville,CG,-4.2517,15.253,Africa/Brazzaville,OurAirports coordinates; OpenFlights timezone
+CKY,GUCY,Ahmed Sékou Touré International Airport,Ahmed Sékou Touré International Airport,Conakry,Conakry,GN,9.57689,-13.612,Africa/Conakry,OurAirports coordinates; OpenFlights timezone
+COO,DBBB,Cotonou Cadjehoun International Airport,Cotonou Cadjehoun International Airport,Cotonou,Cotonou,BJ,6.35723,2.38435,Africa/Porto-Novo,OurAirports coordinates; OpenFlights timezone
+DAR,HTDA,Julius Nyerere International Airport,Julius Nyerere International Airport,Dar es Salaam,Dar es Salaam,TZ,-6.873499,39.207288,Africa/Dar_es_Salaam,OurAirports coordinates; OpenFlights timezone
+DLA,FKKD,Douala International Airport,Douala International Airport,Douala,Douala,CM,4.00608,9.71948,Africa/Douala,OurAirports coordinates; OpenFlights timezone
+EVN,UDYZ,Zvartnots International Airport,Zvartnots International Airport,Yerevan,Yerevan,AM,40.148941,44.397887,Asia/Yerevan,OurAirports coordinates; OpenFlights timezone
+FDF,TFFF,Martinique Aimé Césaire International Airport,Martinique Aimé Césaire International Airport,Fort-de-France,Fort-de-France,MQ,14.591,-61.003201,America/Martinique,OurAirports coordinates; OpenFlights timezone
+FIH,FZAA,Ndjili International Airport,Ndjili International Airport,Kinshasa,Kinshasa,CD,-4.38575,15.4446,Africa/Kinshasa,OurAirports coordinates; OpenFlights timezone
+FLR,LIRQ,"Florence Airport, Peretola","Florence Airport, Peretola",Firenze (FI),Firenze (FI),IT,43.808558,11.202822,Europe/Rome,OurAirports coordinates; OpenFlights timezone
+FNC,LPMA,Cristiano Ronaldo International Airport,Cristiano Ronaldo International Airport,Funchal,Funchal,PT,32.697812,-16.774613,Europe/Lisbon,OurAirports coordinates; OpenFlights timezone
+GDN,EPGD,Gdańsk Lech Wałęsa Airport,Gdańsk Lech Wałęsa Airport,Gdańsk,Gdańsk,PL,54.377602,18.4662,Europe/Warsaw,OurAirports coordinates; OpenFlights timezone
+GLA,EGPF,Glasgow Airport,Glasgow Airport,Glasgow,Glasgow,GB,55.871899,-4.43306,Europe/London,OurAirports coordinates; OpenFlights timezone
+GOT,ESGG,Göteborg Landvetter Airport,Göteborg Landvetter Airport,Göteborg,Göteborg,SE,57.6628,12.2798,Europe/Stockholm,OurAirports coordinates; OpenFlights timezone
+HEL,EFHK,Helsinki Vantaa Airport,Helsinki Vantaa Airport,Helsinki (Vantaa),Helsinki (Vantaa),FI,60.318363,24.963341,Europe/Helsinki,OurAirports coordinates; OpenFlights timezone
+HER,LGIR,Heraklion International Nikos Kazantzakis Airport,Heraklion International Nikos Kazantzakis Airport,Heraklion,Heraklion,GR,35.339699,25.1803,Europe/Athens,OurAirports coordinates; OpenFlights timezone
+HRG,HEGN,Hurghada International Airport,Hurghada International Airport,Hurghada,Hurghada,EG,27.176776,33.796692,Africa/Cairo,OurAirports coordinates; OpenFlights timezone
+IBZ,LEIB,Ibiza Airport,Ibiza Airport,Ibiza (Eivissa),Ibiza (Eivissa),ES,38.872898,1.37312,Europe/Madrid,OurAirports coordinates; OpenFlights timezone
+INN,LOWI,Innsbruck Airport,Innsbruck Airport,Innsbruck,Innsbruck,AT,47.260201,11.344,Europe/Vienna,OurAirports coordinates; OpenFlights timezone
+JIB,HDAM,Djibouti-Ambouli Airport,Djibouti-Ambouli Airport,Djibouti City,Djibouti City,DJ,11.5473,43.1595,Africa/Djibouti,OurAirports coordinates; OpenFlights timezone
+JRO,HTKJ,Kilimanjaro International Airport,Kilimanjaro International Airport,Arusha,Arusha,TZ,-3.427049,37.07353,Africa/Dar_es_Salaam,OurAirports coordinates; OpenFlights timezone
+KGL,HRYR,Kigali International Airport,Kigali International Airport,Kigali,Kigali,RW,-1.96863,30.1395,Africa/Kigali,OurAirports coordinates; OpenFlights timezone
+LBV,FOOL,Libreville Leon M'ba International Airport,Libreville Leon M'ba International Airport,Libreville,Libreville,GA,0.458951,9.41214,Africa/Libreville,OurAirports coordinates; OpenFlights timezone
+LFW,DXXX,Lomé–Tokoin International Airport,Lomé–Tokoin International Airport,Lomé,Lomé,TG,6.16561,1.25451,Africa/Lome,OurAirports coordinates; OpenFlights timezone
+LIN,LIML,Milano Linate Airport,Milano Linate Airport,Segrate (MI),Segrate (MI),IT,45.445099,9.27674,Europe/Rome,OurAirports coordinates; OpenFlights timezone
+MPL,LFMT,Montpellier-Méditerranée Airport,Montpellier-Méditerranée Airport,Montpellier/Méditerranée,Montpellier/Méditerranée,FR,43.576199,3.96301,Europe/Paris,OurAirports coordinates; OpenFlights timezone
+MRS,LFML,Marseille Provence Airport,Marseille Provence Airport,"Marignane, Bouches-du-Rhône","Marignane, Bouches-du-Rhône",FR,43.438088,5.2125,Europe/Paris,OurAirports coordinates; OpenFlights timezone
+NCE,LFMN,Nice-Côte d'Azur Airport,Nice-Côte d'Azur Airport,"Nice, Alpes-Maritimes","Nice, Alpes-Maritimes",FR,43.658401,7.21587,Europe/Paris,OurAirports coordinates; OpenFlights timezone
+NCL,EGNT,Newcastle International Airport,Newcastle International Airport,"Newcastle upon Tyne, Tyne and Wear","Newcastle upon Tyne, Tyne and Wear",GB,55.037958,-1.689577,Europe/London,OurAirports coordinates; OpenFlights timezone
+NDJ,FTTJ,N'Djamena International Airport,N'Djamena International Airport,N'Djamena,N'Djamena,TD,12.1337,15.034,Africa/Ndjamena,OurAirports coordinates; OpenFlights timezone
+NKC,GQNO,Nouakchott–Oumtounsy International Airport,Nouakchott–Oumtounsy International Airport,Nouakchott,Nouakchott,MR,18.31,-15.969722,Africa/Nouakchott,OurAirports coordinates; OpenFlights timezone
+NSI,FKYS,Yaoundé Nsimalen International Airport,Yaoundé Nsimalen International Airport,Yaoundé,Yaoundé,CM,3.72256,11.5533,Africa/Douala,OurAirports coordinates; OpenFlights timezone
+NTE,LFRS,Nantes Atlantique Airport,Nantes Atlantique Airport,Nantes,Nantes,FR,47.153198,-1.61073,Europe/Paris,OurAirports coordinates; OpenFlights timezone
+ORN,DAOO,Oran Es-Sénia (Ahmed Ben Bella) International Airport,Oran Es-Sénia (Ahmed Ben Bella) International Airport,Es-Sénia,Es-Sénia,DZ,35.620648,-0.622486,Africa/Algiers,OurAirports coordinates; OpenFlights timezone
+ORY,LFPO,Paris-Orly Airport,Paris-Orly Airport,"Paris (Orly, Val-de-Marne)","Paris (Orly, Val-de-Marne)",FR,48.729499,2.358963,Europe/Paris,OurAirports coordinates; OpenFlights timezone
+OSL,ENGM,Oslo-Gardermoen International Airport,Oslo-Gardermoen International Airport,Oslo (Gardermoen),Oslo (Gardermoen),NO,60.193901,11.1004,Europe/Oslo,OurAirports coordinates; OpenFlights timezone
+PNR,FCPP,Antonio Agostinho-Neto International Airport,Antonio Agostinho-Neto International Airport,Pointe Noire,Pointe Noire,CG,-4.81603,11.8866,Africa/Brazzaville,OurAirports coordinates; OpenFlights timezone
+PSA,LIRP,Pisa International Airport,Pisa International Airport,Pisa (PI),Pisa (PI),IT,43.683899,10.3927,Europe/Rome,OurAirports coordinates; OpenFlights timezone
+PTP,TFFR,Maryse Condé International Airport,Maryse Condé International Airport,Pointe-à-Pitre,Pointe-à-Pitre,GP,16.265443,-61.532754,America/Guadeloupe,OurAirports coordinates; OpenFlights timezone
+QSR,LIRI,Salerno Costa d'Amalfi Airport,Salerno Costa d'Amalfi Airport,Salerno,Salerno,IT,40.620399,14.9113,Europe/Rome,OurAirports coordinates; OpenFlights timezone
+RAI,GVNP,Nelson Mandela International Airport,Nelson Mandela International Airport,Praia,Praia,CV,14.941126,-23.484728,Atlantic/Cape_Verde,OurAirports coordinates; OpenFlights timezone
+RBA,GMME,Rabat-Salé Airport,Rabat-Salé Airport,Rabat,Rabat,MA,34.051498,-6.75152,Africa/Casablanca,OurAirports coordinates; OpenFlights timezone
+RMF,HEMA,Marsa Alam International Airport,Marsa Alam International Airport,Marsa Alam,Marsa Alam,EG,25.555548,34.59245,Africa/Cairo,OurAirports coordinates; OpenFlights timezone
+SID,GVAC,Amílcar Cabral International Airport,Amílcar Cabral International Airport,Espargos,Espargos,CV,16.7414,-22.9494,Atlantic/Cape_Verde,OurAirports coordinates; OpenFlights timezone
+SPC,GCLA,La Palma Airport,La Palma Airport,"Sta Cruz de la Palma, La Palma Island","Sta Cruz de la Palma, La Palma Island",ES,28.626499,-17.7556,Atlantic/Canary,OurAirports coordinates; OpenFlights timezone
+SSG,FGSL,Malabo International Airport,Malabo International Airport,Malabo,Malabo,GQ,3.75527,8.70872,Africa/Malabo,OurAirports coordinates; OpenFlights timezone
+SVG,ENZV,"Stavanger Airport, Sola","Stavanger Airport, Sola",Stavanger,Stavanger,NO,58.876701,5.63778,Europe/Oslo,OurAirports coordinates; OpenFlights timezone
+TNG,GMTT,Tangier Ibn Battuta Airport,Tangier Ibn Battuta Airport,Tangier,Tangier,MA,35.731741,-5.921459,Africa/Casablanca,OurAirports coordinates; OpenFlights timezone
+TOS,ENTC,Tromsø Airport,Tromsø Airport,Tromsø,Tromsø,NO,69.683296,18.9189,Europe/Oslo,OurAirports coordinates; OpenFlights timezone
+TRN,LIMF,Turin Airport,Turin Airport,Caselle Torinese (TO),Caselle Torinese (TO),IT,45.200802,7.64963,Europe/Rome,OurAirports coordinates; OpenFlights timezone
+ADB,LTBJ,Adnan Menderes International Airport,Adnan Menderes International Airport,Gaziemir,Gaziemir,TR,38.2924,27.157,Europe/Istanbul,OurAirports coordinates; OpenFlights or airport-country timezone
+AKJ,RJEC,Asahikawa Airport,Asahikawa Airport,Higashikagura,Higashikagura,JP,43.670799,142.447006,Asia/Tokyo,OurAirports coordinates; OpenFlights or airport-country timezone
+AYJ,VEAY,Maharshi Valmiki International Airport,Maharshi Valmiki International Airport,Faizabad,Faizabad,IN,26.747736,82.163664,Asia/Kolkata,OurAirports coordinates; OpenFlights or airport-country timezone
+AYT,LTAI,Antalya International Airport,Antalya International Airport,Antalya,Antalya,TR,36.898701,30.800501,Europe/Istanbul,OurAirports coordinates; OpenFlights or airport-country timezone
+BBI,VEBS,Biju Patnaik International Airport,Biju Patnaik International Airport,Bhubaneswar,Bhubaneswar,IN,20.251021,85.814747,Asia/Calcutta,OurAirports coordinates; OpenFlights or airport-country timezone
+BDQ,VABO,Vadodara International Airport,Vadodara International Airport,Vadodara,Vadodara,IN,22.336201,73.226303,Asia/Calcutta,OurAirports coordinates; OpenFlights or airport-country timezone
+BHO,VABP,Raja Bhoj International Airport,Raja Bhoj International Airport,Bhopal,Bhopal,IN,23.2875,77.337402,Asia/Calcutta,OurAirports coordinates; OpenFlights or airport-country timezone
+BJL,GBYD,Banjul International Airport,Banjul International Airport,Banjul (Yundum),Banjul (Yundum),GM,13.338,-16.652201,Africa/Banjul,OurAirports coordinates; OpenFlights or airport-country timezone
+BSZ,UCFM,Manas International Airport,Manas International Airport,Bishkek,Bishkek,KG,43.061298,74.4776,Asia/Bishkek,OurAirports coordinates; OpenFlights or airport-country timezone
+CJB,VOCB,Coimbatore International Airport,Coimbatore International Airport,Coimbatore,Coimbatore,IN,11.03,77.043404,Asia/Calcutta,OurAirports coordinates; OpenFlights or airport-country timezone
+CNN,VOKN,Kannur International Airport,Kannur International Airport,Kannur,Kannur,IN,11.916343,75.544979,Asia/Kolkata,OurAirports coordinates; OpenFlights or airport-country timezone
+COV,LTDB,Çukurova International Airport,Çukurova International Airport,Tarsus,Tarsus,TR,36.891478,35.071235,Europe/Istanbul,OurAirports coordinates; OpenFlights or airport-country timezone
+CXR,VVCR,Cam Ranh International Airport / Cam Ranh Air Base,Cam Ranh International Airport / Cam Ranh Air Base,Nha Trang/nha Trang aiurportCam Ranh,Nha Trang/nha Trang aiurportCam Ranh,VN,11.9982,109.219002,Asia/Saigon,OurAirports coordinates; OpenFlights or airport-country timezone
+DGH,VEDO,Deoghar Airport,Deoghar Airport,Deoghar,Deoghar,IN,24.446842,86.704955,Asia/Kolkata,OurAirports coordinates; OpenFlights or airport-country timezone
+ESB,LTAC,Esenboğa International Airport,Esenboğa International Airport,Ankara,Ankara,TR,40.128101,32.995098,Europe/Istanbul,OurAirports coordinates; OpenFlights or airport-country timezone
+GOI,VOGO,Goa Dabolim International Airport,Goa Dabolim International Airport,Vasco da Gama,Vasco da Gama,IN,15.380062,73.833328,Asia/Calcutta,OurAirports coordinates; OpenFlights or airport-country timezone
+GOX,VOGA,Manohar International Airport,Manohar International Airport,Mopa,Mopa,IN,15.744257,73.860625,Asia/Kolkata,OurAirports coordinates; OpenFlights or airport-country timezone
+HSR,VAHS,Rajkot International Airport,Rajkot International Airport,Rajkot,Rajkot,IN,22.378824,71.039391,Asia/Kolkata,OurAirports coordinates; OpenFlights or airport-country timezone
+IDR,VAID,Devi Ahilya Bai Holkar International Airport,Devi Ahilya Bai Holkar International Airport,Indore,Indore,IN,22.721404,75.80051,Asia/Calcutta,OurAirports coordinates; OpenFlights or airport-country timezone
+ISB,OPIS,Islamabad International Airport,Islamabad International Airport,Attock,Attock,PK,33.549,72.82566,Asia/Karachi,OurAirports coordinates; OpenFlights or airport-country timezone
+IXC,VICG,Shaheed Bhagat Singh International Airport,Shaheed Bhagat Singh International Airport,Chandigarh,Chandigarh,IN,30.6735,76.788498,Asia/Calcutta,OurAirports coordinates; OpenFlights or airport-country timezone
+IXM,VOMD,Madurai Airport,Madurai Airport,Madurai,Madurai,IN,9.83450984955,78.09339904790001,Asia/Calcutta,OurAirports coordinates; OpenFlights or airport-country timezone
+IXR,VERC,Birsa Munda Airport,Birsa Munda Airport,Ranchi,Ranchi,IN,23.314300537100003,85.3217010498,Asia/Calcutta,OurAirports coordinates; OpenFlights or airport-country timezone
+IXU,VAAU,Aurangabad Airport,Aurangabad Airport,Aurangabad,Aurangabad,IN,19.862875,75.396312,Asia/Calcutta,OurAirports coordinates; OpenFlights or airport-country timezone
+IZO,RJOC,Izumo Enmusubi Airport,Izumo Enmusubi Airport,Izumo,Izumo,JP,35.413601,132.889999,Asia/Tokyo,OurAirports coordinates; OpenFlights or airport-country timezone
+JDH,VIJO,Jodhpur Airport,Jodhpur Airport,Jodhpur,Jodhpur,IN,26.251100540161133,73.04889678955078,Asia/Calcutta,OurAirports coordinates; OpenFlights or airport-country timezone
+JRG,VEJH,Jharsuguda Airport,Jharsuguda Airport,Jharsuguda Airport,Jharsuguda Airport,IN,21.9135,84.0504,Asia/Kolkata,OurAirports coordinates; OpenFlights or airport-country timezone
+KBL,OAKB,Kabul International Airport,Kabul International Airport,Kabul,Kabul,AF,34.565899,69.212303,Asia/Kabul,OurAirports coordinates; OpenFlights or airport-country timezone
+KHI,OPKC,Jinnah International Airport,Jinnah International Airport,Karachi,Karachi,PK,24.9065,67.160797,Asia/Karachi,OurAirports coordinates; OpenFlights or airport-country timezone
+LED,ULLI,Pulkovo Airport,Pulkovo Airport,St. Petersburg,St. Petersburg,RU,59.800301,30.262501,Europe/Moscow,OurAirports coordinates; OpenFlights or airport-country timezone
+LHE,OPLA,Allama Iqbal International Airport,Allama Iqbal International Airport,Lahore,Lahore,PK,31.521601,74.403603,Asia/Karachi,OurAirports coordinates; OpenFlights or airport-country timezone
+LKO,VILK,Chaudhary Charan Singh International Airport,Chaudhary Charan Singh International Airport,Lucknow,Lucknow,IN,26.760599,80.889297,Asia/Calcutta,OurAirports coordinates; OpenFlights or airport-country timezone
+MCT,OOMS,Muscat International Airport,Muscat International Airport,Muscat/Seeb,Muscat/Seeb,OM,23.600218,58.285268,Asia/Muscat,OurAirports coordinates; OpenFlights or airport-country timezone
+MLE,VRMM,Velana International Airport,Velana International Airport,Malé,Malé,MV,4.19183,73.529099,Indian/Maldives,OurAirports coordinates; OpenFlights or airport-country timezone
+NAG,VANP,Dr. Babasaheb Ambedkar International Airport,Dr. Babasaheb Ambedkar International Airport,Nagpur,Nagpur,IN,21.092199,79.047203,Asia/Calcutta,OurAirports coordinates; OpenFlights or airport-country timezone
+NMI,VANM,Navi Mumbai International Airport,Navi Mumbai International Airport,Navi Mumbai,Navi Mumbai,IN,18.984597,73.065253,Asia/Kolkata,OurAirports coordinates; OpenFlights or airport-country timezone
+OUA,DFFD,Ouagadougou Thomas Sankara International Airport,Ouagadougou Thomas Sankara International Airport,Ouagadougou,Ouagadougou,BF,12.3532,-1.51242,Africa/Ouagadougou,OurAirports coordinates; OpenFlights or airport-country timezone
+RPR,VERP,Swami Vivekananda Airport,Swami Vivekananda Airport,Raipur,Raipur,IN,21.180401,81.7388,Asia/Calcutta,OurAirports coordinates; OpenFlights or airport-country timezone
+RTM,EHRD,Rotterdam The Hague Airport,Rotterdam The Hague Airport,Rotterdam,Rotterdam,NL,51.956902,4.43722,Europe/Amsterdam,OurAirports coordinates; OpenFlights or airport-country timezone
+SAG,VASD,Shirdi International Airport,Shirdi International Airport,Kakadi,Kakadi,IN,19.689211,74.373655,Asia/Kolkata,OurAirports coordinates; OpenFlights or airport-country timezone
+SEZ,FSIA,Seychelles International Airport,Seychelles International Airport,Victoria,Victoria,SC,-4.67434,55.521801,Indian/Mahe,OurAirports coordinates; OpenFlights or airport-country timezone
+STV,VASU,Surat International Airport,Surat International Airport,Surat,Surat,IN,21.115531,72.743251,Asia/Calcutta,OurAirports coordinates; OpenFlights or airport-country timezone
+TFN,GCXO,Tenerife Norte-Ciudad de La Laguna Airport,Tenerife Norte-Ciudad de La Laguna Airport,Tenerife,Tenerife,ES,28.482752,-16.341707,Atlantic/Canary,OurAirports coordinates; OpenFlights or airport-country timezone
+TRV,VOTV,Thiruvananthapuram International Airport,Thiruvananthapuram International Airport,Thiruvananthapuram,Thiruvananthapuram,IN,8.481889,76.920029,Asia/Calcutta,OurAirports coordinates; OpenFlights or airport-country timezone
+UBN,ZMCK,Ulaanbaatar Chinggis Khaan International Airport,Ulaanbaatar Chinggis Khaan International Airport,Ulaanbaatar (Sergelen),Ulaanbaatar (Sergelen),MN,47.646916,106.819833,Asia/Ulaanbaatar,OurAirports coordinates; OpenFlights or airport-country timezone
+VKO,UUWW,Vnukovo International Airport,Vnukovo International Airport,Moscow,Moscow,RU,55.591499,37.261501,Europe/Moscow,OurAirports coordinates; OpenFlights or airport-country timezone
+AHB,OEAB,Abha International Airport,Abha International Airport,Abha,Abha,SA,18.2404,42.656601,Asia/Riyadh,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+ALA,UAAA,Almaty International Airport,Almaty International Airport,Almaty,Almaty,KZ,43.354267,77.042828,Asia/Almaty,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+AOR,WMKA,Sultan Abdul Halim Airport,Sultan Abdul Halim Airport,Alor Satar,Alor Satar,MY,6.189670085906982,100.39800262451172,Asia/Kuala_Lumpur,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+ASB,UTAA,Ashgabat International Airport,Ashgabat International Airport,Ashgabat,Ashgabat,TM,37.986801,58.361,Asia/Ashgabat,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+BDJ,WAOO,Syamsudin Noor International Airport,Syamsudin Noor International Airport,Banjarbaru,Banjarbaru,ID,-3.440112,114.761209,Asia/Makassar,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+BHD,EGAC,George Best Belfast City Airport,George Best Belfast City Airport,Belfast,Belfast,GB,54.618099,-5.8725,Europe/London,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+BJV,LTFE,Milas Bodrum International Airport,Milas Bodrum International Airport,Bodrum,Bodrum,TR,37.249314,27.66401,Europe/Istanbul,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+BSL,LFSB,EuroAirport Basel–Mulhouse–Freiburg,EuroAirport Basel–Mulhouse–Freiburg,Bâle / Mulhouse,Bâle / Mulhouse,FR,47.60068,7.521117,Europe/Paris,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+BTJ,WITT,Sultan Iskandar Muda International Airport,Sultan Iskandar Muda International Airport,Banda Aceh,Banda Aceh,ID,5.525087,95.41997,Asia/Jakarta,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+BTU,WBGB,Bintulu Airport,Bintulu Airport,Bintulu,Bintulu,MY,3.12385010719,113.019996643,Asia/Kuching,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+DIY,LTCC,Diyarbakır Airport,Diyarbakır Airport,Diyarbakır,Diyarbakır,TR,37.893902,40.201,Europe/Istanbul,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+DMK,VTBD,Don Mueang International Airport,Don Mueang International Airport,Bangkok,Bangkok,TH,13.9126,100.607002,Asia/Bangkok,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+EAS,LESO,San Sebastián Airport,San Sebastián Airport,Hondarribia,Hondarribia,ES,43.356499,-1.79061,Europe/Madrid,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+EBB,HUEN,Entebbe International Airport,Entebbe International Airport,Entebbe,Entebbe,UG,0.042386,32.443501,Africa/Kampala,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+ERZ,LTCE,Erzurum International Airport,Erzurum International Airport,Erzurum,Erzurum,TR,39.956501,41.1702,Europe/Istanbul,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+FSZ,RJNS,Mount Fuji Shizuoka Airport,Mount Fuji Shizuoka Airport,Makinohara / Shimada,Makinohara / Shimada,JP,34.795022,138.190976,Asia/Tokyo,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+GNY,LTCS,Şanlıurfa GAP Airport,Şanlıurfa GAP Airport,Şanlıurfa,Şanlıurfa,TR,37.445663,38.895592,Europe/Istanbul,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+GYD,UBBB,Heydar Aliyev International Airport,Heydar Aliyev International Airport,Baku,Baku,AZ,40.47278,50.050931,Asia/Baku,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+GZT,LTAJ,Gaziantep Oğuzeli International Airport,Gaziantep Oğuzeli International Airport,Gaziantep,Gaziantep,TR,36.947201,37.478699,Europe/Istanbul,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+HDY,VTSS,Hat Yai International Airport,Hat Yai International Airport,Hat Yai,Hat Yai,TH,6.93321,100.392998,Asia/Bangkok,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+IPH,WMKI,Sultan Azlan Shah Airport,Sultan Azlan Shah Airport,Ipoh,Ipoh,MY,4.56733,101.091643,Asia/Kuala_Lumpur,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+JER,EGJJ,Jersey Airport,Jersey Airport,St. Peter,St. Peter,JE,49.207901,-2.19551,Europe/Jersey,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+JHB,WMKJ,Senai International Airport,Senai International Airport,Johor Bahru,Johor Bahru,MY,1.64131,103.669998,Asia/Kuala_Lumpur,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+KBR,WMKC,Sultan Ismail Petra Airport,Sultan Ismail Petra Airport,Kota Baharu,Kota Baharu,MY,6.1668500900268555,102.29299926757812,Asia/Kuala_Lumpur,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+KNO,WIMM,Kualanamu International Airport,Kualanamu International Airport,Beringin,Beringin,ID,3.637847,98.870566,Asia/Jakarta,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+KUA,WMKD,Kuantan Airport,Kuantan Airport,Kuantan,Kuantan,MY,3.7753899097442627,103.20899963378906,Asia/Kuala_Lumpur,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+KUF,UWWW,Kurumoch International Airport,Kurumoch International Airport,Samara,Samara,RU,53.504902,50.164299,Europe/Samara,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+KZN,UWKD,Kazan International Airport,Kazan International Airport,Kazan,Kazan,RU,55.606201,49.278702,Europe/Moscow,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+LBU,WBKL,Labuan Airport,Labuan Airport,Labuan,Labuan,MY,5.301667,115.248333,Asia/Kuching,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+LCG,LECO,A Coruña Airport,A Coruña Airport,Culleredo,Culleredo,ES,43.302101,-8.37726,Europe/Madrid,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+LGK,WMKL,Langkawi International Airport,Langkawi International Airport,Langkawi,Langkawi,MY,6.32973,99.728699,Asia/Kuala_Lumpur,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+LUX,ELLX,Luxembourg-Findel International Airport,Luxembourg-Findel International Airport,Luxembourg,Luxembourg,LU,49.626845,6.212134,Europe/Luxembourg,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+MBA,HKMO,Moi International Airport,Moi International Airport,Mombasa,Mombasa,KE,-4.03483,39.5942,Africa/Nairobi,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+MGQ,HCMM,Aden Adde International Airport,Aden Adde International Airport,Mogadishu,Mogadishu,SO,2.01444,45.304699,Africa/Mogadishu,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+MQM,LTCR,Mardin Airport,Mardin Airport,Mardin,Mardin,TR,37.223300933800004,40.6316986084,Europe/Istanbul,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+MRV,URMM,Mineralnye Vody Airport,Mineralnye Vody Airport,Mineralnyye Vody,Mineralnyye Vody,RU,44.225101,43.081902,Europe/Moscow,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+MSQ,UMMS,Minsk National Airport,Minsk National Airport,Minsk,Minsk,BY,53.888071,28.039964,Europe/Minsk,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+MYY,WBGR,Miri Airport,Miri Airport,Miri,Miri,MY,4.32201,113.987,Asia/Kuching,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+NQZ,UACC,Nursultan Nazarbayev International Airport,Nursultan Nazarbayev International Airport,Astana,Astana,KZ,51.027035,71.467094,Asia/Almaty,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+OVB,UNNT,Novosibirsk Tolmachevo Airport,Novosibirsk Tolmachevo Airport,Novosibirsk,Novosibirsk,RU,55.019756,82.618675,Asia/Novosibirsk,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+OVD,LEAS,Asturias Airport,Asturias Airport,Ranón,Ranón,ES,43.563599,-6.03462,Europe/Madrid,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+PDG,WIEE,Minangkabau International Airport,Minangkabau International Airport,Padang (Katapiang),Padang (Katapiang),ID,-0.785964,100.280384,Asia/Jakarta,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+PHH,VNPR,Pokhara International Airport,Pokhara International Airport,Pokhara,Pokhara,NP,28.1838,84.0147,Asia/Kathmandu,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+PKU,WIBB,Sultan Syarif Kasim II International Airport / Roesmin Nurjadin AFB,Sultan Syarif Kasim II International Airport / Roesmin Nurjadin AFB,Pekanbaru,Pekanbaru,ID,0.458647,101.444321,Asia/Jakarta,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+PLM,WIPP,Sultan Mahmud Badaruddin II Airport,Sultan Mahmud Badaruddin II Airport,Palembang,Palembang,ID,-2.897653,104.698147,Asia/Jakarta,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+SBW,WBGS,Sibu Airport,Sibu Airport,Sibu,Sibu,MY,2.2616,111.985001,Asia/Kuching,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+SDK,WBKS,Sandakan Airport,Sandakan Airport,Sandakan,Sandakan,MY,5.900899887084961,118.05899810791016,Asia/Kuching,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+SVX,USSS,Koltsovo Airport,Koltsovo Airport,Yekaterinburg,Yekaterinburg,RU,56.743099212646,60.802700042725,Asia/Yekaterinburg,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+SZB,WMSA,Sultan Abdul Aziz Shah International Airport,Sultan Abdul Aziz Shah International Airport,Subang,Subang,MY,3.13058,101.549004,Asia/Kuala_Lumpur,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+SZF,LTFH,Samsun-Çarşamba Airport,Samsun-Çarşamba Airport,Samsun,Samsun,TR,41.253988,36.567546,Europe/Istanbul,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+TGG,WMKN,Sultan Mahmud Airport,Sultan Mahmud Airport,Kuala Terengganu,Kuala Terengganu,MY,5.3826398849487305,103.10299682617188,Asia/Kuala_Lumpur,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+TRZ,VOTR,Tiruchirappalli International Airport,Tiruchirappalli International Airport,Tiruchirappalli,Tiruchirappalli,IN,10.762915,78.717741,Asia/Kolkata,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+TUU,OETB,Prince Sultan bin Abdulaziz International Airport,Prince Sultan bin Abdulaziz International Airport,Tabuk,Tabuk,SA,28.3711,36.624865,Asia/Riyadh,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+TWU,WBKW,Tawau Airport,Tawau Airport,Tawau,Tawau,MY,4.31338,118.12152,Asia/Kuching,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+TZX,LTCG,Trabzon International Airport,Trabzon International Airport,Trabzon,Trabzon,TR,40.995098,39.7897,Europe/Istanbul,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+UET,OPQT,Quetta International Airport,Quetta International Airport,Quetta,Quetta,PK,30.2514,66.937798,Asia/Karachi,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+UPG,WAAA,Sultan Hasanuddin International Airport,Sultan Hasanuddin International Airport,Makassar,Makassar,ID,-5.075539,119.553702,Asia/Makassar,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+USM,VTSM,Samui International Airport,Samui International Airport,Na Thon (Ko Samui Island),Na Thon (Ko Samui Island),TH,9.54779,100.061996,Asia/Bangkok,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+VGO,LEVX,Vigo Airport,Vigo Airport,Vigo,Vigo,ES,42.2318,-8.62677,Europe/Madrid,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+VOG,URWW,Volgograd International Airport,Volgograd International Airport,Volgograd,Volgograd,RU,48.78134,44.339194,Europe/Moscow,OurAirports / datasets/airport-codes; retrieved 2026-11-03
+YIA,WAHI,Yogyakarta International Airport,Yogyakarta International Airport,Yogyakarta,Yogyakarta,ID,-7.905338,110.057264,Asia/Jakarta,OurAirports / datasets/airport-codes; retrieved 2026-11-03
